@@ -1,0 +1,87 @@
+Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5D84B4781EDAB5E8}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5D84B4786B3EF591}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5D84B47840F6D0A1}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{5E3AC1A962E6ED63}" {
+     NumSlots 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{629C4405758CDDF1}" {
+     ContextName "patient1"
+     Position PointInfo "{629C44057D8BCFBD}" {
+      Offset -0.6619 1.8935 -1.4128
+     }
+    }
+    UserActionContext "{629C440530F96B77}" {
+     ContextName "patient2"
+     Position PointInfo "{629C440530F968BC}" {
+      Offset 0.6628 1.8935 -1.4128
+     }
+     Height 0
+    }
+   }
+   additionalActions {
+    Iron_HealYourselfAmbulanceUserAction "{629C44051FCF1636}" {
+     ParentContextList {
+      "patient1" "patient2"
+     }
+     UIInfo UIInfo "{629B517DEDAA6B09}" {
+      Name "Heal to 70%"
+     }
+     VisibilityRange 1
+     Duration 30
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{629B517F2958978D}" {
+      m_aDamageIntensityEntries {
+       SCR_DamageIntensityEntry "{629B517F32AF02BD}" {
+        m_eDamageIntensityType NO_DAMAGE
+        m_bIsEnabled 0
+        m_iOrder 0
+        m_UiInfo SCR_UIInfo "{629B517F1ED5FF76}" {
+         Name "#AR-SupportStation_Heal_ActionInvalid_FullHealth"
+        }
+        m_fMaxValue 10
+        m_fMinValue 1
+       }
+       SCR_DamageIntensityEntry "{629B517CFAA8DA21}" {
+        m_eDamageIntensityType LOW
+        m_bIsEnabled 0
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{5E20C7519B483425}" {
+         Name "#AR-DamageInfo_Damage_Low"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{629B517CCD338FE7}" {
+        m_eDamageIntensityType MEDIUM
+        m_bIsEnabled 0
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{5E20C7519B483438}" {
+         Name "#AR-DamageInfo_Damage_Medium"
+        }
+        m_fMaxValue 0.75
+        m_fMinValue 0.5
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

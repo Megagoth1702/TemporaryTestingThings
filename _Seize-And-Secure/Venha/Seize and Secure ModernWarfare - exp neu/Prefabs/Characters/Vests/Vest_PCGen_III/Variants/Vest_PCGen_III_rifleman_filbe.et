@@ -1,0 +1,42 @@
+GenericEntity : "{158F912CFD723FC1}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  SCR_ItemOutfitFactionComponent "{66DE76892F1DB8E1}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{66DE76891570200E}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{66DE768910A35C4F}" {
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo nerd {
+    }
+    LoadoutSlotInfo filbe {
+    }
+    LoadoutSlotInfo flibe2 {
+    }
+    LoadoutSlotInfo pistol2 {
+    }
+    LoadoutSlotInfo radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo filbevest {
+    }
+    LoadoutSlotInfo filbevest2 {
+    }
+    LoadoutSlotInfo filbevest3 {
+    }
+    LoadoutSlotInfo m67 {
+    }
+    LoadoutSlotInfo m67_2 {
+    }
+    LoadoutSlotInfo m18_1 {
+    }
+    LoadoutSlotInfo m18_2 {
+    }
+   }
+  }
+ }
+}

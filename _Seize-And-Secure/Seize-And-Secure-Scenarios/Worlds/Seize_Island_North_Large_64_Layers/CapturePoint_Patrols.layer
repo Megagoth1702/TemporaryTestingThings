@@ -1,0 +1,262 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Area3 {
+  coords 4557.465 17.429 10733.632
+  {
+   GenericEntity Layer7 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 50
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot19 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -23.255 -0.745 -213.518
+      }
+      Slot21 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 158.658 11.423 201.869
+      }
+      Slot20 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 117.364 3.365 12.435
+      }
+      Slot22 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -41.656 -3.843 158.435
+      }
+      Slot23 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -142.219 -15.756 303.496
+      }
+      Slot24 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -210.84 -5.582 -85.232
+      }
+      Slot25 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -255.985 16.485 -273.613
+      }
+      Slot26 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -37.584 -1.331 -105.431
+      }
+      Slot27 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -5.635 -0.375 -7.933
+      }
+      Slot28 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -248.5 -16.996 206.199
+      }
+      Slot29 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords -0.78 -1.316 309.628
+      }
+      Slot30 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords 101.751 -0.936 -177.524
+      }
+      Slot31 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords -325.019 -16.085 -56.294
+      }
+      Slot32 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords -211.8 -17.114 77.07
+      }
+     }
+    }
+   }
+  }
+ }
+ Area4 {
+  coords 4704.912 161.389 6985.098
+  {
+   GenericEntity Layer8 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 50
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot33 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 52.256 5.436 -70.375
+      }
+      Slot34 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 208.134 10.362 20.973
+      }
+      Slot35 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 422.145 14.789 64.455
+      }
+      Slot36 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -168.935 -5.655 -137.589
+      }
+      Slot37 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -212.793 -26.842 128.179
+      }
+      Slot38 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -60.472 -7.953 201.705
+      }
+      Slot39 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 306.066 2.106 273.174
+      }
+      Slot40 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 48.086 2.345 316.254
+      }
+      Slot41 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords -0.461 0.06 74.43
+      }
+      Slot42 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{03AD5DE72F3A1985}Prefabs/Systems/AmbientPatrol/FIA_Patrol_1.et"
+        }
+       }
+       coords 99.515 -5.095 461.991
+      }
+      Slot43 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords -120.281 -12.056 84.601
+      }
+      Slot44 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords 166.147 6.48 -59.874
+      }
+      Slot45 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords 385.516 11.421 165.758
+      }
+      Slot46 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2419EC53E398A668}Prefabs/Systems/AmbientPatrol/FIA_Attack_1.et"
+        }
+       }
+       coords 96.094 1.286 179.819
+      }
+     }
+    }
+   }
+  }
+ }
+}

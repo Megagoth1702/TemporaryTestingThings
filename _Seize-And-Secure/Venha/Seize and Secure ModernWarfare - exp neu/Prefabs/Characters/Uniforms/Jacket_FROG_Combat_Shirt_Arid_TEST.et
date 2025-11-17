@@ -1,0 +1,55 @@
+GameEntity : "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{605AB04567C772EE}Assets/Characters/GenericGroundItems/rhs_cloth_item_large.xob"
+   Materials {
+    MaterialAssignClass "{66E09DD3A476B60C}" {
+     SourceMaterial "01"
+     AssignedMaterial "{4480E6E9EE3A914E}Assets/Characters/GenericGroundItems/data/cloth_item_marpat_d.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA742C881B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841FFD3695A}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841FF4AEFAF}" {
+      m_AffiliatedFactionKey "RHS_USAF"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_FROG_Combat_Shirt_Name - #RHS-Camo_MARPAT_D"
+     Description "#RHS-Uniform_FROG_Combat_Shirt_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOffset 0 0.15 0
+      PreviewModel "{39CB1C33C19BB756}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid_wear.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+     Prefab "{F928D90B6E4B9166}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_belt_dummy.et"
+    }
+   }
+   WornModel "{3FA314B61D40A6EA}Assets/Characters/Uniforms/Jacket_VKPO/rhs_triada_combat_shirt.xob"
+   WornMaterialsOverride {
+    "{D41A9CD2FF1E10B0}Assets/Characters/Uniforms/Jacket_VKPO/data/rhs_triada_combat_shirt_marpat_d.emat"
+   }
+   ItemModel "{605AB04567C772EE}Assets/Characters/GenericGroundItems/rhs_cloth_item_large.xob"
+   ItemMaterialsOverride {
+    "{4480E6E9EE3A914E}Assets/Characters/GenericGroundItems/data/cloth_item_marpat_d.emat"
+   }
+   DeflatedModel ""
+  }
+ }
+ coords 965.321 7.001 719.032
+}

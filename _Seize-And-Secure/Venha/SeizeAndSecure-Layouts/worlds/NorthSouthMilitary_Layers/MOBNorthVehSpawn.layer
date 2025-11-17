@@ -1,0 +1,80 @@
+$grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+ Car_armed_N {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 0
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+     TRAIT_ARMED
+    }
+    m_aExcludedEditableEntityLabels {
+     TRAIT_ARMOR
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 9036.311 120.754 8829.714
+  angles -5.348 -176.815 -0.297
+ }
+ Car_Medical_N {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 0
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+     TRAIT_MEDICAL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 9036.677 121.46 8837.483
+  angles -4.463 -177.409 -0.202
+ }
+ Truck_Logi_N {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 0
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+     TRAIT_PASSENGERS_LARGE
+     TRAIT_SUPPLYSTORAGE_LARGE
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 9038.208 123.663 8869.479
+  angles -2.682 -177.938 -0.097
+ }
+ Car_N {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 0
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels {
+     TRAIT_ARMOR
+     TRAIT_ARMED
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 9037.162 122.43 8848.258
+  angles -5.35 -177.316 -0.25
+ }
+ Truck_Logi_N2 {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 0
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+     TRAIT_PASSENGERS_LARGE
+     TRAIT_SUPPLYSTORAGE_LARGE
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 9037.867 123.15 8857.865
+  angles -2.677 -176.039 -0.185
+ }
+}

@@ -1,0 +1,161 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MOB1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 820
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 820
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4480.713 18.925 9780.158
+  angleX -1.25
+  angleY 44.284
+  angleZ 1.281
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 60
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MOB2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 780
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 780
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4885.411 28.596 11925.043
+  angleX 0.772
+  angleY -177.391
+  angleZ 2.721
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 50
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ BaseElectrical {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Electrical Station"
+    m_sBaseNameUpper "ELECTRICAL STATION"
+    m_fRadioAntennaServiceRange 800
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 500
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+  }
+  coords 4158.771 24.215 10505.433
+  angleX -4.702
+  angleY 3.958
+  angleZ 3.249
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ BaseCoast {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Millennials Inheritance"
+    m_sBaseNameUpper "MILLENNIALS INHERITANCE"
+    m_fRadioAntennaServiceRange 790
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 500
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 790
+     }
+    }
+   }
+  }
+  coords 4459.029 10.843 11279.584
+  angleX 0.356
+  angleY 85.09
+  angleZ -6.295
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ SchoolBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName "Mareks Learning Center For Players Who Can't Aim Good"
+    m_sBaseNameUpper "MAREKS LEARNING CENTER FOR PLAYERS WHO CAN'T AIM GOOD"
+    m_fRadioAntennaServiceRange 600
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 500
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+  }
+  coords 4573.781 16.781 10816.58
+  angleY -101.16
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+}

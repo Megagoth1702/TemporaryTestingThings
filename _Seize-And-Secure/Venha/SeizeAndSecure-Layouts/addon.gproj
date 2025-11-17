@@ -1,0 +1,22 @@
+GameProject {
+ ID "SeizeAndSecureLayouts"
+ GUID "66B8FB179465916B"
+ TITLE "Seize & Secure: Layouts"
+ Dependencies {
+  "58D0FB3206B6F859" "612543B7F95C22A5"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

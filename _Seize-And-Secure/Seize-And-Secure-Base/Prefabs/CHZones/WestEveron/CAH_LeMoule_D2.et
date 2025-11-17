@@ -1,0 +1,12 @@
+SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ ID "560477320F726547"
+ coords 2548.816 97.991 5450.972
+ angleY -25.229
+ TriggerShapeType Sphere
+ SphereRadius 25
+ DrawShape 0
+ m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+ m_fTickRate 5
+ m_iScorePerTick 2
+ m_sAssignedName "CAH_LeMoule_D"
+}

@@ -1,0 +1,133 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ AreaA {
+  coords 9648.854 19.044 1624.297
+  {
+   GenericEntity LayerA : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      Slot_A2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{919F75201031AAA5}CHZones/StPierre/CAHAreaA2.et"
+        }
+       }
+       coords 34.629 2.567 -10.72
+       angleY 50.77
+      }
+      Slot_A1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{FDCB41C0ACF5258B}CHZones/StPierre/CAHAreaA1.et"
+        }
+       }
+       coords -20.4 6.191 -145.363
+      }
+      Slot_A3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{740339D91CD43DCE}CHZones/StPierre/CAHAreaA3.et"
+        }
+       }
+       coords 137.66 -9.052 -199.864
+       angleY -23.925
+      }
+     }
+    }
+   }
+  }
+ }
+ AreaB {
+  coords 10021.963 2.438 1545.239
+  {
+   GenericEntity LayerB : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      Slot_B_1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{64D5F859B112141B}CHZones/StPierre/CAHAreaB1.et"
+        }
+       }
+       coords 270.366 4.543 22.101
+      }
+      Slot_B_2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{0881CCB90DD69B35}CHZones/StPierre/CAHAreaB2.et"
+        }
+       }
+       coords 128.303 3.755 73.409
+       angleY 14.36
+      }
+      Slot_B_3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{ED1D804001330C5E}CHZones/StPierre/CAHAreaB3.et"
+        }
+       }
+       coords -17.704 0.699 11.886
+       angleY 14.451
+      }
+     }
+    }
+   }
+  }
+ }
+ AreaC {
+  coords 9248.905 59.141 2076.247
+  {
+   GenericEntity LayerC : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      Slot_C_1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{13DF90D145B0FB6B}CHZones/StPierre/CAHAreaC1.et"
+        }
+       }
+       coords 0 0 0
+      }
+      Slot_C_2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{7F8BA431F9747445}CHZones/StPierre/CAHAreaC2.et"
+        }
+       }
+       coords 101.257 -3.873 -52.432
+       angleX 3.828
+       angleY -31.076
+       angleZ -2.304
+      }
+      Slot_C_3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A17E8C8F591E32E}CHZones/StPierre/CAHAreaC3.et"
+        }
+       }
+       coords -146.265 20.093 243.931
+       angleY -37.187
+      }
+     }
+    }
+   }
+  }
+ }
+}

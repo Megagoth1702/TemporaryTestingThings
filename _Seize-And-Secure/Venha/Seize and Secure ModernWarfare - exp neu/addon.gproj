@@ -1,0 +1,83 @@
+GameProject {
+ ID "SeizeandSecureModernWarfare exp"
+ GUID "659066614BF03779"
+ TITLE "Seize and Secure ModernWarfare - exp"
+ Dependencies {
+  "58D0FB3206B6F859" "595F2BF2F44836FB" "1337C0DE5DABBEEF" "BADC0DEDABBEDA5E" "612543B7F95C22A5" "62A668F513428630" "6512762F90381C05" "5C721177A220B42F" "6273146ADFE8241D" "629B2BA37EFFD577" "61E42AE6714A3CC2" "66489B696D5FD1F8" "62F364B35E9B51B0" "5AF6E0F075D79473" "65CF7AE8574E06D2"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{65F68A99C6C4F46D}" {
+      StringTableSource "{170AE7D4AFFBA5F5}Language/SSMWlocalization.st"
+      Languages {
+       LanguageDefinition "{65F68A99C5A3FB5F}" {
+        Code "cs_cz"
+        StringTableRuntime "{375E8E87F72422B2}Language/SSMWlocalization.cs_cz.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FB88}" {
+        Code "de_de"
+        StringTableRuntime "{E22094B4E4873392}Language/SSMWlocalization.de_de.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FB87}" {
+        Code "en_us"
+        StringTableRuntime "{BCD01EFF8E743693}Language/SSMWlocalization.en_us.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FB9D}" {
+        Code "es_es"
+        StringTableRuntime "{799C537660765D8C}Language/SSMWlocalization.es_es.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBEB}" {
+        Code "fr_fr"
+        StringTableRuntime "{C234A64186F5BE8E}Language/SSMWlocalization.fr_fr.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBE6}" {
+        Code "it_it"
+        StringTableRuntime "{422829752BD73D77}Language/SSMWlocalization.it_it.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBFF}" {
+        Code "ja_jp"
+        StringTableRuntime "{523394E715A60DDC}Language/SSMWlocalization.ja_jp.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBCA}" {
+        Code "ko_kr"
+        StringTableRuntime "{F28DBC4B868B0EE3}Language/SSMWlocalization.ko_kr.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBC0}" {
+        Code "pl_pl"
+        StringTableRuntime "{AEFC1AB13864929F}Language/SSMWlocalization.pl_pl.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBDE}" {
+        Code "pt_br"
+        StringTableRuntime "{7B8B807D039A5825}Language/SSMWlocalization.pt_br.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FBD4}" {
+        Code "ru_ru"
+        StringTableRuntime "{2ECA94D59EE33D53}Language/SSMWlocalization.ru_ru.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FC57}" {
+        Code "uk_ua"
+        StringTableRuntime "{A492C123F2CD8306}Language/SSMWlocalization.uk_ua.conf"
+       }
+       LanguageDefinition "{65F68A99C5A3FCA2}" {
+        Code "zh_cn"
+        StringTableRuntime "{7E22AF1ECB6D531B}Language/SSMWlocalization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

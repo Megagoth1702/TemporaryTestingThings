@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "5568E180FC44EDAC"
+ {
+  GenericEntity {
+   ID "5946775F6737C010"
+   components {
+    ScriptedRadioComponent "{5CB8818C71F12C73}" {
+     Transceivers {
+      RelayTransceiver "{60A33B9ABAC01E3A}" {
+       "Transmitting Range" 1000
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_bBaseCaptureScore 50
+   m_bTicketScoreSystem 1
+   m_iMultiplier1 0.1
+   m_iMultiplier2 0.3
+   m_iPlayerCount3 30
+   m_iMultiplier3 0.4
+   m_iPlayerCount4 40
+   m_iMultiplier4 0.5
+   m_iPlayerCount5 50
+   m_iMultiplier5 0.6
+   m_iPlayerCount6 70
+   m_iMultiplier6 0.8
+   m_iPlayerCount7 90
+   m_iMultiplier7 1
+   m_iTicketLossDeath1 14
+   m_iTicketLossDeath2 10
+   m_iPlayerCountDeath3 30
+   m_iTicketLossDeath3 8
+   m_iPlayerCountDeath4 40
+   m_iTicketLossDeath4 6
+   m_iPlayerCountDeath5 60
+   m_iTicketLossDeath5 4
+  }
+ }
+}

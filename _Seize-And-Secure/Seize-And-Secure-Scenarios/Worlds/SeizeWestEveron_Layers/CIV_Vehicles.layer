@@ -1,0 +1,295 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 3753.167 80.966 6631.132
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+    m_aExcludedEditableEntityLabels {
+    }
+   }
+  }
+  coords 3723.308 80.431 6664.272
+  angleY -131.833
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 3790.842 115.584 4963.503
+  angleY -77.752
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 3800.974 117.565 4878.133
+  angleY 89.749
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2791.732 112.383 5737.322
+  angleY -89.059
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2969.265 108.064 6157.104
+  angleY 12.124
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2884.246 86.614 6364.972
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2954.339 78.351 6536.069
+  angleY 60.618
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2632.575 86.721 6064.694
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2552.541 107.347 5563.492
+  angleY 172.382
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2598.388 94.931 5423.793
+  angleY 145.933
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2634.945 91.41 5355.852
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 3015.046 113.786 5180.032
+  angleY 52.639
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 3136.67 119.545 5239.53
+  angleY -39.516
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 3036.519 121.706 5490.147
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1971.288 77.481 5116.068
+  angleY -32.585
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2644.21 86.653 6078.765
+  angleY -54.499
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1362.208 42.786 5888.966
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1288.508 37.462 6024.303
+  angleY -83.361
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 986.019 3.246 6027.582
+  angleY -119.085
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1107.429 2.812 6100.808
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1209.09 30.069 6123.732
+  angleY -105.889
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1667.111 71.916 5733.38
+  angleY -62.853
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 5174.942 14.091 3959.883
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 5131.825 14.067 3962.856
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 5094.812 14.481 3961.585
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 5084.879 14.673 3962.177
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 4972.136 15.594 3980.353
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 4868.014 13.757 4012.349
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 4866.292 12.443 3970.833
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 4880.656 13.447 3997.272
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 4829.77 83.737 4448.224
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 4821.278 83.938 4448.208
+  angleY -92.922
+ }
+}

@@ -1,0 +1,1052 @@
+GenericEntity A_Church_C : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_SpawnChildren RANDOM_ONE
+  }
+ }
+ coords 4448.409 12.869 10733.604
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   L_ProgressBar {
+    coords 6.958 -12.628 -33.256
+    angleY 152.991
+    {
+     GenericEntity ObjSlot_ProgressBar : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{30546DD2A0BA606A}CHZones/StPhilippeV3/CAHAreaA3.et"
+       }
+      }
+      coords 0.781 12.432 2.271
+      angleY 18.965
+     }
+     GenericEntity L_Bar_Beauty : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      coords 0 33.226 0
+      {
+       $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+        Slot_NoGarbageNoDespawn38 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -2.326 -20.41 2.187
+         angleY -159.878
+        }
+        Slot_NoGarbageNoDespawn41 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -2.348 -19.949 2.128
+         angleY -159.878
+        }
+        Slot_NoGarbageNoDespawn65 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et"
+          }
+         }
+         coords -14.782 -20.372 11.077
+         angleY 14.309
+        }
+        Slot_NoGarbageNoDespawn66 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+          }
+         }
+         coords 13.028 -21.191 -19.662
+         angleX -1.789
+         angleY 115.256
+         angleZ 0.055
+        }
+        Slot_NoGarbageNoDespawn67 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+          }
+         }
+         coords 24.545 -21.654 -9.81
+         angleY 23.87
+        }
+        Slot_NoGarbageNoDespawn68 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords -8.722 -19.427 14.575
+         angleY 20.031
+        }
+        Slot_NoGarbageNoDespawn69 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords -14.563 -19.859 16.494
+         angleY 18.249
+        }
+        Slot_NoGarbageNoDespawn70 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords -20.404 -19.817 18.419
+         angleY 18.249
+        }
+        Slot_NoGarbageNoDespawn71 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords -16.011 -19.77 20.887
+         angleY 18.249
+        }
+        Slot_NoGarbageNoDespawn72 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords -10.924 -19.758 19.213
+         angleY 18.249
+        }
+        Slot_NoGarbageNoDespawn73 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et"
+          }
+         }
+         coords 13.98 -21.119 -1.022
+         angleX 0.448
+         angleY -162.315
+         angleZ -2.793
+        }
+        Slot_NoGarbageNoDespawn74 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et"
+          }
+         }
+         coords 11.126 -21.05 -8.648
+         angleX -0.45
+         angleY 17.712
+         angleZ 0.858
+        }
+        Slot_NoGarbageNoDespawn75 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et"
+          }
+         }
+         coords 0.305 -20.433 -0.201
+         angleX -0.599
+         angleY -124.695
+         angleZ 0.761
+        }
+        Slot_NoGarbageNoDespawn76 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et"
+          }
+         }
+         coords -5.148 -18.577 -7.634
+         angleX 89.216
+         angleY -48.783
+         angleZ 113.906
+        }
+        Slot_NoGarbageNoDespawn77 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et"
+          }
+         }
+         coords -5.144 -19.026 -7.639
+         angleX 89.216
+         angleY -48.783
+         angleZ 113.906
+        }
+        Slot_NoGarbageNoDespawn78 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et"
+          }
+         }
+         coords -4.663 -18.571 -7.784
+         angleX 89.216
+         angleY -48.783
+         angleZ 113.906
+        }
+        Slot_NoGarbageNoDespawn79 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{EF49B1F62D20ABD1}Prefabs/Props/Garbage/Cardboard/Cardboard_05.et"
+          }
+         }
+         coords -4.658 -19.015 -7.788
+         angleX 89.216
+         angleY -48.783
+         angleZ 113.906
+        }
+        Slot_NoGarbageNoDespawn12 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{F0EC223F2A1094C0}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap.et"
+          }
+         }
+         coords 80.003 -16.751 -16.091
+         angleX -0.187
+         angleY -69.777
+         angleZ -0.16
+        }
+        Slot_NoGarbageNoDespawn80 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
+          }
+         }
+         coords 80.534 -16.796 -12.286
+         angleY -71.145
+        }
+        Slot_NoGarbageNoDespawn81 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{52EF7CA11CD1D4C3}Prefabs/Structures/BuildingParts/Ladders/Ladder_HarborCrane_645_B.et"
+          }
+         }
+         coords 88.55 -13.216 -4.558
+         angleX 58.73
+         angleY -161.795
+         angleZ -7.541
+        }
+        Slot_NoGarbageNoDespawn82 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+          }
+         }
+         coords 84.306 -16.796 -30.845
+         angleY -155.649
+        }
+        Slot_NoGarbageNoDespawn85 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
+          }
+         }
+         coords 77.874 -16.796 -19.551
+         angleY -71.145
+        }
+        Slot_NoGarbageNoDespawn84 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+          }
+         }
+         coords 85.772 -16.796 -27.606
+         angleY -155.649
+        }
+        Slot_NoGarbageNoDespawn86 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+          }
+         }
+         coords 87.16 -16.796 -24.542
+         angleY -155.649
+        }
+        Slot_NoGarbageNoDespawn87 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+          }
+         }
+         coords 88.603 -16.796 -21.354
+         angleY -155.649
+        }
+        Slot_NoGarbageNoDespawn88 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+          }
+         }
+         coords 92.452 -16.796 -12.848
+         angleY -155.649
+        }
+        Slot_NoGarbageNoDespawn89 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+          }
+         }
+         coords 91.057 -16.796 -15.93
+         angleY -155.649
+        }
+        Slot_NoGarbageNoDespawn90 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords 87.498 -16.818 -20.389
+         angleY -65.909
+        }
+        Slot_NoGarbageNoDespawn91 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords 85.979 -16.818 -23.801
+         angleY 114.615
+        }
+        Slot_NoGarbageNoDespawn92 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et"
+          }
+         }
+         coords 86.755 -16.818 -22.107
+         angleY 114.615
+        }
+        Slot_NoGarbageNoDespawn93 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et"
+          }
+         }
+         coords 83.498 -16.818 -29.393
+         angleY 114.615
+        }
+        Slot_NoGarbageNoDespawn94 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords 82.721 -16.818 -31.088
+         angleY 114.615
+        }
+        Slot_NoGarbageNoDespawn95 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords 84.24 -16.818 -27.675
+         angleY -65.909
+        }
+        Slot_NoGarbageNoDespawn96 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et"
+          }
+         }
+         coords 90.373 -16.818 -14.02
+         angleY 114.615
+        }
+        Slot_NoGarbageNoDespawn97 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords 89.597 -16.818 -15.714
+         angleY 114.615
+        }
+        Slot_NoGarbageNoDespawn98 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords 91.114 -16.818 -12.3
+         angleY -65.909
+        }
+        Slot_NoGarbageNoDespawn99 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A2D50E1459CC19C1}Prefabs/Structures/Military/CamoNets/CamoNet_Base.et"
+          }
+         }
+         coords 87.786 -16.796 -17.476
+         angleY 109.666
+        }
+       }
+      }
+     }
+    }
+   }
+   L_Church {
+    coords 0 0 0
+    {
+     GenericEntity ObjSlot_Church : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{B99C15CB109B782F}CHZones/StPhilippeV3/CAHAreaA1.et"
+       }
+      }
+      coords -12.675 0 0.889
+      angleY 81.251
+     }
+     GenericEntity L_Church_Beauty : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      coords 0 0 0
+      {
+       $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+        Beautifyplz {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -0.596 0 9.89
+         angleY -96.116
+        }
+        Slot_NoGarbageNoDespawn1 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et"
+          }
+         }
+         coords 18.253 0.095 -5.783
+         angleX 0.579
+         angleY 130.318
+         angleZ -0.683
+        }
+        Slot_NoGarbageNoDespawn3 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+          }
+         }
+         coords -7.969 -1.974 34.655
+         angleX 2.38
+         angleY 62.464
+         angleZ -1.24
+        }
+        Slot_NoGarbageNoDespawn4 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 18.896 -0.042 1.09
+         angleY 77.979
+        }
+        Slot_NoGarbageNoDespawn5 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 18.073 -0.128 3.587
+         angleY 65.654
+        }
+        Slot_NoGarbageNoDespawn6 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 18.258 -0.194 9.253
+         angleY 77.979
+        }
+        Slot_NoGarbageNoDespawn7 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 17.787 -0.22 11.478
+         angleY 77.979
+        }
+        Slot_NoGarbageNoDespawn8 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 1.109 -0.216 18.042
+         angleY -28.857
+        }
+        Slot_NoGarbageNoDespawn9 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -0.475 -0.157 16.323
+         angleY -64.863
+        }
+        Slot_NoGarbageNoDespawn10 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 22.422 0.276 -15.449
+         angleX 0.689
+         angleY 77.966
+         angleZ -1.062
+        }
+        Slot_NoGarbageNoDespawn11 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 28.786 0.458 -10.568
+         angleY 151.164
+        }
+        Slot_NoGarbageNoDespawn13 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et"
+          }
+         }
+         coords 11.851 -0.399 14.569
+         angleX -0.382
+         angleY 27.433
+         angleZ -1.207
+        }
+        Slot_NoGarbageNoDespawn14 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et"
+          }
+         }
+         coords -24.824 -0.154 5.335
+         angleX -0.056
+         angleY -155.045
+         angleZ -2
+        }
+        Slot_NoGarbageNoDespawn16 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et"
+          }
+         }
+         coords 25.997 0 5.126
+         angleY 120.693
+        }
+        Slot_NoGarbageNoDespawn17 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et"
+          }
+         }
+         coords -6.442 -0.03 15.171
+         angleX -1.78
+         angleY -12.654
+         angleZ -1.148
+        }
+        Slot_NoGarbageNoDespawn18 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 6.185 -0.376 19.199
+         angleY 175.345
+        }
+        Slot_NoGarbageNoDespawn19 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 3.523 -0.269 18.866
+         angleY 171.376
+        }
+        Slot_NoGarbageNoDespawn20 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 11.386 -1.483 50.766
+         angleX 2.787
+         angleY 171.376
+         angleZ 0.482
+        }
+        Slot_NoGarbageNoDespawn21 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 5.857 -1.499 49.639
+         angleY 171.396
+        }
+        Slot_NoGarbageNoDespawn22 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{C762BA61BAD5B536}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Corner_BarbedWire_USSR_01.et"
+          }
+         }
+         coords -17.75 -1.036 -11.438
+         angleY -63.714
+        }
+        Slot_NoGarbageNoDespawn23 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et"
+          }
+         }
+         coords -20.038 -0.713 -9.154
+         angleY -154.095
+        }
+        Slot_NoGarbageNoDespawn24 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+          }
+         }
+         coords -40.503 -2.48 -6.419
+         angleX 1.789
+         angleY 178.443
+         angleZ 4.094
+        }
+        Slot_NoGarbageNoDespawn25 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et"
+          }
+         }
+         coords -9.942 -0.393 -14.921
+         angleX -0.072
+         angleY 174.724
+         angleZ 1.8
+        }
+        Slot_NoGarbageNoDespawn26 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -4.751 -0.354 -15.013
+         angleY 171.376
+         angleZ 1.356
+        }
+        Slot_NoGarbageNoDespawn27 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -2.022 -0.262 -14.639
+         angleY 171.376
+        }
+        Slot_NoGarbageNoDespawn28 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et"
+          }
+         }
+         coords 0.654 -0.28 -14.181
+         angleY 171.376
+        }
+        Slot_NoGarbageNoDespawn29 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B51CE80A9EEF7E00}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_01.et"
+          }
+         }
+         coords 4.068 -0.151 -12.781
+         angleY 171.893
+        }
+        Slot_NoGarbageNoDespawn30 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -19.14 -0.16 8
+         angleY 125.415
+        }
+        Slot_NoGarbageNoDespawn31 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -17.77 -0.038 10.365
+         angleY 124.617
+        }
+        Slot_NoGarbageNoDespawn32 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -16.1 -0.074 12.338
+         angleY 135.615
+        }
+        Slot_NoGarbageNoDespawn33 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -14.058 -0.115 13.866
+         angleY 153.972
+        }
+        Slot_NoGarbageNoDespawn34 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -11.591 -0.122 14.635
+         angleY 168.707
+        }
+        Slot_NoGarbageNoDespawn35 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -22.874 -0.077 14.575
+         angleY 154.132
+        }
+        Slot_NoGarbageNoDespawn36 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -25.104 -0.071 12.996
+         angleY 133.064
+        }
+        Slot_NoGarbageNoDespawn37 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -26.808 0 11.089
+         angleY 129.1
+        }
+        Slot_NoGarbageNoDespawn46 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{52EF7CA11CD1D4C3}Prefabs/Structures/BuildingParts/Ladders/Ladder_HarborCrane_645_B.et"
+          }
+         }
+         coords -64.604 1.983 -1.27
+         angleX -39.048
+        }
+        Slot_NoGarbageNoDespawn47 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et"
+          }
+         }
+         coords -57.435 5.138 -0.65
+         angleX -1.157
+         angleY -1.836
+         angleZ -41.069
+        }
+        Slot_NoGarbageNoDespawn62 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords -56.395 6.188 -0.144
+         angleX -48.157
+         angleY -89.492
+        }
+        Slot_NoGarbageNoDespawn63 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et"
+          }
+         }
+         coords -56.504 6.229 4.553
+         angleX 52.741
+         angleY 91.929
+        }
+        Slot_NoGarbageNoDespawn64 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et"
+          }
+         }
+         coords -58.543 6.062 5.097
+         angleX -61.891
+         angleY -3.17
+         angleZ 0.771
+        }
+       }
+      }
+     }
+    }
+   }
+   L_House {
+    coords -50.887 -2.853 34.185
+    angleY 152.991
+    {
+     GenericEntity ObjSlot_House : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{D5C8212BAC5FF701}CHZones/StPhilippeV3/CAHAreaA2.et"
+       }
+      }
+      coords -0.827 4.186 -1.817
+     }
+     GenericEntity L_House_Beauty : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      coords 0 19.414 0
+      {
+       $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+        Slot_NoGarbageNoDespawn42 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{530705FBB61026D2}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_03.et"
+          }
+         }
+         coords -3.969 -19.214 4.195
+         angleY 29.226
+        }
+        Slot_NoGarbageNoDespawn40 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{EC86208E5412E6D2}Prefabs/Vegetation/Tree/Debris/BranchTrash_dec_01.et"
+          }
+         }
+         coords -0.965 -19.491 24.077
+         angleY 29.226
+        }
+        Slot_NoGarbageNoDespawn43 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{5E99DD1E8377D27F}Prefabs/Props/Garbage/Bins/TrashBin_02.et"
+          }
+         }
+         coords -2.477 -19.036 -2.968
+         angleX 51.522
+         angleY -45.88
+         angleZ -71.235
+        }
+        Slot_NoGarbageNoDespawn44 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_small.et"
+          }
+         }
+         coords -4.313 -19.214 -3.538
+         angleY 83.141
+        }
+        Slot_NoGarbageNoDespawn45 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et"
+          }
+         }
+         coords 0.009 -17.405 7.299
+         angleX -0.002
+         angleY -179.812
+         angleZ -90.134
+         scale 0.4
+        }
+        Slot_NoGarbageNoDespawn2 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -3.777 -19.97 -6.341
+         angleY -179.96
+        }
+        Slot_NoGarbageNoDespawn39 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords -3.776 -18.376 -6.34
+         angleY -179.96
+        }
+        Slot_NoGarbageNoDespawn48 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+          }
+         }
+         coords 0.855 -19.51 16.167
+         angleX 0.788
+         angleY 20.525
+         angleZ -0.99
+        }
+        Slot_NoGarbageNoDespawn49 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+          }
+         }
+         coords 1.825 -12.121 -3.523
+         angleY 3.43
+        }
+        Slot_NoGarbageNoDespawn50 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et"
+          }
+         }
+         coords -15.71 -19.522 11.192
+         angleX 1.978
+         angleY -80.845
+         angleZ 0.303
+        }
+        Slot_NoGarbageNoDespawn51 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et"
+          }
+         }
+         coords -14.964 -19.483 16.404
+         angleX -1.629
+         angleY 92.498
+         angleZ 0.743
+        }
+        Slot_NoGarbageNoDespawn52 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et"
+          }
+         }
+         coords -12.151 -19.441 20.986
+         angleX 1.143
+         angleY -43.43
+         angleZ -0.544
+        }
+        Slot_NoGarbageNoDespawn53 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et"
+          }
+         }
+         coords -11.833 -19.496 18.472
+         angleX -0.717
+         angleY 106.491
+         angleZ 1.043
+        }
+        Slot_NoGarbageNoDespawn54 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et"
+          }
+         }
+         coords -12.366 -19.531 15.88
+         angleX -1.691
+         angleY 97.861
+         angleZ 0.587
+        }
+        Slot_NoGarbageNoDespawn55 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et"
+          }
+         }
+         coords -12.591 -19.591 13.196
+         angleX -1.274
+         angleY 93.103
+         angleZ 1.543
+        }
+        Slot_NoGarbageNoDespawn56 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_burlap.et"
+          }
+         }
+         coords -4.041 -15.149 6.62
+         angleX -1.188
+         angleY -177.783
+         angleZ -0.437
+        }
+        Slot_NoGarbageNoDespawn57 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 17.923 -19.271 45.236
+         angleX -0.069
+         angleY 29.204
+         angleZ 1.789
+        }
+        Slot_NoGarbageNoDespawn58 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 14.081 -19.178 47.387
+         angleX 1.754
+         angleY 29.242
+         angleZ 0.964
+        }
+        Slot_NoGarbageNoDespawn59 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 10.139 -19.134 49.591
+         angleX 4.53
+         angleY 29.115
+         angleZ -1.619
+        }
+        Slot_NoGarbageNoDespawn60 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 13.637 -19.041 52.306
+         angleY 29.26
+        }
+        Slot_NoGarbageNoDespawn61 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 17.924 -19.157 49.909
+         angleX 0.791
+         angleY 29.223
+         angleZ 2.716
+        }
+        Slot_NoGarbageNoDespawn15 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+          }
+         }
+         coords 21.504 -19.264 45.863
+         angleX 1.655
+         angleY -123.785
+         angleZ -1.125
+        }
+        Slot_NoGarbageNoDespawn100 {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{AC6DC9D2E040268A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighBurlap_S_USSR_01.et"
+          }
+         }
+         coords -3.305 -19.214 0.062
+         angleY -27.608
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

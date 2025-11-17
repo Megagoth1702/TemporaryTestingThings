@@ -1,0 +1,12 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SpawnPrefabEffect "{64A82A8E62131B25}" {
+     EffectPrefab "{6AEAD6803A29CEDA}Prefabs/Weapons/IRON_Suppression_Explosions/IRON_SUP_Explosion_Base.et"
+    }
+   }
+  }
+ }
+}

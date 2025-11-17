@@ -1,0 +1,11 @@
+SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ ID "560477320F726547"
+ coords 3935.215 109.633 5034.342
+ TriggerShapeType Sphere
+ SphereRadius 40
+ DrawShape 0
+ m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+ m_fTickRate 5
+ m_iScorePerTick 2
+ m_sAssignedName "CAH_Richmont_B"
+}

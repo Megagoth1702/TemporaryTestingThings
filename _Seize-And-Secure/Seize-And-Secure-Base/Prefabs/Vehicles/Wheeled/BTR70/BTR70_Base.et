@@ -1,0 +1,14 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_ExplosionComponent "{64A8036EDD0AB8EC}" {
+   m_fForceMultiplier 1.5
+   m_fExplosionRangeMax 25
+  }
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+   m_bAllowImpactFlinch 0
+   m_fSuppressionDampening 1
+   m_fExplosionDampening 0.9
+  }
+ }
+}

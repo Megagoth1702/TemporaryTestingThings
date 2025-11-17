@@ -1,0 +1,85 @@
+GenericEntity : "{D9C7B82F567BA500}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_combox.et" {
+ ID "5206D4E7CE97EC05"
+ components {
+  SCR_CampaignBuildingProviderComponent "{612B51BA1695807F}" {
+   m_sProviderDisplayName "#AR-Vehicle_SupplyTruck_Name-UC"
+   m_bUserActionActivationOnly 1
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingBudgetToEvaluateData "{612B51BBE4A25C70}" {
+     m_eBudget CAMPAIGN
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{612B51BBFD50344F}" {
+     m_eBudget RANK_CORPORAL
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{612B51BBDBE2A4B7}" {
+     m_eBudget RANK_SERGEANT
+    }
+    SCR_CampaignBuildingMaxValueBudgetToEvaluateData "{612B51BBA7945C7E}" {
+     m_eBudget PROPS
+     m_iMaxValue 1200
+    }
+    SCR_CampaignBuildingMaxValueBudgetToEvaluateData "{612B51BBB2682EC3}" {
+     m_eBudget AI
+     m_iMaxValue 10
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D83561F25268587}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D83561F24437BF2}" {
+     m_fResourceValueMax 800
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{612B51BB5CCD1DAA}" {
+     m_sDebugName "Consumer - Service Vehicle"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 1
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{612B51BB33DE4DF3}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{612B51BB3188793F}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{612B51BB3CFB58CB}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{612B51BCEAD78A83}" {
+     m_sDebugName "Generator - Service Vehicle"
+     m_eResourceRights ALL
+     m_fResourceMultiplier 0
+     m_fStorageRange 5
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{612B51BCC621DE34}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{612B51BCC5AF2171}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueue "{612B51BCD39C2F95}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+       SCR_ResourceGeneratorStoragePolicy "{612B51BCCA4D0175}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueue "{612B51BCD849EF16}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF025C6CAA0}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{612B51BC83C82AB0}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{612B51BC8A5F6A5E}" {
+      Name "#AR-Campaign_Action_ShowBuildPreview-UC"
+     }
+     Duration 1.5
+    }
+   }
+  }
+ }
+}

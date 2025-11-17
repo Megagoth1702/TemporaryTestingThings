@@ -1,0 +1,12 @@
+GenericEntity : "{250F0E00D387191C}Prefabs/Weapons/AircraftWeapons/RocketPods/M260/Pod_M260_base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     m_fSupplyCostPerProjectile 140
+    }
+   }
+  }
+ }
+}

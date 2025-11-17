@@ -1,0 +1,160 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseCastle {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Montfort Castle"
+    m_sBaseNameUpper "MONTFORT CASTLE"
+    m_fRadioAntennaServiceRange 875
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 875
+     }
+    }
+   }
+  }
+  coords 9158.082 214.065 1308.753
+  angleX -4.779
+  angleY -100.525
+  angleZ 3.604
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ BaseLodge {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Mareks Social Lodge For Soldiers Who Want To Drink Good"
+    m_sBaseNameUpper "MAREKS SOCIAL LODGE FOR SOLDIERS WHO WANT TO DRINK GOOD"
+    m_fRadioAntennaServiceRange 975
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 975
+     }
+    }
+   }
+  }
+  coords 9869.102 305.817 2438.513
+  angleX -7.761
+  angleY -39.364
+  angleZ 1.757
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ PierreBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "St. Pierre Harbour"
+    m_sBaseNameUpper "ST. PIERRE HARBOUR"
+    m_fRadioAntennaServiceRange 1000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 9795.275 1.25 1534.016
+  angleY 89.308
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ MOB1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 1000
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 8979.825 52.385 607.22
+  angleX -2.183
+  angleY 13.73
+  angleZ -2.374
+  {
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MOB2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 1000
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 9558.938 211.317 3080.227
+  angleX 0.379
+  angleY -116.132
+  angleZ 2.803
+  {
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ BaseVernon {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Vernon"
+    m_sBaseNameUpper "VERNON"
+    m_fRadioAntennaServiceRange 1000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 9034.643 79.173 2139.517
+  angleX -4.619
+  angleY 36.406
+  angleZ 3.246
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GenericEntity {
+ ID "64A82A8F077DCDAC"
+ components {
+  IRON_SUP_ExplosionComponent "{64A82A8F077DCDB6}" {
+   m_fExplosionStrength 4
+   m_fForceMultiplier 1.5
+   m_fExplosionRangeMin 15
+   m_fExplosionRangeMax 25
+  }
+ }
+ coords 3132.588 11.824 2783.135
+}

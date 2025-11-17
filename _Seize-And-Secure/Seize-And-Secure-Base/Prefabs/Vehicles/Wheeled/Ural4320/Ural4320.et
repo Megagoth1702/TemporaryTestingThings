@@ -1,0 +1,9 @@
+Vehicle : "{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et" {
+ ID "0000000000000001"
+ components {
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+   m_fSuppressionDampening 0.7
+   m_fExplosionDampening 0.7
+  }
+ }
+}

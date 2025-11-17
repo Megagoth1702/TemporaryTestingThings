@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaDrainRun -0.0001
+   EncumbranceMassMin 108
+   EncumbranceDrainMax -0.2
+  }
+  CharacterAnimationComponent "{520EA1D2F659C994}" {
+   components {
+    SCR_CharacterCommandHandlerComponent "{520EA1D2F659C99A}" {
+     MoveSettings ScriptCharacterCommandMoveSettings "{520EA1D2F659C99B}" {
+      LeaningSpeed 3
+      m_fSpeed_Erect_Normal_Forward 4.2
+      m_fSpeed_Erect_Normal_Strafe 2.8
+      m_fSpeed_Erect_Fast_Forward 6
+      m_fSpeed_Erect_Fast_Strafe 3.2
+      m_fSpeed_Crouch_Normal_Strafe 2
+      m_fSpeed_Crouch_Fast_Strafe 3
+     }
+    }
+   }
+  }
+ }
+}

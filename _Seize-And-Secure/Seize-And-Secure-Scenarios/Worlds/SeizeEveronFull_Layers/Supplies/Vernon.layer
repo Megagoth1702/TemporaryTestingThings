@@ -1,0 +1,27 @@
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 9392.308 53.416 1963.818
+}
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 9378.344 54.355 1987.788
+ angleX -6.187
+ angleY -170.158
+ angleZ 4.34
+}
+GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
+ coords 9407.964 52.379 1942.728
+ angleX 5.344
+ angleY -0.251
+ angleZ -2.695
+}
+GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ coords 9414.572 54.265 1957.606
+ angleX -4.405
+ angleY -107.15
+ angleZ -5.167
+}
+GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
+ coords 9402.33 55.265 1975.218
+ angleX -6.956
+ angleY -138.987
+ angleZ -0.146
+}

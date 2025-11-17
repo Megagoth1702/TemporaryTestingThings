@@ -1,0 +1,12 @@
+GenericEntity : "{CD609D6F3A054B14}Prefabs/Weapons/Core/Armament_Pod_Base.et" {
+ ID "61570290F31192C7"
+ components {
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     m_fSupplyCostPerProjectile 250
+    }
+   }
+  }
+ }
+}

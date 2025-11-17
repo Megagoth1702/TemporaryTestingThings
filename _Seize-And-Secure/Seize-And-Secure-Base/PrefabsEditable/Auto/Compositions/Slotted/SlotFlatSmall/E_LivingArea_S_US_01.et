@@ -1,0 +1,18 @@
+GenericEntity : "{77F90F896D5145C8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E94CE5A76C55093}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels + {
+     300
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5E987D8CB9155A47}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+GenericEntity : "{434AFBBE90F2B078}Prefabs/Sounds/Environment/AmbientSounds_Everon.et" {
+ coords 163.852 1 124.226
+}
+SoundWorld : "{FBE5065D0273E9E1}Prefabs/Sounds/SoundWorld/SoundWorld_Base.et" {
+ coords 172.424 1 118.711
+ Soundmap "{D10629452C29658E}Worlds/_TestingMaps/_SoundMap/_TestMap_Scenario.smap"
+}

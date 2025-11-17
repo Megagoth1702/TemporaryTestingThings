@@ -1,0 +1,90 @@
+$grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     54 37 210
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 4439.433 2.041 11036.708
+  angleY -62.032
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     54 37 210
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 4396.804 1.595 11080.721
+  angleY 109.136
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels + {
+     21
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 4413.481 1.594 11025.517
+  angleY 30.174
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 4395.67 1.626 11050.609
+  angleY 27.882
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     50 24
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 4440.864 1.978 11051.096
+  angleY -61.127
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+   }
+  }
+  coords 4392.442 2.246 11072.964
+  angleY 111.847
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 300
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     51
+    }
+    m_aExcludedEditableEntityLabels {
+     21
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 4348.093 1.592 11002.172
+  angleY 56.209
+ }
+}

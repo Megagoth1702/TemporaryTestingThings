@@ -1,0 +1,13 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_Image "{D729A6C3E78C4A61}images/UI/Groups/OPFOR/Group_US_Team_LAT_Seize_RUS.edds"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5035580436D7D8A0}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_Seize.et" "{3D5C9FC2FD1BF4B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_Seize.et" "{3D5C9FC2FD1BF4B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_Seize.et" "{46938BA2C282F873}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player_Seize.et"
+ }
+}

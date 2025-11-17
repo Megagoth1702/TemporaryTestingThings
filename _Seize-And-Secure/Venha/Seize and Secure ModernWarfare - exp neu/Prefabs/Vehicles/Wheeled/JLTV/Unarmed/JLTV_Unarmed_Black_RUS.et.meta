@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{090AEE8ED78AABF8}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Black_RUS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

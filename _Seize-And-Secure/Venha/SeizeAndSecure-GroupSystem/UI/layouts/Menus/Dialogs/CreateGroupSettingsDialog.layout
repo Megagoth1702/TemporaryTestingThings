@@ -1,0 +1,44 @@
+FrameWidgetClass : "{E6B607B27BCC1477}UI/layouts/Menus/Dialogs/ConfigurableDialog.layout" {
+ {
+  SizeLayoutWidgetClass "{5CC296FE0BE2ED39}" {
+   Prefab "{5CC296FE0BE2ED39}"
+   {
+    OverlayWidgetClass "{5CC296FBD8B6CA52}" {
+     Prefab "{5CC296FBD8B6CA52}"
+     {
+      VerticalLayoutWidgetClass "{5CC296FBD8B6CA68}" {
+       Prefab "{5CC296FBD8B6CA68}"
+       {
+        OverlayWidgetClass "{5CC296FBD8B6CA6D}" {
+         Prefab "{5CC296FBD8B6CA6D}"
+         {
+          SizeLayoutWidgetClass "{5CC296F8389B4B68}" {
+           Prefab "{5CC296F8389B4B68}"
+           {
+            VerticalLayoutWidgetClass "{5CC296F8389B4B6E}" {
+             Prefab "{5CC296F8389B4B6E}"
+             {
+              SizeLayoutWidgetClass "{661E67AAD3EB79A0}" {
+               Prefab "{661E67AAD3EB79A0}"
+               {
+                RichTextWidgetClass "{661E67AAEE8C9EB7}" {
+                 Prefab "{661E67AAEE8C9EB7}"
+                 "Is Enabled" 0
+                 "Is Visible" 0
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

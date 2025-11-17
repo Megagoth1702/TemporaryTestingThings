@@ -1,0 +1,31 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  BaseRadioComponent "{51EAE036CCD0A08E}" {
+   Transceivers {
+    RelayTransceiver "{5A9ABE5D9A773049}" {
+     "Transmitting Range" 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE024FADC8C}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{619CEB1F4A7CB58F}" {
+     SlotTemplate InventoryStorageSlot Rearm {
+      Prefab "{116DB48C5B9799A8}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR_modded.et"
+     }
+    }
+   }
+  }
+ }
+}

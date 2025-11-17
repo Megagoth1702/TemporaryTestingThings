@@ -1,0 +1,11 @@
+PolylineShapeEntity {
+ ID "6183218FD65526F7"
+ coords 4441.971 10.968 10768.834
+ {
+  SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+   ID "62AE0A2A8D9C18B0"
+   coords 0 0 0
+   TriggerShapeType Polyline
+  }
+ }
+}

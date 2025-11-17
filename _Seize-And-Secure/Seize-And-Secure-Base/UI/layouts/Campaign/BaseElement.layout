@@ -1,0 +1,31 @@
+FrameWidgetClass {
+ {
+  SizeLayoutWidgetClass "{661936F6E634F215}" {
+   Name "SizeLayout1"
+   Slot FrameWidgetSlot "{661936F6E634F263}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -300
+    OffsetRight 0
+    SizeY -300
+    OffsetBottom 0
+    SizeToContent 1
+   }
+   "Z Order" -999
+   {
+    ImageWidgetClass "{6619224BA7262262}" {
+     Name "Iron_RadioRange"
+     Slot AlignableSlot "{661936F6EE664044}" {
+     }
+     "Z Order" -999
+     "Is Visible" 0
+     Texture "{9784E36B47AA068A}UI/Textures/Editor/Cursors/GamepadCursor_MultiSelection.edds"
+     Size 10 10
+    }
+   }
+  }
+ }
+}

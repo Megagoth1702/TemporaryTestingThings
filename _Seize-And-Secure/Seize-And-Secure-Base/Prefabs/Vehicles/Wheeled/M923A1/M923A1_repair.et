@@ -1,0 +1,15 @@
+Vehicle : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6203095B65931916}" {
+     SlotTemplate InventoryStorageSlot "RearmingKit_01_US_modded.et" {
+      Prefab "{6A5CDA662048CAA6}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_US_modded.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

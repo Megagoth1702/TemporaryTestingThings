@@ -1,0 +1,49 @@
+StaticModelEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{629CFB1B997CED0E}" {
+     SourceMaterial "CanvasCover_Folded"
+     AssignedMaterial "{DA968E3C15354866}Assets/Structures/Military/Camps/Canvas_Cover/Data/CanvasCover_Folded_USSR.emat"
+    }
+    MaterialAssignClass "{629CFB1B997CED1C}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{74F9B49BD7F1D1AD}Common/Materials/ColorPalette/Color_palette_02_YELLOW_13_S3_R0.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 50
+   CenterOfMass 0 0.2 0
+   ResponseIndex "SmallDestructible"
+  }
+  ActionsManagerComponent "{629CFB1B5E876F5B}" {
+   ActionContexts {
+    UserActionContext "{629CFB1B5F875D02}" {
+     ContextName "default"
+     Position PointInfo "{629CFB1B22225469}" {
+     }
+    }
+   }
+   additionalActions {
+    Iron_HealYourselfUserAction "{629CFB1B21E150C9}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{629CFB1B257355FE}" {
+      Name "Heal Injuries"
+     }
+     Duration 15
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+  Hierarchy "{62BF557005C59224}" {
+  }
+ }
+ coords -4.938 0.658 3.688
+ angleY 153.594
+}

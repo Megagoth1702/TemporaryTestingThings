@@ -1,0 +1,65 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIA_Supply_North {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_iRespawnPeriod 420
+   }
+  }
+  coords 4300.138 10.1 12128.523
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 125.099 12.789 -37.02
+    angleY 0
+    CompletionRadius 33.4
+   }
+  }
+ }
+ FIA_Supply_South {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_iRespawnPeriod 420
+   }
+  }
+  coords 5091.231 30.312 10090.8
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -95.408 -4.911 -144.45
+    angleY 0
+    CompletionRadius 70
+   }
+  }
+ }
+ FIA_Supply_Center {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_iRespawnPeriod 420
+   }
+  }
+  coords 5030.997 30.124 10765.462
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 33.913 -2.481 81.365
+    angleY 0
+    CompletionRadius 36.5
+   }
+  }
+ }
+ FIA_School {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iRespawnPeriod 600
+   }
+  }
+  coords 5089.66 31.961 10767.795
+  angleX -6.242
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -511.334 -6.751 84.126
+    angleX 12.484
+    angleY 0
+    CompletionRadius 50.34
+   }
+  }
+ }
+}

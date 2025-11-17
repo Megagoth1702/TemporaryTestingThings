@@ -1,0 +1,60 @@
+Vehicle Ural4320_engineer_FIA1 : "{076B33106723D087}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_FIA.et" {
+ coords 6216.647 165.876 6433.854
+ angleY 51.448
+}
+Vehicle Ural4320_FIA_transport1 : "{16E32C3ABEAFC2C6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport.et" {
+ coords 5073.178 56.028 6054.611
+ angleY 41.424
+}
+Vehicle UAZ469_PKM_FIA1 : "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et" {
+ coords 5119.882 57.199 6049.229
+ angleY 138.992
+}
+Vehicle Ural4320_repair_FIA1 : "{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et" {
+ coords 4621.555 78.398 4788.629
+ angleY 57.21
+}
+Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ coords 5556.968 95.875 6019.322
+ angleY -146.835
+}
+Vehicle UAZ469_covered_CIV_VAK1 : "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
+ coords 6143.198 166.513 6461.712
+ angleY 59.806
+}
+$grp Vehicle : "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et" {
+ Ural4320_FIA_transport_covered1 {
+  coords 5560.222 95.726 6056.24
+  angleY -91.122
+ }
+ Ural4320_FIA_transport_covered2 {
+  coords 4721.217 79.435 4843.882
+  angleX -4.664
+  angleY -26.475
+  angleZ 64.649
+ }
+}
+Vehicle UAZ469_uncovered_CIV_teal1 : "{D4855501D5B12AF2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_teal.et" {
+ coords 5573.771 96.204 6056.148
+ angleY 116.992
+}
+Vehicle S1203_transport_base1 : "{D7663936ABF75FB0}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_base.et" {
+ coords 5479.963 96.151 6112.258
+}
+Vehicle Ural4320_FIA_tanker1 : "{DC1C2350CF665F9E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_tanker.et" {
+ coords 5073.406 55.467 6042.774
+ angleY 122.476
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 5567.08 95.89 6031.976
+}
+$grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+ UAZ469_FIA1 {
+  coords 5524.918 96.296 6022.787
+  angleY 22.141
+ }
+ UAZ469_FIA2 {
+  coords 4700.687 77.439 4863.938
+  angleY 13.525
+ }
+}

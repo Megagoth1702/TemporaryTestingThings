@@ -1,0 +1,34 @@
+PolylineShapeEntity {
+ ID "618333AC8AE1986B"
+ coords 140.466 0.261 186.965
+ Points {
+  ShapePoint "{618333AC0AD156DC}" {
+   Position -5.733 0 7.164
+  }
+  ShapePoint "{618333AC052EA125}" {
+   Position 5.795 0 7.254
+  }
+  ShapePoint "{618333AC0402A3B4}" {
+   Position 5.915 0 -8.036
+  }
+  ShapePoint "{618333AC07234255}" {
+   Position -1.429 0 -8.126
+  }
+  ShapePoint "{618333AC011B30AD}" {
+   Position -1.474 0 -5.984
+  }
+  ShapePoint "{618333AC004FBE21}" {
+   Position -5.823 0 -6.11
+  }
+ }
+ IsClosed 1
+ {
+  SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+   ID "62AE3CAB24C478C2"
+   coords 0 0 0
+   TriggerShapeType Polyline
+   DrawShape 0
+   m_iScorePerTick 5
+  }
+ }
+}

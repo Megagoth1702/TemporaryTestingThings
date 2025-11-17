@@ -1,0 +1,98 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 600
+   }
+  }
+  coords 9448.04 41.01 395.97
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -72.999 -27.074 -93.729
+    angleX 24.765
+    angleY -7.903
+    angleZ -21.186
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 600
+   }
+  }
+  coords 6959.936 69.083 3281.326
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 6971.796 83.313 3074.485
+    angleY 0
+    CompletionRadius 33.4
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 600
+   }
+  }
+  coords 8978.773 191.511 4330.29
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -183.635 -64.212 -422.303
+    angleY 0
+    CompletionRadius 70
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 600
+   }
+  }
+  coords 10516.698 227.331 2525.605
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 9964.851 314.854 2287.201
+    angleY 0
+    CompletionRadius 36.5
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+   }
+  }
+  coords 9468.814 124.506 1301.76
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 9288.166 190.979 1155.269
+    angleY 0
+    CompletionRadius 45.1
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iRespawnPeriod 600
+   }
+  }
+  coords 7213.393 161.59 3315.335
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 123.554 7.362 170.59
+    angleY 0
+    CompletionRadius 23.4
+   }
+  }
+ }
+}

@@ -1,0 +1,258 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ coords 0.625 0 32.526
+ {
+  $grp DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+   {
+    ID "629C00938C1E9141"
+    coords 2.808 0.645 -5.113
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+   {
+    ID "629C00938C1E91D6"
+    coords -6.213 0.175 -0.906
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+   {
+    ID "629C00938C1E9EAD"
+    coords 2.087 0.232 -8.59
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+  }
+  $grp DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
+   {
+    ID "629C00938C1E9137"
+    coords -8.904 0.877 -1.297
+    angleX -89.972
+    angleY 180
+    angleZ -180
+    scale 3.3
+   }
+   {
+    ID "629C00938C1E9EF1"
+    coords 5.299 0.645 -4.962
+    angleX -89.972
+    angleY 180
+    angleZ -180
+    scale 3.3
+   }
+  }
+  $grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+   {
+    ID "629C00938C1E911A"
+    coords -0.026 0.095 -2.536
+    angleX -90
+    angleZ -35.828
+    scale 5.1
+   }
+   {
+    ID "629C00938C1E9159"
+    coords -1.962 0.651 -5.125
+    angleX -89.972
+    angleZ 1.179
+    scale 5.1
+   }
+   {
+    ID "629C00938C1E9161"
+    coords 0.952 0.089 -2.678
+    angleX -89.972
+    angleZ 43.244
+    scale 5.1
+   }
+   {
+    ID "629C00938C1E9194"
+    coords -4.248 0.316 1.655
+    angleX -90
+    angleZ 115.178
+    scale 5.1
+   }
+   {
+    ID "629C00938C1E91C7"
+    coords -4.385 0.175 0.815
+    angleX -90
+    angleZ 74.406
+    scale 5.1
+   }
+   {
+    ID "629C00938C1E9EB0"
+    coords 0.914 0.181 -6.897
+    angleX -89.98
+    angleZ -29.483
+    scale 5.1
+   }
+   {
+    ID "629C00938C1E9EC4"
+    coords 6.292 0.179 -6.029
+    angleX -89.972
+    angleY 180
+    angleZ 7.003
+    scale 5.1
+   }
+  }
+  $grp DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+   {
+    ID "629C00938C1E9109"
+    coords -3.16 -0.034 0.199
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+   {
+    ID "629C00938C1E9172"
+    coords 0.549 0.024 -3.97
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+   {
+    ID "629C00938C1E91F6"
+    coords -5.766 0.683 3.251
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+   {
+    ID "629C00938C1E9ED5"
+    coords 5.43 0.671 -9.843
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 1.5
+   }
+  }
+  $grp StaticModelEntity : "{A94F78B12AB0A197}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Folded_MedicalHeal_Soviet.et" {
+   {
+    ID "62BF692B2925BA50"
+    coords 10.007 0.638 -8.309
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BB0A"
+    coords 9.824 0.827 -4.926
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BB80"
+    coords 5.087 0.638 -4.962
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BB97"
+    coords 2.855 0.642 -5.035
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BB9B"
+    coords 2.861 0.643 -8.624
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BBBE"
+    coords 5.275 0.65 -8.157
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BBC4"
+    coords -6.154 0.65 -1.141
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BBCD"
+    coords -8.922 0.649 -1.127
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BBD3"
+    coords -5.696 0.652 3.605
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BBEA"
+    coords -1.857 0.642 -8.161
+    angleY 0
+   }
+   {
+    ID "62BF692B2925BBF1"
+    coords -1.924 0.642 -4.97
+    angleY 0
+   }
+  }
+  $grp DecalEntity : "{CCE57C4C9C0E5009}Prefabs/Decals/Blood/BloodStain_Small_01.et" {
+   {
+    ID "629C00938C1E9138"
+    coords -8.819 0.165 -0.986
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E9152"
+    coords 2.62 0.168 -5.311
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E91D8"
+    coords -6.245 0.657 -0.765
+    angleX -89.972
+    angleY -180
+    angleZ -44.248
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E9E87"
+    coords -1.946 0.658 -7.544
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E9E89"
+    coords -1.68 0.715 -9.502
+    angleX -90
+    angleZ 81.495
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E9E9C"
+    coords -1.438 0.33 -8.61
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E9ECD"
+    coords 5.717 0.225 -7.775
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 0.8
+   }
+   {
+    ID "629C00938C1E9EE3"
+    coords 5.275 1.124 -6.452
+    angleX -90
+    angleY 180
+    angleZ -180
+    scale 0.8
+   }
+  }
+ }
+}

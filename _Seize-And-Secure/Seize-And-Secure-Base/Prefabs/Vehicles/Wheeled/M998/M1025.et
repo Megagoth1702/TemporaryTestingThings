@@ -1,0 +1,10 @@
+Vehicle : "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+   m_bAllowFlybyFlinch 0
+   m_fSuppressionDampening 0.5
+   m_fExplosionDampening 0.5
+  }
+ }
+}

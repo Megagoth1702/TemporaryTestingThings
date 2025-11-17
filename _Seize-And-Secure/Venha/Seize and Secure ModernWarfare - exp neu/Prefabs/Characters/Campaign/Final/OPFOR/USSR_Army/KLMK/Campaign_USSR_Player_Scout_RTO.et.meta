@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{70CA495DFBD7A7BB}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/KLMK/Campaign_USSR_Player_Scout_RTO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

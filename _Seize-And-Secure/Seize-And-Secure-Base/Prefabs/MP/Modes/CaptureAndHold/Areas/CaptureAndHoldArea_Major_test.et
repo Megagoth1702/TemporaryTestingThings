@@ -1,0 +1,5 @@
+SCR_CaptureAndHoldArea : "{B7DB83A6661A8DB6}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea.et" {
+ ID "560477320F726547"
+ m_iScorePerTick 4
+ m_bIsMajor 1
+}

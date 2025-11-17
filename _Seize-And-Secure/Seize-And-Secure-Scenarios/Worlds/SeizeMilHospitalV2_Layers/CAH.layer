@@ -1,0 +1,156 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Area1 {
+  coords 4996.986 47.276 8942.343
+  {
+   GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+      m_iRandomPercent 50
+     }
+    }
+    coords -18.345 -0.393 4.923
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotB2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{3D68837827C4AEE0}CHZones/MilHosp/CAHAreaB2.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 126.783 37.284 -353.052
+      }
+      SlotB1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{513CB7989B0021CE}CHZones/MilHosp/CAHAreaB1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -126.638 65.471 -866.928
+      }
+      SlotB3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{D8F4CF812B21398B}CHZones/MilHosp/CAHAreaB3.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 401.462 -36.351 -240.277
+      }
+     }
+    }
+   }
+  }
+ }
+ Area2 {
+  coords 4004.896 21.526 8405.677
+  {
+   GenericEntity Layer2 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords -3.057 -0.291 -2.828
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotA1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{C8220E0186E7105E}CHZones/MilHosp/CAHAreaA1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -100.074 -5.959 48.812
+      }
+      SlotA2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{A4763AE13A239F70}CHZones/MilHosp/CAHAreaA2.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -169.552 -5.959 32.079
+      }
+      SlotA3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{41EA761836C6081B}CHZones/MilHosp/CAHAreaA3.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -262.868 -19.845 119.354
+       angleZ -0.895
+      }
+     }
+    }
+   }
+  }
+ }
+ Area3 {
+  coords 4244.89 52.181 7752.153
+  {
+   GenericEntity Layer3 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+      m_iRandomPercent 50
+     }
+    }
+    coords 2.712 0.448 -2.931
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotC1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{2636DF106FA2CEBE}CHZones/MilHosp/CAHAreaC1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -101.645 -16.977 48.471
+      }
+      SlotC3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{AFFEA709DF83D6FB}CHZones/MilHosp/CAHAreaC3.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -211.582 -20.097 98.322
+      }
+      SlotC2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{4A62EBF0D3664190}CHZones/MilHosp/CAHAreaC2.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -426.261 -48.051 4.702
+      }
+      SlotC4 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{92CA8231AAEF5FCC}CHZones/MilHosp/CAHAreaC4.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 498.792 110.859 -446.138
+      }
+     }
+    }
+   }
+  }
+ }
+}

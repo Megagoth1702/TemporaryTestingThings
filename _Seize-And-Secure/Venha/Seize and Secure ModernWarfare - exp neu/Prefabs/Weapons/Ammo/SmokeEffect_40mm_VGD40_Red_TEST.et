@@ -1,0 +1,13 @@
+Projectile : "{EFFF390641684736}Prefabs/Weapons/Ammo/SmokeEffect_40mm_VGD40_White.et" {
+ ID "5A52CD9231D8AB66"
+ components {
+  TimerTriggerComponent "{60F2D6E8520B1C8B}" {
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{62C7537C11EBBD22}" {
+     ParticleEffect "{CBB7B9BB5469C3A1}Particles/VGD40_Red.ptc"
+    }
+   }
+  }
+ }
+ coords 57.44 1.906 5.999
+}

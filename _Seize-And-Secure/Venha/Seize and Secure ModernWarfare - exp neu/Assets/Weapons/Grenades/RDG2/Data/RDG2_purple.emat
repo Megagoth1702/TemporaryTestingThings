@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{28108402B6974050}images/smoke_purple.edds"
+ NMOMap "{294BCF73B5EA9775}Assets/Weapons/Grenades/RDG2/Data/RDG2_NMO.edds"
+}

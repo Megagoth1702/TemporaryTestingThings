@@ -1,0 +1,80 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" : "{A8BF06F28121542F}Configs/Navmesh/Navmesh_CTI_Cain_Soldier.conf" {
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" : "{5DE5D92BD2231C41}Configs/Navmesh/Navmesh_CTI_Cain_Vehicle.conf" {
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
+RadioManagerEntity {
+ coords 12635.195 4.435 10669.189
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 9220.82 1.674 7883.699
+}
+SCR_GameModeCampaign GameMode_Seize1 : "{CE6DD1D3C1BC7366}Prefabs/GameLogic/GameMode_Seize.et" {
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_bTicketScoreSystem 1
+  }
+  SCR_RespawnTimerComponent "{5B2A94A0E605AAFF}" {
+   Enabled 0
+  }
+  SCR_ScoringSystemComponent "{62AD2860C23DCC79}" {
+   m_aActions {
+    EndGameAction "{62AD2860CEF76483}" {
+     m_iScoreLimit 1
+    }
+   }
+  }
+  SCR_WaveRespawnTimerComponent "{62AD2860C0FB2076}" {
+   m_fRespawnTime 60
+  }
+ }
+ coords 9220.051 1.251 7889.173
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 600
+ m_fAcceptableDistanceBetweenFactionHQs 7000
+ m_fPreferredDistanceBetweenFactionHQs 10000
+ m_iMHQRange 1000
+ m_bRandomizeBases 1
+ m_iRandomizeTreshold 7
+ m_bHideBasesOutsideRadioRange 1
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager_Seize.et" {
+ coords 9217.333 1.769 7891.63
+ Factions {
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_bIsPlayable 0
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords 9215.633 1.917 7887.168
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{6244DC984DF5E2FC}" {
+ }
+}
+SCR_MapLocator {
+ coords 9220.104 1.756 7882.396
+ m_WorldDirections SCR_MapLocationQuadHint "{6646763DCAA0E1E3}" : "{D88D1AE761D521FB}Configs/Map/MapLocatorHints/LocationHintsKolguyev.conf" {
+ }
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 9219.24 1.745 7884.434
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 9219.886 1.707 7883.652
+}
+MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
+ coords 9214.145 1.864 7892.451
+}

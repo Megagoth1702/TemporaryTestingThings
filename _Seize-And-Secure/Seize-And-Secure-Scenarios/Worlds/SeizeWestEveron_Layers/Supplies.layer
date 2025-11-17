@@ -1,0 +1,103 @@
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 3740.093 80.264 6609.372
+  angleY -176.136
+ }
+ {
+  coords 2790.719 112.648 5772.375
+  angleX 0.387
+  angleY 167.516
+  angleZ 1.748
+ }
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 3727.169 80.2 6563.592
+  angleY 4.746
+ }
+ {
+  coords 3718.995 80.569 6583.295
+  angleY 93.913
+ }
+ {
+  coords 3796.458 116.148 4904.517
+  angleX -1.789
+  angleY 0.028
+  angleZ -0.896
+ }
+ {
+  coords 3795.536 115.165 4947.522
+  angleX 1.674
+  angleY 96.654
+  angleZ 1.096
+ }
+ {
+  coords 2781.811 112.244 5739.625
+  angleX 0.894
+  angleY 3.342
+  angleZ 0.052
+ }
+}
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 3734.494 80.501 6586.939
+ }
+ {
+  coords 3797.862 115.389 4928.984
+ }
+ {
+  coords 2777.923 112.416 5752.851
+ }
+}
+GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ coords 2773.32 112.051 5746.62
+ angleX 3.4
+ angleY 71.925
+ angleZ -1.109
+}
+$grp GenericEntity : "{BE2B14A482E169F7}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Large_Top_FIA_01_V1.et" {
+ {
+  coords 2768.431 111.405 5764.216
+  angleX 4.509
+  angleY 75.358
+  angleZ -3.938
+ }
+ {
+  coords 2768.142 111.817 5744.641
+  angleX 1.622
+  angleY 65.006
+  angleZ -0.756
+ }
+}
+GenericEntity : "{C74EA351062C4CBB}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_02.et" {
+ coords 2771.912 111.688 5764.878
+ angleX 5.667
+ angleY 136.002
+ angleZ 0.729
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 3740.608 80.512 6560.285
+  angleX 1.37
+  angleY 7.759
+  angleZ -3.422
+ }
+ {
+  coords 3805.626 116.257 4912.218
+  angleX -2.864
+  angleY -83.683
+  angleZ 1.482
+ }
+ {
+  coords 3790.493 115.663 4916.019
+  angleX 0.877
+  angleY 89.43
+  angleZ -1.798
+ }
+ {
+  coords 2779.799 112.325 5770.47
+  angleX 0.97
+  angleY 169.598
+  angleZ 5.267
+ }
+}

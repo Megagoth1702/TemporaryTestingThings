@@ -1,0 +1,109 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ AreaB {
+  coords 4595.663 14.866 10413.434
+  {
+   GenericEntity LayerB : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      Slot_B_1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{2082AC520D7C49BF}CHZones/StPhilippeV3/CAHAreaB1.et"
+        }
+       }
+       coords -61.044 -0.332 -20.029
+       angleY 22.269
+      }
+      Slot_B_2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{4CD698B2B1B8C691}CHZones/StPhilippeV3/CAHAreaB2.et"
+        }
+       }
+       coords -48.33 2.978 89.486
+      }
+      Slot_B_3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{A94AD44BBD5D51FA}CHZones/StPhilippeV3/CAHAreaB3.et"
+        }
+       }
+       coords 39.184 3.192 154.907
+       angleZ -1.79
+      }
+      Slot_B_4 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{947EF173C831D8CD}CHZones/StPhilippeV3/CAHAreaB4.et"
+        }
+       }
+       coords 17.125 4.383 254.318
+       angleX 1.281
+       angleY -10.312
+       angleZ -2.96
+      }
+     }
+    }
+   }
+  }
+ }
+ AreaC {
+  coords 4624.243 25.804 11164.751
+  {
+   GenericEntity LayerC : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+      Slot_C_1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5788C4DAF9DEA6CF}CHZones/StPhilippeV3/CAHAreaC1.et"
+        }
+       }
+       coords -6.966 0.316 -14.768
+       angleX -0.887
+       angleY 0.083
+       angleZ -5.357
+      }
+      Slot_C_2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{3BDCF03A451A29E1}CHZones/StPhilippeV3/CAHAreaC2.et"
+        }
+       }
+       coords -183.97 -24.148 -136.694
+       angleY 29.633
+      }
+      Slot_C_3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{DE40BCC349FFBE8A}CHZones/StPhilippeV3/CAHAreaC3.et"
+        }
+       }
+       coords -316.862 -24.079 -231.827
+      }
+      Slot_C_4 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{E37499FB3C9337BD}CHZones/StPhilippeV3/CAHAreaC4.et"
+        }
+       }
+       coords -152.967 -15.009 -212.396
+      }
+     }
+    }
+   }
+  }
+ }
+}

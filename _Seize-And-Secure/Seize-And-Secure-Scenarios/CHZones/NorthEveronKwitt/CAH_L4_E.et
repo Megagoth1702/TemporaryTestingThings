@@ -1,0 +1,12 @@
+SCR_CaptureAndHoldArea : "{B7DB83A6661A8DB6}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea.et" {
+ ID "560477320F726547"
+ TriggerShapeType Sphere
+ SphereRadius 70
+ DrawShape 0
+ m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+ m_fTickRate 10
+ m_iScorePerTick 1
+ m_bIsMajor 1
+ m_bEnableScoring 0
+ m_sAssignedName "Layer4"
+}

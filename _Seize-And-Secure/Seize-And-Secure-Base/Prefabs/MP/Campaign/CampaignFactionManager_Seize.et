@@ -1,0 +1,975 @@
+SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "50A6CDA4F7C1474A"
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{61B0889162E62027}" {
+     m_iGroupSize 3
+    }
+    SCR_GroupRolePresetConfig "{61B0889160C9218A}" {
+     m_iGroupSize 3
+    }
+    SCR_GroupRolePresetConfig "{61B0889161340871}" {
+     m_iGroupSize 3
+    }
+    SCR_GroupRolePresetConfig "{631F062D4EB2C956}" {
+     m_iGroupSize 3
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F14BDB1A7}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{6114C2A19488A2CB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6114C2A1831C6476}" {
+           m_eRequiredRoles {
+            MEDIC ANTI_TANK SQUAD_LEADER PILOT CREWMAN RADIO_OPERATOR
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6114C2A19B7F153C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6114C2A1F2D42E9E}" {
+           m_eRequiredRoles {
+            MEDIC ANTI_TANK SQUAD_LEADER PILOT CREWMAN RADIO_OPERATOR
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF5297B987}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DE8D4765BD}" {
+           m_eRequiredRoles {
+            AUTORIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{605ECB2C8F234B78}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{605ECB2CF95CBC2B}" {
+           m_eRequiredRoles {
+            AUTORIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF50ACF66F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DE89845D54}" {
+           m_eRequiredRoles {
+            MACHINEGUNNER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF5E8D492A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEB4217B40}" {
+           m_eRequiredRoles {
+            MEDIC RIFLEMAN RADIO_OPERATOR AMMO_BEARER SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{60E8C6E812E22C57}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60E8C6E81EA2129C}" {
+           m_eRequiredRoles {
+            SNIPER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF5CF57E20}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEB0A511F5}" {
+           m_eRequiredRank SERGEANT
+           m_eRequiredRoles {
+            ANTI_TANK COMBAT_ENGINEER SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65B0FAE029B5089E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65B0FAE029B509C4}" {
+           m_eRequiredRank SERGEANT
+           m_eRequiredRoles {
+            ANTI_TANK COMBAT_ENGINEER SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907ED2298E83B}" {
+         m_sEntityPrefab "{1B332B99C72DAF8B}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4_1P29.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907ED244E89CD}" {
+           m_eItemMode WEAPON
+           m_iSupplyCost 70
+           m_eRequiredRank LIEUTENANT
+           m_eRequiredRoles {
+            SQUAD_LEADER
+           }
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F148714C4}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5CB8994131EF701D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899413DA31DAC}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C9756415D96A0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C97564BA2A952}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF594F5F3C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEA31337A1}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF598D6455}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEA28B4362}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8BA85269B012F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8BA85192BF160}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8BA852EC230A4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8BA850EDA249C}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF58ED03D0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEAF6748F3}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62DE9B733C9BA2D5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62DE9B733C9BA366}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F137C9AFF}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7DF5AE77809}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEBB8F5AF2}" {
+           m_eRequiredRoles {
+            SNIPER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{605ECB2AF9F37DF5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{605ECB2AE1BFBE86}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER SNIPER RADIO_OPERATOR RIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{605ECB2E075A0DFE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{605ECB2E789DEFEA}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER ANTI_TANK
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609C981C783E69E4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609C981C61EE4D7D}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1D98880569B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1D9EBD32B2B}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER COMBAT_ENGINEER RIFLEMAN MEDIC
+           }
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F1351A624}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7DF574D96D7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DE9C66C645}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF47B8BF41}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DEAEC68866}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER ANTI_TANK AMMO_BEARER
+           }
+           m_eExcludedRoles {
+            MEDIC
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{618887A369EADA91}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D838B75E1B}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5F1A7E9771B2FCEB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CA0A9E6C9E91F70}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CB923CC26005F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CB923D2B479EC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CB923D0AA0325}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F7414CA4A}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{61B0B87C17ABF7C0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61B0B87C17ABF7AC}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907E0CA8654DA}" {
+         m_sEntityPrefab "{4FC5C3837FD632B7}Prefabs/Items/Equipment/Radios/Radio_R148_Single_Channel.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907E0CD9D6DF2}" {
+           m_eItemType EQUIPMENT
+           m_iSupplyCost 0
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F13464B23}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7DF29BEC020}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DE9097C402}" {
+           m_eRequiredRoles {
+            MEDIC
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{61A6B125A4D8D0AB}" {
+     m_iGroupSize 3
+    }
+    SCR_GroupRolePresetConfig "{61A6B125F93440FE}" {
+     m_iGroupSize 3
+    }
+    SCR_GroupRolePresetConfig "{61A6B125F8591980}" {
+     m_iGroupSize 3
+    }
+    SCR_GroupRolePresetConfig "{631F062CBD851F18}" {
+     m_iGroupSize 3
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AB9FBDDC}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{606084A38DD832AB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{606084A2D4725669}" {
+           m_eRequiredRoles {
+            MEDIC ANTI_TANK SQUAD_LEADER PILOT CREWMAN RADIO_OPERATOR
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{606084A3E362E9A4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{606084A2ED9ACBA2}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851EB5F91000}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851EA990ABFD}" {
+           m_eRequiredRoles {
+            MEDIC ANTI_TANK SQUAD_LEADER PILOT CREWMAN RADIO_OPERATOR
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851E98807F03}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851E81EA9A31}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1A5D3BAAB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D192158905}" {
+           m_eRequiredRoles {
+            MEDIC ANTI_TANK SQUAD_LEADER PILOT CREWMAN RADIO_OPERATOR
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1A6F4AFD6}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D1878DB28A}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8EA121E09}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D876479B4D}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8E95012DA}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D875A05D99}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851EF5DF33EC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851EE52E3D72}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851ED35C479A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851EDB7A0172}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1ED7572A2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D1D8C4B63C}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1EE4B2D11}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D1380AB089}" {
+           m_eRequiredRoles {
+            GRENADIER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81660D0B9}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D87D91AC38}" {
+           m_eRequiredRoles {
+            AUTORIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8140863A6}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D867B8DFDC}" {
+           m_eRequiredRoles {
+            MACHINEGUNNER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8128DB218}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D860F26C5A}" {
+           m_eRequiredRoles {
+            MEDIC RIFLEMAN RADIO_OPERATOR AMMO_BEARER SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{60E8C57B23D205BE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60E8C57B2E8E947E}" {
+           m_eRequiredRoles {
+            SNIPER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D810F58511}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D86D938060}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907E15590AD19}" {
+         m_sEntityPrefab "{BFF3186D2A9CEFB7}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_AP2k.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907E1220BF387}" {
+           m_eItemMode WEAPON
+           m_iSupplyCost 12
+           m_eRequiredRank CORPORAL
+           m_eRequiredRoles {
+            MEDIC ANTI_TANK SQUAD_LEADER PILOT CREWMAN RADIO_OPERATOR
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907E11A13F9CD}" {
+         m_sEntityPrefab "{29DD901C0664FC61}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_suppressor_4x20_OliveGreen_Sand_Stripes.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907E6F2FE75E8}" {
+           m_eItemMode WEAPON_VARIANTS
+           m_iSupplyCost 50
+           m_eRequiredRank LIEUTENANT
+           m_eRequiredRoles {
+            SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907E111C04936}" {
+         m_sEntityPrefab "{877128FBE22FF2C9}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_suppressor_AP2K_OliveGreen_Sand_Stripes.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907E6F16B1D48}" {
+           m_eItemMode WEAPON_VARIANTS
+           m_iSupplyCost 40
+           m_eRequiredRank LIEUTENANT
+           m_eRequiredRoles {
+            SQUAD_LEADER
+           }
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{615C8771AF5329F3}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C87719BA90BE5}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C877191E9B5F0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C8771FC1C6053}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C8771926ED950}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C8771E9B1CE4F}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F15317B6FD3C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F15350F0068E}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530A6419E6}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F150BBDC5D4F}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530C9356E4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F150AD980E9F}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530D8D9237}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F15088AC49EB}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F1530EC09F1C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F150F8E3D90E}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB8994A0996F564}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB8994A7347CD36}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81EA1A633}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF96C89A81}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81D0E5581}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF94CA2FF2}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB899478684136C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899468928129D}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89946F93DA322}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946D3E242B5}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89946C0314ED7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_ePriviledgedRoles {
+            CREWMAN AMMO_BEARER
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA315A22}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D81F1DA879}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D86AED1F20}" {
+           m_eRequiredRoles {
+            SNIPER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81E6DD8F0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8680EBEA9}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER SNIPER RADIO_OPERATOR RIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851ECE0460DF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851E3D23D6B8}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER SNIPER RADIO_OPERATOR RIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D11C0FE0B2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D108EFB136}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER SNIPER RADIO_OPERATOR RIFLEMAN
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6060849C4DDEE042}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{606084A3AC514F5E}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER MEDIC RADIO_OPERATOR COMBAT_ENGINEER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851E1252D663}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851E1E634B27}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER MEDIC RADIO_OPERATOR COMBAT_ENGINEER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D11E793AEC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D17FD2FCD9}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER MEDIC RADIO_OPERATOR COMBAT_ENGINEER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1DBAF3BE59D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1DA449C911A}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER COMBAT_ENGINEER RIFLEMAN MEDIC
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1DA6017A6B5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1D9B47FCE22}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER COMBAT_ENGINEER RIFLEMAN MEDIC
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1DA6168F0D7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1D9A257092A}" {
+           m_eRequiredRoles {
+            SQUAD_LEADER COMBAT_ENGINEER RIFLEMAN MEDIC
+           }
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5CA0A9E60B892D2A}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5CA0A9E6C9E91F08}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CA0A9E6C9E91F0E}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CA0A9E6C9E91F72}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CA0A9E6C9E91F70}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER ANTI_TANK AMMO_BEARER
+           }
+           m_eExcludedRoles {
+            MEDIC
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{618887A35A01F86F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D838B75E1B}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5F10BCD4505D622D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CA0A9E6C9E91F70}" {
+           m_eRequiredRoles {
+            COMBAT_ENGINEER SQUAD_LEADER
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CB540804A3CAB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CBA01E6EA6FBB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CBA01F3FE2E11}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615CBA01F48CDB31}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{60AAE47ADF734B45}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59F0753ABE}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F3ED7EFC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8252AE980}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61B0B87C2165ED5E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61B0B87C2165ED22}" {
+           m_ePriviledgedRoles {
+            MORTARMAN
+           }
+           m_bIgnoreRankIfRole 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907E31D513A36}" {
+         m_sEntityPrefab "{EE5D345CADFF2679}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_Single_Channel.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907E0EF70FF7F}" {
+           m_eItemType EQUIPMENT
+           m_iSupplyCost 0
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F231A82E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D82341C942}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FAC4E6DA}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D85CB4885C}" {
+           m_eRequiredRoles {
+            MEDIC
+           }
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA1A6D59}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5D7ED94F860FDEBF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D7ED94F2FFE081B}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F15A92106064}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F15A9D5046CE}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E6CD7DF6B2520A5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E6CD7DF52C0AD25}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D8F15A66D29990}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D8F159AA1D896D}" {
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{645907E65516AD3D}" {
+         m_sEntityPrefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{645907E624715A16}" {
+           m_eItemType HEADWEAR
+           m_iSupplyCost 2
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

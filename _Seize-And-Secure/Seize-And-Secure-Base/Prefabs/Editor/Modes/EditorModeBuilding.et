@@ -1,0 +1,33 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "518A34314C7CB324"
+ components {
+  SCR_ContentBrowserEditorComponent "{597071D8310A282F}" {
+   m_aContentBrowserTabStates {
+    SCR_EditorContentBrowserSaveStateDataUI "{612D250C1E2DD60A}" {
+     m_iSavedLabels {
+      300
+     }
+     m_BrowserStateUIInfo SCR_UIInfo "{612D2513ECEDB2B8}" {
+      Icon "{CD975FD1D8625C80}UI/Textures/Editor/Attributes/FreeRoamBuilding/Support_Assets_Tab-64.edds"
+     }
+    }
+    SCR_EditorContentBrowserSaveStateDataUI "{612D2513CC0414AB}" {
+     m_iSavedLabels {
+      301
+     }
+     m_BrowserStateUIInfo SCR_UIInfo "{612D2513DB99AC27}" {
+      Icon "{EC1F7854DE6EF4F1}UI/Textures/Editor/Attributes/FreeRoamBuilding/Fortification_Tab-64.edds"
+     }
+    }
+    SCR_EditorContentBrowserSaveStateDataUI "{612D2513D2B56E85}" {
+     m_iSavedLabels {
+      302
+     }
+     m_BrowserStateUIInfo SCR_UIInfo "{612D2513AABB3FED}" {
+      Icon "{8067B9056CADF1E4}UI/Textures/Editor/Attributes/FreeRoamBuilding/Single_objects_Tab-64.edds"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,209 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{62A0D40D71AD823B}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{3D08F0F26F771347}worlds/MP/Navmeshes/CTI_Campaign_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 7114.536 103.491 6280.017
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7114.536 103.568 6279.017
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 7113.755 103.973 6280.39
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 7113.711 103.945 6280.209
+}
+SCR_GameModeCampaign GameMode_Seize1 : "{CE6DD1D3C1BC7366}Prefabs/GameLogic/GameMode_Seize.et" {
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_bPersistentAreaFactions 0
+   m_bBaseCaptureScore 40
+   m_bTicketScoreSystem 1
+  }
+  SCR_ScoringSystemComponent "{62AD2860C23DCC79}" {
+   m_aActions {
+    EndGameAction "{62AD2860CEF76483}" {
+     m_iScoreLimit 1
+    }
+   }
+  }
+  SCR_WaveRespawnTimerComponent "{62AD2860C0FB2076}" {
+   Enabled 0
+  }
+ }
+ coords 4554.043 16.042 10472.874
+ m_iControlPointsThreshold 7
+ m_fVictoryTimer 600
+ m_iSuppliesReplenishThreshold 1000
+ m_iQuickSuppliesReplenishThreshold 200
+ m_iRegularSuppliesIncome 100
+ m_iRegularSuppliesIncomeBase 4
+ m_iRegularSuppliesIncomeExtra 0
+ m_iMinStartingSupplies 100
+ m_iMaxStartingSupplies 500
+ m_bShowBattlePrepTimer 1
+ MHQ_SPAWN_PREFAB "{6D282026AB95FC81}Prefabs/MP/Campaign/MHQ_Spawn_Prefab/CampaignMobileAssemblySpawnpoint_0k.et"
+ m_bEnableScaledRespawnTimer 1
+ m_bScaleRespawnTimer 1
+ m_bHideBasesOutsideRadioRange 1
+ m_bHideCAHZonesOutsideRadioRange 1
+}
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager_Seize.et" {
+ coords 7114.536 103.319 6281.017
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{62A0D4010BF4AD16}" {
+       m_sEntityPrefab "{02684BABBA1373C7}Prefabs/Characters/Factions/OPFOR/USSR_Army/NorthEveron/Character_USSR_SS_SL.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62A0D401FD1318D6}" {
+         m_fSpawnSupplyCost 40
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{62A0D402549E2CFF}" {
+       m_sEntityPrefab "{06E74A762B2C7DAF}Prefabs/Characters/Factions/OPFOR/USSR_Army/NorthEveron/Character_USSR_SS_Rifleman.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62A0D402488C768E}" {
+         m_fSpawnSupplyCost 20
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{62A0D402559A6D3E}" {
+       m_sEntityPrefab "{65F87BEA80A6D12E}Prefabs/Characters/Factions/OPFOR/USSR_Army/NorthEveron/Character_USSR_SS_Medic.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62A0D402307C7AB3}" {
+         m_fSpawnSupplyCost 30
+        }
+       }
+      }
+     }
+    }
+   }
+   m_aStartingVehicles {
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{62A0D4020C62898D}" {
+       m_sEntityPrefab "{193E957ADC049B9E}Prefabs/Characters/Factions/BLUFOR/US_Army/NorthEveron/Character_US_SS_SL.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62A0D402E8FAF7B4}" {
+         m_fSpawnSupplyCost 40
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{62A0D4020C95D89B}" {
+       m_sEntityPrefab "{106303B91C9CCEC4}Prefabs/Characters/Factions/BLUFOR/US_Army/NorthEveron/Character_US_SS_Rifleman.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62A0D402E72E4903}" {
+         m_fSpawnSupplyCost 20
+        }
+       }
+      }
+      SCR_EntityCatalogEntry "{62A0D4020DEBFAB1}" {
+       m_sEntityPrefab "{B8CF969511EFF7CE}Prefabs/Characters/Factions/BLUFOR/US_Army/NorthEveron/Character_US_SS_Medic.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogLoadoutData "{62A0D402E29D027C}" {
+         m_fSpawnSupplyCost 30
+        }
+       }
+      }
+     }
+    }
+   }
+   m_aStartingVehicles {
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_BaseBuildingHQ "{B9D6224981D12A17}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_05.et"
+   m_BaseBuildingSupplyDepot ""
+  }
+ }
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "CampaignFactionManager: "\
+   "Make sure one faction is non-playable to use for Independent units."
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_BaseTaskManager CampaignTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 7114.536 103.198 6282.017
+}
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ coords 5095.645 39.192 10417.969
+}
+RadioBroadcastManager : "{66B93BC296E2F977}Prefabs/Radio/RadioBroadcastManager.et" {
+ coords 7113.699 103.948 6280.167
+}
+GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ coords 5085.926 39.192 10417.969
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 7113.755 103.934 6280.335
+}
+SCR_LoadoutManager : "{ACE69E6767108AF9}Prefabs/MP/Campaign/Restricted_CampaignLoadoutManager_CustomSaved.et" {
+ coords 4725.781 15.194 10138.017
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{613172A55BE781B5}" {
+   m_sLoadoutResource "{06E74A762B2C7DAF}Prefabs/Characters/Factions/OPFOR/USSR_Army/NorthEveron/Character_USSR_SS_Rifleman.et"
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011741AC69}" {
+   m_sLoadoutResource "{02684BABBA1373C7}Prefabs/Characters/Factions/OPFOR/USSR_Army/NorthEveron/Character_USSR_SS_SL.et"
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011A97828B}" {
+   m_sLoadoutResource "{65F87BEA80A6D12E}Prefabs/Characters/Factions/OPFOR/USSR_Army/NorthEveron/Character_USSR_SS_Medic.et"
+  }
+  SCR_FactionPlayerLoadout "{613172A557E578D9}" {
+   m_sLoadoutResource "{106303B91C9CCEC4}Prefabs/Characters/Factions/BLUFOR/US_Army/NorthEveron/Character_US_SS_Rifleman.et"
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011F0BBD49}" {
+   m_sLoadoutResource "{193E957ADC049B9E}Prefabs/Characters/Factions/BLUFOR/US_Army/NorthEveron/Character_US_SS_SL.et"
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E092A601}" {
+   m_sLoadoutResource "{B8CF969511EFF7CE}Prefabs/Characters/Factions/BLUFOR/US_Army/NorthEveron/Character_US_SS_Medic.et"
+  }
+ }
+}

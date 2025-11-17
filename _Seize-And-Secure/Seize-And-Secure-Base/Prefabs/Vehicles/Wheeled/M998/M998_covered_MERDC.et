@@ -1,0 +1,16 @@
+Vehicle : "{B55C6990A6A9411B}Prefabs/Vehicles/Wheeled/M998/M998_covered.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_ResourceComponent "{5D8356123028E721}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{5DAD42B01DBBFE8C}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC7798CC4B30}" {
+       m_fResourceValueCurrent 10
+      }
+     }
+    }
+   }
+  }
+ }
+}

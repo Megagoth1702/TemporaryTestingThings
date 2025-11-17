@@ -1,0 +1,187 @@
+$grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ CP_Villa {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_Villa"
+    m_bHasGroup 1
+    m_sGroupName "CP_West"
+   }
+  }
+  coords 1950.652 132.837 7401.3
+  angles 0 -89.557 0
+  {
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 26.914 1.365 8.287
+   }
+  }
+ }
+ CP_Crossroad {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_NorthernCrossroad_Base"
+    m_bHasGroup 1
+    m_sGroupName "CP_East"
+   }
+  }
+  coords 8558.84 96.042 9375.523
+  angles 0 137.162 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords -0.486 -0.136 17.145
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 34.508 0.116 0.06
+   }
+  }
+ }
+ CP_Gorshkovo {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_Gorshkovo"
+    m_bHasGroup 1
+    m_sGroupName "CP_Central"
+   }
+  }
+  coords 8422.396 22.727 6591.912
+  angles 0 13.99 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords 12.026 0 10.779
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 16.132 1.049 -17.214
+   }
+  }
+ }
+ CP_Kamensk {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_Kamensk"
+    m_sGroupName "CP_East"
+   }
+  }
+  coords 11866.496 8.292 10679.665
+  angles -2.121 -15.205 2.43
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords -1.47 -0.386 7.776
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 14.95 2.272 49.554
+   }
+  }
+ }
+ CP_Mine {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_KrasnyyOktyabrMine"
+    m_bHasGroup 1
+    m_sGroupName "CP_West"
+   }
+  }
+  coords 3673.705 179.84 5223.48
+  angles 0 -22.276 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords 3.745 -0.171 2.973
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 12.131 -0.628 24.466
+   }
+  }
+ }
+ CP_Mineraly {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_Mineraly"
+    m_bHasGroup 1
+    m_sGroupName "CP_Central"
+   }
+  }
+  coords 6321.753 37.374 8011.786
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords -11.035 0.126 26.671
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords -1.686 -0.146 3.003
+   }
+  }
+ }
+ CP_Ugoldar {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_iRadius 200
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 200
+    m_sBaseName "#AR-MapLocation_Cain_Ugoldar"
+    m_bHasGroup 1
+    m_sGroupName "CP_Central"
+   }
+  }
+  coords 6641.521 25.849 3906.74
+  angles 0 140.263 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords -23.377 0.469 6.371
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 1.366 -0.133 3.003
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+StaticModelEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 50
+   CenterOfMass 0 0.2 0
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  ActionsManagerComponent "{629CFB1B726C4AC1}" {
+   ActionContexts {
+    UserActionContext "{629CFB1B73775BAB}" {
+     ContextName "default"
+     Position PointInfo "{629CFB1B774D5942}" {
+     }
+    }
+   }
+   additionalActions {
+    Iron_HealYourselfUserAction "{629CFB1B7CDFF728}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{629CFB1B435B1FA3}" {
+      Name "Heal Injuries"
+     }
+     Duration 15
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+  Hierarchy "{62BF55735918D330}" {
+  }
+ }
+ coords -2.469 0.641 -6.184
+ angleY -99.939
+}

@@ -1,0 +1,5 @@
+# Logs and databases #
+######################
+*.rdb
+/bfg.jar
+/.git.bfg-report

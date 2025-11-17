@@ -1,0 +1,86 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 4999.593 25.526 9944.768
+ }
+ {
+  coords 4868.162 110.314 8083.685
+ }
+}
+$grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ {
+  coords 4842.257 112.567 8097.551
+  angleX -7.622
+  angleY 82.951
+  angleZ 3.617
+ }
+ {
+  coords 4999.239 26.156 9923.924
+  angleX -2.678
+  angleY 0.126
+  angleZ -2.687
+ }
+}
+$grp GenericEntity : "{BA80DD7144145924}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Large_FIA_01_V1.et" {
+ {
+  coords 4865.995 112.263 8068.905
+  angleX -10.294
+  angleY 35.59
+  angleZ -0.828
+ }
+ {
+  coords 4839.017 113.232 8098.089
+  angleX -7.444
+  angleY 80.259
+  angleZ 3.97
+ }
+}
+$grp GenericEntity : "{BE2B14A482E169F7}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Large_Top_FIA_01_V1.et" {
+ {
+  coords 4853.059 111.903 8076.81
+  angleY 48.705
+ }
+ {
+  coords 4881.923 113.508 8063.024
+  angleX -10.771
+ }
+}
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 4855.704 112.262 8077.673
+  angleX -5.682
+  angleY 57.377
+  angleZ -0.6
+ }
+ {
+  coords 4866.082 112.029 8069.167
+  angleX -10.321
+  angleY 32.893
+  angleZ -0.346
+ }
+ {
+  coords 4984.465 25.195 9958.935
+  angleX 0.895
+  angleY 90.695
+  angleZ 0.011
+ }
+ {
+  coords 4986.576 25.773 9937.787
+  angleX -0.895
+  angleY 89.375
+  angleZ 0.01
+ }
+}
+$grp GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
+ {
+  coords 4881.161 111.997 8066.052
+  angleX -12.321
+  angleY -0.404
+  angleZ 2.708
+ }
+ {
+  coords 5025.957 26.81 9958.105
+  angleX -0.096
+  angleY -2.046
+  angleZ -2.682
+ }
+}

@@ -1,0 +1,10 @@
+Projectile : "{AC29AE3D5ECD6390}Prefabs/Weapons/Ammo/Ammo_762x54r_Ball_57N323S.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  IRON_SUP_ProjectileComponent "{64A958E6C36A4DA2}" {
+   m_fCaliberMultiplier 1.2
+   m_fMinimumFlybyRange 2
+   m_fMaximumFlybyRange 9
+  }
+ }
+}

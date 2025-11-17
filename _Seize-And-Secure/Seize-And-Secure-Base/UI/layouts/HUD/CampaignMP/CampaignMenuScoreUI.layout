@@ -1,0 +1,14 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5A028260BAAE7ADF}" {
+   Prefab "{5A028260BAAE7ADF}"
+   {
+    HorizontalLayoutWidgetClass "{60C9614B03CDF700}" {
+     Name "HorizontalLayout0"
+     Slot OverlayWidgetSlot "{60C9614B03CDF73C}" {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,590 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ A_PierreFortifications {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_iRandomPercent 50
+   }
+  }
+  coords 9700.199 12.665 1542.997
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_PierreBunkers {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 2.077 -0.104 3.063
+     {
+      GenericEntity L_PierreChurch : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+       coords -26.393 6.293 35.388
+       {
+        GenericEntity Slot_NoGarbageNoDespawn100 : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{C7DA8607C3B3057E}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallBurlap_S_USSR_01.et"
+          }
+         }
+         coords 3.758 14.292 23.192
+         angleY -41.194
+        }
+       }
+      }
+     }
+    }
+    L_SandbagWalls {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 11.986 -0.104 3.063
+     {
+      $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+       L_PierreWall1 {
+        coords 18.191 -0.153 -49.572
+        {
+         $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+          Slot_NoGarbageNoDespawn69 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 4.73 -1.021 72.033
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn71 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 4.881 -1.021 69.384
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn72 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.035 -1.021 66.669
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn73 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.184 -1.021 64.02
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn74 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.332 -1.021 61.341
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn75 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.481 -1.021 58.657
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn76 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.631 -1.021 56.028
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn77 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.779 -1.021 53.367
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn78 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 5.929 -1.021 50.716
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn79 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 6.081 -1.021 48.032
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn80 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 6.229 -1.021 45.353
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn81 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 6.376 -1.021 42.736
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn82 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 6.527 -1.021 40.038
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn83 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 6.675 -1.021 37.393
+           angleY -93.214
+          }
+          Slot_NoGarbageNoDespawn84 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.465 -1.021 36.166
+           angleY 176.392
+          }
+          Slot_NoGarbageNoDespawn85 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 9.371 -1.021 34.355
+           angleY -93.585
+          }
+          Slot_NoGarbageNoDespawn86 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 9.533 -1.021 31.757
+           angleY -93.585
+          }
+          Slot_NoGarbageNoDespawn87 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 9.695 -1.021 29.162
+           angleY -93.585
+          }
+          Slot_NoGarbageNoDespawn88 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 9.862 -1.021 26.501
+           angleY -93.585
+          }
+          Slot_NoGarbageNoDespawn89 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 10.029 -1.021 23.836
+           angleY -93.585
+          }
+          Slot_NoGarbageNoDespawn90 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 10.099 -1.021 22.736
+           angleY -93.585
+          }
+          Slot_NoGarbageNoDespawn91 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.302 -1.021 21.876
+           angleY -3.549
+          }
+          Slot_NoGarbageNoDespawn92 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 7.52 -1.021 20.058
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn93 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 7.663 -1.021 17.383
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn94 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 7.807 -1.021 14.724
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn95 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 7.95 -1.021 12.06
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn96 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.094 -1.021 9.423
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn97 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.233 -1.021 6.773
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn98 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.38 -1.021 4.065
+           angleY -93.09
+          }
+          Slot_NoGarbageNoDespawn99 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.523 -1.021 1.392
+           angleY -93.09
+          }
+         }
+        }
+       }
+       L_PierreWall2 {
+        coords -21.042 4.163 26.416
+        {
+         $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+          Slot_NoGarbageNoDespawn70 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords -10.912 -0.007 -7.106
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn101 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords -8.642 -0.007 -5.657
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn102 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords -6.409 -0.007 -4.235
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn103 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords -4.172 -0.007 -2.807
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn104 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords -1.912 -0.007 -1.367
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn105 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 0.335 -0.007 0.066
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn106 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 2.559 -0.007 1.483
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn107 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 4.774 -0.007 2.896
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn108 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 7.024 -0.007 4.331
+           angleY -32.517
+          }
+          Slot_NoGarbageNoDespawn109 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 8.144 -0.007 5.991
+           angleY -122.56
+          }
+          Slot_NoGarbageNoDespawn110 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 6.708 -0.007 8.239
+           angleY -122.56
+          }
+          Slot_NoGarbageNoDespawn111 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 14.146 -0.139 13.382
+           angleY -122.56
+          }
+          Slot_NoGarbageNoDespawn112 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 15.546 -0.139 11.185
+           angleY -123.616
+          }
+          Slot_NoGarbageNoDespawn113 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 17.425 -0.139 11.574
+           angleY -33.706
+          }
+          Slot_NoGarbageNoDespawn114 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 19.573 -0.139 13.005
+           angleY -33.706
+          }
+          Slot_NoGarbageNoDespawn115 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 21.779 -0.139 14.477
+           angleY -33.706
+          }
+          Slot_NoGarbageNoDespawn116 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 23.976 -0.139 15.943
+           angleY -33.706
+          }
+          Slot_NoGarbageNoDespawn117 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 26.178 -0.139 17.412
+           angleY -33.706
+          }
+          Slot_NoGarbageNoDespawn118 {
+           components {
+            SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+             m_sObjectToSpawn "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et"
+            }
+           }
+           coords 28.419 -0.139 18.91
+           angleY -33.706
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_PierreRoadblocks {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_SpawnChildren RANDOM_MULTIPLE
+    m_iRandomPercent 50
+   }
+  }
+  coords 9670.091 18.742 1581.585
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_PierreRoadblocks1 {
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       Slot_NoGarbageNoDespawn66 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+         }
+        }
+        coords -22.737 -0.936 12.747
+        angleX 2.785
+        angleY -8.292
+        angleZ 0.498
+       }
+       Slot_NoGarbageNoDespawn119 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et"
+         }
+        }
+        coords -15.137 -0.549 17.816
+        angleX -0.003
+        angleY -8.292
+        angleZ 0
+       }
+       Slot_NoGarbageNoDespawn120 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et"
+         }
+        }
+        coords -9.813 1.335 18.592
+        angleX -0.259
+        angleY -8.146
+        angleZ -19.92
+       }
+      }
+     }
+    }
+    L_PierreRoadblocks2 {
+     coords 162.867 -11.002 4.103
+     {
+      GenericEntity Slot_NoGarbageNoDespawn67 : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et"
+        }
+       }
+       coords -1.692 0.023 0.196
+       angleX -1.265
+       angleY 42.818
+       angleZ 0.048
+      }
+     }
+    }
+    L_PierreRoadblocks3 {
+     coords 61.262 -4.97 -131.099
+     {
+      GenericEntity Slot_NoGarbageNoDespawn68 : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+        }
+       }
+       coords 1.159 0.181 -2.18
+       angleX 4.553
+       angleY 170.649
+       angleZ 0.156
+      }
+     }
+    }
+   }
+  }
+ }
+}

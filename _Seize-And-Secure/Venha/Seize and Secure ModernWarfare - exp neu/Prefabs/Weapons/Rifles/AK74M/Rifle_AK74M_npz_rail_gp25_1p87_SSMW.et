@@ -1,0 +1,36 @@
+GenericEntity : "{F9DF0AA717A9A9A1}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_GP25.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+    AttachmentSlotComponent "{5A7332ECF23FF6A5}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset -0.0067 -0.0019 -0.0007
+      Prefab "{39CB6FD1854B44B6}Prefabs/Weapons/Attachments/Rails/npz_valdai_rail/npz_valdai_rail.et"
+     }
+    }
+    AttachmentSlotComponent "{5E9CA21FA76B5BFB}" {
+     AttachmentSlot InventoryStorageSlot gp_buttpad {
+      Prefab "{D901305DD97960AD}Prefabs/Weapons/Attachments/Misc/AkGpButtPad/akGPbutt.et"
+     }
+    }
+    AttachmentSlotComponent "{65A730016DD81B16}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      PivotID "eye"
+      Offset 0 -0.0007 0.1313
+      Prefab "{B0D87E5898D91004}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_low.et"
+      m_fMaximumPositiveSlideOffset 0.09
+      m_fMaximumNegativeSlideOffset -0.07
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{65A730016DD81B62}" {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,133 @@
+$grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_iRespawnPeriod 300
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_HELICOPTER
+    }
+    m_aExcludedEditableEntityLabels {
+     TRAIT_ARMED
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7627.182 17.594 4753.499
+  angles 0 -166.152 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+     TRAIT_PASSENGERS_LARGE
+     TRAIT_SUPPLYSTORAGE_LARGE
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7535.258 21.344 4853.799
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+     TRAIT_PASSENGERS_LARGE
+     TRAIT_SUPPLYSTORAGE_LARGE
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7537.292 21.344 4868
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+     TRAIT_MEDICAL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7538.151 21.344 4878.764
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aExcludedEditableEntityLabels {
+     TRAIT_ARMED
+     TRAIT_MEDICAL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7539.533 21.344 4888.424
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aExcludedEditableEntityLabels {
+     TRAIT_ARMED
+     TRAIT_MEDICAL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7540.887 21.344 4897.877
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_APC
+     TRAIT_PASSENGERS_SMALL
+    }
+    m_aExcludedEditableEntityLabels {
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7542.25 21.344 4907.392
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_APC
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7542.937 21.344 4912.188
+  angles 0 98.149 0
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_APC
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7544.316 21.344 4921.819
+  angles 0 98.149 0
+ }
+}

@@ -1,0 +1,413 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ A_LeMoule {
+  coords 2392.552 92.975 5314.452
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    L_LeMoule_D {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 268.678 -1.233 17.517
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotD1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{411BEFC86EAE0163}Prefabs/CHZones/WestEveron/CAH_LeMoule_D1.et"
+         }
+        }
+        coords -6.41 -0.602 -5.624
+        angleX 0.922
+        angleY 9.889
+        angleZ -5.276
+       }
+       SlotD2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2D4FDB28D26A8E4D}Prefabs/CHZones/WestEveron/CAH_LeMoule_D2.et"
+         }
+        }
+        coords -114.7 7.311 120.128
+        angleX 9.113
+        angleY -27.193
+        angleZ -1.68
+       }
+       SlotD3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{C8D397D1DE8F1926}Prefabs/CHZones/WestEveron/CAH_LeMoule_D3.et"
+         }
+        }
+        coords -141.397 16.116 214.322
+        angleX -0.579
+        angleY -2.886
+        angleZ 6.278
+       }
+      }
+     }
+    }
+    L_LeMoule_E {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 238.717 12.924 235.476
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotE1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{361187409A0CEE13}Prefabs/CHZones/WestEveron/CAH_LeMoule_E1.et"
+         }
+        }
+        coords 21.714 -11.48 -148.239
+        angleY 40.482
+       }
+       SlotE2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{5A45B3A026C8613D}Prefabs/CHZones/WestEveron/CAH_LeMoule_E2.et"
+         }
+        }
+        coords -40.648 -3.962 -68.69
+        angleY -20.921
+       }
+       SlotE3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{BFD9FF592A2DF656}Prefabs/CHZones/WestEveron/CAH_LeMoule_E3.et"
+         }
+        }
+        coords -40.741 -0.163 8.889
+        angleX 1.789
+        angleY 0.028
+        angleZ 0.896
+       }
+      }
+     }
+    }
+    L_LeMoule_F {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 68.023 6.692 101.772
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotF1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{AF0F3ED987EBDF83}Prefabs/CHZones/WestEveron/CAH_LeMoule_F1.et"
+         }
+        }
+        coords 111.901 -7.201 -19.175
+        angleY -29.241
+       }
+       SlotF2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{C35B0A393B2F50AD}Prefabs/CHZones/WestEveron/CAH_LeMoule_F2.et"
+         }
+        }
+        coords 142.747 -10.706 -88.511
+        angleX 2.123
+        angleY -16.907
+        angleZ -5.305
+       }
+       SlotF3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{26C746C037CAC7C6}Prefabs/CHZones/WestEveron/CAH_LeMoule_F3.et"
+         }
+        }
+        coords 222.489 8.341 93.489
+        angleX 10.07
+        angleY -2.385
+        angleZ -13.401
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_CavHill {
+  coords 3670.068 160.585 5770.53
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    L_CavHill_G {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -210.324 6.888 158.486
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotG1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{1AE0C7E0097E650A}Prefabs/CHZones/WestEveron/CAH_CavHill_G1.et"
+         }
+        }
+        coords 70.337 13.527 -122.675
+        angleX 0.892
+        angleY 0.056
+        angleZ 3.577
+       }
+       SlotG2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{76B4F300B5BAEA24}Prefabs/CHZones/WestEveron/CAH_CavHill_G2.et"
+         }
+        }
+        coords 8.801 0.995 -15.227
+        angleX -3.573
+        angleY 0.112
+        angleZ -1.793
+       }
+       SlotG3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9328BFF9B95F7D4F}Prefabs/CHZones/WestEveron/CAH_CavHill_G3.et"
+         }
+        }
+        coords -176.821 -15.005 -181.19
+       }
+      }
+     }
+    }
+    L_CavHill_H {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -168.444 19.537 24.99
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotH1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{62655BCA30D1FFFC}Prefabs/CHZones/WestEveron/CAH_CavHill_H1.et"
+         }
+        }
+        coords -14.316 -0.1 8.176
+        angleX 1.79
+       }
+       SlotH2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{0E316F2A8C1570D2}Prefabs/CHZones/WestEveron/CAH_CavHill_H2.et"
+         }
+        }
+        coords -64.208 -13.057 141.122
+        angleX -0.894
+        angleY 0.028
+        angleZ -1.79
+       }
+       SlotH3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{EBAD23D380F0E7B9}Prefabs/CHZones/WestEveron/CAH_CavHill_H3.et"
+         }
+        }
+        coords -48.935 -10.198 -69.325
+        angleX 16.436
+        angleY -1.321
+        angleZ -4.658
+       }
+      }
+     }
+    }
+    L_CavHill_I {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -150.551 16.547 -1.426
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotI1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{156F3342C473108C}Prefabs/CHZones/WestEveron/CAH_CavHill_I1.et"
+         }
+        }
+        coords -87.696 -4.9 0.593
+        angleX 3.474
+        angleY -0.598
+        angleZ -9.771
+       }
+       SlotI2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{793B07A278B79FA2}Prefabs/CHZones/WestEveron/CAH_CavHill_I2.et"
+         }
+        }
+        coords -138.656 -14.528 231.51
+        angleX -4.508
+        angleY 9.954
+        angleZ -5.306
+       }
+       SlotI3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9CA74B5B745208C9}Prefabs/CHZones/WestEveron/CAH_CavHill_I3.et"
+         }
+        }
+        coords 107.265 -17.311 126.093
+        angleX -2.668
+        angleY -0.208
+        angleZ 4.472
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Richmont {
+  coords 3755.289 120.789 5100.215
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    L_Richmont_A {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 108.86 -5.138 -84.166
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotA1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{093B6D723F088D53}Prefabs/CHZones/WestEveron/CAH_Richmont_A1.et"
+         }
+        }
+        coords -44.552 10.406 142.37
+        angleX 2.683
+        angleY 0.042
+        angleZ 0.896
+       }
+       SlotA2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{656F599283CC027D}Prefabs/CHZones/WestEveron/CAH_Richmont_A2.et"
+         }
+        }
+        coords -99.272 -0.204 -6.516
+        angleX 2.684
+       }
+       SlotA3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{80F3156B8F299516}Prefabs/CHZones/WestEveron/CAH_Richmont_A3.et"
+         }
+        }
+        coords -268.699 -7.719 28.962
+        angleX -8.593
+        angleY 8.989
+        angleZ 3.124
+       }
+      }
+     }
+    }
+    L_Richmont_B {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 82.546 -2.977 -65.739
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotB1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9025D4EB22EFBCC3}Prefabs/CHZones/WestEveron/CAH_Richmont_B1.et"
+         }
+        }
+        coords -116.485 -0.113 -229.803
+        angleX -4.428
+        angleY 0.416
+        angleZ -5.372
+       }
+       SlotB2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FC71E00B9E2B33ED}Prefabs/CHZones/WestEveron/CAH_Richmont_B2.et"
+         }
+        }
+        coords -61.88 1.133 15.585
+        angleY 13.6
+       }
+       SlotB3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{19EDACF292CEA486}Prefabs/CHZones/WestEveron/CAH_Richmont_B3.et"
+         }
+        }
+        coords 130.934 -15.016 -17.785
+        angleX -2.626
+        angleY 25.524
+        angleZ 9.558
+       }
+      }
+     }
+    }
+    L_Richmont_C {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 58.567 -1.71 -51
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotC1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{E72FBC63D64D53B3}Prefabs/CHZones/WestEveron/CAH_Richmont_C1.et"
+         }
+        }
+        coords -180.596 -11.624 -204.683
+        angleX 3.479
+        angleY 18.917
+        angleZ -10.04
+       }
+       SlotC2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{E0E84632B0CBE970}Prefabs/CHZones/WestEveron/CAH_Richmont_C2.et"
+         }
+        }
+        coords -92.441 -4.581 -5.967
+        angleX 4.45
+        angleY -0.279
+        angleZ -3.587
+       }
+       SlotC3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{6EE7C47A666C4BF6}Prefabs/CHZones/WestEveron/CAH_Richmont_C3.et"
+         }
+        }
+        coords -18.108 -3.71 -120.413
+        angleX -2.657
+        angleY 8.153
+        angleZ -0.38
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

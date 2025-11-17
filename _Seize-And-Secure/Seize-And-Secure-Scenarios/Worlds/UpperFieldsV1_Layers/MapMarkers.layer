@@ -1,0 +1,11 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 4710.627 77.613 4858.757
+ }
+ {
+  coords 5536.543 95.379 6064.303
+ }
+ {
+  coords 7057.791 118.537 6019.191
+ }
+}

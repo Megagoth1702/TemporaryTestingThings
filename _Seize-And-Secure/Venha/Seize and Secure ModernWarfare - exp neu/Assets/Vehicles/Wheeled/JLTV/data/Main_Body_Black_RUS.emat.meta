@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E0D30FD929190507}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Black_RUS.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

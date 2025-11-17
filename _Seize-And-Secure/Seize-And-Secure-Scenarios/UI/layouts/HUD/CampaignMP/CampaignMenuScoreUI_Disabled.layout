@@ -1,0 +1,16 @@
+FrameWidgetClass : "{D74D24696C4F32F0}UI/layouts/HUD/CampaignMP/CampaignMenuScoreUI.layout" {
+ {
+  OverlayWidgetClass "{5A028260BAAE7ADF}" {
+   Prefab "{5A028260BAAE7ADF}"
+   "Is Enabled" 0
+   "Is Visible" 0
+   {
+    HorizontalLayoutWidgetClass "{617643248F30CAF9}" {
+     Name "HorizontalLayout0"
+     Slot OverlayWidgetSlot "{60C9614B03CDF73C}" {
+     }
+    }
+   }
+  }
+ }
+}

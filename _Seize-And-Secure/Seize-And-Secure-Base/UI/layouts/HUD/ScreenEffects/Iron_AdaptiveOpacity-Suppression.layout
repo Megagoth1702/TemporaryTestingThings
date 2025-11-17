@@ -1,0 +1,42 @@
+OverlayWidgetClass {
+ Name "Iron_AdaptiveOpacity-Suppression"
+ Slot FrameWidgetSlot "{61576E0B493B65EC}" {
+  Anchor 0 0 1 1
+  PositionX 0
+  OffsetLeft -300
+  PositionY 0
+  OffsetTop 0
+  SizeX -1820
+  OffsetRight -300
+  SizeY -1050
+  OffsetBottom 0
+ }
+ {
+  ImageWidgetClass "{615CC3F6AF17BA85}" {
+   Name "Iron_SuppressionVignette"
+   Slot OverlayWidgetSlot "{615CC3F6AF17BA9B}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+   Opacity 0
+   Color 0 0 0 1
+   Size 1920 1080
+   Mask "{77CF24D5CA2DB63F}UI/Textures/ScreenEffects/Suppression/supressionVignette2.edds"
+   "Transition width" 1
+   Progress 0
+  }
+  ImageWidgetClass "{61632063B312AEDB}" {
+   Name "Iron_SuppressionFlinch"
+   Slot OverlayWidgetSlot "{61632047AB679FEC}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+   Opacity 0
+   Color 0 0 0 1
+   Size 1920 1080
+   Mask "{77CF24D5CA2DB63F}UI/Textures/ScreenEffects/Suppression/supressionVignette2.edds"
+   "Transition width" 1
+   Progress 0
+  }
+ }
+}

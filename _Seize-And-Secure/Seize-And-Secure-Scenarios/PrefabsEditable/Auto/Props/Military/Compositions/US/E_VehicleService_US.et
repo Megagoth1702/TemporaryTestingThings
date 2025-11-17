@@ -1,0 +1,25 @@
+GenericEntity : "{5753634EAFFBA2F6}Prefabs/Props/Military/Compositions/US/VehicleService_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingCooldownWithRankBudgetToEvaluateData "{5EE71CAB5BFCF9A3}" {
+     m_aCustomCooldownData {
+      SCR_CooldownData "{5EEEF52515996867}" {
+       m_fDefaultTimeMultiplier 300
+      }
+      SCR_CooldownData "{5EEEF5250BF881BF}" {
+       m_fDefaultTimeMultiplier 240
+      }
+      SCR_CooldownData "{5EEEF5250BBA697C}" {
+       m_fDefaultTimeMultiplier 180
+      }
+      SCR_CooldownData "{5EEEF5250B54777E}" {
+       m_fDefaultTimeMultiplier 60
+      }
+     }
+    }
+   }
+  }
+ }
+}

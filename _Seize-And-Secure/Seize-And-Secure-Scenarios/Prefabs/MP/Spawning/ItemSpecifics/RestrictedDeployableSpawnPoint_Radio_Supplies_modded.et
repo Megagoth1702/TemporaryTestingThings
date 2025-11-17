@@ -1,0 +1,125 @@
+SCR_RestrictedDeployableSpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et" {
+ ID "52E65E9446A3DC1D"
+ components {
+  SCR_EditableEntityVisibilityChildComponent "{52E85C13CD591EDA}" {
+   Enabled 0
+  }
+  SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5D8AF9E688DE2E69}" {
+   m_aContainers {
+    SCR_ResourceContainerVirtual "{627973D77CFCEE80}" {
+     m_sDebugName "Container - Deployable Radio"
+     m_eResourceRights ALL
+     m_eStorageType STORED
+     m_fResourceValueMax 100
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5DB8993C20E6EC2E}" {
+     m_eResourceRights SELF
+     m_eGeneratorIdentifier DEFAULT_STORAGE
+     m_fResourceRange 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{5DB89933A07B88A4}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{609E9BD8847DFD5B}" {
+        m_eStorageType CARGO_PROP
+       }
+       SCR_ResourceConsumerStoragePolicy "{609E9BD8ADDD7176}" {
+        m_eStorageType CARGO_VEHICLE
+       }
+       SCR_ResourceConsumerStoragePolicy "{609E9BD85BBDCFF9}" {
+        m_eStorageType STORED
+       }
+      }
+     }
+    }
+    SCR_ResourceConsumer "{627973D77CFCEE95}" {
+     m_sDebugName "Consumer - Spawn Point"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 25
+     m_fSellMultiplier 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{627973D77CFCEE90}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{627973D77CFCEE91}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{627973D77CFCEE9E}" {
+        }
+       }
+       SCR_ResourceConsumerStoragePolicy "{627973D77CFCEE9C}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{627973D77CFCEE9D}" {
+        }
+        m_eStorageType CARGO_PROP
+       }
+       SCR_ResourceConsumerStoragePolicy "{627973D77CFCEE9A}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{627973D77CFCEE9B}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+       SCR_ResourceConsumerStoragePolicy "{627973D77CFCEE98}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{627973D77CFCEE99}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5DB8993C2809C3E3}" {
+     m_eIdentifier DEFAULT_STORAGE
+     m_bIsIgnoringItself 1
+    }
+   }
+   m_aDisabledResourceTypes {
+   }
+   m_eDebugVisualizationFlags 15
+  }
+  SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{627973D77CFCEEE0}" {
+   Attributes SCR_ItemAttributeCollection "{627973D77CFCEEEE}" {
+    ItemDisplayName SCR_InventoryUIInfo "{627973D77CFCEEF3}" {
+     Name "#AR-MapMarker_DeployedRadio"
+     m_aItemHints {
+      SCR_SupplyStoredItemHintUIInfo "{627973D77CFCEEFE}" {
+       Name "#AR-Item_SupplyStorage_Hint1"
+       Icon "{8EB808BFA227C080}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesStored.edds"
+       m_cColor 1 1 1 1
+      }
+      SCR_SupplyMoveItemHintUIInfo "{627973D77CFCEEF8}" {
+       Name "#AR-Item_SupplyStorage_Hint2"
+       Icon "{307100AF2FD9AA65}UI/Textures/Icons/InventoryHints/InventoryHint_SuppliesMove.edds"
+       m_cColor 1 1 1 1
+       m_eShowWithInputDevice KEYBOARD_MOUSE_ONLY
+      }
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{627973D77CFCEEC4}" {
+      CameraOrbitAngles -5 15 0
+      CameraDistanceToItem 1.4
+      CameraOffset 0.125 0.1 0
+      FOV 60
+      AspectRatio 1
+      PreviewPrefab "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et"
+      TakeVisibilityIntoAccount 0
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_LOOT_STORAGE
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{627973D77CFCEECE}" {
+  }
+  RplComponent "{552E67F19D2F2A2F}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "#AR-MapMarker_DeployedRadio"
+ }
+ m_fSpawnPositionUsageRange 100
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ components {
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{5D66ED1086234C38}" {
+     VisibilityRange 3000
+    }
+   }
+  }
+ }
+ coords 7038.336 98.16 8380.307
+ angleY -136.546
+}
+$grp GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ {
+  coords 6440.605 173.534 7592.27
+  angleY -75.14
+ }
+ {
+  coords 6438.347 173.226 7600.693
+  angleY -109.688
+ }
+}

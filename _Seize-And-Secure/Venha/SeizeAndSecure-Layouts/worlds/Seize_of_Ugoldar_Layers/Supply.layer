@@ -1,0 +1,58 @@
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ Depot {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fSupplyMultiplier 0.01
+    m_iMaxCaptureTimeFromSupplies 1
+   }
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "MapLocation_JuniperPoint"
+   }
+  }
+  coords 6631.863 27.435 4027.665
+  angles 0.672 48.676 -0.591
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 16.065 -0.293 11.097
+    angles 0.615 -92.066 0.65
+   }
+  }
+ }
+ Harbor {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fSupplyMultiplier 0.01
+    m_iMaxCaptureTimeFromSupplies 1
+   }
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Harbour_Ugoldar"
+   }
+  }
+  coords 6795.119 2.049 3476.801
+  angles -0.629 -44.649 -0.637
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -15.428 0.185 2.892
+    angles 0.668 -3.616 0.596
+   }
+  }
+ }
+}
+$grp GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+ {
+  coords 6225.671 2.256 3128.845
+  angles 1.963 -5.868 1.597
+  {
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+   }
+  }
+ }
+ {
+  coords 7246.5 13.477 4345.872
+  angles -3.665 129.883 1.596
+  {
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+   }
+  }
+ }
+}

@@ -1,0 +1,242 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{668D630AE719268D}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{668D630AE7192617}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et"
+   m_sAffiliatedFaction "FIA"
+  }
+  SCR_FactionPlayerLoadout "{668D630AE7192615}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{F063CEEB9295E9B6}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Player.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_PlayerArsenalLoadout "{668D630AE7197B88}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{BE7CA93E188A5B58}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Base.et"
+   m_sAffiliatedFaction "US"
+   m_LoadoutType SAVED
+  }
+  SCR_PlayerArsenalLoadout "{668D630AE7197B8E}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutType SAVED
+  }
+  SCR_FactionPlayerLoadout "{6170DD53579DD2C4}" : "{7C7C65FD583E6612}Configs/Loadouts/US/Regular/Loadout_US_Rifleman.conf" {
+   m_LoadoutType RIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{61A6B139B62ABFEF}" : "{C71228DC46A2C723}Configs/Loadouts/US/Regular/Loadout_US_AR.conf" {
+   m_LoadoutType AUTORIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{61A6B139F66E857A}" : "{0B4549C656AFC7AE}Configs/Loadouts/US/Regular/Loadout_US_GL.conf" {
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{61A6B139F95D1106}" : "{121FC1ABB7FE098C}Configs/Loadouts/US/Regular/Loadout_US_LAT.conf" {
+   m_LoadoutType ANTI_TANK
+  }
+  SCR_FactionPlayerLoadout "{61A6B139FF467CBF}" : "{30D0003D429ABF03}Configs/Loadouts/US/Regular/Loadout_US_Medic.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{61A6B139E1F10AF9}" : "{AFA36BB8828E381A}Configs/Loadouts/US/Regular/Loadout_US_MG.conf" {
+   m_LoadoutType MACHINEGUNNER
+  }
+  SCR_FactionPlayerLoadout "{61C2B6C2BD20A32D}" : "{07048FF7DCF0E922}Configs/Loadouts/US/Regular/Loadout_US_AMG.conf" {
+   m_LoadoutType AMMO_BEARER
+  }
+  SCR_FactionPlayerLoadout "{652EA944ABB8E35B}" : "{B0D2944860E79109}Configs/Loadouts/US/Regular/Loadout_US_Scout.conf" {
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{61B0889185B0BCE5}" : "{AEFB5A107E7034EF}Configs/Loadouts/US/Regular/Loadout_US_Scout_RTO.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{6530D457D2CD1A2F}" : "{C7B418B86CB7420E}Configs/Loadouts/US/Regular/Loadout_US_CombatMedic.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{652EA9BD3E927AA1}" : "{2154E754579C983D}Configs/Loadouts/US/Regular/Loadout_US_RTO.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{6170DD5305AD2DA5}" : "{0EFB9B7C7EF8B247}Configs/Loadouts/US/Regular/Loadout_US_Sniper.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{61B0889181817EE8}" : "{7A3C3EA2BD968BE9}Configs/Loadouts/US/Regular/Loadout_US_Sapper.conf" {
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{61C48DDC5458F43A}" : "{FD9337B1D5432C5A}Configs/Loadouts/US/Regular/Loadout_US_Officer.conf" {
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{631EF8727112BB1C}" : "{CD19ADC7D2B1FDB9}Configs/Loadouts/US/Regular/Loadout_US_MortarCrew.conf" {
+   m_LoadoutType MORTARMAN
+  }
+  SCR_FactionPlayerLoadout "{61B08891B3D53B80}" : "{05B0734897DF8F07}Configs/Loadouts/US/Regular/Loadout_US_Driver.conf" {
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{61A6B10F3D3C10AC}" : "{824F847BD9C778B7}Configs/Loadouts/US/Regular/Loadout_US_HeliPilot.conf" {
+   m_LoadoutType PILOT
+  }
+  SCR_FactionPlayerLoadout "{6536E13AF3822D9F}" : "{10C3E60E6D6AC2CC}Configs/Loadouts/US/Regular/Loadout_US_HeliCrew.conf" {
+   m_LoadoutType PILOT
+  }
+  SCR_FactionPlayerLoadout "{631EF8702872340F}" : "{F4B260180682D07C}Configs/Loadouts/US/Regular/Loadout_US_Crew.conf" {
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DF968AF66}" : "{1446773F4FF301EF}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_Rifleman.conf" {
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1D8C1F4633}" : "{B0ECE075F8ED5BBE}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_LMG.conf" {
+   m_LoadoutType AUTORIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{65AE8C27640129E9}" : "{0019706F6EA73556}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_GL.conf" {
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DF7E76E53}" : "{C28A3E7DE6F24069}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_Medic.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{65AE8C27654A372B}" : "{B64D7EF56BBC676F}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_RTO.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DFE719713}" : "{235BD304A0C1571C}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_Sapper.conf" {
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DE0B4B3B7}" : "{2CDE2EF214989A2E}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_Sharpshooter.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DE286B9D9}" : "{7FA6B33406636772}Configs/Loadouts/US/GreenBerets/Loadout_US_SF_SL.conf" {
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DECB85ECD}" : "{78A13329B82CF712}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_Rifleman_S.conf" {
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DE6FFF19D}" : "{8A46809B68976020}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_GL_S.conf" {
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DEAA1842F}" : "{986D6FF1AA9D09FD}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_Medic_S.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DEF180B53}" : "{CAC4FDF6A2F35413}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_RTO_S.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DD141D31D}" : "{4B6F49C09FA68C2B}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_Sapper_S.conf" {
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DD3C4D113}" : "{28745AD96F955241}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_Sharpshooter_S.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1DD5EAFC60}" : "{C2CDB3FA70F32198}Configs/Loadouts/US/GreenBerets/Suppressed/Loadout_US_SF_SL_S.conf" {
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{6170DD5353AF54CE}" : "{5F9034642E99437D}Configs/Loadouts/USSR/Regular/Loadout_USSR_Rifleman.conf" {
+   m_LoadoutType RIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{61A6B1390EED727D}" : "{743C07B33B63F854}Configs/Loadouts/USSR/Regular/Loadout_USSR_AR.conf" {
+   m_LoadoutType AUTORIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{61A6B1390E06E34E}" : "{A62BF2390565DC0B}Configs/Loadouts/USSR/Regular/Loadout_USSR_GL.conf" {
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{61A6B13971372E55}" : "{C1C1DB68C6FC265B}Configs/Loadouts/USSR/Regular/Loadout_USSR_AT.conf" {
+   m_LoadoutType ANTI_TANK
+  }
+  SCR_FactionPlayerLoadout "{65C4BE1D803A7E47}" : "{956DCC79FF1AE70F}Configs/Loadouts/USSR/Regular/Loadout_USSR_LAT.conf" {
+   m_LoadoutType ANTI_TANK
+  }
+  SCR_FactionPlayerLoadout "{61A6B139701AB290}" : "{BEB3860432195DD9}Configs/Loadouts/USSR/Regular/Loadout_USSR_Medic.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{6530D44C252FCC17}" : "{DF582B8DC6FA5C11}Configs/Loadouts/USSR/Regular/Loadout_USSR_CombatMedic.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{61A6B1390FC6323F}" : "{E97C426E941D8FDC}Configs/Loadouts/USSR/Regular/Loadout_USSR_MG.conf" {
+   m_LoadoutType MACHINEGUNNER
+  }
+  SCR_FactionPlayerLoadout "{61C48DDC0D3002B4}" : "{54CDF190235EB59A}Configs/Loadouts/USSR/Regular/Loadout_USSR_AMG.conf" {
+   m_LoadoutType AMMO_BEARER
+  }
+  SCR_FactionPlayerLoadout "{61B08891F6D24D4B}" : "{729D9933A832C485}Configs/Loadouts/USSR/Regular/Loadout_USSR_RTO.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{6170DD53027AB3C3}" : "{FB56BAF9A1BBAB39}Configs/Loadouts/USSR/Regular/Loadout_USSR_Sharpshooter.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{652EA9DB6618375F}" : "{3EB11271106473D3}Configs/Loadouts/USSR/Regular/Loadout_USSR_Scout.conf" {
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{652EA9DB670DD668}" : "{7A96B6372333AAE8}Configs/Loadouts/USSR/Regular/Loadout_USSR_Scout_RTO.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{652EA9A6C597173E}" : "{688B7D16336E0D5E}Configs/Loadouts/USSR/Regular/Loadout_USSR_Scout_Sharpshooter.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{61B08891F5BA9AB2}" : "{B1F48B0A02557D63}Configs/Loadouts/USSR/Regular/Loadout_USSR_Sapper.conf" {
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{61C48DDC6EC15BF5}" : "{4CAE966D675071B3}Configs/Loadouts/USSR/Regular/Loadout_USSR_Officer.conf" {
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{631EF87679373E18}" : "{43F78012DAEDD8DF}Configs/Loadouts/USSR/Regular/Loadout_USSR_MortarCrew.conf" {
+   m_LoadoutType MORTARMAN
+  }
+  SCR_FactionPlayerLoadout "{61B08891F2C93A30}" : "{CE78C6E0281C798D}Configs/Loadouts/USSR/Regular/Loadout_USSR_Driver.conf" {
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{61B08891F04961B3}" : "{6575CECEA51F47DC}Configs/Loadouts/USSR/Regular/Loadout_USSR_HeliPilot.conf" {
+   m_LoadoutType PILOT
+  }
+  SCR_FactionPlayerLoadout "{6536E13A4105CF3B}" : "{332FB7971BCDE7A3}Configs/Loadouts/USSR/Regular/Loadout_USSR_HeliCrew.conf" {
+   m_LoadoutType PILOT
+  }
+  SCR_FactionPlayerLoadout "{631EF870C3F1E88F}" : "{D75E31817025F513}Configs/Loadouts/USSR/Regular/Loadout_USSR_Crew.conf" {
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{65C4E788000DD309}" : "{0CAA440AE5BE1FF0}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_Rifleman.conf" {
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{65C4E78879A760DD}" : "{9CB06636E0251452}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_LMG.conf" {
+   m_LoadoutType AUTORIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{65C4E7887E2579C5}" : "{7DDCCB291C5F9EB5}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_GL.conf" {
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{65C4E788678540D1}" : "{E4E0FA25A1F75C4D}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_Medic.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{65C4E7886931EEB5}" : "{9A11F8B673742883}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_RTO.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{65C4E7886A165241}" : "{4937DF2ED988F93B}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_Sapper.conf" {
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{65C4E78850512B82}" : "{D4C9E840FF333168}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_Sharpshooter.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{65C4E78852341DF8}" : "{02630872749BCC91}Configs/Loadouts/USSR/Spetsnaz/Loadout_USSR_SF_SL.conf" {
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{65C4E78856F963DE}" : "{272B6C3199AE06E1}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_Rifleman_S.conf" {
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{65C4E7885BFD55D2}" : "{6A2963049443B548}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_GL_S.conf" {
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{65C4E7885D5C0172}" : "{82797123384E5151}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_Medic_S.conf" {
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{65C4E7885EA07078}" : "{45A27420C0BB622F}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_RTO_S.conf" {
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{65C4E78843A59A35}" : "{2ECBECF0934E115C}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_Sapper_S.conf" {
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{65C4E78845C541F0}" : "{B3EA9002976D105C}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_Sharpshooter_S.conf" {
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{65C4E788465D4DEC}" : "{22A250658C27F4F0}Configs/Loadouts/USSR/Spetsnaz/Suppressed/Loadout_USSR_SF_SL_S.conf" {
+   m_LoadoutType SQUAD_LEADER
+  }
+ }
+}

@@ -1,0 +1,11 @@
+GenericEntity {
+ ID "62883114A357C9C7"
+ components {
+  Iron_SuppressionExplosionComponent "{62883114A357C93F}" {
+   m_fForceMultiplier 0.7
+   m_fExplosionRangeMin 8
+   m_fExplosionRangeMax 18
+  }
+ }
+ coords 3.055 4.479 3.153
+}

@@ -1,0 +1,71 @@
+$grp PolylineShapeEntity {
+ C_House_PolyLine {
+  coords 140.466 0.261 186.965
+  Points {
+   ShapePoint "{618333AC0AD156DC}" {
+    Position -5.733 0 7.164
+   }
+   ShapePoint "{618333AC052EA125}" {
+    Position 5.795 0 7.254
+   }
+   ShapePoint "{618333AC0402A3B4}" {
+    Position 5.915 0 -8.036
+   }
+   ShapePoint "{618333AC07234255}" {
+    Position -1.429 0 -8.126
+   }
+   ShapePoint "{618333AC011B30AD}" {
+    Position -1.474 0 -5.984
+   }
+   ShapePoint "{618333AC004FBE21}" {
+    Position -5.823 0 -6.11
+   }
+  }
+  IsClosed 1
+  {
+   SCR_CaptureAndHoldArea : "{099C7053341AEF4F}Seize_CaptureAndHoldArea_Major_PolyLine.et" {
+    coords 14.564 0.739 -8.346
+   }
+  }
+ }
+ C_ProgressBar_PolyLine {
+  coords 116.256 0 207.37
+  angleY 171.956
+  Points {
+   ShapePoint "{618333AC0AD156DC}" {
+    Position -8.72 0 1.459
+   }
+   ShapePoint "{618333AC052EA125}" {
+    Position -0.513 0 1.598
+   }
+   ShapePoint "{618333AC0402A3B4}" {
+    Position -0.287 0 6.682
+   }
+   ShapePoint "{618333AC07234255}" {
+    Position 7.812 0 6.735
+   }
+   ShapePoint "{618333AC011B30AD}" {
+    Position 7.907 0 -9.039
+   }
+   ShapePoint "{618333AC004FBE21}" {
+    Position -8.809 0 -9.018
+   }
+  }
+  IsClosed 1
+  {
+   SCR_CaptureAndHoldArea : "{099C7053341AEF4F}Seize_CaptureAndHoldArea_Major_PolyLine.et" {
+    coords 14.564 0.739 -8.346
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{965AFAD159CB0C8A}Prefabs/Structures/Commercial/Pubs/PubVillage_E_2L01/PubVillage_E_2L01_V8_ProgresBar.et" {
+ coords 116.256 0 207.37
+ angleY 171.956
+ {
+  GenericEntity {
+   ID "555CCC8680C55959"
+   coords 0 -0.019 0
+  }
+ }
+}

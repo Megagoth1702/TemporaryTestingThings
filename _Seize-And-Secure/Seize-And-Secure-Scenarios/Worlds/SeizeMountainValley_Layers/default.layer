@@ -1,0 +1,133 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60C94E0FB599866E}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{3D08F0F26F771347}worlds/MP/Navmeshes/CTI_Campaign_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 6707.432 149.95 6498.937
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6700.964 151.312 6491.028
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 6675.718 151.425 6498.202
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 6682.954 150.666 6501.639
+}
+SCR_GameModeCampaign GameMode_Seize1 : "{CE6DD1D3C1BC7366}Prefabs/GameLogic/GameMode_Seize.et" {
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_bBaseCaptureScore 50
+   m_bTicketScoreSystem 1
+  }
+  SCR_ScoringSystemComponent "{62AD2860C23DCC79}" {
+   m_aActions {
+    EndGameAction "{62AD2860CEF76483}" {
+     m_iScoreLimit 1
+    }
+   }
+  }
+ }
+ coords 8968.208 86.359 2374.044
+ m_bAllowFactionChange 1
+ m_fAutoReloadTime 30
+ m_iControlPointsThreshold 2
+ m_fVictoryTimer 5
+ m_iSuppliesReplenishThreshold 1000
+ m_iQuickSuppliesReplenishThreshold 200
+ m_iRegularSuppliesIncome 30
+ m_iRegularSuppliesIncomeBase 20
+ m_iRegularSuppliesIncomeExtra 4
+ m_iMinStartingSupplies 500
+ m_iMaxStartingSupplies 500
+ m_bShowBattlePrepTimer 1
+ MHQ_SPAWN_PREFAB "{6D282026AB95FC81}Prefabs/MP/Campaign/MHQ_Spawn_Prefab/CampaignMobileAssemblySpawnpoint_0k.et"
+ m_bHideBasesOutsideRadioRange 1
+ m_bHideCAHZonesOutsideRadioRange 1
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager_Seize.et" {
+ coords 9582.496 252.944 2702.627
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aStartingVehicles + {
+    "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT.et"
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles + {
+    "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+   }
+  }
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 6715.503 150.206 6486.572
+}
+StaticModelEntity : "{2BC7C6DE43AC49E2}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_short.et" {
+ coords 7436.111 0.19 1260.557
+}
+$grp StaticModelEntity : "{7F8D6A0D827EA34B}Prefabs/Props/Military/Fortification/CzechHedgehog_01_base.et" {
+ {
+  coords 8017.803 0 4232.955
+  angleX 2.873
+  angleY 76.836
+  angleZ -3.422
+ }
+ {
+  coords 8006.529 0.002 4220.143
+  angleX 2.873
+  angleY 76.836
+  angleZ -3.422
+ }
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 6794.032 134.178 6509.928
+}
+ItemPreviewManagerEntity ItemPreviewManager1 : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+ coords 6793.244 134.233 6512.443
+}
+SCR_LoadoutManager : "{ACE69E6767108AF9}Prefabs/MP/Campaign/Restricted_CampaignLoadoutManager_CustomSaved.et" {
+ coords 4802.906 130.888 7737.34
+}
+GenericEntity : "{B526FBF1999025E5}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_cables_short.et" {
+ coords 7436.12 1.842 1260.556
+}
+$grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ {
+  coords 8016.237 216.734 4231.316
+  angleX -0.035
+  angleY 36.417
+  angleZ -4.467
+ }
+ {
+  coords 8014.642 216.738 4229.108
+  angleX -0.035
+  angleY 36.417
+  angleZ -4.467
+ }
+}
+GenericEntity : "{DED4DB7D08E6E0BE}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01.et" {
+ coords 7436.141 2.907 1260.506
+}
+GenericEntity : "{F15B99F6B06E7200}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_generator.et" {
+ coords 7429.469 1.548 1260.081
+}

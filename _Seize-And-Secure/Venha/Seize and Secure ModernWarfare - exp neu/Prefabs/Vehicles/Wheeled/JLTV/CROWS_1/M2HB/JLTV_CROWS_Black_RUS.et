@@ -1,0 +1,41 @@
+Vehicle : "{A19889DD96914B75}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C72CA225F7A3B65}" {
+     SourceMaterial "Mirror_Generic"
+     AssignedMaterial "{A47C5D03ADB1464D}Assets/Vehicles/Wheeled/JLTV/data/Mirror_generic.emat"
+    }
+    MaterialAssignClass "{6602636454037DDA}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{F434820F3B2BEDEE}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Black.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{D24AF8C831FE2A87}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_CROWS_Black.edds"
+    m_aAutoLabels {
+     10 122 50
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Roof {
+     Prefab "{DAAFEBC0DE7B4E71}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Roof_Black.et"
+    }
+    RegisteringComponentSlotInfo CROWS {
+     Prefab "{BB1AD8A36F4CCCB3}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_CROWS_M2_Black.et"
+    }
+    RegisteringComponentSlotInfo Mount {
+     Prefab "{8432BE36DE4ABDC8}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_CROWS_Mount_Black.et"
+    }
+   }
+  }
+ }
+}

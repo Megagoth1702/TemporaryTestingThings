@@ -1,0 +1,101 @@
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 3964.746 105.049 11119.49
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 3965.616 105.049 11119.041
+}
+GenericEntity Area4 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ coords 220.075 1 240.264
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   L_Heli {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren ALL
+      m_iRepeatedSpawnNumber 9999
+      m_fRepeatedSpawnTimer 3
+      m_eActivationType ON_TRIGGER_ACTIVATION
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      HeliNorth2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_aPlugins {
+          SCR_ScenarioFrameworkPluginOnDestroyEvent "{619364E69E487CCB}" {
+           m_aActionsOnDestroy {
+            SCR_ScenarioFrameworkActionSpawnObjects "{619364E492BD2D00}" {
+             m_aNameOfObjectsToSpawnOnActivation {
+              "L_Heli"
+             }
+            }
+           }
+          }
+         }
+         m_sObjectToSpawn "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+        }
+       }
+       coords -11.508 0.354 3.89
+       angleX 0.003
+       angleY -155.016
+       angleZ 0.067
+      }
+      Slot1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_aPlugins {
+          SCR_ScenarioFrameworkPluginOnDestroyEvent "{619364E69E487CCB}" {
+           m_aActionsOnDestroy {
+            SCR_ScenarioFrameworkActionSpawnObjects "{619364E492BD2D00}" {
+             m_aNameOfObjectsToSpawnOnActivation {
+              "L_Heli"
+             }
+            }
+           }
+          }
+         }
+         m_sObjectToSpawn "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+        }
+       }
+       coords 3.702 -0.006 -1.251
+       angleX 0.003
+       angleY 29.395
+       angleZ 0.067
+      }
+     }
+    }
+   }
+   L_Trg {
+    coords -120.319 0 -181.994
+    {
+     GenericEntity SlotTrigger2 : "{032C15BBEBE9E1E9}Prefabs/ScenarioFramework/Components/SlotTrigger.et" {
+      components {
+       SCR_ScenarioFrameworkSlotTrigger "{6118D659EDB7084E}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginTrigger "{6118D659EDB7085B}" {
+          m_fAreaRadius 353.308
+          m_eActivationPresence PLAYER
+          m_bSearchVehicleInventory 0
+          m_bOnce 1
+          m_fActivationCountdownTimer 10
+          m_bNotificationEnabled 1
+         }
+        }
+        m_aTriggerActions {
+         SCR_ScenarioFrameworkActionSpawnObjects "{619364E5CD13B011}" {
+          m_iMaxNumberOfActivations 1
+          m_aNameOfObjectsToSpawnOnActivation {
+           "L_Heli"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

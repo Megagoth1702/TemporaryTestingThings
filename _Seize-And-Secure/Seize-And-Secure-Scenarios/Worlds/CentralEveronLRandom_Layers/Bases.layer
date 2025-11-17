@@ -1,0 +1,636 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MOB1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 0
+    m_bExcludeFromRandomization 1
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4547.275 16.157 10582.961
+  angleX 0.376
+  angleY -12.128
+  angleZ 1.75
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 60
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 300
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_iRespawnPeriod 300
+       m_aIncludedEditableEntityLabels {
+        51
+       }
+       m_aExcludedEditableEntityLabels {
+        21
+       }
+       m_bRequireAllIncludedLabels 1
+       m_fDistance 500
+       m_bIgnoreTerrain 1
+      }
+     }
+     coords -2.246 0.636 -35.846
+     angleX 2.789
+     angleY 93.526
+     angleZ 0.483
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_iRespawnPeriod 600
+       m_aIncludedEditableEntityLabels {
+        53
+       }
+       m_bIgnoreTerrain 1
+      }
+     }
+     coords -47.916 -0.487 16.147
+     angleX -1.013
+     angleY 8.296
+     angleZ -1.726
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_iRespawnPeriod 600
+       m_aIncludedEditableEntityLabels {
+        53
+       }
+       m_bIgnoreTerrain 1
+      }
+     }
+     coords -46.265 -0.838 34.294
+     angleX -1.013
+     angleY 8.296
+     angleZ -1.726
+    }
+   }
+  }
+ }
+ MOB2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 800
+    m_bExcludeFromRandomization 1
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4964.657 2.188 3851.344
+  angleX 0.674
+  angleY 32.201
+  angleZ -2.747
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 50
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 300
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_iRespawnPeriod 300
+       m_aIncludedEditableEntityLabels {
+        51
+       }
+       m_aExcludedEditableEntityLabels {
+        21
+       }
+       m_bRequireAllIncludedLabels 1
+       m_fDistance 500
+       m_bIgnoreTerrain 1
+      }
+     }
+     coords 65.047 -3.32 16.877
+     angleX -1.536
+     angleY 19.073
+     angleZ 2.375
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_iRespawnPeriod 600
+       m_aIncludedEditableEntityLabels {
+        53
+       }
+       m_bIgnoreTerrain 1
+      }
+     }
+     coords -0.636 -0.571 68.159
+     angleX 3.976
+     angleY -89.283
+     angleZ 0.443
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_iRespawnPeriod 600
+       m_aIncludedEditableEntityLabels {
+        53
+       }
+       m_bIgnoreTerrain 1
+      }
+     }
+     coords -11.531 0.348 69.238
+     angleX 6.711
+     angleY -89.228
+     angleZ 1.155
+    }
+   }
+  }
+ }
+ Base_D {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName ""
+    m_sBaseNameUpper "BASE D"
+    m_fRadioAntennaServiceRange 900
+    m_bHasGroup 1
+    m_sGroupName "D"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 4979.798 54.827 5888.626
+  angleX 0.362
+  angleY 66.186
+  angleZ 0.818
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_B {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName ""
+    m_sBaseNameUpper "BASE B"
+    m_fRadioAntennaServiceRange 1000
+    m_bHasGroup 1
+    m_sGroupName "B"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 4851.622 111.182 8102.504
+  angleX -4.904
+  angleY 33.011
+  angleZ 4.256
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_C {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Base C"
+    m_sBaseNameUpper "BASE C"
+    m_fRadioAntennaServiceRange 1000
+    m_bHasGroup 1
+    m_sGroupName "C"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1900
+     }
+    }
+   }
+  }
+  coords 4738.191 163.033 7000.421
+  angleY -8.81
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_E {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Base E"
+    m_sBaseNameUpper "BASE E"
+    m_fRadioAntennaServiceRange 900
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 4438.766 63.613 4999.494
+  angleX -0.132
+  angleY -98.515
+  angleZ -0.885
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_A {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Base A"
+    m_sBaseNameUpper "BASE A"
+    m_fRadioAntennaServiceRange 1000
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 5606.277 26.826 9859.873
+  angleX -1.837
+  angleY -136.837
+  angleZ 1.957
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_B2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName ""
+    m_sBaseNameUpper "BASE B"
+    m_fRadioAntennaServiceRange 1000
+    m_bHasGroup 1
+    m_sGroupName "B"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 4363.548 79.815 8350.467
+  angleX 1.397
+  angleY 128.683
+  angleZ 1.119
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_B3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName ""
+    m_sBaseNameUpper "BASE B"
+    m_fRadioAntennaServiceRange 1000
+    m_bHasGroup 1
+    m_sGroupName "B"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+  }
+  coords 5489.938 75.34 7955.451
+  angleX -2.501
+  angleY -44.337
+  angleZ -2.557
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_C2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Base C"
+    m_sBaseNameUpper "BASE C"
+    m_fRadioAntennaServiceRange 1000
+    m_bHasGroup 1
+    m_sGroupName "C"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2100
+     }
+    }
+   }
+  }
+  coords 5753.78 217.496 7056.484
+  angleY -118.392
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_C4 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_bIsControlPoint 1
+    m_sBaseName "Base C"
+    m_sBaseNameUpper "BASE C"
+    m_fRadioAntennaServiceRange 1000
+    m_bHasGroup 1
+    m_sGroupName "C"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 5152.779 176.669 7068.394
+  angleY 135.753
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_D2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName ""
+    m_sBaseNameUpper "BASE D"
+    m_fRadioAntennaServiceRange 900
+    m_bHasGroup 1
+    m_sGroupName "D"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 3943.459 103.598 6265.537
+  angleX 0.362
+  angleY 66.186
+  angleZ 0.818
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Base_D3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 120
+    m_sBaseName ""
+    m_sBaseNameUpper "BASE D"
+    m_fRadioAntennaServiceRange 900
+    m_bHasGroup 1
+    m_sGroupName "D"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 6122.437 84.188 5791.111
+  angleX 0.745
+  angleY 33.707
+  angleZ 0.496
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

@@ -1,0 +1,46 @@
+$grp SCR_DestructibleEntity : "{425B3F37AE13AE3C}Prefabs/Structures/Walls/Crashbarrier/CrashBarrier_01/CrashBarrier_01_8m_V1.et" {
+ {
+  coords 8940.779 1.316 565.879
+  angleY 85.008
+ }
+ {
+  coords 8941.446 -0.001 558.242
+  angleY 85.008
+ }
+ {
+  coords 8940.104 1.642 573.621
+  angleY 85.008
+ }
+ {
+  coords 9028.115 -0.15 579.953
+  angleX 9.482
+  angleY -49.75
+  angleZ 2.048
+ }
+ {
+  coords 9023.121 0.001 573.986
+  angleX 15.754
+  angleY -50.177
+  angleZ -1.161
+ }
+ {
+  coords 9018.094 0.263 568.023
+  angleX 15.754
+  angleY -50.177
+  angleZ -1.161
+ }
+ {
+  coords 9013.005 0.348 561.988
+  angleX 15.754
+  angleY -50.177
+  angleZ -1.161
+ }
+ {
+  coords 8939.411 1.057 581.549
+  angleY 85.008
+ }
+ {
+  coords 8938.737 -0.131 589.266
+  angleY 85.008
+ }
+}

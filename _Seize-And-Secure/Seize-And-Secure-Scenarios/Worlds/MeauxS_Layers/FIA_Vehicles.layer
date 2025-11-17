@@ -1,0 +1,65 @@
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aExcludedEditableEntityLabels {
+     53
+    }
+   }
+  }
+  coords 4406.635 6.72 10905.972
+  angleY -119.41
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aExcludedEditableEntityLabels {
+     53
+    }
+   }
+  }
+  coords 4534.876 15.17 10412.295
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aExcludedEditableEntityLabels {
+     53
+    }
+   }
+  }
+  coords 4312.497 1.124 9510.222
+  angleY -115.108
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aExcludedEditableEntityLabels {
+     53
+    }
+   }
+  }
+  coords 4445.613 4.035 11149.626
+  angleY -179.373
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aExcludedEditableEntityLabels {
+     53
+    }
+   }
+  }
+  coords 5021.848 26.328 9990.606
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aExcludedEditableEntityLabels {
+     53
+    }
+   }
+  }
+  coords 4974.13 37.292 9183.313
+ }
+}

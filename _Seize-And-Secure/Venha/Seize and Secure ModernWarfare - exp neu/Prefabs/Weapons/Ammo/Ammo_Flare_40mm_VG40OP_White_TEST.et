@@ -1,0 +1,76 @@
+Projectile : "{D40A105437369C1D}Prefabs/Weapons/Core/Ammo_GrenadeLauncher_Base.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  TimerTriggerComponent "{65F45B1A3D92F0A8}" {
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{65F50B308F154FE0}" {
+     AttachToParent 1
+     UseFrameEvent 1
+     ParticleEffect "{A41E7805D1DA9249}Particles/Weapon/Smoke_grenade_RDG-2_red.ptc"
+     StopSoundWithParticles 1
+     SoundStopOffset 5000
+    }
+   }
+   DELETE_ON_TRIGGER 0
+   TIMER 0
+  }
+  BaseProjectileComponent "{65F45B1A3D92F0BA}" {
+   Enabled 0
+  }
+  CollisionTriggerComponent "{65F45B1A3D92F0B8}" {
+   Enabled 0
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{65F45B1A3D92F0BE}" {
+     EffectPrefab "{729D7EE679AD97E7}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_VOG25.et"
+     ParticleEffect "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   ArmingTime 0
+   SafetyDistance 10
+  }
+  InventoryItemComponent "{52627A12350994B6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1234AD20A4}" {
+    ItemDisplayName UIInfo "{65F45B1A3D92F0B1}" {
+     Name "#AR-Magazine_VG40OP_Name"
+     Description "#AR-Magazine_VG40OP_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65F45B1A3D92F0B7}" {
+     Weight 0.25
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 100
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MagazineComponent "{65F45B1A3D92F08B}" {
+   MagazineWell MagazineWellRU_GP "{65F45B1A3D92F088}" {
+   }
+   UIInfo MagazineUIInfo "{65F45B1A3D92F089}" {
+    Name "#AR-AmmunitionID_40mm"
+    m_sAmmoCaliber "#AR-AmmunitionID_40mm"
+    m_sAmmoType "#AR-AmmoType_VG40OP"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags ILLUMINATION
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5874FAA7B6D57051}" : "{50A057521DC5C821}Configs/WeaponInfo/MagazineIndicators/ugl_vog25.conf" {
+    }
+   }
+   MaxAmmo 1
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{52512E76CB91B0B1}Assets/Weapons/Ammo/Grenades/Flare_40mm_VOG40OP_White/Flare_40mm_VG40OP_White.xob"
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 77
+   InitSpeedVariation 0
+   Mass 0.25
+   TimeToLive 40
+  }
+  Hierarchy "{65F45B1A3D92F080}" {
+  }
+ }
+ ProjectileModel "{52512E76CB91B0B1}Assets/Weapons/Ammo/Grenades/Flare_40mm_VOG40OP_White/Flare_40mm_VG40OP_White.xob"
+ CartridgeModel "{52512E76CB91B0B1}Assets/Weapons/Ammo/Grenades/Flare_40mm_VOG40OP_White/Flare_40mm_VG40OP_White.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

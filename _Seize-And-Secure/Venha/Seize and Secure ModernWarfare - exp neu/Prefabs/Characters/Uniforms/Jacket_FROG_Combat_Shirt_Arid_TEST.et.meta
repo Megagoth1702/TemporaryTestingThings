@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FB5638585915C407}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid_TEST.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

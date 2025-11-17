@@ -1,0 +1,27 @@
+HorizontalLayoutWidgetClass {
+ {
+  ScrollLayoutWidgetClass "{000000009881A4C7}" {
+   Prefab "{000000009881A4C7}"
+   {
+    VerticalLayoutWidgetClass "{00000000C099DEEF}" {
+     Prefab "{00000000C099DEEF}"
+     {
+      ButtonWidgetClass "{64980709A53CCB66}" : "{4A41296C0E9A889F}UI/layouts/WidgetLibrary/WLib_Slider.layout" {
+       Name "Earplugs"
+       Slot LayoutSlot "{64980709A53CCB78}" {
+        HorizontalAlign 3
+        Padding 4 4 4 4
+       }
+       "Z Order" 9
+       components {
+        SCR_SliderComponent "{548294960C7399D9}" {
+         m_sLabel "#EarPlugSettings_Title"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,179 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Mineraly {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1250
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Cain_Mineraly"
+    m_fRadioAntennaServiceRange 1250
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6032.071 2.438 8298.859
+  angles 0 -97.741 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Pyritka {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1250
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Pyritka"
+    m_fRadioAntennaServiceRange 1250
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 5079.807 176.367 7582.906
+  angles 0 -98.535 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Hamertin {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1250
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Hamertin"
+    m_fRadioAntennaServiceRange 1250
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 3254.764 269.174 6831.934
+  angles 0.944 -3.213 0.844
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Fields {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Fields"
+    m_fRadioAntennaServiceRange 1200
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 4169.608 238.495 7164.907
+  angles 0 79.605 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ SafeHouse {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1725
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Safe House"
+    m_fRadioAntennaServiceRange 1725
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6837.537 161.682 7857.715
+  angles 0 13.833 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ BareRidge {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Bare Ridge"
+   }
+  }
+  coords 7747.71 313.397 8110.179
+  angles -1.394 -72.427 1.436
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 15.115 0.617 23.761
+    angles -0.071 164.683 1.788
+   }
+  }
+ }
+ HiddenDepot {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Hidden Depot"
+   }
+  }
+  coords 3299.367 249.028 6227.505
+  angles -3.858 -174.549 12.015
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -18.79 -0.134 17.21
+    angles -6.096 -176.444 4.244
+   }
+  }
+ }
+ Musselcove {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_MusselCove"
+   }
+  }
+  coords 7032.119 0.915 8756.619
+  angles 0 -137.301 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 15.577 0.049 15.665
+    angles -0.541 -95.509 0.713
+   }
+  }
+ }
+ ZenitMine {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_ZenitMine"
+   }
+  }
+  coords 3749.034 196.436 7384.054
+  angles -0.081 -87.409 1.788
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 26.498 -1.678 -6.792
+    angles 1.932 -64.212 2.057
+   }
+  }
+ }
+}

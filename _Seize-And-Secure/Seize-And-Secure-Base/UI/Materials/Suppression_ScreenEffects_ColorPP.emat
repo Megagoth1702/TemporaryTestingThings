@@ -1,0 +1,8 @@
+ColorsEffect {
+ Refs {
+  "Contrast"
+  "IRON_SUP_ScreenEffects.s_fColorContrast"
+  "Brightness"
+  "IRON_SUP_ScreenEffects.s_fColorBrightness"
+ }
+}

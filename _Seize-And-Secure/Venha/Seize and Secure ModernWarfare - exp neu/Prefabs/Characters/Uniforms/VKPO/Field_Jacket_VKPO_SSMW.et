@@ -1,0 +1,80 @@
+GameEntity : "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{038AF63E87B081AE}Assets/Characters/Uniforms/Jacket_VKPO/rhs_field_jacket_vkpo_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA742C881B}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841FFD3695A}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841FF4AEFAF}" {
+      m_AffiliatedFactionKey "RHS_AFRF"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    RHS_ClothNodeStorageComponent "{65E6C0198F1C323B}" {
+     StoragePurpose 64
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_VKPO_Field_Jacket_Name"
+     Description "#RHS-Uniform_VKPO_Field_Jacket_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      CameraOffset 0 0.5 0
+      PreviewModel "{BF09E1D72F296AF8}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO_wear.et"
+      ShowAllChildrens 1
+     }
+    }
+   }
+   m_aSlotsToShow {
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Enabled 0
+    }
+    LoadoutSlotInfo Undershirt {
+     Enabled 1
+     Prefab "{C4D2963435559DD6}Prefabs/Characters/Uniforms/VKPO/Undershirt_Summer_VKPO.et"
+     InspectionWidgetOffset 0 -1 0
+    }
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     PivotID "RightArm"
+     Offset 0.0384 -0.184 -0.0489
+     Angles -2.7703 142.05951 -11.2656
+     InspectionWidgetOffset 0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{65E6C0198F1C3208}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+     PivotID "LeftArm"
+     Offset -0.0343 0.1899 0.0505
+     Angles -0.7231 -36.5464 -167.88951
+     InspectionWidgetOffset -0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{65E6C0198F1C320D}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+   }
+   WornModel "{17B42839479B177B}Assets/Characters/Uniforms/Jacket_VKPO/rhs_field_jacket_vkpo.xob"
+   ItemModel "{038AF63E87B081AE}Assets/Characters/Uniforms/Jacket_VKPO/rhs_field_jacket_vkpo_item.xob"
+   OverrideMeshesToHide + {
+    "Arm_L" "Arm_R"
+   }
+   DeflatedModel ""
+  }
+ }
+ coords 998.302 51 2297.55
+}

@@ -1,0 +1,94 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2330.231 56.417 4947.71
+  angleY 11.475
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2212.9 44.234 4838.217
+  angleY 100.648
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2352.357 8.375 4668.027
+  angleY 96.067
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2436.762 10.134 4399.841
+  angleX -4.82
+  angleY -64.097
+  angleZ -2.337
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2461.639 10.471 4256.51
+  angleY -150.333
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2512.195 10.388 4224.812
+  angleY -161.522
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2635.647 4.636 4130.561
+  angleY -35.565
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2791.335 12.374 4006.83
+  angleY -145.681
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2881.681 90.039 4833.556
+  angleY 60.069
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1952.627 77.569 5111.755
+  angleY 158.766
+ }
+}

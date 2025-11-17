@@ -1,0 +1,10 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "70A3674123B4BC16"
+ components {
+  IRON_SUP_ProjectileComponent "{64A958E6C36A4DA2}" {
+   m_fCaliberMultiplier 1.2
+   m_fMinimumFlybyRange 2
+   m_fMaximumFlybyRange 9
+  }
+ }
+}

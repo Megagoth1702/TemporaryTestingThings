@@ -1,0 +1,10 @@
+ChromAberEffect {
+ PowerX 0
+ PowerY 0
+ Refs {
+  "Enabled"
+  "IRON_SUP_ScreenEffects.s_bPainEnabled"
+  "PowerX"
+  "IRON_SUP_ScreenEffects.s_fChromAberPower"
+ }
+}

@@ -1,0 +1,15 @@
+Vehicle : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
+ ID "5206D4E79715C115"
+ components {
+  BaseRadioComponent "{51EAE034CD7B7A2C}" {
+   Enabled 1
+   Transceivers {
+    RelayTransceiver "{5A9ABE5DB2EE7018}" {
+    }
+    RelayTransceiver "{51EAE034C972A699}" {
+     "Transmitting Range" 1
+    }
+   }
+  }
+ }
+}

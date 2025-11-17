@@ -1,0 +1,24 @@
+Vehicle : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5A60CECB549327C1}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5D84B4781EDAB5E8}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5D84B4786B3EF591}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{5D84B47840F6D0A1}" {
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{5E3AC1A962E6ED63}" {
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

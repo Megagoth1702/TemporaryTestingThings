@@ -1,0 +1,8 @@
+modded enum EEditableEntityLabel
+{
+
+	TRAIT_MHQ_SERVICE = 300,
+	TRAIT_MHQ_FORTIFICATION = 301,
+	TRAIT_MHQ_OBJECT = 302
+
+};

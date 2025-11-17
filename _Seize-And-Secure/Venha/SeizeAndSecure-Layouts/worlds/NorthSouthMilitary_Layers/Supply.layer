@@ -1,0 +1,32 @@
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ Airport {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Airport"
+   }
+  }
+  coords 3021.418 24.219 4853.151
+  angles 0 -128.07 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -41.088 0 4.822
+    angles 0 -1.041 0
+   }
+  }
+ }
+ NorthernBeach {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_NorthernBeach"
+   }
+  }
+  coords 10549.577 22.404 9693.64
+  angles 0 -158.419 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 27.62 0.002 -14.001
+    angles 0 176.494 0
+   }
+  }
+ }
+}

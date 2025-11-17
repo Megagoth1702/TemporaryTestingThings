@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{B692B5F052AA3EF1}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{60DC952FF79A02F1}" {
+   "faction affiliation" "US"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Random_Civilian_Dockworker_Name"
+    Icon "{C431FD61793AA13F}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Random.edds"
+    m_Image "{A25BDD63BD7C7D8C}UI/Textures/EditorPreviews/Characters/CIV/Character_CIV_DockWorker_Randomized.edds"
+    m_aAuthoredLabels {
+     290 70 2 13 22
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{61D4F7E04EEFABB6}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{61D4F7E04EEFABBF}" {
+      m_sVariantPrefab "{C6FAF52907A544AC}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_1.et"
+     }
+     SCR_EditableEntityVariant "{61D4F7E04EEFABBB}" {
+      m_sVariantPrefab "{2CDFBF355F3410DD}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_2.et"
+     }
+     SCR_EditableEntityVariant "{61D4F7E04EEFABB9}" {
+      m_sVariantPrefab "{2366B9D00B40D3C7}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_3.et"
+     }
+     SCR_EditableEntityVariant "{61D4F7E04EEFAB87}" {
+      m_sVariantPrefab "{472F2B06FF9BF37D}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_4.et"
+     }
+     SCR_EditableEntityVariant "{61D4F7E04EEFAB82}" {
+      m_sVariantPrefab "{A2B367FFF37E6416}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_5.et"
+     }
+     SCR_EditableEntityVariant "{61D4F7E04EEFAB80}" {
+      m_sVariantPrefab "{CEE7531F4FBAEB38}Prefabs/Characters/Factions/CIV/Dockworker/Character_CIV_Dockworker_6.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BE19A15F1073E7BD}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{FD39B0B833BB927E}Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_yellow.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{CF185061C5C13DBF}Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_yellow.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Fisherman_01/Pants_Fisherman_01_yellow.et"
+    }
+   }
+  }
+ }
+}

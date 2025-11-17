@@ -1,0 +1,166 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{6284F6A3C4C78D81}" : "{D371A7C4CEFFA863}UI/layouts/HUD/ScreenEffects/Iron_AdaptiveOpacity-Suppression.layout" {
+   Name "Iron_AdaptiveOpacity-Suppression"
+   Slot FrameWidgetSlot "{61576E0B493B65EC}" {
+   }
+   {
+    ImageWidgetClass "{62851803F0EAB9F5}" {
+     Name "Iron_SuppressionFlinchHeavy"
+     Slot OverlayWidgetSlot "{628547A8162B78C5}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Size 1920 1080
+     Mask "{77CF24D5CA2DB63F}UI/Textures/ScreenEffects/Suppression/supressionVignette2.edds"
+     "Transition width" 1
+    }
+    ImageWidgetClass "{632A15DEB9EBD94B}" {
+     Name "Iron_SuppressionVignetteHeavy"
+     Slot OverlayWidgetSlot "{644B648E27B4B932}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Size 1920 1080
+     Mask "{77CF24D5CA2DB63F}UI/Textures/ScreenEffects/Suppression/supressionVignette2.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B648B31D4AE4C}" {
+     Name "Iron_Suppression_Flyby_AboveCenter"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{DF18E348F5DDCAF7}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Above-Center.edds"
+     Size 2048 1024
+     Mask "{DF18E348F5DDCAF7}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Above-Center.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B648A485B6DBD}" {
+     Name "Iron_Suppression_Flyby_AboveLeft"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{F0866C4BE74DF5FE}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Above-Left.edds"
+     Size 2048 1024
+     Mask "{F0866C4BE74DF5FE}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Above-Left.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B648A25BAEAFC}" {
+     Name "Iron_Suppression_Flyby_LevelCenter"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{AB1C33493BE45C49}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Level-Center.edds"
+     Size 2048 1024
+     Mask "{AB1C33493BE45C49}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Level-Center.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B648A021105DF}" {
+     Name "Iron_Suppression_Flyby_AboveRight"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{856A59C35231DE4B}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Above-Right.edds"
+     Size 2048 1024
+     Mask "{856A59C35231DE4B}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Above-Right.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B648A0C5F6B86}" {
+     Name "Iron_Suppression_Flyby_LevelLeft"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{980A93169B110DB1}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Level-Left.edds"
+     Size 2048 1024
+     Mask "{980A93169B110DB1}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Level-Left.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B6489E25F1318}" {
+     Name "Iron_Suppression_Flyby_LevelRight"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{8D8C3BDFD9E36204}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Level-Right.edds"
+     Size 2048 1024
+     Mask "{8D8C3BDFD9E36204}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Level-Right.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B6489EF57CEAB}" {
+     Name "Iron_Suppression_Flyby_BottomCenter"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{0E38A764B41BBEB5}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Bottom-Center.edds"
+     Size 2048 1024
+     Mask "{0E38A764B41BBEB5}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Bottom-Center.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B6489FA789B1C}" {
+     Name "Iron_Suppression_Flyby_BottomLeft"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{33D59D75EA4604A3}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Bottom-Left.edds"
+     Size 2048 1024
+     Mask "{33D59D75EA4604A3}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Bottom-Left.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{644B6489C5E42CC6}" {
+     Name "Iron_Suppression_Flyby_BottomRight"
+     Slot OverlayWidgetSlot "{644B648AB79860C6}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Opacity 0
+     Color 0 0 0 1
+     Texture "{3D75A22734A08D1C}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Bottom-Right.edds"
+     Size 2048 1024
+     Mask "{3D75A22734A08D1C}UI/Textures/ScreenEffects/Suppression/2048x1024/Suppression-ScreenEffect-Bottom-Right.edds"
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass "{615CC3F6AF17BA85}" {
+     Prefab "{615CC3F6AF17BA85}"
+     Size 2048 1024
+    }
+   }
+  }
+ }
+}

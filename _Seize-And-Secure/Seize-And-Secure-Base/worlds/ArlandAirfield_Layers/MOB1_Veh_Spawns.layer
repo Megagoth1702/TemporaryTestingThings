@@ -1,0 +1,112 @@
+StaticModelEntity : "{472BE7BF1240C1CE}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_US_01.et" {
+ coords 1298.427 0.499 1878.486
+ angleY 111.137
+}
+$grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     50 21
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1390.021 9.625 1873.145
+  angleY -75.408
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1387.923 9.626 1865.087
+  angleX 0.866
+  angleY -75.404
+  angleZ 0.226
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1386.098 9.656 1858.077
+  angleY -75.408
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     24 50
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1384.063 9.625 1850.26
+  angleY -75.408
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     53
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1412.064 10.958 1856.698
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     54 37 210
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1408.828 10.982 1865.647
+  angleY 25.472
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     51
+    }
+    m_aExcludedEditableEntityLabels {
+     21
+    }
+    m_bIgnoreTerrain 1
+   }
+  }
+  coords 1298.253 12.58 1879.246
+  angleY 110.715
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_aIncludedEditableEntityLabels {
+     54 37 210
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 1376.714 9.743 1864.95
+  angleX 0.511
+  angleY 11.788
+  angleZ 1.935
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bRequireAllIncludedLabels 1
+    m_bIgnoreTerrain 1
+   }
+  }
+  coords 1428.222 10.999 1871.812
+  angleY -67.565
+ }
+}

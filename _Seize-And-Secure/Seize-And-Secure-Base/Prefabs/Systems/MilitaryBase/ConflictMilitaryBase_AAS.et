@@ -1,0 +1,132 @@
+GenericEntity {
+ ID "626117433D6BB49B"
+ components {
+  SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+   m_bShowNotifications 0
+  }
+  SCR_CampaignMilitaryBaseMapDescriptorComponent "{626117433D6B09C1}" {
+   MainType "Radio/ Tower"
+   m_GraphLinesData SCR_GraphLinesData "{626117433D6B09F8}" {
+   }
+  }
+  SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+   m_iRadius 50
+   m_fMaximumSeizingTime 60
+   m_fMinimumSeizingTime 5
+   m_iMaximumSeizingCharacters 12
+   m_fRespawnCooldownPeriod 20
+   m_bGradualTimerReset 1
+   m_bIgnoreNonPlayableAttackers 1
+   m_bShowNotifications 0
+   m_fExtraTimePerService 45
+  }
+  SCR_CampaignSuppliesComponent "{626117433D6B09FC}" {
+   m_iSupplies 250
+   m_iSuppliesMax 500
+   m_fOperationalRadius 25
+  }
+  SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+   "Turned on" 0
+   Transceivers {
+    RelayTransceiver "{626117433D6B09F7}" {
+     "Transmitting Range" 1000
+     "Frequency resolution" 1
+    }
+   }
+  }
+  SCR_EditableSystemComponent "{626117433D6B09F5}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableDescriptorUIInfo "{626117433D6B09EB}" {
+    Name "#AR-MapLocation_MilitaryBase"
+    Icon "{DD5F23CBB1731598}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Base.edds"
+   }
+   m_EntityInteraction SCR_EditableEntityInteraction "{626117433D6B09E2}" {
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 2052
+  }
+  SCR_FactionAffiliationComponent "{626117433D6B09E0}" {
+  }
+  SCR_MilitaryBaseAreaMeshComponent "{626117433D6B09E6}" {
+   m_fHeight 30
+   m_vResolution 48
+   m_Material "{E65E61D1541003E2}Assets/Editor/VirtualArea/VirtualArea.emat"
+  }
+  SCR_ResourceComponent "{626117433D6B091B}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{626117433D6B090A}" {
+     m_sDebugName "Free Building Consumer"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 100
+     m_fBuyMultiplier 1
+     m_fSellMultiplier 1
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{626117433D6B0909}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{626117433D6B0900}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{626117433D6B0906}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{626117433D6B0905}" {
+     m_sDebugName "Free Building Generator"
+     m_eResourceRights ALL
+     m_fStorageRange 100
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{626117433D6B093B}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{626117433D6B0938}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{626117433D6B093E}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{626117433D6B093C}" {
+      }
+      SCR_ResourceGeneratorActionDropContainers "{626117433D6B0932}" {
+      }
+     }
+    }
+   }
+   m_eDebugVisualizationFlags 5
+  }
+  RplComponent "{626117433D6B0931}" {
+   Streamable Disabled
+  }
+ }
+ coords 899.447 0.185 901.325
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "626117433D6BFC44"
+   components {
+    SCR_MapDescriptorComponent "{626117433D6B092E}" {
+     VisibleOnMap 0
+     MainType Spawnpoint
+    }
+    RplComponent "{626117433D6B092D}" {
+     Streamable Disabled
+    }
+    Hierarchy "{626117433D6B0920}" {
+    }
+   }
+   coords 0 0 0
+   m_fSpawnRadius 10
+   m_sFaction ""
+   m_bUseNearbySpawnPositions 1
+  }
+  GenericEntity : "{811ECBE58F51D9A2}Prefabs/MP/Campaign/Assets/CampaignHQRadioBase.et" {
+   ID "626117433D6BFC3D"
+   components {
+    Hierarchy "{626117433D6B0927}" {
+    }
+   }
+   coords -2 0.75 -3
+  }
+ }
+}

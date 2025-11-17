@@ -1,0 +1,28 @@
+GenericEntity : "{278E487E19D82680}Prefabs/Vehicles/Core/Vehicle_Cargo_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SCR_ResourceComponent "{5D8356131CA904DC}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D8356131A10147F}" {
+     m_fResourceValueMax 1500
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5DB89931646B175D}" {
+     m_fResourceRange 25
+    }
+    SCR_ResourceConsumer "{5DB8993164E6492F}" {
+     m_fResourceRange 25
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5DB8993169A2FC4E}" {
+     m_fStorageRange 25
+    }
+    SCR_ResourceGenerator "{5DB899316836D869}" {
+     m_fStorageRange 25
+    }
+   }
+  }
+ }
+}

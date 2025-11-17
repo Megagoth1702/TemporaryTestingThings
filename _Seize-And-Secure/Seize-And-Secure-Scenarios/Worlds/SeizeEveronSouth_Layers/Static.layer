@@ -1,0 +1,51 @@
+GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck_static.et" {
+ coords 8019.32 216.99 4230.642
+ angleX -3.355
+ angleY -22.358
+ angleZ -3.449
+}
+SCR_DestructibleBuildingEntity : "{1D75F5616BC5A335}Prefabs/Structures/Infrastructure/Naval/Lighthouse/LighthouseSmall_01.et" {
+ coords 7397.274 0.663 1158.731
+ angleY -58.403
+}
+GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+ coords 7394.922 3.258 1162.499
+}
+$grp StaticModelEntity : "{7F8D6A0D827EA34B}Prefabs/Props/Military/Fortification/CzechHedgehog_01_base.et" {
+ {
+  coords 8009.433 -0.001 4223.158
+  angleX -4.428
+  angleY -60.721
+  angleZ 0.59
+ }
+ {
+  coords 8013.136 0 4227.822
+  angleX 2.873
+  angleY 76.836
+  angleZ -3.422
+ }
+ {
+  coords 8003.037 0 4231.422
+  angleX -2.673
+  angleY 0.167
+  angleZ -3.58
+ }
+}
+SCR_DestructibleEntity : "{B21B042DD6E798E5}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_Warzone_FIA_01.et" {
+ coords 7999.876 216.367 4225.923
+ angleX -4.422
+ angleY -44.989
+ angleZ -0.632
+}
+GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+ coords 8003.953 215.96 4230.779
+ angleX 4.465
+ angleY 125.123
+ angleZ -0.136
+}
+GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ coords 8007.974 216.632 4221.815
+ angleX -0.035
+ angleY 36.417
+ angleZ -4.467
+}

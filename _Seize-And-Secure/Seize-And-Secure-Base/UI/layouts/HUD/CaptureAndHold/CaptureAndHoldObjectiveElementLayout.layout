@@ -1,0 +1,58 @@
+FrameWidgetClass {
+ {
+  TextWidgetClass "{62AAE12ED5C2326B}" {
+   Name "NoRadioSignal"
+   Slot FrameWidgetSlot "{62AB10C808D5EAF4}" {
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 50
+    OffsetRight -50
+    SizeY 30
+    OffsetBottom -30
+    Alignment 0 -1.5
+   }
+   "Z Order" 1
+   IsPixelPerfect 0
+   Color 1 0 0 1
+   "Inherit Color" 1
+   Text "NO SIGNAL"
+   "Font Size" 12
+   "Min Font Size" 10
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{62AAE12E4DD1847E}" {
+    Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+    ShadowSize 4
+   }
+  }
+  VerticalLayoutWidgetClass "{00000000490622C6}" {
+   Prefab "{00000000490622C6}"
+   {
+    OverlayWidgetClass "{5918F5A868FB71D9}" {
+     Prefab "{5918F5A868FB71D9}"
+     {
+      ScaleWidgetClass "{62AB10CA22491993}" {
+       Name "Scale_NoSignal"
+       Slot OverlayWidgetSlot "{62AB10C8E1B0200C}" {
+        Padding 1 0 0 0
+       }
+       Scale 0.1
+       {
+        ImageWidgetClass "{62AB10CA45E0D8AD}" {
+         Name "Icon_NoSignal"
+         Slot AlignableSlot "{62AB10CA26B1B7DB}" {
+         }
+         Color 1 0 0 1
+         Texture "{DB2E20B0E888AAA7}UI/Textures/Conflict/no-radio--range-icon-outline_UI.edds"
+         Size 64 64
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

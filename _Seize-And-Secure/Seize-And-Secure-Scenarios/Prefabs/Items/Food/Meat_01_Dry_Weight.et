@@ -1,0 +1,23 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     SizeSetupStrategy Manual
+    }
+   }
+  }
+  MeshObject "{61E8F461436FD758}" {
+   Object "{6073CC0058821B73}Assets/Items/Food/Meat_01_Dry.xob"
+  }
+  RigidBody "{61E8F461436FD4BC}" {
+   Mass 5
+   LinearDamping 0.5
+   AngularDamping 0.5
+   ModelGeometry 1
+  }
+ }
+ coords -2.6 0 6.3
+ scale 0.6
+}

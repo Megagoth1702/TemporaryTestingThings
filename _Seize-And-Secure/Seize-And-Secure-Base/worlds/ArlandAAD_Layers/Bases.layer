@@ -1,0 +1,545 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MOB_USSR {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_fRadioAntennaServiceRange 1000
+    m_AADBaseType Defender
+   }
+  }
+  coords 1340.962 8.413 1832.627
+  angles 0 13.18 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+    coords 41.322 2.102 -1.075
+    angles 0 7.517 0
+    {
+     GenericEntity {
+      ID "5D371AC8408F65B6"
+      components {
+       ScriptedRadioComponent "{5CB8818C71F12C73}" {
+        Transceivers {
+         RelayTransceiver "{5CB8819A2D055A05}" {
+          "Transmitting Range" 1000
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ MOB_US {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+    m_bIsSource 1
+    m_aExcludedBaseNames {
+     "MajorBaseSignalHill"
+     "BaseFarm"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_fRadioAntennaServiceRange 1400
+    m_AADBaseType Attacker
+   }
+  }
+  coords 3297.827 2 2860.462
+  angles -0.246 -33.813 1.242
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+      "faction affiliation" ""
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+      "faction affiliation" ""
+     }
+    }
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+GenericEntity : "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et" {
+ coords 3335.81 1 2855.831
+ angles 1.245 -55.409 -0.229
+}
+GenericEntity : "{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et" {
+ coords 3290.587 2 2892.027
+ angles 0 56.132 0
+}
+$grp GenericEntity : "{A4FD24939987B5FB}Prefabs/Systems/AmbientPatrol/IRON_AmbientPatrolSpawnpoint_Base_Auto.et" {
+ {
+  components {
+   SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{644957CCC9D042AE}" {
+    m_bPickRandomGroupType 1
+   }
+  }
+  coords 3542.937 44.963 2645.301
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -265.46 -42.892 226.257
+    angles 0 0 0.895
+    CompletionRadius 50
+   }
+  }
+ }
+ {
+  components {
+   SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{644957CCC9D042AE}" {
+    m_bPickRandomGroupType 1
+   }
+  }
+  coords 3540.098 44.546 2649.93
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -268.071 -42.422 225.641
+    angles 0 0 0.895
+    CompletionRadius 50
+   }
+  }
+ }
+}
+$grp GenericEntity : "{F32677610651A2A7}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase_AAS.et" {
+ MajorBaseSignalHill {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    Transceivers {
+     RelayTransceiver "{626117433D6B09F7}" {
+      "Transmitting Range" 1160
+     }
+    }
+    m_aExcludedBaseNames {
+     "MOB_US"
+     "BaseArleville"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Signal Hill"
+    m_sBaseNameUpper "SIGNAL HILL"
+    m_fRadioAntennaServiceRange 1160
+    m_iFrontlineRespawnTime 30
+    m_AADBaseType Defender
+    m_fTickRate 60000
+    m_iScorePerTick 5
+   }
+  }
+  coords 2540.503 143.548 2264.534
+  angles 0 -87.86 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+   GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+    coords 12.594 4.067 33.637
+    angles 0 87.86 0
+    {
+     GenericEntity {
+      ID "5D371AC8408F65B6"
+      components {
+       ScriptedRadioComponent "{5CB8818C71F12C73}" {
+        Transceivers {
+         RelayTransceiver "{5CB8819A2D055A05}" {
+          "Transmitting Range" 1150
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+    coords 41.243 4.296 27.325
+    angles 0 147.649 0
+   }
+   $grp GenericEntity : "{A73205DEA8361F26}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_USSR.et" {
+    {
+     components {
+      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+       m_bPickRandomGroupType 1
+      }
+      SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+       "faction affiliation" ""
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+       m_bPickRandomGroupType 1
+      }
+      SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+       "faction affiliation" ""
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ MajorBaseAirfield {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    Transceivers {
+     RelayTransceiver "{626117433D6B09F7}" {
+     }
+    }
+    m_aExcludedBaseNames {
+     "BaseFarm"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Mareks Airfield For Soldiers Who Want To Get Places Fast"
+    m_sBaseNameUpper "MAREKS AIRFIELD FOR SOLDIERS WHO WANT TO GET PLACES FAST"
+    m_fRadioAntennaServiceRange 1000
+    m_iFrontlineRespawnTime 30
+    m_AADBaseType Defender
+    m_fTickRate 60000
+    m_iScorePerTick 5
+   }
+  }
+  coords 945.719 38.28 2892.593
+  angles 0 -141.467 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+   GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+    coords 5.091 2.31 -39.912
+    angles 1.019 -1.047 4.051
+    {
+     GenericEntity {
+      ID "5D371AC8408F65B6"
+      components {
+       ScriptedRadioComponent "{5CB8818C71F12C73}" {
+        Transceivers {
+         RelayTransceiver "{5CB8819A2D055A05}" {
+          "Transmitting Range" 1150
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{A73205DEA8361F26}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_USSR.et" {
+    {
+     components {
+      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+       m_bPickRandomGroupType 1
+      }
+      SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+       "faction affiliation" ""
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+       m_bPickRandomGroupType 1
+      }
+      SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+       "faction affiliation" ""
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ MajorBaseMilitary {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    Transceivers {
+     RelayTransceiver "{626117433D6B09F7}" {
+      "Transmitting Range" 900
+     }
+    }
+    m_aExcludedBaseNames {
+     "BaseFarm"
+     "BaseHarbour"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Military Base"
+    m_sBaseNameUpper "MILITARY BASE"
+    m_fRadioAntennaServiceRange 900
+    m_AADBaseType Defender
+    m_fTickRate 60000
+    m_iScorePerTick 5
+   }
+  }
+  coords 1355.61 37.166 2397.512
+  angles 0 143.025 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+   GenericEntity : "{68ED84218EA1BDC3}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_USSR_01.et" {
+    coords -28.455 -1.229 42.615
+    angles 0 124.792 0
+    {
+     GenericEntity {
+      ID "5D371AC8408F65B6"
+      components {
+       ScriptedRadioComponent "{5CB8818C71F12C73}" {
+        Transceivers {
+         RelayTransceiver "{5CB8819A2D055A05}" {
+          "Transmitting Range" 1000
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D088D25691EE881"
+      coords 45.052 1.369 37.951
+      angles 0 -115.174 0
+     }
+    }
+   }
+   $grp GenericEntity : "{A73205DEA8361F26}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_USSR.et" {
+    {
+     components {
+      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+       m_bPickRandomGroupType 1
+      }
+      SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+       "faction affiliation" ""
+      }
+     }
+     coords 0 0 0
+    }
+    {
+     components {
+      SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+       m_bPickRandomGroupType 1
+      }
+      SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+       "faction affiliation" ""
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ BaseFarm {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    Transceivers {
+     RelayTransceiver "{626117433D6B09F7}" {
+      "Transmitting Range" 1200
+     }
+    }
+    m_aExcludedBaseNames {
+     "MOB_US"
+     "MajorBaseMilitary"
+     "MajorBaseAirfield"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_sBaseName "Grandpas Farm"
+    m_sBaseNameUpper "GRANDPAS FARM"
+    m_fRadioAntennaServiceRange 1200
+    m_AADBaseType Defender
+   }
+  }
+  coords 2022.396 51.262 3065.234
+  angles 0 -133.597 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+   GenericEntity : "{A73205DEA8361F26}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_USSR.et" {
+    components {
+     SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{5CCEC6036BBF3EDD}" {
+     }
+     SCR_Iron_FactionAffiliationComponent_Auto "{5CCEC6039525B984}" {
+      "faction affiliation" ""
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ BaseArleville {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    Transceivers {
+     RelayTransceiver "{626117433D6B09F7}" {
+      "Transmitting Range" 1400
+     }
+    }
+    m_aExcludedBaseNames {
+     "MajorBaseSignalHill"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_sBaseName "Arleville"
+    m_sBaseNameUpper "ARLEVILLE"
+    m_fRadioAntennaServiceRange 1400
+    m_AADBaseType Defender
+   }
+  }
+  coords 2811.529 71.243 1738.472
+  angles 1.412 161.421 -1.418
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+   GenericEntity : "{A4FD24939987B5FB}Prefabs/Systems/AmbientPatrol/IRON_AmbientPatrolSpawnpoint_Base_Auto.et" {
+    components {
+     SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{644957CCC9D042AE}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ BaseMossHill {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    Transceivers {
+     RelayTransceiver "{626117433D6B09F7}" {
+      "Transmitting Range" 1200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_sBaseName "Moss Hill"
+    m_sBaseNameUpper "MOSS HILL"
+    m_fRadioAntennaServiceRange 1200
+    m_AADBaseType Defender
+   }
+  }
+  coords 2311.667 90.419 1263.289
+  angles 0 -59.854 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+   GenericEntity : "{A4FD24939987B5FB}Prefabs/Systems/AmbientPatrol/IRON_AmbientPatrolSpawnpoint_Base_Auto.et" {
+    components {
+     SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{644957CCC9D042AE}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+ BaseHarbour {
+  components {
+   SCR_CampaignSeizingComponent "{626117433D6B09F9}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{626117433D6B09F2}" {
+    m_aExcludedBaseNames {
+     "MajorBaseMilitary"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{626117433D6B09CB}" {
+    m_sBaseName "Harbour"
+    m_sBaseNameUpper "HARBOUR"
+    m_fRadioAntennaServiceRange 1000
+    m_AADBaseType Defender
+   }
+  }
+  coords 1153.924 1.156 3286.836
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "626117433D6BFC44"
+    m_bSpawnPointEnabled 0
+    m_bHideInDeployMap 1
+   }
+  }
+ }
+}

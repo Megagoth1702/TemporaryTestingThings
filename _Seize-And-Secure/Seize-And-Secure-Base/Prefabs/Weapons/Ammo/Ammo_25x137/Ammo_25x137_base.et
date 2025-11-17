@@ -1,0 +1,13 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  IRON_SUP_ProjectileComponent "{64A958E6C36A4DA2}" {
+   m_fCaliberMultiplier 2
+   m_fMinimumFlybyRange 8
+   m_fMaximumFlybyRange 16
+   m_fMinimumImpactRange 6
+   m_fMaximumImpactRange 12
+   m_bCausesFlybyFlinch 1
+  }
+ }
+}

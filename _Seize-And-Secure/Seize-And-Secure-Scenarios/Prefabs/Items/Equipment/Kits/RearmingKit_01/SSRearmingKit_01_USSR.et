@@ -1,0 +1,8 @@
+GenericEntity : "{7738517A4B046266}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_ArsenalComponent "{5E2A83C89613DAE4}" {
+   m_eSupportedArsenalItemTypes 262958
+  }
+ }
+}

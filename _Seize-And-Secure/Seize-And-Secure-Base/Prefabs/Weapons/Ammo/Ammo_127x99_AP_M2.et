@@ -1,0 +1,13 @@
+Projectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.et" {
+ ID "476AE74C1F2F140D"
+ components {
+  IRON_SUP_ProjectileComponent "{64A958E6C36A4DA2}" {
+   m_fCaliberMultiplier 1.5
+   m_fMinimumFlybyRange 3
+   m_fMaximumFlybyRange 10
+   m_fMinimumImpactRange 2
+   m_fMaximumImpactRange 5
+   m_bCausesFlybyFlinch 1
+  }
+ }
+}

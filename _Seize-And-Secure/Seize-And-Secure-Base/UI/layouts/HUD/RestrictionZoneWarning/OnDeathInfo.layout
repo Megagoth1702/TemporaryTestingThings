@@ -1,0 +1,274 @@
+FrameWidgetClass {
+ Name "OnDeathInfo"
+ Color 1 1 1 1
+ {
+  FrameWidgetClass "{617D1582F991D997}" {
+   Name "EditorHider"
+   Slot FrameWidgetSlot "{59D673B92EBF779F}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   components {
+    SCR_ShowHideInEditorUIComponent "{59D673B9596F89F9}" {
+     m_bShowInEditor 0
+    }
+   }
+   {
+    OverlayWidgetClass "{617D1582F991D992}" {
+     Name "OnDeathInfoDisplay"
+     Slot FrameWidgetSlot "{59D0B50D495D33B9}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX -1820
+      OffsetRight 0
+      SizeY -1050
+      OffsetBottom 0
+     }
+     {
+      ImageWidgetClass "{617D1582F991D993}" {
+       Name "Image0"
+       Slot OverlayWidgetSlot "{59D0B50D71D54AD5}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0 0 0 1
+       Texture "{6FE2C64CB67BA627}UI/Textures/Editor/Overlays/Vignette/Overlay_Vignette.edds"
+       Size 512 512
+      }
+      ImageWidgetClass "{617D1582F9917106}" {
+       Name "Image1"
+       Slot OverlayWidgetSlot "{59D0B50D71D54AD5}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0 0 0 1
+       Texture "{6FE2C64CB67BA627}UI/Textures/Editor/Overlays/Vignette/Overlay_Vignette.edds"
+       Size 512 512
+      }
+      ImageWidgetClass "{617D1582F991710A}" {
+       Name "Image2"
+       Slot OverlayWidgetSlot "{59D0B50D71D54AD5}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0 0 0 0.627
+       Size 512 512
+      }
+     }
+    }
+    OverlayWidgetClass "{617D1582F9917109}" {
+     Name "WarningVisualsHolder"
+     Slot FrameWidgetSlot "{587EA36B864B5661}" {
+      Anchor 0 0.5 1 0.5
+      PositionX 960
+      OffsetLeft 960
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight -960
+      SizeY 350
+      OffsetBottom -350
+      Alignment 0.5 0.5
+     }
+     {
+      HorizontalLayoutWidgetClass "{617D1582F9917108}" {
+       Name "HorizontalLayout0"
+       Slot OverlayWidgetSlot "{59AACB43BDCEC12F}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Opacity 0.75
+       Color 0 0 0 1
+       {
+        ImageWidgetClass "{617D1582F990FBF9}" {
+         Name "Background"
+         Slot LayoutSlot "{59AACB43B95173CA}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+         }
+         "Inherit Color" 1
+         Texture "{C8356C245709D063}UI/Textures/Common/gradient_transparent_white_linear_photoshop.edds"
+         Size 256 256
+        }
+        ImageWidgetClass "{617D1582F990FBFE}" {
+         Name "Image0"
+         Slot LayoutSlot "{59AACB43EC84ADF3}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+         }
+         "Inherit Color" 1
+        }
+        ImageWidgetClass "{617D1582F990BEF5}" {
+         Name "Background0"
+         Slot LayoutSlot "{59AACB43B808EFED}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+         }
+         "Inherit Color" 1
+         Rotation 0
+         Texture "{95C893319DCF22D1}UI/Textures/Common/gradient_transparent_white_linear_photoshop_mirrored.edds"
+         Size 256 256
+        }
+       }
+      }
+      ImageWidgetClass "{617D1582F990BEF4}" {
+       Name "Icon"
+       Slot OverlayWidgetSlot "{59AAD42021594147}" {
+        VerticalAlign 0
+        Padding 0 5 0 0
+       }
+       Color 0.947 0.056 0.056 1
+       Texture "{855625FE8D6A87A8}UI/Textures/DamageState/damageState-dead.edds"
+       Size 100 100
+      }
+      TextWidgetClass "{617D1582F990BEF7}" : "{6F198A46CBC549CE}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading1.layout" {
+       Name "TimeRemaining"
+       Slot OverlayWidgetSlot "{59AACB43FCDD60C1}" {
+        Padding 0 -120 0 0
+       }
+       Text "!Time"
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+      TextWidgetClass "{617EE427507241DB}" : "{6F198A46CBC549CE}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading1.layout" {
+       Name "DeathMessage"
+       Slot OverlayWidgetSlot "{59AACB43FCDD60C1}" {
+        Padding 0 50 0 0
+       }
+       Text "!Message"
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+      TextWidgetClass "{617D1582F990AADF}" : "{0D7FF083FDE39877}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading4.layout" {
+       Name "Warning"
+       Slot OverlayWidgetSlot "{59AACB43FCDD63A7}" {
+        Padding 0 150 0 0
+       }
+       Color 0.947 0.056 0.056 1
+       Text "!Warning"
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+      TextWidgetClass "{617EE42793C23330}" : "{0D7FF083FDE39877}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading4.layout" {
+       Name "Flavor"
+       Slot OverlayWidgetSlot "{59AACB43FCDD63A7}" {
+        Padding 0 225 0 0
+       }
+       Color 0.947 0.947 0.947 1
+       Text "!Flavor"
+       "Font Size" 24
+       "Min Font Size" 16
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+      TextWidgetClass "{64732BEAB07AC14D}" : "{0D7FF083FDE39877}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading4.layout" {
+       Name "Injuries"
+       Slot OverlayWidgetSlot "{64732BE1DDD499D2}" {
+        Padding 0 300 0 0
+       }
+       Color 0.947 0.5216 0.0003 1
+       Text "!Injuries"
+       "Font Size" 20
+       "Min Font Size" 16
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+     }
+    }
+    OverlayWidgetClass "{61B316D5780D8487}" {
+     Name "TipHolder"
+     Slot FrameWidgetSlot "{587EA36B864B5661}" {
+      PositionX 960
+      OffsetLeft 960
+      PositionY 1024
+      OffsetTop 1024
+      SizeX 1920
+      OffsetRight -2880
+      SizeY 75
+      OffsetBottom -1099
+      Alignment 0.5 0.5
+     }
+     {
+      HorizontalLayoutWidgetClass "{61B316D5780D8485}" {
+       Name "HorizontalLayout0"
+       Slot OverlayWidgetSlot "{59AACB43BDCEC12F}" {
+        VerticalAlign 3
+       }
+       Opacity 0
+       Color 0 0 0 1
+       {
+        ImageWidgetClass "{61B316D5780D300E}" {
+         Name "Background"
+         Slot LayoutSlot "{59AACB43B95173CA}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+         }
+         "Inherit Color" 1
+         Texture "{C8356C245709D063}UI/Textures/Common/gradient_transparent_white_linear_photoshop.edds"
+         Size 256 256
+        }
+        ImageWidgetClass "{61B316D5780D3009}" {
+         Name "Image0"
+         Slot LayoutSlot "{59AACB43EC84ADF3}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+         }
+         "Inherit Color" 1
+        }
+        ImageWidgetClass "{61B316D5780D3008}" {
+         Name "Background0"
+         Slot LayoutSlot "{59AACB43B808EFED}" {
+          Padding 0 0 0 0
+          SizeMode Fill
+         }
+         "Inherit Color" 1
+         Rotation 0
+         Texture "{95C893319DCF22D1}UI/Textures/Common/gradient_transparent_white_linear_photoshop_mirrored.edds"
+         Size 256 256
+        }
+       }
+      }
+      TextWidgetClass "{61B316D5780CFDE9}" : "{0D7FF083FDE39877}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading4.layout" {
+       Name "Tips"
+       Slot OverlayWidgetSlot "{59AACB43FCDD63A7}" {
+        Padding 0 -15 0 0
+       }
+       Color 0.947 0.947 0.947 1
+       Text "!Tips"
+       "Font Size" 24
+       "Min Font Size" 16
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+      }
+      TextWidgetClass "{61B316D2BC395CCF}" {
+       Name "MultiplierFormula1"
+       Slot OverlayWidgetSlot "{61B316D2BC395C36}" {
+        Padding 0 45 0 0
+       }
+       Clipping Ancestor
+       Color 1 0.766 0 1
+       Text "!Formula"
+       "Font Size" 16
+       "Min Font Size" 16
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       FontProperties FontProperties "{61B316D2227345F1}" {
+        Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

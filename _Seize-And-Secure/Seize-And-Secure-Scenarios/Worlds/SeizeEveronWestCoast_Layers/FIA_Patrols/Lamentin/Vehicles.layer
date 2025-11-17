@@ -1,0 +1,8 @@
+Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ coords 1426.537 51.235 5836.741
+ angleY 113.132
+}
+Vehicle UAZ469_UK59_FIA1 : "{E72D78E7F45532EC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_UK59_FIA.et" {
+ coords 1156.336 33.777 6313.922
+ angleY -150.479
+}

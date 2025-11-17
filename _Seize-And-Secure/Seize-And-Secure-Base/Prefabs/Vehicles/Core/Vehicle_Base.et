@@ -1,0 +1,10 @@
+Vehicle {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_ExplosionComponent "{64A8036EDD0AB8EC}" {
+   m_bActivateOnInitialization 0
+  }
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+  }
+ }
+}

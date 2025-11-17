@@ -1,0 +1,57 @@
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ Airport {
+  coords 2704.282 24.239 5576.901
+  angles -0.887 -89.733 -1.794
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -59.957 1.995 8.869
+    angles 1.024 -4.444 1.72
+   }
+  }
+ }
+ HarbourCoal {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Harbour_Coal"
+   }
+  }
+  coords 7490.369 3.715 4238.078
+  angles -1.857 131.558 0.746
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 25.239 0.972 33.241
+    angles -1.8 175.982 0.874
+   }
+  }
+ }
+ NadezhdaMine {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_NadezhdaMine"
+   }
+  }
+  coords 7678.16 208.453 6817.098
+  angles 3.388 140.838 4.15
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 22.549 2.171 -14.032
+    angles 4.923 106.027 -2.112
+   }
+  }
+ }
+ Sawmill {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_WestCape"
+   }
+  }
+  coords 2737.207 110.906 7459.08
+  angles 0 0.272 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 23.293 0.006 2.681
+    angles -0.895 -0.272 0
+   }
+  }
+ }
+}

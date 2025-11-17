@@ -1,0 +1,35 @@
+GenericEntity BaseHouse : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "Andrejs Sound Shack"
+   m_sBaseNameUpper "ANDREJS SOUND SHACK"
+   m_fRadioAntennaServiceRange 1600
+   m_iScorePerTick 5
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 1600
+    }
+   }
+  }
+ }
+ coords 2365.354 8.459 4668.989
+ angleX 2.991
+ angleY 11.749
+ angleZ -1.204
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   components {
+    RplComponent "{5C66967327A1ECD4}" {
+     Enabled 0
+    }
+    Hierarchy "{5C6696730F8278E4}" {
+     Enabled 0
+    }
+   }
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

@@ -1,0 +1,346 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60C94E0FB599866E}" {
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{3D08F0F26F771347}worlds/MP/Navmeshes/CTI_Campaign_Eden_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{5E19E60F26327356}worlds/MP/Navmeshes/LowResEden.nmn"
+    }
+   }
+  }
+ }
+ coords 6707.432 149.95 6498.937
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 6700.964 151.312 6491.028
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 6675.718 151.425 6498.202
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 6682.954 150.666 6501.639
+}
+SCR_GameModeCampaign GameMode_Seize1 : "{CE6DD1D3C1BC7366}Prefabs/GameLogic/GameMode_Seize.et" {
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_fCustomTimeOfTheDay 6
+   m_bBaseCaptureScore 100
+   m_bTicketScoreSystem 1
+   m_bScaleDeathScore 1
+   m_iMultiplier1 0.1
+   m_iMultiplier2 0.2
+   m_iPlayerCount3 30
+   m_iMultiplier3 0.3
+   m_iPlayerCount4 40
+   m_iMultiplier4 0.4
+   m_iPlayerCount5 50
+   m_iMultiplier5 0.5
+   m_iPlayerCount6 60
+   m_iMultiplier6 0.6
+   m_iPlayerCount7 90
+   m_iMultiplier7 0.7
+   m_iTicketLossDeath1 14
+   m_iTicketLossDeath2 10
+   m_iPlayerCountDeath3 30
+   m_iTicketLossDeath3 8
+   m_iPlayerCountDeath4 40
+   m_iTicketLossDeath4 6
+   m_iPlayerCountDeath5 60
+   m_iTicketLossDeath5 4
+  }
+  SCR_ScoringSystemComponent "{62AD2860C23DCC79}" {
+   m_aActions {
+    EndGameAction "{62AD2860CEF76483}" {
+     m_iScoreLimit 1
+    }
+   }
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_iStartingHours 6
+   m_bRandomStartingDaytime 0
+   m_iRangeHoursStart 6
+   m_iRangeHoursEnd 6
+   m_fDayTimeAcceleration 1
+   m_bRandomStartingWeather 0
+   m_bUsePredefineStartingTimeAndWeather 1
+   m_aStartingWeatherAndTime {
+    SCR_TimeAndWeatherState "{64D804F30D8DAB26}" {
+     m_sWeatherPresetName "CLEAR"
+     m_iStartingHour 6
+    }
+   }
+  }
+  SCR_TimedSpawnPointComponent "{5D0A73EB7076C758}" {
+   Enabled 1
+  }
+  SCR_WaveRespawnTimerComponent "{62AD2860C0FB2076}" {
+   Enabled 0
+  }
+ }
+ coords 11141.763 36.038 2387.807
+ m_bAllowFactionChange 1
+ m_fAutoReloadTime 30
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 210
+ m_iSuppliesReplenishThreshold 1000
+ m_iQuickSuppliesReplenishThreshold 200
+ m_iRegularSuppliesIncome 30
+ m_iRegularSuppliesIncomeBase 20
+ m_iRegularSuppliesIncomeExtra 4
+ m_iMinStartingSupplies 500
+ m_iMaxStartingSupplies 500
+ m_bShowBattlePrepTimer 1
+ MHQ_SPAWN_PREFAB "{6D282026AB95FC81}Prefabs/MP/Campaign/MHQ_Spawn_Prefab/CampaignMobileAssemblySpawnpoint_0k.et"
+ m_bEnableScaledRespawnTimer 1
+ m_bScaleRespawnTimer 1
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager_Seize.et" {
+ coords 11150.265 34.803 2376.701
+}
+CinematicEntity Thumbnail {
+ coords 0 0 0
+ Scene CinematicScene "{616D3357D2CCB308}" {
+  Tracks {
+   CameraCinematicTrack "{616D3357D43DC9C0}" {
+    TrackName "Camera"
+    Position Vector3CinematicTrack "{616D3357D43DC92A}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{616D3357D43DC93B}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357ABC61D5B}" {
+        FrameNumber 0
+        Value 9263.03
+       }
+      }
+     }
+     Y FloatCinematicTrack "{616D3357D43DC903}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357ABC618AF}" {
+        FrameNumber 0
+        Value 73.851
+       }
+      }
+     }
+     Z FloatCinematicTrack "{616D3357D43DC90C}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357ABC61986}" {
+        FrameNumber 0
+        Value 1645.668
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{616D3357D43DC916}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{616D3357D43DC913}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357ABC666A8}" {
+        FrameNumber 0
+        Value 1.487
+       }
+      }
+     }
+     Y FloatCinematicTrack "{616D3357D43DC91E}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357ABC66652}" {
+        FrameNumber 0
+        Value -278.104
+       }
+      }
+     }
+     Z FloatCinematicTrack "{616D3357D43DC91D}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357ABC66772}" {
+        FrameNumber 0
+        Value 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{616D3357D43DC967}" {
+     TrackName "FOV"
+     Keyframes {
+      FloatCinematicKeyframe "{616D3357B8ADFB4E}" {
+       FrameNumber 0
+       Value 45
+      }
+     }
+    }
+    DOF DOFCinematicTrack "{616D3357D43DC96E}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{616D3357D43DC972}" {
+      TrackName "Enabled"
+      Keyframes {
+       BooleanCinematicKeyframe "{616D3357838E2C1A}" {
+        FrameNumber 0
+        Value 1
+       }
+      }
+     }
+     FocusDistance FloatCinematicTrack "{616D3357D43DC946}" {
+      TrackName "FocusDistance"
+      Keyframes {
+       FloatCinematicKeyframe "{616D3357852395BF}" {
+        FrameNumber 0
+        Value 150
+       }
+      }
+     }
+     LengthNear FloatCinematicTrack "{616D3357D43DC940}" {
+      TrackName "LengthNear"
+      Keyframes {
+       FloatCinematicKeyframe "{616D335796B16F40}" {
+        FrameNumber 0
+        Value 600
+        InterpMode 0
+       }
+      }
+     }
+     LengthFar FloatCinematicTrack "{616D3357D43DC94D}" {
+      TrackName "LengthFar"
+      Keyframes {
+       FloatCinematicKeyframe "{616D33578CA7D299}" {
+        FrameNumber 0
+        Value 1900
+        InterpMode 0
+       }
+      }
+     }
+    }
+    DOFAdvanced DOFAdvancedCinematicTrack "{627AE76282EB81A8}" {
+     TrackName "DOFAdvanced"
+     Enabled BooleanCinematicTrack "{627AE76282EB81BF}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{627AE76282EB81BA}" {
+      TrackName "FocusDistance"
+     }
+     FStop FloatCinematicTrack "{627AE76282EB8186}" {
+      TrackName "FStop"
+     }
+     SensorSize FloatCinematicTrack "{627AE76282EB8185}" {
+      TrackName "SensorSize"
+     }
+     FocalLengthAuto BooleanCinematicTrack "{627AE76282EB8183}" {
+      TrackName "FocalLengthAuto"
+     }
+     FocalLength FloatCinematicTrack "{627AE76282EB818F}" {
+      TrackName "FocalLength"
+     }
+    }
+    HDR HDRCinematicTrack "{616D3357D43DC957}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{616D3357D43DC951}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{616D3357D43DC95C}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+   CustomCinematicTrack "{616D3357DF63ADE9}" {
+    TrackName "WeatherTrack"
+    ClassName "WeatherCinematicTrack"
+    ChildTracks {
+     FloatCinematicTrack "{6176432519F3C6E0}" {
+      TrackName "m_fTimeOfDay"
+     }
+     IntegerCinematicTrack "{6176432519F3C769}" {
+      TrackName "m_iWeatherType"
+     }
+     FloatCinematicTrack "{6176432519F3C5BC}" {
+      TrackName "m_fWindSpeed"
+     }
+     FloatCinematicTrack "{6176432519F3C2F3}" {
+      TrackName "m_fWindDirection"
+     }
+     FloatCinematicTrack "{6176432519F3C32B}" {
+      TrackName "m_fWetness"
+     }
+     FloatCinematicTrack "{6176432519F3C046}" {
+      TrackName "m_fPuddles"
+     }
+     FloatCinematicTrack "{618F2C7674870FC7}" {
+      TrackName "m_fFog"
+     }
+     FloatCinematicTrack "{618F2C7674870F70}" {
+      TrackName "m_fFogHeight"
+     }
+     BooleanCinematicTrack "{6176432519F3CEB2}" {
+      TrackName "setDate"
+     }
+     IntegerCinematicTrack "{6176432519F3CFEF}" {
+      TrackName "m_iYear"
+     }
+     IntegerCinematicTrack "{6176432519F3CCDD}" {
+      TrackName "m_iMonth"
+     }
+     IntegerCinematicTrack "{6176432519F3CD09}" {
+      TrackName "m_iDay"
+     }
+    }
+   }
+  }
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 6715.503 150.206 6486.572
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 6666.591 151.967 6506.501
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 6794.032 134.178 6509.928
+}
+ItemPreviewManagerEntity ItemPreviewManager1 : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+ coords 6793.244 134.233 6512.443
+}
+SCR_LoadoutManager : "{ACE69E6767108AF9}Prefabs/MP/Campaign/Restricted_CampaignLoadoutManager_CustomSaved.et" {
+ coords 4802.906 130.888 7737.34
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{64A0B48A8FCD3308}" {
+   m_sLoadoutName "USSR Recon"
+   m_sLoadoutResource "{CEADFF4221A1F469}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Recon_Seize.et"
+   m_sLoadoutImage "{7CB1ED2B23DD26E6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_SL.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{64A0B48A8FCD2031}" {
+     MinimumSquadSize 0
+     MaximumLoadouts 3
+    }
+   }
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{64A0B48A8BA939A2}" {
+   m_sLoadoutName "US Recon"
+   m_sLoadoutResource "{526EA7429BF33FD5}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RECON_Seize.et"
+   m_sLoadoutImage "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{64A0B48A8BA9395D}" {
+     MaximumLoadouts 3
+    }
+   }
+   m_LoadoutType SQUAD_LEADER
+  }
+ }
+}

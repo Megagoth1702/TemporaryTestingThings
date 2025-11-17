@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "64A81E369B43E65B"
+ components {
+  IRON_SUP_ExplosionComponent "{64A81E368457DA9E}" {
+  }
+ }
+ coords 3132.588 11.824 2783.135
+}

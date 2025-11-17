@@ -1,0 +1,27 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_DeployInventoryItemRestrictedAction "{5EA4A89F0D06E1CB}" {
+     m_bMustBeSquadLeader 1
+     m_bMustBeNearSquadMember 1
+     m_iSquadMemberRadius 15
+     m_bMustBeRadioOperator 1
+    }
+    Iron_UndeployPreviousRadioAction "{62976BB0B94E2F50}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{62976BB086E514C9}" {
+      Name "Undeploy Previous Radio"
+     }
+     Duration 3
+     "Sort Priority" 4
+     m_bMustBeSquadLeader 1
+     m_bMustBeRadioOperator 1
+    }
+   }
+  }
+ }
+}

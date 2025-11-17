@@ -1,0 +1,50 @@
+SCR_PlayerController : "{BB8EC6521FAD0623}Prefabs/Characters/Core/SeizeAndSecure_PlayerController_Tickets_Map.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_ScreenEffectsManager "{5AF2CE6B10209B7D}" {
+     m_bAdaptiveOpacity 1
+    }
+    SCR_RestrictionZoneWarningHUDComponent "{56CAD2AB886446BF}" {
+     m_aWarningUIInfos {
+      SCR_RestrictionZoneWarningInfo "{61764324EAE9454A}" {
+       m_iWarningType SINGLE_PLAYER
+       m_UIInfo SCR_UIInfo "{61764324EAE9454D}" {
+        Name "DO NOT LEAVE AREA UNTIL BATTLE PREP IS OVER!"
+        Description "5-Min Battle Prep Ongoing!"
+        Icon "{9C5EEC72FF985CE3}UI/Textures/DeployMenu/warning-icon-200px.edds"
+       }
+      }
+     }
+    }
+    SCR_CaptureAndHoldObjectiveDisplay "{5946E329A9344C0D}" {
+     m_LayoutPath "{56B174A06C7ECFAC}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldObjectiveLayout.layout"
+     m_eLayer OVERLAY
+    }
+    SCR_CampaignInfoDisplay "{60C94E08A5EDE72F}" {
+     m_LayoutPath "{F7D3A0B0B8586B9B}UI/layouts/HUD/CampaignMP/CampaignMainHUD_Disabled.layout"
+    }
+    SCR_CampaignMapInfoDisplay "{60C94E08ACBE8761}" {
+     m_LayoutPath "{5AF3A99175A6B280}UI/layouts/HUD/CampaignMP/CampaignMenuScoreUI_Disabled.layout"
+    }
+    SEIZE_BattlePrepZoneInfoDisplay "{6144EEAD2CA279D8}" {
+     m_LayoutPath "{CB93D30582E32DDB}UI/layouts/HUD/CampaignMP/BattlePrepTimerHUD_V3.layout"
+    }
+    SCR_CampaignInfoDisplay "{61764324EAE94557}" {
+     m_LayoutPath "{F7D3A0B0B8586B9B}UI/layouts/HUD/CampaignMP/CampaignMainHUD_Disabled.layout"
+     m_bShowWhenCreated 0
+    }
+    SCR_CampaignMapInfoDisplay "{61764324EAE9455A}" {
+     m_LayoutPath "{5AF3A99175A6B280}UI/layouts/HUD/CampaignMP/CampaignMenuScoreUI_Disabled.layout"
+     m_eLayer ALWAYS_TOP
+     m_eShow 15
+    }
+   }
+  }
+  SCR_TaskNetworkComponent "{55CEA00373C0B879}" {
+   Enabled 0
+  }
+ }
+ coords 141.183 1.001 131.013
+}

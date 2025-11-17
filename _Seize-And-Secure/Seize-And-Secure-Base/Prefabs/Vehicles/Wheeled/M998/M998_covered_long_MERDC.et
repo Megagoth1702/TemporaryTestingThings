@@ -1,0 +1,8 @@
+Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_VehicleComponent "{64AE5429B101302E}" {
+   m_bAllowFlybyFlinch 0
+  }
+ }
+}

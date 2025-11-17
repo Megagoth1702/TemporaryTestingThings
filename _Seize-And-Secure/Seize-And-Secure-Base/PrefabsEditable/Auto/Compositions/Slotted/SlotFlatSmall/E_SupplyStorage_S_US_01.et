@@ -1,0 +1,12 @@
+GenericEntity : "{69131FD53AF6C044}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyStorage_S_US_01.et" {
+ ID "52D6D6DB69F982D9"
+ components {
+  SCR_EditableEntityComponent "{5A6A9059FE78366B}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels + {
+     300
+    }
+   }
+  }
+ }
+}

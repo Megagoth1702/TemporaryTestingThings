@@ -1,0 +1,24 @@
+GameEntity : "{11A6FB2B62A8845B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_amp.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 0
+     Prefab "{712F76DA44136525}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor_olive.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{3128AF01D21C4D28}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_emr.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Enabled 0
+     Prefab "{A632307E797C9511}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_EMR.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+    }
+   }
+  }
+ }
+ coords 93.186 1 163.204
+}

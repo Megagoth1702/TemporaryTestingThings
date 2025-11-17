@@ -1,0 +1,10 @@
+GaussFilterEffect {
+ Intensity 0.8
+ Mask "{20DA2018B6BDEB90}UI/Materials/Vignette_BlackCenter-v2.edds"
+ Refs {
+  "Enabled"
+  "IRON_SUP_ScreenEffects.s_bPainEnabled"
+  "Intensity"
+  "IRON_SUP_ScreenEffects.m_fPainIntensity"
+ }
+}

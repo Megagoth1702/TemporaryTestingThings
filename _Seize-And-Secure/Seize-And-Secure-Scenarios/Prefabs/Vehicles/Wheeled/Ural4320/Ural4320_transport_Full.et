@@ -1,0 +1,22 @@
+Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{61E941437A06AE87}" {
+     SlotTemplate InventoryStorageSlot Rearm {
+      Prefab "{CE46DE74E8896BEA}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{FFBDECD6F4FF1778}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo_Full.et"
+    }
+   }
+  }
+ }
+}

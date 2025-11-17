@@ -1,0 +1,465 @@
+GameEntity {
+ ID "65E67D6A58F1ED99"
+ components {
+  SignalsManagerComponent "{65E67D6A58F1ED9C}" {
+  }
+  SoundComponent "{65E67D6A58F1EDE8}" {
+   Enabled 1
+   Filenames {
+    "{EA78DF48BA0DAB7E}Sounds/_SharedData/ButtonClicks/Button_Operation.acp"
+   }
+  }
+  BaseLightManagerComponent "{65E67D6A58F1EDEC}" {
+   LightsEnabled 1
+   HighBeamTurnsOffHeadLights 0
+   LightSlots {
+    BaseLightSlot "{65E67D6A58F1EDE2}" {
+     LightType Head
+     LightPositionInfo EntitySlotInfo x {
+      Offset -0.0198 0.021 0.0884
+     }
+     LightPrefab "{BC02D6EE235EC648}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Iluminator_LightEntity.et"
+    }
+    BaseLightSlot "{65E67D6A58F1EDE7}" {
+     LightType Rear
+     LightPositionInfo EntitySlotInfo LightPosition {
+      Offset -0.032 0.0264 0.0885
+     }
+     LightPrefab "{648E645C23EC2BF3}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Laser_LightEntity.et"
+     LightRadiusOverride 440
+    }
+    BaseLightSlot "{65E67D6A58F1EDFB}" {
+     LightType Brake
+     LightPositionInfo LoadoutSlotInfo c {
+      Offset -0.032 0.0153 0.0889
+     }
+     LightPrefab "{90A256F4E00AFBEF}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Laser_IR_LightEntity.et"
+     LightRadiusOverride 440
+    }
+    BaseLightSlot "{65E67D6A58F1EDF9}" {
+     LightType HiBeam
+     LightPositionInfo EntitySlotInfo z {
+      Offset -0.0239 -0.0025 0.105
+     }
+     LightPrefab "{2E88D1861AB3F2E2}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Iluminator_IR_LightEntity.et"
+    }
+    BaseLightSlot "{65E67D6A58F1EDFC}" {
+     LightType Dashboard
+     LightPositionInfo EntitySlotInfo solnik {
+      Offset -0.032 0.0153 0.0889
+     }
+     LightPrefab "{04D37D2BFD87A401}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Laser_IR_HP_LightEntity.et"
+     LightRadiusOverride 440
+    }
+    BaseLightSlot "{65E67D6A58F1EDFD}" {
+     LightType Hazard
+     LightPositionInfo EntitySlotInfo CHUWDU {
+      Offset -0.0239 -0.0025 0.1047
+     }
+     LightPrefab "{51BD3CDB9E070694}Prefabs/Weapons/Attachments/Lasers/anpeq16/ANPEQ16_Iluminator_IR_HP_LightEntity.et"
+    }
+   }
+  }
+  InventoryItemComponent "{65E67D6A58F1EDF3}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{65E67D6A58F1EDF0}" {
+    ItemDisplayName UIInfo "{65E67D6A58F1EDF1}" {
+     Name "#RHS_Attachment_MBS_Name"
+     Description "#RHS_Attachment_MBS_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{65E67D6A58F1EDF6}" {
+     Weight 1.5
+     SizeSetupStrategy Size
+     ItemDimensions 15 5 9
+     ItemVolume 100
+     DimensionScaler 1
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{65E67D6A58F1EDCF}" {
+      AttachmentType AttachmentMBS "{65E67D6A58F1EDCD}" {
+      }
+     }
+     PreviewRenderAttributes "{65E67D6A58F1EDC2}" {
+      CameraPreset Left
+      CameraDistanceToItem 0.2
+     }
+     SCR_WeaponAttachmentObstructionAttributes "{65E67D6A58F1EDC3}" {
+      AttachmentType AttachmentMBS "{65E67D6A58F1EDC0}" {
+      }
+      m_aObstructedAttachmentTypes {
+       AttachmentRIS1913 "{65E67D6A58F1EDC1}" {
+       }
+       AttachmentOpticsRIS1913 "{65E67D6A58F10737}" {
+       }
+      }
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_ANY
+   }
+  }
+  MeshObject "{65E67D6A58F10733}" {
+   Object "{307FAE42163369E4}Assets/Weapons/Attachments/Optics/mbs/MBS.xob"
+   LODFactors {
+    0.1 0.08 0.05 0.001 0.0005
+   }
+  }
+  ParametricMaterialInstanceComponent "{65E67D6A58F1072E}" {
+   EmissiveMultiplier 0
+  }
+  RHS_2DSightNightVisionComponent "{65E67D6A58F1776B}" {
+   m_eUseMask CUSTOM
+   m_sNVGGooglesHDRMatrial "{8BD60012E43F6806}Assets/Weapons/Attachments/Optics/pas13g/Data/Thermal_HDR_pas13g.emat"
+   m_sNVGGooglesFilmGrainMaterial "{81FEF02C98CA2E7A}Assets/Weapons/Attachments/Optics/infratech_1tws/data/Thermal_Effect_Screen_Themral.emat"
+   m_bUseMask 0
+   m_sImageMask "{453A073FB7DAAB87}UI/Imagesets/SingleMask_ca.edds"
+   m_fWidthOverride 1100
+   m_fHeightOverride 1100
+   m_aBlemSet {
+    "" ""
+   }
+   m_bManualGainControl 1
+   m_aGainLevels {
+    0.001 0.003 0.01 0.05 0.1 0.3 0.6 1 3 5 10 20 30 40 60 80 100
+   }
+  }
+  RHS_2DSightsComponentV2 "{65E67D6A58F17762}" {
+   SightsPosition PointInfo "{65E67D6A58F1749F}" {
+    PivotID "Scene_Root"
+    Offset -0.0398 0.0824 -0.2058
+   }
+   SightsRanges {
+    SightRangeInfo "{65E67D6A58F1749E}" {
+    }
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{65E67D6A58F17490}" {
+    m_fBaseZoom 3
+    m_fZoomMax 6
+    m_fStepZoomSize 3
+    m_fInterpolationSpeed 10
+   }
+   SightsPointFront PointInfo "{65E67D6A58F17493}" {
+    PivotID "Scene_Root"
+    Offset -0.0596 0.0616 0.0132
+    Angles 0 0 0
+   }
+   SightsPointRear PointInfo "{65E67D6A58F17492}" {
+    PivotID "Scene_Root"
+    Offset -0.0405 0.0824 -0.2064
+    Angles 0 0 0
+   }
+   CameraRecoilAmount -1.2
+   SightsPriority 1
+   m_bIsConfiguratedForRHSNVG 1
+   m_sReticleTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+   m_sReticleGlowTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+   m_cReticleTextureIllumination 0.246 0.698 0.202 1
+   m_fMagnification 3
+   m_fReticleAngularSize 1
+   m_fReticlePortion 0.47
+   m_fReticleBaseZoom 4
+   m_fObjectiveFov 30
+   m_fObjectiveScale 1.2
+   m_fAnimationSpeedBlur 3
+   m_fRotationDampingSpeed 0
+   m_fMovementDampingSpeed 40
+   m_fVignetteMoveSpeed 60
+   m_fMotionBlurScale 10
+   m_eZeroingType EPZ_RETICLE_OFFSET
+   m_fReticleOffsetInterpSpeed 100
+   m_bShouldHideParentParentObject 1
+   m_sRHSLayoutOverlayResource "{ACCB2113BE93EBD4}UI/layouts/Sights/Optic_Widget_pas13g_smawmod2.layout"
+   m_bUseNVG 1
+   m_bUseReticleHook 1
+  }
+  RHS_ANPSQ23Component "{65E67D6A58F17489}" {
+   m_iAvailableLightTypes {
+    4 6 9 7 8
+   }
+   m_eSelectedLightType Head
+   m_sToggleActionListenerName "RHS_LightDeviceToggle"
+   m_sCycleActionListenerName "RHS_LightDeviceCycle"
+   m_sHoldActionListenerName "RHS_LightDeviceHold"
+   m_sScreenLayout "{79D0AB8489499C29}UI/layouts/Attachments/psq23/psq23.layout"
+   m_RangeFinderPointInfo PointInfo "{65E67D6A58F17488}" {
+    Offset -0.0343 0.0135 0.1033
+   }
+  }
+  RHS_SGC_RadialMenuComponent "{65E67D6A58F1748A}" {
+   m_sDisplayName "AN/PSQ-23"
+   m_aRadialPages {
+    RHS_RadialMenuCategory "{65E67D6A58F1748F}" {
+     Name "Mode"
+     Description "Set device mode."
+     m_sId "RHS_ANPSQ23_Mode"
+     m_sDisplayName "Mode"
+    }
+    RHS_RadialMenuCategory "{65E67D6A58F17481}" {
+     Name "Pulse Frequency"
+     Description "Set frequency of the IR Illuminator pulse."
+     m_sId "RHS_ANPSQ23_Pulse"
+     m_sDisplayName "Pulse Frequency"
+    }
+   }
+  }
+  RigidBody "{65E67D6A58F17483}" {
+   SimState None
+   ModelGeometry 1
+  }
+  ProcAnimComponent "{65E67D6A58F17485}" {
+   Parameters {
+    ProcAnimParams "{65E67D6A58F17487}" {
+     ResourceName "{AAD3A48E6AE93CDC}Anims/proc/ANPSQ23.pap"
+     BoneNames {
+      "mode"
+     }
+     SimulationDistance 30
+    }
+   }
+  }
+  SightsComponent "{65E67D6A58F174B9}" {
+   Enabled 0
+   SightsPosition PointInfo "{65E67D6A58F174B8}" {
+    Offset -0.0792 0.1287 -0.5062
+   }
+   SightsFOVInfo SightsFOVInfo "{65E67D6A58F174BB}" {
+   }
+  }
+  ActionsManagerComponent "{65E67D6A58F174BA}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{65E67D6A58F174BD}" {
+     ContextName "user_knob"
+     Position PointInfo "{65E67D6A58F174BC}" {
+      PivotID "mode"
+      Offset 0 0 0
+     }
+     Radius 0.05
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{65E67D6A58F174B1}" {
+     ParentContextList {
+      "user_knob"
+     }
+    }
+    RHS_ANPSQ23_Fire_ButtonAction "{65E67D6A58F174B0}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F174B3}" {
+      Name "Fire"
+      Description "Turns the device on instanteniously in the selected mode and turns it off straight away."
+     }
+     m_bIgnoreInRadial 0
+    }
+    SCR_PickUpItemAction "{65E67D6A58F174AD}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F174AC}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+    RHS_SlideAttachmentAction "{65E67D6A58F174AE}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14515}" {
+      Name "#RHS-Action_Slide"
+     }
+     Duration -1
+     PerformPerFrame 1
+     m_fAdjustmentStep 0.01
+     m_bManualAdjustment 1
+     m_fBaseHalfLength 0.06
+    }
+    RHS_ANPSQ23_On_ButtonAction "{65E67D6A58F14518}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14519}" {
+      Name "#RHS_Action_TurnOn"
+      Description "Turns the device on. The AN/PEQ-16 turns off automatically after 5 minutes of continuous use."
+     }
+     "Sort Priority" 1
+     m_bIgnoreInRadial 0
+    }
+    RHS_ANPSQ23_Off_ButtonAction "{65E67D6A58F1451F}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F1451C}" {
+      Name "#RHS_Action_TurnOff"
+      Description ""
+     }
+     "Sort Priority" 1
+     m_bIgnoreInRadial 0
+    }
+    RHS_ANPEQ15_Mode_A_SwitchAction "{65E67D6A58F1451D}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14562}" {
+      Name "#RHS_Action_ANPEQ16_Mode"
+      Description "Aim: visible light laser."
+     }
+     "Sort Priority" 4
+     m_sPageId "RHS_ANPSQ23_Mode"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "A"
+    }
+    RHS_ANPEQ15_Mode_O_SwitchAction "{65E67D6A58F14563}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14560}" {
+      Name "#RHS_Action_ANPEQ16_Mode"
+      Description "Off: device is in off mode and cannot be turned on or fired."
+     }
+     "Sort Priority" 5
+     m_sPageId "RHS_ANPSQ23_Mode"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "O"
+    }
+    RHS_ANPEQ15_Mode_AL_SwitchAction "{65E67D6A58F14561}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14566}" {
+      Name "#RHS_Action_ANPEQ16_Mode"
+      Description "Aim Low: low power IR laser."
+     }
+     "Sort Priority" 6
+     m_sPageId "RHS_ANPSQ23_Mode"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "AL"
+    }
+    RHS_ANPEQ15_Mode_DL_SwitchAction "{65E67D6A58F14567}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14564}" {
+      Name "#RHS_Action_ANPEQ16_Mode"
+      Description "Dual Low: low power IR laser and IR illuminator."
+     }
+     "Sort Priority" 7
+     m_sPageId "RHS_ANPSQ23_Mode"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "DL"
+    }
+    RHS_ANPEQ15_Mode_AH_SwitchAction "{65E67D6A58F14565}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F1456A}" {
+      Name "#RHS_Action_ANPEQ16_Mode"
+      Description "Aim High: high power IR laser."
+     }
+     "Sort Priority" 8
+     "Inventory action" 1
+     m_sPageId "RHS_ANPSQ23_Mode"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "AH"
+    }
+    RHS_ANPEQ15_Mode_DH_SwitchAction "{65E67D6A58F14568}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F14569}" {
+      Name "#RHS_Action_ANPEQ16_Mode"
+      Description "Dual High: high power IR laser and IR illuminator."
+     }
+     "Sort Priority" 9
+     "Inventory action" 1
+     m_sPageId "RHS_ANPSQ23_Mode"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "DH"
+    }
+    RHS_ANPEQ15_Pulse_0_SwitchAction "{65E67D6A58F1456E}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A58F1456F}" {
+      Name "#RHS_Action_ANPEQ16_Pulse"
+      Description "IR illuminator continuously on."
+     }
+     "Sort Priority" 10
+     m_sPageId "RHS_ANPSQ23_Pulse"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "#RHS_Action_ANPEQ16_Pulse_0_ALT"
+     m_sAlternativePulseName "#RHS_Action_ANPEQ16_Pulse_0_ALT"
+    }
+    RHS_ANPEQ15_Pulse_1_SwitchAction "{65E67D6A58F1456D}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A588EBCBC}" {
+      Name "#RHS_Action_ANPEQ16_Pulse"
+      Description "Flash IR illuminator 1 time per second."
+     }
+     "Sort Priority" 11
+     m_sPageId "RHS_ANPSQ23_Pulse"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "1 Hz"
+    }
+    RHS_ANPEQ15_Pulse_4_SwitchAction "{65E67D6A588EBCA2}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A588EBCA1}" {
+      Name "#RHS_Action_ANPEQ16_Pulse"
+      Description "Flash IR illuminator 4 times per second."
+     }
+     "Sort Priority" 12
+     m_sPageId "RHS_ANPSQ23_Pulse"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "4 Hz"
+    }
+    RHS_ANPEQ15_Pulse_8_SwitchAction "{65E67D6A588EBCA7}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A588EE5C0}" {
+      Name "#RHS_Action_ANPEQ16_Pulse"
+      Description "Flash IR illuminator 8 times per second."
+     }
+     "Sort Priority" 13
+     m_sPageId "RHS_ANPSQ23_Pulse"
+     m_bIgnoreInRadial 0
+     m_sRadialLabelOverride "8 Hz"
+    }
+    RHS_ANPEQ15_SpotAngleChange "{65E67D6A588EE5C2}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A588EE5C3}" {
+      Name "#RHS_Action_ANPEQ16_SpotlightAngle"
+     }
+     Duration -1
+     PerformPerFrame 1
+     "Sort Priority" 14
+     m_fAdjustmentStep 1
+    }
+    SCR_AttachementAction "{65E67D6A588EE5CD}" {
+     ParentContextList {
+      "user_knob"
+     }
+     UIInfo UIInfo "{65E67D6A588ECCE5}" {
+      Name "#AR-UserAction_Detach"
+     }
+     Duration 2
+    }
+   }
+  }
+  RplComponent "{65E67D6A588ECCE7}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{65E67D6A588E62C0}" {
+  }
+ }
+ Flags 4194307
+ coords 613.53 51 2353.93
+}

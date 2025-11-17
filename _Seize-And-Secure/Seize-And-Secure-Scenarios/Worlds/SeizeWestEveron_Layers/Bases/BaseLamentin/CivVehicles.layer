@@ -1,0 +1,105 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1349.423 41.824 5904.623
+  angleX -0.001
+  angleY -142.131
+  angleZ 0.001
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1363.646 42.681 5890.489
+  angleX 3.521
+  angleY -141.962
+  angleZ 2.751
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1225.444 33.827 6038.903
+  angleY 84.974
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1207.313 30.013 6123.09
+  angleY 86.672
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1173.91 34.28 6248.216
+  angleY -142.131
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1166.99 33.891 6315.58
+  angleY -48.241
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1230.19 35.845 6001.937
+  angleY 48.186
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1232.208 35.845 5995.48
+  angleY 48.186
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1117.085 4.954 5852.09
+  angleY -62.438
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1538.023 48.312 5587.482
+  angleY 98.4
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 1668.277 71.469 5761.739
+  angleY -155.449
+ }
+}

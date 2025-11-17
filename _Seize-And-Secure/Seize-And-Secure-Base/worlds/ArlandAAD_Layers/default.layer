@@ -1,0 +1,116 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6125507BBDF1CE98}" {
+     NavmeshFile "{E0E9D55644237D27}worlds/MP/Navmeshes/CTI_Campaign_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{3B27B3547843CC74}worlds/MP/Navmeshes/CTI_Campaign_Arland_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{804386FFEB7B7EFD}worlds/MP/Navmeshes/LowResArland.nmn"
+    }
+   }
+  }
+ }
+ coords 2033.122 32.501 2019.837
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2033.122 32.313 2018.837
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 1215.146 38 2825.735
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 1189.265 38 2837.532
+}
+SCR_GameModeCampaign GameMode_Seize1 : "{CE6DD1D3C1BC7366}Prefabs/GameLogic/GameMode_Seize.et" {
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_bBaseCaptureScore 150
+   m_bTicketScoreSystem 1
+   m_iFactionStartScore 1000
+   m_bRequiresRadioSignal 0
+  }
+  SCR_RespawnTimerComponent "{5B2A94A0E605AAFF}" {
+   Enabled 0
+  }
+  SCR_ScoringSystemComponent "{62AD2860C23DCC79}" {
+   m_iKillScoreMultiplier 0
+   m_iTeamKillScoreMultiplier 0
+   m_aActions {
+    EndGameAction "{62AD2860CEF76483}" {
+     m_iScoreLimit 1
+    }
+   }
+  }
+  SCR_WaveRespawnTimerComponent "{62AD2860C0FB2076}" {
+   m_fRespawnTime 60
+  }
+ }
+ coords 2651.838 74.127 1645.929
+ m_fAutoReloadTime 10
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 15
+ m_iRegularSuppliesIncome 50
+ m_bEstablishingBasesEnabled 0
+ m_bShowBattlePrepTimer 1
+ m_bScaleRespawnTimer 1
+ m_bAADEnabled 1
+ m_sAADDefendingFaction ""
+ m_sAADAttackingFaction ""
+ m_bHideBasesOutsideRadioRange 1
+ m_bAllowEnemyHQTerritory 1
+}
+SCR_CampaignFactionManager CampaignFactionManager_Seize1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager_Seize.et" {
+ coords 1245.436 39.001 2734.191
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aStartingVehicles {
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aStartingVehicles {
+   }
+  }
+ }
+}
+BasePreloadManager CaptureAndHoldPreloadManager1 : "{0E26864C62DBCA39}Prefabs/MP/CaptureAndHoldPreloadManager.et" {
+ coords 1356.12 39 2758.386
+}
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ coords 2033.149 35.955 2038.361
+}
+GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ coords 2037.664 35.594 2034.819
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 1198.219 38 2809.114
+}
+ItemPreviewManagerEntity ItemPreviewManager1 : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+ coords 1195.748 38 2826.5
+}
+SCR_LoadoutManager : "{B6057D90BDD5BEE9}Prefabs/MP/Campaign/CampaignLoadoutManager_Seize.et" {
+ coords 3110.063 60.869 1845.199
+}

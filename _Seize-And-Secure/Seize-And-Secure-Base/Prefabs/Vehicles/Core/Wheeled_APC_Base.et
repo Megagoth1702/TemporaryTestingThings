@@ -1,0 +1,19 @@
+Vehicle : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+   m_fSuppressionDampening 0.9
+   m_fExplosionDampening 0.9
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      m_bMustBePilot 1
+      m_bMustBeCrewman 1
+     }
+    }
+   }
+  }
+ }
+}

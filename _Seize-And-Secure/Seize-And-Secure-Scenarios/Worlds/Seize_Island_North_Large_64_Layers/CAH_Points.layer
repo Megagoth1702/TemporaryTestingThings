@@ -1,0 +1,232 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Area1 {
+  coords 4765.052 161.407 7156.275
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    LayerA {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+       Slot1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{583E064AF7C8E24B}Prefabs/MP/Modes/CaptureAndHold/Areas/CAH_L1_A.et"
+         }
+        }
+        coords -31.158 0.548 -63.086
+       }
+       Slot2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{ECC25B6B32857339}CHZones/NorthEveronKwitt/CAH_L2_A.et"
+         }
+        }
+        coords -286.431 -28.819 -34.742
+       }
+       Slot3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{464196468279B2C1}CHZones/NorthEveronKwitt/CAH_L3_A.et"
+         }
+        }
+        coords 263.364 0.416 131.215
+       }
+      }
+     }
+    }
+    LayerB {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+       Slot4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{346A32AA4B0C6D65}CHZones/NorthEveronKwitt/CAH_L1_B.et"
+         }
+        }
+        coords -216.933 -4.197 -274.633
+       }
+       Slot5 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{095E17923E60E452}Prefabs/MP/Modes/CaptureAndHold/Areas/CAH_L2_B.et"
+         }
+        }
+        coords -20.36 2.267 152.853
+       }
+       Slot6 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A15A2A63EBD3DEF}CHZones/NorthEveronKwitt/CAH_L3_B.et"
+         }
+        }
+        coords 170.838 10.438 -147.537
+       }
+      }
+     }
+    }
+    LayerC {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+       Slot7 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{D1F67E5347E9FA0E}CHZones/NorthEveronKwitt/CAH_L1_C.et"
+         }
+        }
+        coords -139.53 -8.719 26.569
+       }
+       Slot8 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{650A237282A46B7C}CHZones/NorthEveronKwitt/CAH_L2_C.et"
+         }
+        }
+        coords 350.5 14.888 -116.158
+       }
+       Slot9 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{CF89EE5F3258AA84}Prefabs/MP/Modes/CaptureAndHold/Areas/CAH_L3_C.et"
+         }
+        }
+        coords -0.362 5.219 -272.057
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Area2 {
+  coords 4429.061 12.093 10714.908
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    LayerD {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+       Slot10 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{0F998359F0BFC6AB}Prefabs/MP/Modes/CaptureAndHold/Areas/CAH_L4_D.et"
+         }
+        }
+        coords 158.05 3.858 -215.202
+       }
+       Slot11 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FB91C4C1FD62AEDF}CHZones/NorthEveronKwitt/CAH_L5_D.et"
+         }
+        }
+        coords -269.336 4.095 -122.698
+       }
+       Slot12 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A579ED8242EF20D0}CHZones/NorthEveronKwitt/CAH_L6_D.et"
+         }
+        }
+        coords -8.748 -10.472 289.775
+       }
+      }
+     }
+    }
+    LayerE {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+       Slot13 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{63CDB7B94C7B4985}CHZones/NorthEveronKwitt/CAH_L4_E.et"
+         }
+        }
+        coords -107.884 22.218 -255.792
+       }
+       Slot14 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{97C5F02141A621F1}Prefabs/MP/Modes/CaptureAndHold/Areas/CAH_L5_E.et"
+         }
+        }
+        coords 25.477 1.146 19.857
+       }
+       Slot15 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{C92DD962FE2BAFFE}CHZones/NorthEveronKwitt/CAH_L6_E.et"
+         }
+        }
+        coords 295.849 17.186 205.817
+       }
+      }
+     }
+    }
+    LayerF {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+       Slot16 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{8651FB40409EDEEE}CHZones/NorthEveronKwitt/CAH_L4_F.et"
+         }
+        }
+        coords 235.747 9.013 -25.872
+       }
+       Slot17 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7259BCD84D43B69A}CHZones/NorthEveronKwitt/CAH_L5_F.et"
+         }
+        }
+        coords 75.632 0.404 171.515
+       }
+       Slot18 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2CB1959BF2CE3895}Prefabs/MP/Modes/CaptureAndHold/Areas/CAH_L6_F.et"
+         }
+        }
+        coords -107.26 -0.452 -64.619
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

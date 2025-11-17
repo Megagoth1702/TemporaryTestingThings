@@ -1,0 +1,11 @@
+SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ ID "560477320F726547"
+ coords 3880.002 15.253 8489.188
+ angleY 5.279
+ SphereRadius 50
+ BoxMaxs 24 3.2 9
+ DrawShape 0
+ m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
+ m_bEnableScoring 0
+ m_sAssignedName "CAH_MilHosp_F"
+}

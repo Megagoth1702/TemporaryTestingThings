@@ -1,0 +1,830 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ A_Roadblocks_South {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_SpawnChildren RANDOM_ONE
+   }
+  }
+  coords 4587.969 15.921 10494.99
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_Factory {
+     coords 4.063 -0.504 -48.272
+     {
+      $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       Slot_NoGarbageNoDespawn83 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{0D77C4A6D4704C2A}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Small_FIA_01_V1.et"
+         }
+        }
+        coords 21.959 -0.392 -22.174
+        angleY -13.709
+       }
+       Slot_NoGarbageNoDespawn102 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 27.523 -0.71 -24.08
+        angleX -3.345
+        angleY 106.831
+        angleZ 1.789
+       }
+       Slot_NoGarbageNoDespawn103 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 30.717 -0.895 -25.055
+        angleX -2.828
+        angleY 106.932
+        angleZ 0.074
+       }
+       Slot_NoGarbageNoDespawn104 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 33.862 -0.993 -25.686
+        angleX -0.991
+        angleY 96.54
+        angleZ 0.787
+       }
+       Slot_NoGarbageNoDespawn105 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 37.218 -1.051 -26.071
+        angleX -0.991
+        angleY 96.54
+        angleZ 0.787
+       }
+       Slot_NoGarbageNoDespawn106 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 40.641 -1.108 -26.316
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn107 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 44.021 -1.163 -26.48
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn108 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 47.428 -1.219 -26.646
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn109 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 47.32 -1.252 -28.838
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn110 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 43.196 -1.184 -28.638
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn111 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 39.225 -1.119 -28.445
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn112 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 35.388 -1.056 -28.259
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn113 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 31.298 -0.989 -28.062
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn114 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 27.285 -0.912 -27.147
+        angleX -0.937
+        angleY 92.779
+        angleZ 0.851
+       }
+       Slot_NoGarbageNoDespawn115 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+         }
+        }
+        coords -17.222 -0.573 -29.002
+        angleY 92.779
+       }
+       Slot_NoGarbageNoDespawn116 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et"
+         }
+        }
+        coords 3.085 -0.247 -13.848
+        angleX -0.895
+        angleY 177.855
+        angleZ 0.034
+       }
+       Slot_NoGarbageNoDespawn117 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 16.625 0.008 -20.442
+        angleX -2.232
+        angleY 106.854
+        angleZ 1.193
+       }
+       Slot_NoGarbageNoDespawn118 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et"
+         }
+        }
+        coords 13.034 -0.187 -19.358
+        angleX 7.654
+        angleY 107.834
+        angleZ 5.237
+       }
+       Slot_NoGarbageNoDespawn119 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords 14.257 -0.132 -21.681
+        angleX 3.431
+        angleY 92.997
+        angleZ 2.862
+       }
+       Slot_NoGarbageNoDespawn120 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et"
+         }
+        }
+        coords -11.189 -0.349 -20.957
+        angleX -3.618
+        angleY 92.953
+        angleZ 0.708
+       }
+       Slot_NoGarbageNoDespawn121 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -1.643 -0.592 -35.736
+        angleY 92.942
+       }
+       Slot_NoGarbageNoDespawn122 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -0.626 -0.662 -40.395
+        angleX -0.046
+        angleY 92.942
+        angleZ 0.894
+       }
+       Slot_NoGarbageNoDespawn123 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -1.239 -0.683 -44.543
+        angleX 0.848
+        angleY 92.956
+        angleZ 0.94
+       }
+       Slot_NoGarbageNoDespawn124 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -2.224 -0.698 -49.083
+        angleY 92.956
+       }
+       Slot_NoGarbageNoDespawn125 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -3.771 -0.698 -53.304
+        angleY 92.956
+       }
+       Slot_NoGarbageNoDespawn126 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -6.049 -0.698 -57.604
+        angleY 92.956
+       }
+       Slot_NoGarbageNoDespawn127 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -8.499 -0.698 -61.803
+        angleY 92.956
+       }
+      }
+     }
+    }
+    L_Fields {
+     coords -158.017 7.983 -30.653
+     {
+      $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       Slot_NoGarbageNoDespawn128 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+         }
+        }
+        coords -7.96 1.972 -45.846
+        angleX -3.576
+        angleY 89.124
+        angleZ 0.055
+       }
+       Slot_NoGarbageNoDespawn152 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et"
+         }
+        }
+        coords -75.298 10.356 25.415
+        angleX -4.462
+        angleY 129.702
+        angleZ -0.221
+       }
+       Slot_NoGarbageNoDespawn153 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et"
+         }
+        }
+        coords -8.843 2.027 -33.281
+        angleX -3.575
+        angleY 91.572
+        angleZ -0.098
+       }
+       Slot_NoGarbageNoDespawn154 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et"
+         }
+        }
+        coords -8.44 1.139 -18.479
+        angleX -7.918
+        angleY 91.793
+        angleZ -2.906
+       }
+       Slot_NoGarbageNoDespawn155 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et"
+         }
+        }
+        coords -8.102 0.375 -4.517
+        angleX -9.72
+        angleY 91.83
+        angleZ -1.192
+       }
+       Slot_NoGarbageNoDespawn156 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et"
+         }
+        }
+        coords -8.063 0.14 10.121
+        angleX -9.768
+        angleY 88.823
+        angleZ -0.683
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Roadblocks_North {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_SpawnChildren RANDOM_ONE
+   }
+  }
+  coords 4567.063 19.222 11084.242
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_Industrial {
+     coords 82.046 8.622 86.361
+     {
+      $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       Slot_NoGarbageNoDespawn151 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et"
+         }
+        }
+        coords -5.626 0.031 -34.756
+        angleY 87.324
+       }
+       Slot_NoGarbageNoDespawn157 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B51CE80A9EEF7E00}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_01.et"
+         }
+        }
+        coords -1.101 -0.101 -25.124
+        angleY 90.705
+       }
+       Slot_NoGarbageNoDespawn159 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B51CE80A9EEF7E00}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_01.et"
+         }
+        }
+        coords -7.979 -0.101 -25.004
+        angleY 3.266
+       }
+       Slot_NoGarbageNoDespawn160 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et"
+         }
+        }
+        coords -1.481 -0.101 -44.615
+        angleY -92.324
+       }
+       Slot_NoGarbageNoDespawn161 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et"
+         }
+        }
+        coords -1.22 -0.101 -51.062
+        angleY -123.169
+       }
+       Slot_NoGarbageNoDespawn162 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et"
+         }
+        }
+        coords -68.915 -3.549 -23.962
+        angleX -1.849
+        angleY -4.041
+        angleZ -0.766
+       }
+       Slot_NoGarbageNoDespawn163 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -75.325 -3.364 -0.354
+        angleX -0.375
+        angleY -4.009
+        angleZ -5.343
+       }
+       Slot_NoGarbageNoDespawn164 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -75.673 -3.439 4.562
+        angleX -2.782
+        angleY -8.032
+        angleZ -0.511
+       }
+       Slot_NoGarbageNoDespawn165 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -76.462 -3.713 10.152
+        angleX -2.782
+        angleY -8.032
+        angleZ -0.511
+       }
+       Slot_NoGarbageNoDespawn166 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -77.252 -3.989 15.743
+        angleY -8.032
+       }
+       Slot_NoGarbageNoDespawn167 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -78.014 -4.3 21.14
+        angleX -3.996
+        angleY -7.833
+        angleZ -9.285
+       }
+       Slot_NoGarbageNoDespawn168 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -78.934 -4.733 27.661
+        angleX -3.666
+        angleY -8.026
+        angleZ -0.386
+       }
+       Slot_NoGarbageNoDespawn169 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et"
+         }
+        }
+        coords -76.703 -3.563 -15.031
+        angleY -3.916
+       }
+       Slot_NoGarbageNoDespawn170 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+         }
+        }
+        coords -79.081 -3.563 -38.629
+        angleX 0.073
+        angleY 85.349
+        angleZ 0.892
+       }
+      }
+     }
+    }
+    L_Forest {
+     coords 40.815 -0.812 206.485
+     {
+      $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       Slot_NoGarbageNoDespawn141 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et"
+         }
+        }
+        coords 87.256 0.087 89.953
+        angleX -5.896
+        angleY 9.523
+        angleZ 4.067
+       }
+       Slot_NoGarbageNoDespawn140 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et"
+         }
+        }
+        coords 91.351 -1.375 107.036
+        angleX 14.856
+        angleY 36.785
+        angleZ -8.916
+       }
+       Slot_NoGarbageNoDespawn142 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 92.968 -0.317 121.575
+        angleX 27.258
+        angleY 92.289
+        angleZ 1.049
+       }
+       Slot_NoGarbageNoDespawn143 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 93.423 0.514 135.981
+        angleX 6.225
+        angleY 85.769
+        angleZ -0.46
+       }
+       Slot_NoGarbageNoDespawn144 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 103.289 1.812 136.727
+        angleX -33.766
+        angleY -95.672
+        angleZ 3.159
+       }
+       Slot_NoGarbageNoDespawn145 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 104.232 2.153 122.944
+        angleX -30.032
+        angleY -89.473
+        angleZ -0.264
+       }
+       Slot_NoGarbageNoDespawn146 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 103.783 1.223 106.781
+        angleX -34.333
+        angleY -86.585
+        angleZ 2.276
+       }
+       Slot_NoGarbageNoDespawn147 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{5196CA1829D428F7}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_US_01.et"
+         }
+        }
+        coords 78.552 4.458 39.079
+        angleX -1.506
+        angleY 52.259
+        angleZ -1.591
+       }
+       Slot_NoGarbageNoDespawn149 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+         }
+        }
+        coords 46.033 5.201 -22.177
+        angleX 6.812
+        angleY 88.076
+        angleZ -0.317
+       }
+       Slot_NoGarbageNoDespawn150 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{5821AF9613353C80}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_camonet.et"
+         }
+        }
+        coords -42.435 0.365 -18.392
+        angleX 1.221
+        angleY 165.057
+        angleZ 2.136
+       }
+      }
+     }
+    }
+    L_Airfield {
+     coords 202.397 8.841 253.802
+     {
+      $grp GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+       Slot_NoGarbageNoDespawn101 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords -0.909 0 4.975
+       }
+       Slot_NoGarbageNoDespawn129 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords -14.652 -0.003 4.975
+        angleX 0.895
+        angleY -0.014
+        angleZ -0.895
+       }
+       Slot_NoGarbageNoDespawn130 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords -27.13 -0.209 4.975
+        angleZ -1.79
+       }
+       Slot_NoGarbageNoDespawn131 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 12.517 0 4.975
+        angleZ 0.895
+       }
+       Slot_NoGarbageNoDespawn132 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 25.597 -0.111 4.975
+        angleZ 0.895
+       }
+       Slot_NoGarbageNoDespawn133 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 38.205 0.114 4.975
+        angleZ -1.79
+       }
+       Slot_NoGarbageNoDespawn134 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 52.115 0.792 4.975
+        angleZ -2.684
+       }
+       Slot_NoGarbageNoDespawn135 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 64.775 1.354 4.975
+        angleZ -2.684
+       }
+       Slot_NoGarbageNoDespawn136 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et"
+         }
+        }
+        coords 77.584 1.891 4.975
+        angleX -0.894
+        angleY 0.028
+        angleZ -1.79
+       }
+       Slot_NoGarbageNoDespawn137 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et"
+         }
+        }
+        coords 12.517 0 -4.372
+        angleZ 0.895
+       }
+       Slot_NoGarbageNoDespawn138 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et"
+         }
+        }
+        coords -32.217 -0.368 -4.372
+        angleZ -1.79
+       }
+       Slot_NoGarbageNoDespawn139 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et"
+         }
+        }
+        coords 61.863 1.218 -4.372
+        angleZ -2.684
+       }
+       Slot_NoGarbageNoDespawn148 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et"
+         }
+        }
+        coords 98.995 2.26 4.848
+        angleX -0.896
+        angleY 0.056
+        angleZ 0.894
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Roadblocks_Center {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_SpawnChildren RANDOM_ONE
+   }
+  }
+  coords 4487.734 13.648 10722.416
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_Street_South {
+     coords -3.75 1.432 -62.814
+    }
+    L_Street_East {
+     coords 65.253 3.492 10.53
+    }
+    L_Street_West {
+     coords -137.593 -5.625 -21.838
+    }
+    L_Street_North {
+     coords -40.11 -4.282 108.17
+    }
+   }
+  }
+ }
+ A_Roadblocks_School {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_SpawnChildren RANDOM_ONE
+   }
+  }
+  coords 4576.916 16.781 10818.54
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_School {
+     coords 6.559 0.907 -1.698
+    }
+    L_Canal {
+     coords -52.206 -5.708 13.861
+    }
+    L_Street_S {
+     coords -3.479 1.168 -67.807
+    }
+    L_Street_N {
+     coords -52.486 -4.211 143.528
+    }
+   }
+  }
+ }
+}

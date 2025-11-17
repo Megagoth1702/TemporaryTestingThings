@@ -1,0 +1,29 @@
+GenericEntity : "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  TimerTriggerComponent "{5934C8C5C9FDF999}" {
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{5CAADB9AD0C61F3F}" {
+     ParticleEffect "{7A24DDD42C8B2562}Particles/RGD/RDG_Blue.ptc"
+    }
+   }
+  }
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName WeaponUIInfo "{56CA88CA4203CB8F}" {
+     Name "#AR-Weapon_RDG2_Name (#WCS-Vehicle-Color-Blue)"
+     Description "#WCS-Weapon-RDG2-Blue_Description"
+    }
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Materials {
+    MaterialAssignClass "{65F673FB24F9A35A}" {
+     SourceMaterial "RDG2"
+     AssignedMaterial "{0A24E3FE63C1E618}Assets/Weapons/Grenades/RDG2/Data/RDG2_Blue.emat"
+    }
+   }
+  }
+ }
+ coords 89.956 1.777 1220.618
+}

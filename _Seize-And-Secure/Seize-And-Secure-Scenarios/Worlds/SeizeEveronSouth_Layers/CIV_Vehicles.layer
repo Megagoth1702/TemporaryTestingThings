@@ -1,0 +1,38 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  coords 5810.758 3.118 3523.385
+  angleY -116.722
+ }
+ {
+  coords 11652.562 6.265 2200.92
+  angleY -116.722
+ }
+ {
+  coords 9962.058 314.244 2294.628
+  angleY 74.175
+ }
+ {
+  coords 8780.738 198.01 3932.629
+  angleY 78.945
+ }
+ {
+  coords 8809.046 97.088 2797.085
+  angleY -98.893
+ }
+ {
+  coords 8777.074 96.02 2748.348
+  angleY -104.384
+ }
+}
+Vehicle UAZ469_covered_CIV_JZD1 : "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" {
+ coords 9954.996 315.262 2287.367
+ angleX -3.721
+ angleY 138.006
+ angleZ -1.46
+}
+Vehicle UAZ469_covered_CIV_blue1 : "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" {
+ coords 8774.608 197.528 3924.357
+ angleX -1.477
+ angleY 109.267
+ angleZ 4.216
+}

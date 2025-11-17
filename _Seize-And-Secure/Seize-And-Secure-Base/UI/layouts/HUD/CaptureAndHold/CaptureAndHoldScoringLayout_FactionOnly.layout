@@ -1,0 +1,175 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ "Z Order" 1000
+ {
+  FrameWidgetClass "{62AC2CD695E505E9}" {
+   Name "Score_Root"
+   Slot FrameWidgetSlot "{5626D0F364797B4C}" {
+    Anchor 0.5 0 0.5 0
+    PositionX 1
+    OffsetLeft 1
+    PositionY 0
+    OffsetTop 0
+    SizeX 730
+    OffsetRight -731
+    SizeY 50
+    OffsetBottom -50
+    Alignment 0.5 0
+   }
+   {
+    FrameWidgetClass "{62AC2CD695E505F4}" : "{EF7F72B276388F1E}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldScoreLeft.layout" {
+     Name "Score_Left"
+     Slot FrameWidgetSlot "{59488DF333E350CC}" {
+      Anchor 1 0 1 0
+      PositionX -505
+      OffsetLeft -505
+      PositionY 0
+      OffsetTop 0
+      SizeX 304
+      OffsetRight 201
+      SizeY 29
+      OffsetBottom -29
+      Alignment 1 0
+      SizeToContent 1
+     }
+     {
+      HorizontalLayoutWidgetClass "{5946C48D26044780}" {
+       Prefab "{5946C48D26044780}"
+       Slot FrameWidgetSlot "{5946C48CD6F5AA1B}" {
+        Anchor 1 0 1 0
+        PositionX 305
+        OffsetLeft 305
+        PositionY 0
+        OffsetTop 0
+        SizeX 0
+        OffsetRight -305
+        SizeY 0
+        OffsetBottom 0
+        Alignment 1 0
+       }
+       {
+        OverlayWidgetClass "{5946C48D260447FB}" {
+         Prefab "{5946C48D260447FB}"
+         Slot LayoutSlot "{5946C48CE4AAF96F}" {
+          HorizontalAlign 2
+         }
+         {
+          ImageWidgetClass "{5946C48D260447FA}" {
+           Prefab "{5946C48D260447FA}"
+           Color 0 0 0 0.469
+           "Shadow Color" 0 0 0 1
+          }
+          ImageWidgetClass "{5946C48D260447F9}" {
+           Prefab "{5946C48D260447F9}"
+           Rotation 180
+           Mask "{40ADF497CD7DD34A}UI/Textures/HUD/CaptureAndHoldProgressMaskLeft.edds"
+          }
+          TextWidgetClass "{5946C489C0251CB0}" {
+           Prefab "{5946C489C0251CB0}"
+           Slot OverlayWidgetSlot "{5946C489C0251C04}" {
+            HorizontalAlign 1
+            Padding 8 0 8 0
+           }
+          }
+         }
+        }
+        ImageWidgetClass "{5946C48D260447FD}" {
+         Prefab "{5946C48D260447FD}"
+         Slot LayoutSlot "{5626D0F19F5A6DB1}" {
+          HorizontalAlign 2
+         }
+        }
+       }
+      }
+     }
+    }
+    TextWidgetClass "{62AC2CD695E505F2}" {
+     Name "RemainingTime"
+     Slot FrameWidgetSlot "{5946C48E2F885373}" {
+      Anchor 0.5 1 0.5 1
+      PositionX 0
+      OffsetLeft 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+      Alignment 0.5 1
+      SizeToContent 1
+     }
+     Text "00:00:00"
+     "Font Size" 20
+     "Min Font Size" 20
+     "Horizontal Alignment" Center
+     "Vertical Alignment" Center
+     FontProperties FontProperties "{5946C48E9B1B0FFF}" {
+      Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+      ShadowSize 4
+      ShadowOffset 5 5
+      ShadowOpacity 0.5
+     }
+     Offset -0.5 0
+    }
+    FrameWidgetClass "{62AC2CD695E505F3}" : "{1B6961F53B5EF83C}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldScoreRight.layout" {
+     Name "Score_Right"
+     Slot FrameWidgetSlot "{59488DF3316A42AB}" {
+      Anchor 1 0 1 0
+      PositionX -200
+      OffsetLeft -200
+      PositionY 0
+      OffsetTop 0
+      SizeX 304
+      OffsetRight -104
+      SizeY 29
+      OffsetBottom -29
+      Alignment 1 0
+      SizeToContent 1
+     }
+     {
+      HorizontalLayoutWidgetClass "{5946C48CD6F5ABC3}" {
+       Prefab "{5946C48CD6F5ABC3}"
+       {
+        OverlayWidgetClass "{5946C48CE4AAF90B}" {
+         Prefab "{5946C48CE4AAF90B}"
+         {
+          ImageWidgetClass "{5946C48CF1F394C1}" {
+           Prefab "{5946C48CF1F394C1}"
+           Color 0 0 0 0.469
+          }
+          ImageWidgetClass "{5946C48C13C593B2}" {
+           Prefab "{5946C48C13C593B2}"
+           Rotation 180
+           Mask "{F24FE929AE0790B7}UI/Textures/HUD/CaptureAndHoldProgressMaskRight.edds"
+          }
+          TextWidgetClass "{5946C489BA8866CE}" {
+           Prefab "{5946C489BA8866CE}"
+           Slot OverlayWidgetSlot "{5946C48B5B143729}" {
+            HorizontalAlign 1
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{62AC2CD695E505F1}" {
+     Name "Layout_Areas"
+     Slot FrameWidgetSlot "{5946E32EACCFE4A3}" {
+      Anchor 0.5 1 0.5 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 512
+      OffsetRight -512
+      SizeY 128
+      OffsetBottom -128
+      Alignment 0.5 0
+      SizeToContent 1
+     }
+    }
+   }
+  }
+ }
+}

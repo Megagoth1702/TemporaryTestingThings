@@ -1,0 +1,490 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ Area1 {
+  coords 4489.945 16.573 10631.177
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    LayerA {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -13.699 -2.98 68.872
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotA1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{E297CE2EDDA17C26}CHZones/BattleForNorthEveron/CAH_A1.et"
+         }
+        }
+        coords 71.135 2.301 -197.562
+       }
+       SlotA2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{8EC3FACE6165F308}CHZones/BattleForNorthEveron/CAH_A2.et"
+         }
+        }
+        coords 52.412 1.405 -305.28
+       }
+       SlotA3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{6B5FB6376D806463}CHZones/BattleForNorthEveron/CAH_A3.et"
+         }
+        }
+        coords 157.334 3.875 -153.124
+       }
+       SlotA4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{566B930F18ECED54}CHZones/BattleForNorthEveron/CAH_A4.et"
+         }
+        }
+        coords -151.366 20.471 -262.252
+       }
+       SlotA5 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B3F7DFF614097A3F}CHZones/BattleForNorthEveron/CAH_A5.et"
+         }
+        }
+        coords -180.283 40.657 -387.16
+       }
+      }
+     }
+    }
+    LayerB {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -7.968 -1.793 33.842
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotB1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7B8977B7C0464DB6}CHZones/BattleForNorthEveron/CAH_B1.et"
+         }
+        }
+        coords -318.631 1.617 -84.898
+       }
+       SlotB2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{17DD43577C82C298}CHZones/BattleForNorthEveron/CAH_B2.et"
+         }
+        }
+        coords -247.084 -13.437 25.721
+       }
+       SlotB3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F2410FAE706755F3}CHZones/BattleForNorthEveron/CAH_B3.et"
+         }
+        }
+        coords -66.732 1.013 30.094
+       }
+       SlotB4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{CF752A96050BDCC4}CHZones/BattleForNorthEveron/CAH_B4.et"
+         }
+        }
+        coords 34.734 0.837 18.332
+       }
+      }
+     }
+    }
+    LayerC {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 1.09 -0.071 4.599
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotC1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{0C831F3F34E4A2C6}CHZones/BattleForNorthEveron/CAH_C1.et"
+         }
+        }
+        coords -21.343 -7.314 255.871
+       }
+       SlotC2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{60D72BDF88202DE8}CHZones/BattleForNorthEveron/CAH_C2.et"
+         }
+        }
+        coords 117.453 1.151 185.767
+        angleY -9.971
+       }
+       SlotC3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{854B672684C5BA83}CHZones/BattleForNorthEveron/CAH_C3.et"
+         }
+        }
+        coords 128.567 2.154 37.201
+       }
+       SlotC4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B87F421EF1A933B4}CHZones/BattleForNorthEveron/CAH_C4.et"
+         }
+        }
+        coords 369.872 13.022 -34.561
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Area2 {
+  coords 4927.424 172.761 7068.264
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    LayerD {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 25.941 1.685 24.341
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotD1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{0B44E56E52621805}CHZones/BattleForNorthEveron/CAH_D1.et"
+         }
+        }
+        coords 210.549 5.704 21.258
+       }
+       SlotD2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{6710D18EEEA6972B}CHZones/BattleForNorthEveron/CAH_D2.et"
+         }
+        }
+        coords 165.46 1.667 -60.457
+       }
+       SlotD3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{BFB8B84F972F8977}CHZones/BattleForNorthEveron/CAH_D3.et"
+         }
+        }
+        coords 280.858 -1.219 -46.321
+        angleY -47.936
+       }
+       SlotD4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{BFB8B84F972F8978}CHZones/BattleForNorthEveron/CAH_D4.et"
+         }
+        }
+        coords 175.101 1.055 -123.299
+        angleY -49.02
+       }
+       SlotD5 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{5A24F4B69BCA1E1C}CHZones/BattleForNorthEveron/CAH_D5.et"
+         }
+        }
+        coords 46.048 -13.806 215.101
+       }
+      }
+     }
+    }
+    LayerE {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -18.541 -3.282 32.528
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotE1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{7C4E8DE6A6C0F775}CHZones/BattleForNorthEveron/CAH_E1.et"
+         }
+        }
+        coords -157.05 -3.054 201.201
+       }
+       SlotE2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{101AB9061A04785B}CHZones/BattleForNorthEveron/CAH_E2.et"
+         }
+        }
+        coords -117.48 -6.566 14.578
+        angleY -29.002
+       }
+       SlotE3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{F586F5FF16E1EF30}CHZones/BattleForNorthEveron/CAH_E3.et"
+         }
+        }
+        coords -273.314 -16.073 49.525
+        angleY 2.826
+       }
+       SlotE4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{C8B2D0C7638D6607}CHZones/BattleForNorthEveron/CAH_E4.et"
+         }
+        }
+        coords -210.719 -8.476 -18.02
+       }
+       SlotE5 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{2D2E9C3E6F68F16C}CHZones/BattleForNorthEveron/CAH_E5.et"
+         }
+        }
+        coords -75.894 0.352 -84.09
+       }
+      }
+     }
+    }
+    LayerF {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 0.942 -3.36 71.247
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotF1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{E550347FBB27C6E5}CHZones/BattleForNorthEveron/CAH_F1.et"
+         }
+        }
+        coords -170.165 -0.183 -152.752
+       }
+       SlotF2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{8904009F07E349CB}CHZones/BattleForNorthEveron/CAH_F2.et"
+         }
+        }
+        coords -218.439 -1.575 -214.127
+       }
+       SlotF3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{6C984C660B06DEA0}CHZones/BattleForNorthEveron/CAH_F3.et"
+         }
+        }
+        coords -109.792 -14.42 -325.277
+       }
+       SlotF4 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{51AC695E7E6A5797}CHZones/BattleForNorthEveron/CAH_F4.et"
+         }
+        }
+        coords -321.098 -9.603 -212.179
+       }
+       SlotF5 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{B43025A7728FC0FC}CHZones/BattleForNorthEveron/CAH_F5.et"
+         }
+        }
+        coords -349.099 -13.776 -159.963
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Area3 {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    Enabled 0
+   }
+  }
+  coords 4079.152 44.382 8437.054
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    LayerG {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -182.422 -29.152 12.191
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotG1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{925A5CF74F852995}CHZones/BattleForNorthEveron/CAH_G1.et"
+         }
+        }
+        coords -172.765 -13.877 87.732
+       }
+       SlotG2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{FE0E6817F341A6BB}CHZones/BattleForNorthEveron/CAH_G2.et"
+         }
+        }
+        coords -66.748 -2.953 -16.935
+       }
+       SlotG3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{1B9224EEFFA431D0}CHZones/BattleForNorthEveron/CAH_G3.et"
+         }
+        }
+        coords -27.891 0.069 -1.873
+        angleY 6.381
+       }
+      }
+     }
+    }
+    LayerH {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords -169.402 -29.319 29.185
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotH1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{EADFC0DD762AB363}CHZones/BattleForNorthEveron/CAH_H1.et"
+         }
+        }
+        coords -12.102 0.155 -49.075
+        angleY 4.555
+       }
+       SlotH2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{868BF43DCAEE3C4D}CHZones/BattleForNorthEveron/CAH_H2.et"
+         }
+        }
+        coords -19.264 0.243 24.305
+       }
+       SlotH3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{6317B8C4C60BAB26}CHZones/BattleForNorthEveron/CAH_H3.et"
+         }
+        }
+        coords 16.554 0.589 28.94
+        angleY 2.145
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Area4 {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    Enabled 0
+   }
+  }
+  coords 5682.569 17.204 9758.377
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    LayerI {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 115.258 -12.642 -73.152
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotI1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{9DD5A85582885C13}CHZones/BattleForNorthEveron/CAH_I1.et"
+         }
+        }
+        coords -3.412 0.001 0.273
+       }
+       SlotI2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{AB272A3A94BC4040}CHZones/BattleForNorthEveron/CAH_I2.et"
+         }
+        }
+        coords -48.116 4.282 102.68
+       }
+       SlotI3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{141DD04C32A94456}CHZones/BattleForNorthEveron/CAH_I3.et"
+         }
+        }
+        coords 11.853 0.57 105.71
+       }
+      }
+     }
+    }
+    LayerJ {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_SpawnChildren RANDOM_ONE
+      }
+     }
+     coords 180.88 -12.654 -3.177
+     {
+      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+       SlotJ1 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{04CB11CC9F6F6D83}CHZones/BattleForNorthEveron/CAH_J1.et"
+         }
+        }
+        coords 17.222 0.062 -46.032
+        angleY -115.464
+       }
+       SlotJ2 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{689F252C23ABE2AD}CHZones/BattleForNorthEveron/CAH_J2.et"
+         }
+        }
+        coords 0.782 -0.418 35.751
+       }
+       SlotJ3 {
+        components {
+         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+          m_sObjectToSpawn "{8D0369D52F4E75C6}CHZones/BattleForNorthEveron/CAH_J3.et"
+         }
+        }
+        coords 50.235 0.012 -32.155
+        angleY -26.968
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

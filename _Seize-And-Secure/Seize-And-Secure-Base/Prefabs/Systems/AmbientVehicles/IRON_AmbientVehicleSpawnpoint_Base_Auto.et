@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "64491D2DBD202345"
+ components {
+  SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+   m_iRespawnPeriod 60
+   m_aIncludedEditableEntityLabels {
+    50 36 200
+   }
+  }
+  SCR_Iron_FactionAffiliationComponent_Auto "{64491D2DBD2020A1}" {
+  }
+ }
+ coords 2.87 3.981 3.195
+}

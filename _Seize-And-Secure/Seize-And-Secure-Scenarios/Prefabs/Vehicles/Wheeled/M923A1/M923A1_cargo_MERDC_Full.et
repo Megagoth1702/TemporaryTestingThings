@@ -1,0 +1,24 @@
+GenericEntity : "{5A7E3ECE4599214B}Prefabs/Vehicles/Wheeled/M923A1/M923A1_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{61E94142487BDBCD}" {
+     SourceMaterial "M923A1_Cargo"
+     AssignedMaterial "{6A7243747B4BC259}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Cargo_MERDC.emat"
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D8356131CA904DC}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{5DAD42B03115E1DC}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC74906A8874}" {
+       m_fResourceValueCurrent 600
+      }
+     }
+    }
+   }
+  }
+ }
+}

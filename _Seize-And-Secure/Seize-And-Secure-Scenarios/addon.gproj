@@ -1,0 +1,30 @@
+GameProject {
+ ID "IronbeardsSeizeAndSecureScenarios"
+ GUID "61272D93C012AA65"
+ TITLE "Ironbeards Seize & Secure - Scenarios"
+ Dependencies {
+  "58D0FB3206B6F859" "612543B7F95C22A5"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+    VideoUserSettings VideoUserSettings "{B272A67DB18E04F9}" {
+     MaxFps "60"
+    }
+   }
+   ChimeraGlobalConfig ChimeraGlobalConfig "{6F12664687156A7B}" {
+    "Maximum View Distance" 10000
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

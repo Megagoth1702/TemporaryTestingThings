@@ -1,0 +1,88 @@
+GenericEntity : "{5E3606C2EE668D0F}Prefabs/Vehicles/Wheeled/M923A1/M923A1_combox_MERDC.et" {
+ ID "5206D4E7EFE2C051"
+ components {
+  SCR_CampaignBuildingProviderComponent "{612B51A08FCDCC8C}" {
+   m_sProviderDisplayName "#AR-Vehicle_SupplyTruck_Name-UC"
+   m_bUserActionActivationOnly 1
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingBudgetToEvaluateData "{612B51A05E13DC78}" {
+     m_eBudget CAMPAIGN
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{612B51A055173B6D}" {
+     m_eBudget RANK_CORPORAL
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{612B51A05B3929B3}" {
+     m_eBudget RANK_SERGEANT
+    }
+    SCR_CampaignBuildingMaxValueBudgetToEvaluateData "{612B51B8053C4ABD}" {
+     m_eBudget PROPS
+     m_bShowBudgetInUI 1
+     m_iMaxValue 1200
+    }
+    SCR_CampaignBuildingMaxValueBudgetToEvaluateData "{612B51B9EFD379DF}" {
+     m_eBudget AI
+     m_iMaxValue 10
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D835612EAFE4D27}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D835612E84434FE}" {
+     m_fResourceValueMax 800
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5DB8993B14E93CF9}" {
+    }
+    SCR_ResourceConsumer "{612B51A5B1E13EC1}" {
+     m_sDebugName "Consumer - Service Vehicle"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 1
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{612B51A54CE83A0F}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{612B51A55D7C190E}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{612B51A52C7262B3}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{612B51A6C1E0A979}" {
+     m_sDebugName "Generator - Service Vehicle"
+     m_eResourceRights ALL
+     m_fResourceMultiplier 0
+     m_fStorageRange 5
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{612B51A6A70D1271}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{612B51A6667A051F}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueue "{612B51A673C72066}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+       SCR_ResourceGeneratorStoragePolicy "{612B51A67C18E607}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueue "{612B51A64ACC1C60}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF025C6CAA0}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{612B51A1DC8C4751}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{612B51A1B670758C}" {
+      Name "#AR-Campaign_Action_ShowBuildPreview-UC"
+     }
+     Duration 1.5
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,97 @@
+Vehicle : "{E49B4C9AEA70BE3F}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65FE55D27140F20B}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{F434820F3B2BEDEE}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Black.emat"
+    }
+    MaterialAssignClass "{65FE55D27140F201}" {
+     SourceMaterial "Mirror_Generic"
+     AssignedMaterial "{A47C5D03ADB1464D}Assets/Vehicles/Wheeled/JLTV/data/Mirror_generic.emat"
+    }
+    MaterialAssignClass "{65FE55D27140F206}" {
+     SourceMaterial "colorpallet"
+     AssignedMaterial "{8FF42B5B57564C97}Assets/Vehicles/Wheeled/JLTV/data/colorpallet_black.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{81F462D9C32DB8D8}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_OGPK_Black.edds"
+    m_aAutoLabels {
+     10 122 50
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{65FE55D27140F21F}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{65FE55D27140F21C}" {
+     m_iParentID -1
+     m_Mesh "{635E5DC476BD97EE}Assets/Vehicles/Wheeled/JLTV/JLTV_Base.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 -1 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65FE55D27140F213}" {
+     m_iParentID 0
+     m_Mesh "{502D902C992456AB}Assets/Vehicles/Wheeled/JLTV/VehParts/JLTV_Roof.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65FE55D27140F210}" {
+     m_iParentID 0
+     m_Mesh "{0A2EC291EEFD032D}Assets/Vehicles/Common/Turrets/OGPK/JLTV_Armored_Turret.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65FE55D27140F211}" {
+     m_iParentID 2
+     m_Mesh "{E71679A4B28D5B23}Assets/Weapons/HeavyWeapons/M2HB/M2.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_gun_position"
+     m_vPosition 0 0.213 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{65FE55D27140F217}" {
+     m_iParentID 3
+     m_Mesh "{0C10E9D82D3B9089}Assets/Vehicles/Common/Turrets/OGPK/JLTV_WeaponShield.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "w_root"
+     m_vPosition 0 0 0.263
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5C946CE5223089AE}" {
+   Attributes SCR_ItemAttributeCollection "{5C946CE5312E449E}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5C946CE50DF003B0}" {
+      PreviewPrefab "{5544A492985CF8C3}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Black.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{EE8F3A25640B4B84}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_OGPK_M2_Black.et"
+    }
+   }
+  }
+ }
+}

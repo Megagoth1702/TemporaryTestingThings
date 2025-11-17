@@ -1,0 +1,62 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 7354.246 122.332 5173.234
+  {
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_eGroupType FIRETEAM
+      }
+     }
+     coords 2.799 0.011 3.588
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_eGroupType FIRETEAM
+      }
+     }
+     coords 70.035 23.209 33.624
+    }
+   }
+   GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+    coords 1.977 0.033 -1.759
+    angleY -48.405
+   }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -5.378 0.012 4.849
+    angleY 126.394
+   }
+  }
+ }
+ {
+  coords 7271.971 117.477 5552.536
+  {
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_eGroupType FIRETEAM
+      }
+     }
+     coords 0.608 -0.025 -2.185
+    }
+    {
+     coords 102.828 -0.845 44.9
+    }
+    {
+     coords -121.579 1.069 -89.908
+    }
+   }
+   GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+    coords 4.677 0.078 -0.439
+    angleY -125.349
+   }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -7.697 0.329 -1.307
+    angleY 141.637
+   }
+  }
+ }
+}

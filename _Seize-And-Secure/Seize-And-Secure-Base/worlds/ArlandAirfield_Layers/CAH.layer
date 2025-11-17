@@ -1,0 +1,179 @@
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ coords 1339.572 35.143 2600.812
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   LayerA {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      Layer1 {
+       coords 0 0 0
+       {
+        GenericEntity SlotA1 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{2134869FCAB55781}Prefabs/CHZones/ArlandAirfield/AreaA1.et"
+          }
+         }
+         coords 36.029 1.317 -204.503
+        }
+       }
+      }
+      Layer2 {
+       coords 0 0 0
+       {
+        GenericEntity SlotA2 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{4D60B27F7671D8AF}Prefabs/CHZones/ArlandAirfield/AreaA2.et"
+          }
+         }
+         coords 28.738 3.858 -332.815
+        }
+       }
+      }
+      Layer3 {
+       coords 0 0 0
+       {
+        GenericEntity SlotA3 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{A8FCFE867A944FC4}Prefabs/CHZones/ArlandAirfield/AreaA3.et"
+          }
+         }
+         coords -154.561 3.186 -100.386
+        }
+       }
+      }
+      Layer4 {
+       coords 0 0 0
+       {
+        GenericEntity SlotA4 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{95C8DBBE0FF8C6F3}Prefabs/CHZones/ArlandAirfield/AreaA4.et"
+          }
+         }
+         coords -65.141 -0.742 -32.645
+         angleY 34.896
+        }
+       }
+      }
+     }
+    }
+   }
+   LayerB {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotB1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{B82A3F06D7526611}Prefabs/CHZones/ArlandAirfield/AreaB1.et"
+        }
+       }
+       coords 356.024 2.92 411.189
+      }
+      SlotB2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{D47E0BE66B96E93F}Prefabs/CHZones/ArlandAirfield/AreaB2.et"
+        }
+       }
+       coords 204.181 1.826 332.341
+      }
+      SlotB3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{31E2471F67737E54}Prefabs/CHZones/ArlandAirfield/AreaB3.et"
+        }
+       }
+       coords 277.144 8.228 490.33
+      }
+      SlotB4 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{0CD66227121FF763}Prefabs/CHZones/ArlandAirfield/AreaB4.et"
+        }
+       }
+       coords 331.643 3.108 140.663
+       angleY -14.996
+      }
+      SlotB5 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{E94A2EDE1EFA6008}Prefabs/CHZones/ArlandAirfield/AreaB5.et"
+        }
+       }
+       coords 406.102 6.738 382.716
+      }
+     }
+    }
+   }
+   LayerC {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotC1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{CF20578E23F08961}Prefabs/CHZones/ArlandAirfield/AreaC1.et"
+        }
+       }
+       coords -242.358 2.714 292.777
+      }
+      SlotC2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{A374636E9F34064F}Prefabs/CHZones/ArlandAirfield/AreaC2.et"
+        }
+       }
+       coords -158.354 1.402 351.584
+      }
+      SlotC3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{46E82F9793D19124}Prefabs/CHZones/ArlandAirfield/AreaC3.et"
+        }
+       }
+       coords -124.032 2.858 314.816
+      }
+      SlotC4 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{7BDC0AAFE6BD1813}Prefabs/CHZones/ArlandAirfield/AreaC4.et"
+        }
+       }
+       coords 8.769 2.795 360.48
+       angleY -14.352
+      }
+      SlotC5 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9E404656EA588F78}Prefabs/CHZones/ArlandAirfield/AreaC5.et"
+        }
+       }
+       coords 96.738 2.803 371.584
+       angleY -12.446
+      }
+     }
+    }
+   }
+  }
+ }
+}

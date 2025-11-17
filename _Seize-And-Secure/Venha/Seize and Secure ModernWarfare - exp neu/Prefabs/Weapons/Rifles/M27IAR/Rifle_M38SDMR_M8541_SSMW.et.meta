@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{115537D56B74065D}Prefabs/Weapons/Rifles/M27IAR/Rifle_M38SDMR_M8541_SSMW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

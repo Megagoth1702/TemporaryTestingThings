@@ -1,0 +1,16 @@
+Vehicle : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  SCR_ResourceComponent "{5D82E3BA6C4795F8}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{5DAD42B116A53C11}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC74BF062E5D}" {
+       m_fResourceValueCurrent 10
+      }
+     }
+    }
+   }
+  }
+ }
+}

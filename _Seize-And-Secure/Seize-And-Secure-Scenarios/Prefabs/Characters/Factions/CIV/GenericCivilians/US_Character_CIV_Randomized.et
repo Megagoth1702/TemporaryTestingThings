@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{6D3138DA846660AE}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Generic_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{60DC952FF79A02F1}" {
+   "faction affiliation" "US"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Random_Civilian_Name"
+    Icon "{C431FD61793AA13F}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Random.edds"
+    m_Image "{A1FEAA3146DDAF38}UI/Textures/EditorPreviews/Characters/CIV/Character_CIV_Randomized.edds"
+    m_aAuthoredLabels {
+     290 70 2 13 22
+    }
+   }
+   m_VariantData SCR_EditableEntityVariantData "{61D50EE9AFA0E8D9}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{61D50EE9AFA0E82C}" {
+      m_sVariantPrefab "{11EB9A0D2A5899EA}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_DenimJacket_1.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E828}" {
+      m_sVariantPrefab "{3AE3C1A509298D9D}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_DenimJacket_2.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E835}" {
+      m_sVariantPrefab "{C943F3CC53D187B6}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Turtleneck_1.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E830}" {
+      m_sVariantPrefab "{1FFE2B88BEF51840}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Turtleneck_2.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E83E}" {
+      m_sVariantPrefab "{3A2FBAD5B929AC4B}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Turtleneck_3.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E83C}" {
+      m_sVariantPrefab "{8C7093AF368F496A}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_1.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E807}" {
+      m_sVariantPrefab "{DF7F8D5C05CC1AF6}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_2.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E803}" {
+      m_sVariantPrefab "{408B8BD5E3F09FF3}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_3.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E800}" {
+      m_sVariantPrefab "{035F8F1CEF3B187F}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_4.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E80E}" {
+      m_sVariantPrefab "{E6C3C3E5E3DE8F14}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_5.et"
+     }
+     SCR_EditableEntityVariant "{61D50EE9AFA0E80D}" {
+      m_sVariantPrefab "{8A97F7055F1A003A}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_CottonShirt_6.et"
+     }
+    }
+   }
+  }
+ }
+}

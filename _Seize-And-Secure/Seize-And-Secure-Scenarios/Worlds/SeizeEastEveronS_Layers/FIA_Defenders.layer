@@ -1,0 +1,58 @@
+$grp Vehicle : "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et" {
+ UAZ469_PKM_FIA1 {
+  coords 6352.991 75.636 8447.074
+ }
+ UAZ469_PKM_FIA2 {
+  coords 6886.009 67.589 8646.326
+  angleX 12.422
+  angleY -154.285
+  angleZ 0.988
+ }
+ UAZ469_PKM_FIA3 {
+  coords 7424.114 47.615 8331.476
+  angleX 7.99
+  angleY -24.6
+  angleZ -1.014
+ }
+}
+AIWaypointCycle WayCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ coords 11512.205 9.436 1871.191
+ AIBehaviorTree "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et"
+ AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+ CycleWaypoints {
+  "WayPat1" "WayPat2"
+ }
+}
+SCR_AIGroup : "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et" {
+ components {
+  AIPathfindingComponent "{518A98842FFC190E}" {
+   NavmeshProject "BTRlike"
+   "Use Road Network" 1
+   "Search half extend XZ" 75
+  }
+  SCR_AIConfigComponent "{512CC1759AE69D6D}" {
+   m_Skill 0.71
+  }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   "Min Prediction Distance" 10
+   "Max Prediction Distance" 15
+  }
+ }
+ coords 6819.234 88.443 8179.01
+ m_aStaticWaypoints {
+  "WayPat1" "WayPat2" "WayCycle"
+ }
+ m_aStaticVehicles {
+  "BTR70_FIA1"
+ }
+}
+SCR_BoardingTimedWaypoint GetInBtr : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
+ coords 6818.895 88.412 8179.781
+ CompletionRadius 10
+}
+Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ coords 6819.17 86.567 8179.32
+ angleX -5.18
+ angleY 53.286
+ angleZ 0.521
+}

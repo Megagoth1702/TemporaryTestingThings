@@ -1,0 +1,89 @@
+Vehicle S1203_base1 : "{4AE9D080927D3CB9}Prefabs/Vehicles/Wheeled/S1203/S1203_base.et" {
+ coords 7071.867 116.056 5457.253
+ angleY -18.512
+}
+$grp Vehicle : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ S1203_transport_beige1 {
+  coords 7789.573 156.212 4608.918
+  angleY 133.48
+  angleZ -14.172
+ }
+ S1203_transport_beige3 {
+  coords 6781.509 91.342 5689.93
+  angleY 32.237
+ }
+ S1203_transport_beige5 {
+  coords 6854.519 123.325 6582.645
+ }
+}
+Vehicle S105_beige1 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+ coords 6986.124 101.925 5075.944
+ angleY 23.452
+}
+Vehicle UAZ452_cargo_FIA1 : "{5F5AAFE8465D9D62}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_FIA.et" {
+ coords 7516.155 83.078 5481.332
+ angleX 0.352
+ angleY -87.185
+ angleZ 0.017
+}
+Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ coords 7642.59 125.591 5026.549
+ angleY -38.885
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+   }
+  }
+  coords 7505.885 165.75 4280.561
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+   }
+  }
+  coords 7428.967 8.16 6724.244
+ }
+}
+Vehicle S105_darkblue2 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+ coords 6762.225 89.625 5655.482
+ angleY -53.406
+}
+$grp Vehicle : "{A003493D32140960}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CIV_base.et" {
+ UAZ452_cargo_CIV_base1 {
+  coords 7527.54 143.157 4666.817
+  angleY -31.113
+ }
+ UAZ452_cargo_CIV_base2 {
+  coords 6974.025 118.473 6022.764
+  angleY -134.526
+ }
+ UAZ452_cargo_CIV_base3 {
+  coords 7564.122 80.521 5558.515
+ }
+}
+Vehicle Ural4320_tanker_CIV_pohona1 : "{B3C8EC88E7782C78}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker_CIV_pohona.et" {
+ coords 7053.46 115.344 5361.319
+ angleY -118.266
+}
+Vehicle UAZ452_transport_FIA1 : "{BDE16A6AE9942D44}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_FIA.et" {
+ coords 7516.875 83.642 5502.975
+ angleY 172.137
+}
+$grp Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+ UAZ469_FIA3 {
+  coords 7142.355 120.724 5373.842
+  angleX -5.754
+  angleY -72.961
+  angleZ -5.262
+ }
+ UAZ469_FIA4 {
+  coords 7672.787 120.449 5185.211
+  angleX 12.493
+  angleY 134.092
+  angleZ -3.262
+ }
+}

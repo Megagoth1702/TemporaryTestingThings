@@ -1,0 +1,61 @@
+FrameWidgetClass : "{47864BB47AB0B1F4}UI/layouts/HUD/CampaignMP/CampaignMainHUD.layout" {
+ {
+  VerticalLayoutWidgetClass "{59FA8187416ABB88}" {
+   Prefab "{59FA8187416ABB88}"
+   Slot FrameWidgetSlot "{59FA8187416ABBD5}" {
+    PositionX -250.221
+    OffsetLeft -250.221
+    PositionY 170.208
+    OffsetTop 170.208
+    SizeX 500.001
+    OffsetRight -249.78
+    SizeY 150
+    OffsetBottom -320.208
+   }
+   "Is Enabled" 1
+   "Is Visible" 1
+   {
+    SizeLayoutWidgetClass "{59FA818607A32C7B}" {
+     Prefab "{59FA818607A32C7B}"
+     Slot LayoutSlot "{59FA818607A32BB3}" {
+      Padding 0 -10 0 0
+     }
+     "Is Enabled" 0
+     "Is Visible" 0
+     {
+      HorizontalLayoutWidgetClass "{59F6AA9222C9831D}" {
+       Prefab "{59F6AA9222C9831D}"
+       {
+        RichTextWidgetClass "{5984A88B30CA94F6}" {
+         Prefab "{5984A88B30CA94F6}"
+         Slot LayoutSlot "{59F6AA923F7EE943}" {
+         }
+        }
+        RichTextWidgetClass "{59F6AA97DAD3ECFB}" {
+         Prefab "{59F6AA97DAD3ECFB}"
+         Slot LayoutSlot "{59F6AA923F7EE943}" {
+         }
+        }
+       }
+      }
+     }
+    }
+    RichTextWidgetClass "{59F8836EF18B153C}" {
+     Prefab "{59F8836EF18B153C}"
+     Slot LayoutSlot "{59FA818758BAF13E}" {
+      Padding 0 10 0 0
+     }
+    }
+    VerticalLayoutWidgetClass "{59FA8961A9C56072}" {
+     Prefab "{59FA8961A9C56072}"
+     Slot LayoutSlot "{59FA8961A9C51FBF}" {
+      Padding 0 7.5 0 7.5
+     }
+     "Is Enabled" 0
+     "Is Visible" 0
+     IsPixelPerfect 0
+    }
+   }
+  }
+ }
+}

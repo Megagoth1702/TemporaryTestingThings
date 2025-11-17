@@ -1,0 +1,12 @@
+Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  Iron_SuppressionVehicleComponent "{628547AB3BF643B0}" {
+   m_aVehicleSuppressionConfigs {
+    Iron_SuppressionVehicleData "{628547AB389D8984}" {
+     m_fDampenExplosion 0.3
+    }
+   }
+  }
+ }
+}

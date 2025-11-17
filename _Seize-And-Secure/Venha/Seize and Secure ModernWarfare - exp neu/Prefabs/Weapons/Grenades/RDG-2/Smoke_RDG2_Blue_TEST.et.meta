@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7BA1944230B72C79}Prefabs/Weapons/Grenades/RDG-2/Smoke_RDG2_Blue_TEST.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

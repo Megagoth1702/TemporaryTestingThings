@@ -1,0 +1,3646 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ StartingPos2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 5438.113 17.941 10011.372
+  angleY -179.128
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 50
+      }
+     }
+     coords 22.46 -0.879 -30.308
+     angleY -86.317
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 50
+      }
+     }
+     coords 23.13 -0.716 -19.889
+     angleX 0.071
+     angleY -86.318
+     angleZ -0.892
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 50
+      }
+     }
+     coords 23.881 -0.528 -8.228
+     angleX 0.963
+     angleY -86.33
+     angleZ -0.821
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 50
+      }
+     }
+     coords 24.496 -0.366 1.319
+     angleX 1.855
+     angleY -86.341
+     angleZ -0.751
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 50
+      }
+     }
+     coords 25.08 -0.126 10.381
+     angleX 1.034
+     angleY -86.348
+     angleZ -1.714
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 50
+      }
+     }
+     coords 25.749 0.216 20.781
+     angleX 1.034
+     angleY -86.348
+     angleZ -1.714
+    }
+   }
+  }
+ }
+ StartingPos3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 2945.858 90.617 4839.593
+  angleY -9.064
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 42.739 1.769 38.992
+     angleX -1.608
+     angleY -70.958
+     angleZ -1.191
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 40.279 1.653 31.85
+     angleX -0.727
+     angleY -70.974
+     angleZ -1.036
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 37.873 1.455 24.87
+     angleX -3.21
+     angleY -70.891
+     angleZ -2.382
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 35.756 1.449 18.723
+     angleX -1.347
+     angleY -70.947
+     angleZ 2.487
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 33.778 1.469 12.982
+     angleX -2.798
+     angleY -70.967
+     angleZ 0.416
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 31.209 1.425 5.525
+     angleX -3.367
+     angleY -70.912
+     angleZ -1.502
+    }
+   }
+  }
+ }
+ StartingPos4 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 6068.481 96.788 5390.162
+  angleY -106.714
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -37.226 4.028 13.737
+     angleX -12.404
+     angleY 86.912
+     angleZ -5.771
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -37.768 3.298 20.89
+     angleX -8.871
+     angleY 86.58
+     angleZ -5.901
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -38.417 2.574 29.471
+     angleX -6.723
+     angleY 86.226
+     angleZ -4.69
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -39.154 2.09 39.263
+     angleX -5.132
+     angleY 85.905
+     angleZ -2.377
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -39.885 1.631 48.961
+     angleX -5.385
+     angleY 85.99
+     angleZ -3.234
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -40.885 0.889 62.194
+     angleX -4.535
+     angleY 85.961
+     angleZ -3.492
+    }
+   }
+  }
+ }
+ StartingPos5 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 7841.872 151.573 4675.127
+  angleY -106.76
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 3.697 3.366 -69.599
+     angleX -8.721
+     angleY 45.283
+     angleZ -0.693
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -3.468 3.237 -62.417
+     angleX -7.953
+     angleY 44.9
+     angleZ -0.218
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -10.618 3.328 -55.25
+     angleX -7.236
+     angleY 45.025
+     angleZ 2.169
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -19.28 3.672 -46.569
+     angleX -6.817
+     angleY 44.956
+     angleZ 1.397
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -27.384 3.929 -38.449
+     angleX -7.588
+     angleY 44.673
+     angleZ 1.013
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -35.116 4.098 -30.696
+     angleX -6.338
+     angleY 45.187
+     angleZ -1.4
+    }
+   }
+  }
+ }
+ StartingPos6 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 9900.147 292.834 2573.072
+  angleY -112.769
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+    coords 0 0.084 11.984
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -20.83 3.572 -10.732
+     angleX -3.682
+     angleY 101.55
+     angleZ -0.181
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -30.335 4.259 -8.786
+     angleX -3.682
+     angleY 101.55
+     angleZ -0.181
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -38.984 4.986 -7.015
+     angleX -4.555
+     angleY 101.601
+     angleZ -0.011
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -49.146 6.084 -4.932
+     angleX -8.027
+     angleY 101.758
+     angleZ 0.654
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -60.614 7.52 -2.575
+     angleX -6.417
+     angleY 105.456
+     angleZ -0.972
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -70.625 8.801 -0.562
+     angleX -7.333
+     angleY 101.585
+     angleZ -0.364
+    }
+   }
+  }
+ }
+ StartingPos7 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 5798.185 1.104 9558.567
+  angleX 0.766
+  angleY -137.417
+  angleZ 3.132
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -40.359 -2.537 5.251
+     angleX -0.62
+     angleY 156.504
+     angleZ 4.516
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -32.876 -2.403 8.489
+     angleX 5.021
+     angleY 156.886
+     angleZ 4.606
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -23.648 -1.35 12.519
+     angleX 1.912
+     angleY 156.628
+     angleZ 5.399
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -15.191 -0.777 16.193
+     angleX 1.947
+     angleY 156.626
+     angleZ 2.57
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -7.213 -0.415 19.655
+     angleX 2.242
+     angleY 156.606
+     angleZ 1.724
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 1.525 0.169 23.454
+     angleX 3.536
+     angleY 156.899
+     angleZ 8.808
+    }
+   }
+  }
+ }
+ StartingPos8 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 8355.963 237.819 4765.596
+  angleY 117.634
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 19.167 -0.134 9.855
+     angleX -1.198
+     angleY 88.503
+     angleZ 0.409
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 7.361 0.113 9.549
+     angleX -1.198
+     angleY 88.503
+     angleZ 0.409
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -8.406 0.366 10.577
+     angleX 0.804
+     angleY 88.517
+     angleZ 0.394
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -23.254 0.233 11.36
+     angleX 1.988
+     angleY 95.543
+     angleZ 0.23
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -37.528 -0.243 12.742
+     angleX 2.477
+     angleY 95.512
+     angleZ -0.52
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -51.767 -1.46 16.646
+     angleX 6.908
+     angleY 105.686
+     angleZ -0.831
+    }
+   }
+  }
+ }
+ StartingPos9 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 5414.589 27.885 9389.245
+  angleX -1.448
+  angleY 10.114
+  angleZ -2.075
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 29.616 2.131 4.413
+     angleX -4.721
+     angleY -74.181
+     angleZ 3.62
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 27.657 2.458 -2.302
+     angleX -8.275
+     angleY -73.957
+     angleZ 0.847
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 25.425 2.321 -9.894
+     angleX -9.058
+     angleY -73.438
+     angleZ -3.545
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 22.853 1.868 -18.652
+     angleX -9.429
+     angleY -72.779
+     angleZ -0.908
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 20.439 1.858 -26.909
+     angleX -2.791
+     angleY -73.495
+     angleZ -2.394
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 17.893 1.815 -35.606
+     angleX -3.575
+     angleY -73.846
+     angleZ 1.213
+    }
+   }
+  }
+ }
+ StartingPos22 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 7545.462 6.249 6055.09
+  angleX 3.938
+  angleY -106.652
+  angleZ 0.688
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 75
+      }
+     }
+     coords 42.354 -1.928 -42.98
+     angleX -2.519
+     angleY -23.786
+     angleZ -0.202
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 75
+      }
+     }
+     coords 33.913 -1.88 -46.697
+     angleX -1.938
+     angleY -23.772
+     angleZ 0.479
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 75
+      }
+     }
+     coords 25.006 -1.767 -50.615
+     angleX -1.939
+     angleY -23.759
+     angleZ 0.478
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 75
+      }
+     }
+     coords 15.494 -1.591 -54.795
+     angleX -2.039
+     angleY -23.747
+     angleZ 1.739
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 75
+      }
+     }
+     coords 4.635 -1.348 -59.563
+     angleX -2.619
+     angleY -23.765
+     angleZ 1.059
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 75
+      }
+     }
+     coords -6.965 -1.114 -64.657
+     angleX -2.619
+     angleY -23.765
+     angleZ 1.059
+    }
+   }
+  }
+ }
+ StartingPos27 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 7306.082 42.921 7652.386
+  angleX 0.63
+  angleY -12.136
+  angleZ 7.152
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 4.688 1.586 -38.476
+     angleX 1.367
+     angleY 3.568
+     angleZ -2.893
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 12.531 1.488 -38.984
+     angleX 2.132
+     angleY 3.836
+     angleZ 2.345
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 20.848 1.158 -39.524
+     angleX 4.39
+     angleY 3.673
+     angleZ -0.651
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 29.86 1.05 -40.109
+     angleX 2.012
+     angleY 3.681
+     angleZ 1.477
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 38.303 0.956 -40.66
+     angleX -0.338
+     angleY 3.472
+     angleZ 3.585
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 47.724 0.127 -41.293
+     angleX -12.337
+     angleY 2.043
+     angleZ 4.764
+    }
+   }
+  }
+ }
+ StartingPos28 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 5493.092 1.095 8749.012
+  angleX 2.482
+  angleY -169.761
+  angleZ 1.357
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 19.01 -2.019 58.395
+     angleX 0.074
+     angleY -101.765
+     angleZ 2.682
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 21.323 -1.515 47.294
+     angleX -0.82
+     angleY -101.807
+     angleZ 2.707
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 23.499 -1.042 36.854
+     angleX -0.82
+     angleY -101.807
+     angleZ 2.707
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 25.445 -0.661 27.521
+     angleX -0.845
+     angleY -101.808
+     angleZ 1.812
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 27.413 -0.324 18.084
+     angleX -0.845
+     angleY -101.808
+     angleZ 1.812
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 29.551 0.109 7.821
+     angleX -0.82
+     angleY -101.807
+     angleZ 2.707
+    }
+   }
+  }
+ }
+ StartingPos29 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 5384.545 42.452 11059.564
+  angleY -106.828
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 21.26 0.878 18.441
+     angleX -0.302
+     angleY -153.456
+     angleZ 1.764
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 27.432 0.947 15.348
+     angleX -1.916
+     angleY -153.389
+     angleZ 0.578
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 34.312 0.843 11.899
+     angleX -4.25
+     angleY -153.348
+     angleZ -1.641
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 40.176 0.541 8.963
+     angleX -4.104
+     angleY -153.488
+     angleZ -2.51
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 47.19 -0.027 5.447
+     angleX -1.894
+     angleY -153.486
+     angleZ -4.85
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 53.063 -0.44 2.499
+     angleX -2.178
+     angleY -153.189
+     angleZ -3.105
+    }
+   }
+  }
+ }
+ StartingPos30 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 4631.497 9.468 11562.368
+  angleY -105.009
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -21.08 1.434 -24.908
+     angleX 0.451
+     angleY 84.902
+     angleZ -6.676
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -21.674 0.683 -18.24
+     angleX 0.111
+     angleY 84.945
+     angleZ -7.489
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -22.223 -0.142 -11.983
+     angleX -2.333
+     angleY 85.222
+     angleZ -6.472
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -22.827 -1.244 -5.092
+     angleX 1.956
+     angleY 84.77
+     angleZ -5.389
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -23.55 -2.412 3.146
+     angleX 4.93
+     angleY 84.2
+     angleZ -9.549
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -24.183 -3.563 10.366
+     angleX 2.536
+     angleY 84.607
+     angleZ -8.514
+    }
+   }
+  }
+ }
+ StartingPos31 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 4174.94 18.576 9107.172
+  angleY -106.49
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 20.234 1.059 43.19
+     angleX -0.157
+     angleY -154.173
+     angleZ -4.553
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 26.646 0.42 40.088
+     angleX -1.023
+     angleY -154.101
+     angleZ -4.755
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 33.56 -0.132 36.746
+     angleX -1.888
+     angleY -154.023
+     angleZ -4.959
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 40.714 -0.543 33.282
+     angleX 3.115
+     angleY -154.333
+     angleZ -2.878
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 48.809 -1.234 29.366
+     angleX 2.717
+     angleY -154.221
+     angleZ -1.134
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 57.057 -1.9 25.377
+     angleX -1.682
+     angleY -154.02
+     angleZ -5.823
+    }
+   }
+  }
+ }
+ StartingPos32 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 3198.37 6.774 7140.243
+  angleY 62.186
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 27.271 5.636 46.116
+     angleX -3.002
+     angleY -96.061
+     angleZ -7.632
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 28.188 4.735 38.02
+     angleX -3.388
+     angleY -96.254
+     angleZ -3.207
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 28.943 4.489 31.322
+     angleX -2.16
+     angleY -96.332
+     angleZ -2.929
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 29.821 3.992 23.553
+     angleX -4.142
+     angleY -96.244
+     angleZ -2.73
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 30.667 3.541 16.07
+     angleX -6.943
+     angleY -96.569
+     angleZ 1.194
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 31.498 3.532 8.701
+     angleX -6.673
+     angleY -96.424
+     angleZ -0.05
+    }
+   }
+  }
+ }
+ StartingPos33 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 2112.235 1.337 6649.757
+  angleX 7.22
+  angleY -106.008
+  angleZ 2.552
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 42.138 1.317 1.754
+     angleX 9.971
+     angleY -136.893
+     angleZ 5.964
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 45.555 1.853 -1.325
+     angleX 9.971
+     angleY -136.893
+     angleZ 5.964
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 49.068 2.402 -4.49
+     angleX 9.971
+     angleY -136.893
+     angleZ 5.964
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 52.893 2.977 -7.938
+     angleX 9.575
+     angleY -136.85
+     angleZ 6.771
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 56.748 3.585 -11.412
+     angleX 9.575
+     angleY -136.85
+     angleZ 6.771
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 61.465 4.388 -15.656
+     angleX 13.485
+     angleY -136.735
+     angleZ 4.777
+    }
+   }
+  }
+ }
+ StartingPos34 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 2481.532 83.391 6091.077
+  angleY 12.361
+  angleZ -1.402
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -2.462 2.498 -68.947
+     angleX -4.376
+     angleY 68.575
+     angleZ -1.714
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -6.179 2.22 -59.537
+     angleX -5.332
+     angleY 68.659
+     angleZ -2.537
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -10.054 1.714 -49.744
+     angleX -3.625
+     angleY 68.622
+     angleZ -3.566
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -14.682 1.003 -38.052
+     angleX -4.512
+     angleY 68.674
+     angleZ -3.497
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -19.001 0.515 -27.129
+     angleX -2.524
+     angleY 68.506
+     angleZ -0.965
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -23.573 0.262 -15.547
+     angleX -0.668
+     angleY 68.486
+     angleZ -0.218
+    }
+   }
+  }
+ }
+ StartingPos35 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 1883.101 71.077 5071.71
+  angleY 9.453
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 0.586 -4.033 -30.884
+     angleX 4.092
+     angleY 25.629
+     angleZ 5.041
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -5.679 -3.506 -27.931
+     angleX 5.629
+     angleY 25.535
+     angleZ 2.844
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -12.116 -3.243 -24.893
+     angleX 7.873
+     angleY 25.461
+     angleZ 1.151
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -20.931 -3.018 -20.731
+     angleX 6.702
+     angleY 25.084
+     angleZ -1.873
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -28.984 -3.221 -16.927
+     angleX 10.689
+     angleY 23.604
+     angleZ -9.781
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -36.648 -3.464 -13.304
+     angleX 2.095
+     angleY 24.902
+     angleZ -9.322
+    }
+   }
+  }
+ }
+ StartingPos36 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 2490.563 10.406 4240.698
+  angleY -148.866
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 21.808 0.94 -37.784
+     angleX -3.913
+     angleY 7.211
+     angleZ -0.815
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 14.568 0.798 -36.888
+     angleX -5.306
+     angleY 7.001
+     angleZ -1.911
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 6.933 0.251 -35.943
+     angleX -1.646
+     angleY 7.657
+     angleZ -3.614
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -0.961 0.045 -34.965
+     angleX -0.007
+     angleY 7.426
+     angleZ 0.033
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -9.457 0.05 -33.912
+     angleX -0.008
+     angleY 8.372
+     angleZ 0.033
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -19.23 0.055 -32.704
+     angleX -0.007
+     angleY 7.427
+     angleZ 0.033
+    }
+   }
+  }
+ }
+ StartingPos37 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 3775.05 122.407 5411.976
+  angleY 1.897
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 13.968 0.334 -38.561
+     angleX 2.424
+     angleY 34.474
+     angleZ -9.243
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 7.867 -0.893 -34.315
+     angleX 1.215
+     angleY 34.735
+     angleZ -9.058
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 1.919 -1.606 -30.175
+     angleX 5.148
+     angleY 34.538
+     angleZ -3.956
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -4.823 -1.852 -25.483
+     angleX 5.181
+     angleY 34.727
+     angleZ 0.513
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -10.851 -1.713 -21.289
+     angleX 6.064
+     angleY 34.994
+     angleZ 2.316
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -16.77 -1.51 -17.17
+     angleX 5.889
+     angleY 34.921
+     angleZ 1.063
+    }
+   }
+  }
+ }
+ StartingPos38 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 5652.281 40.372 4210.581
+  angleY 157.964
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 40.404 -1.085 41.165
+     angleX -5.977
+     angleY -71.268
+     angleZ 4.793
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 37.499 -0.477 32.835
+     angleX -6.088
+     angleY -71.087
+     angleZ 3.003
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 34.427 0.114 24.03
+     angleX -7.786
+     angleY -71.311
+     angleZ 4.002
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 31.219 0.66 14.831
+     angleX -6.968
+     angleY -71.139
+     angleZ 3.053
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 27.95 1.107 5.463
+     angleX -7.021
+     angleY -71.032
+     angleZ 2.154
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 24.141 1.877 -5.461
+     angleX -5.977
+     angleY -71.268
+     angleZ 4.793
+    }
+   }
+  }
+ }
+ StartingPos39 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 6437.17 106.295 5938.713
+  angleY -107.257
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -44.851 3.005 -40.886
+     angleX 2.726
+     angleY 63.368
+     angleZ -9.965
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -48.174 1.64 -34.119
+     angleX 3.948
+     angleY 63.16
+     angleZ -9.881
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -51.706 0.277 -26.926
+     angleX 2.726
+     angleY 63.368
+     angleZ -9.965
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -55.406 -1.145 -19.389
+     angleX 2.152
+     angleY 63.437
+     angleZ -10.62
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -58.723 -2.511 -12.632
+     angleX 2.076
+     angleY 63.508
+     angleZ -9.393
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -61.59 -3.638 -6.792
+     angleX 1.421
+     angleY 63.636
+     angleZ -8.822
+    }
+   }
+  }
+ }
+ StartingPos40 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 6561.731 3.705 2365.275
+  angleY 129.83
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 65.703 1.301 67.002
+     angleX 7.598
+     angleY -66.089
+     angleZ -6.676
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 62.533 0.543 60.139
+     angleX 7.609
+     angleY -65.823
+     angleZ -4.676
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 59.074 0.073 52.652
+     angleX 4.418
+     angleY -65.288
+     angleZ -1.112
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 50.685 -0.326 34.494
+     angleX 5.09
+     angleY -75.302
+     angleZ -3.618
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 48.396 -0.936 25.962
+     angleX 4.572
+     angleY -75.328
+     angleZ -4.345
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 45.271 -1.186 14.317
+     angleX -0.432
+     angleY -74.999
+     angleZ 2.493
+    }
+   }
+  }
+ }
+ StartingPos41 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 3323.728 8.967 3516.159
+  angleX -1.395
+  angleY 174.562
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 2.241 -5.766 93.061
+     angleX -0.764
+     angleY -123.196
+     angleZ -1.167
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 6.44 -5.922 86.649
+     angleX -0.764
+     angleY -123.196
+     angleZ -1.167
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 12.126 -6.133 77.963
+     angleX -0.764
+     angleY -123.196
+     angleZ -1.167
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 17.841 -6.346 69.233
+     angleX -0.764
+     angleY -123.196
+     angleZ -1.167
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 23.884 -6.571 60.001
+     angleX -0.764
+     angleY -123.194
+     angleZ -1.167
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords 29.761 -6.789 51.025
+     angleX -0.764
+     angleY -123.194
+     angleZ -1.167
+    }
+   }
+  }
+ }
+ StartingPos42 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "#AR-Campaign_MapLocation_MOB"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+    m_fRadioAntennaServiceRange 1200
+    m_bExcludeFromRandomization 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
+  }
+  coords 6331.263 75.49 8452.547
+  angleY 143.861
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    Flags 2097155
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0.001 0
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   $grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -31.722 -7.068 -37.597
+     angleX 10.284
+     angleY 8.935
+     angleZ -1.296
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -38.743 -7.287 -36.465
+     angleX 9.882
+     angleY 8.805
+     angleZ -2.103
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -46.081 -7.633 -35.281
+     angleX 10.242
+     angleY 8.574
+     angleZ -3.326
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -53.616 -8.009 -34.065
+     angleX 9.477
+     angleY 8.687
+     angleZ -2.908
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -61.635 -8.4 -32.77
+     angleX 8.299
+     angleY 8.69
+     angleZ -3.294
+    }
+    {
+     components {
+      SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+       m_bStopDespawnOnInteraction 1
+       m_aIncludedEditableEntityLabels + {
+        54
+       }
+       m_aExcludedEditableEntityLabels {
+        53 35 280
+       }
+       m_fDistance 100
+      }
+     }
+     coords -71.398 -8.951 -31.195
+     angleX 7.115
+     angleY 8.71
+     angleZ -3.678
+    }
+   }
+  }
+ }
+}

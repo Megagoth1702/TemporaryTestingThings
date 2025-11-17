@@ -1,0 +1,77 @@
+StaticModelEntity : "{C9CFDED29542A968}Prefabs/Props/Military/Furniture/CotMilitary_US_01.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  ActionsManagerComponent "{629B517C266ABA9E}" {
+   ActionContexts {
+    UserActionContext "{629B517C2FC336F3}" {
+     ContextName "default"
+     Position PointInfo "{629B517C1CEB3F69}" {
+      Offset 0 0.5076 0
+     }
+    }
+   }
+   additionalActions {
+    Iron_HealYourselfUserAction "{629B517C32E54BA2}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{629B517DEDAA6B09}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+     }
+     Duration 5
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{629B517F2958978D}" {
+      m_aDamageIntensityEntries {
+       SCR_DamageIntensityEntry "{629B517F32AF02BD}" {
+        m_eDamageIntensityType NO_DAMAGE
+        m_iOrder 0
+        m_UiInfo SCR_UIInfo "{629B517F1ED5FF76}" {
+         Name "#AR-SupportStation_Heal_ActionInvalid_FullHealth"
+        }
+        m_fMaxValue 10
+        m_fMinValue 1
+       }
+       SCR_DamageIntensityEntry "{629B517CFAA8DA21}" {
+        m_eDamageIntensityType LOW
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{5E20C7519B483425}" {
+         Name "#AR-DamageInfo_Damage_Low"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{629B517CCD338FE7}" {
+        m_eDamageIntensityType MEDIUM
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{5E20C7519B483438}" {
+         Name "#AR-DamageInfo_Damage_Medium"
+        }
+        m_fMaxValue 0.75
+        m_fMinValue 0.5
+       }
+       SCR_DamageIntensityEntry "{629C44032B462415}" {
+        m_eDamageIntensityType HIGH
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{629C44033D1564C7}" {
+         Name "#AR-DamageInfo_Damage_High"
+        }
+        m_fMaxValue 0.85
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{629C44032E995436}" {
+        m_eDamageIntensityType CRITICAL
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{629C44030004110B}" {
+         Name "#AR-DamageInfo_Damage_Critical"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.85
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 2.512 0.152 0.906
+ angleY -90.128
+}

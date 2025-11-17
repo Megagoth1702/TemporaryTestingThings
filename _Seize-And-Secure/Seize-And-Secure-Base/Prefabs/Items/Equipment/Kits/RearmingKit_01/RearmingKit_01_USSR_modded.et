@@ -1,0 +1,32 @@
+GenericEntity : "{7738517A4B046266}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_RearmingKit_USSR_Name"
+    }
+   }
+  }
+  MeshObject "{5CCCC0EC0625E45E}" {
+   Object "{5561998DBFCF39F9}Assets/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.xob"
+  }
+  SCR_FactionAffiliationComponent "{5E249DCD907881F8}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_UniversalInventoryStorageComponent "{5E4E8A7AD05A2F1D}" {
+   Attributes SCR_ItemAttributeCollection "{5E4E8A7B47FC0CE7}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_RearmingKit_USSR_Name"
+    }
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_ResourceStorageOpenAction "{5E509292E7CDBC79}" {
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+Projectile : "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  CollisionTriggerComponent "{5EAF04594EB8AEAC}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5EAF04594EB8AE90}" {
+     ParticleEffect "{CF3DE5480E151CD3}Particles/Weapons/Smoke_M716_Yellow.ptc"
+    }
+   }
+  }
+  InventoryItemComponent "{52627A12350994B6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1234AD20A4}" {
+    ItemDisplayName UIInfo "{5EAF04594EB8AE9B}" {
+     Name "#RHS-Magazine_M716_Name"
+     Description "#RHS-Magazine_M716_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{56E711941DDE376E}" {
+      PreviewPrefab ""
+     }
+    }
+   }
+  }
+  MagazineComponent "{5EAF04594EB8AE84}" {
+   UIInfo MagazineUIInfo "{5EAF04594EB8AE8F}" {
+    m_sAmmoType "M716"
+   }
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{4F1AAAFBB4C0B3AF}Assets/Weapons/Ammo/M713/m713.xob"
+  }
+ }
+}

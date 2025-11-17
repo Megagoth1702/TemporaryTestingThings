@@ -1,0 +1,62 @@
+Vehicle UAZDestroy : "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" {
+ coords 97.456 1 107.045
+}
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ coords 108.369 1 124.873
+ {
+  GenericEntity LayerTaskDestroy1 : "{5EDF39860639027D}Prefabs/ScenarioFramework/Components/LayerTaskDestroy.et" {
+   components {
+    SCR_ScenarioFrameworkLayerTaskDestroy "{5A6513F41BA457C8}" {
+     m_sFactionKey "USSR"
+     m_bPlaceMarkerOnSubjectSlot 1
+    }
+   }
+   coords -6.986 0 -8.342
+   {
+    GenericEntity SlotDestroy1 : "{7586595959BA2D99}Prefabs/ScenarioFramework/Components/SlotDestroy.et" {
+     components {
+      SCR_ScenarioFrameworkSlotDestroy "{5A22E1D6276BD209}" {
+       m_sObjectToSpawn "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+       m_sID "UAZDestroy"
+       m_bUseExistingWorldAsset 1
+      }
+     }
+     coords -1.938 0 -5.52
+    }
+   }
+  }
+  GenericEntity LayerTaskDefend1 : "{775C493CE872C3A5}Prefabs/ScenarioFramework/Components/LayerTaskDefend.et" {
+   components {
+    SCR_ScenarioFrameworkLayerTaskDefend "{5C52E161174024CB}" {
+     m_sFactionKey "US"
+     m_bPlaceMarkerOnSubjectSlot 1
+     m_fDefendTime 30
+    }
+   }
+   coords -17.202 0 -8.312
+   {
+    GenericEntity SlotDefend1 : "{E123BAC59A9B3D5F}Prefabs/ScenarioFramework/Components/SlotDefend.et" {
+     components {
+      SCR_ScenarioFrameworkSlotDefend "{5C52E161597D867A}" {
+       m_aPlugins {
+        SCR_ScenarioFrameworkPluginOnDestroyEvent "{61C8392840CDBEB8}" {
+         m_aActionsOnDestroy {
+          SCR_ScenarioFrameworkActionFailTaskIfVehiclesInTriggerDestroyed "{61C839284431D8FA}" {
+           m_Getter SCR_ScenarioFrameworkGetEntityByName "{61C83928514B45F2}" {
+            m_sEntityName "UAZDestroy"
+           }
+          }
+         }
+        }
+       }
+       m_sObjectToSpawn "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+       m_sID "UAZDestroy"
+       m_bUseExistingWorldAsset 1
+      }
+     }
+     coords -1.007 0 -8.714
+    }
+   }
+  }
+ }
+}

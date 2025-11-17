@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{393A0F792B3EE588}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_t1_high_SSMW_Sup.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

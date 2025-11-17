@@ -1,0 +1,13 @@
+Turret : "{331F9DD9FDF1FD2F}Prefabs/Weapons/Core/HelicopterTurret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,177 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Udarnik {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1750
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Udarnik"
+    m_fRadioAntennaServiceRange 1750
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 4585.497 40.844 3539.269
+  angles 0 -161.898 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 31.123 0.456 3.809
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -59.516 1.077 2.649
+    angles 0 139.756 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Hamertin {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1450
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Hamertin"
+    m_fRadioAntennaServiceRange 1450
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 3254.764 269.174 6831.934
+  angles 0.944 -3.213 0.844
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 48.295 0.192 8.155
+    angles 0 -113.296 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -14.882 0.387 11.445
+    angles 0 -59.187 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Airport {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_Arland_MapLocation_Airport"
+    m_fRadioAntennaServiceRange 1400
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 2717.109 24.199 5571.358
+  angles 0.01 -89.666 -1.79
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 22.455 0.375 -50.46
+    angles 0 90.754 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -34.834 -0.205 -2.465
+    angles 0 -177.445 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    coords 0 0 0
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Sulfurovka {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1750
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Sulfurovka"
+    m_fRadioAntennaServiceRange 1750
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 3287.875 26.821 4523.572
+  angles -1.186 65.451 -0.442
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 68.068 -4.702 -51.361
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -44.679 -0.159 0.808
+    angles 0 -135.33 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

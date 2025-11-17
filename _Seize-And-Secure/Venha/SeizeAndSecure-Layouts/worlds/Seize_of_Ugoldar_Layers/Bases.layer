@@ -1,0 +1,193 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Basin_Bay {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 695
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_BasinBay"
+    m_fRadioAntennaServiceRange 695
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6917.837 11.751 3867.786
+  angles 0 118 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 38.173 -1.444 22.82
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -46.459 -0.117 -12.778
+    angles 0 139.756 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Ugoldar_Center {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 220
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 220
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Ugoldar"
+    m_fRadioAntennaServiceRange 800
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6451.359 24.521 3712.249
+  angles 0 45.8 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 43.756 0.152 42.451
+    angles 0 -113.296 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -12.985 -0.539 4.815
+    angles 0 -59.187 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ TurtleRock {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_TurtleRock"
+    m_fRadioAntennaServiceRange 800
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 5959.857 9.313 3116.406
+  angles 0 -197.7 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 48.22 5.603 -59.17
+    angles 0 90.754 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -34.834 -0.001 -2.465
+    angles 0 -177.445 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    coords 0 0 0
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Coal_Harbor {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 875
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Harbour_Coal"
+    m_fRadioAntennaServiceRange 875
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 7492.18 3.638 4238.607
+  angles 0 130 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 79.784 -0.427 -6.78
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -46.761 1.175 -25.429
+    angles 0 -135.33 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

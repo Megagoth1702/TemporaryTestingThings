@@ -1,0 +1,63 @@
+SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_CaptureAndHoldManager "{62AD2860FF57997D}" {
+   m_bPersistentAreaFactions 1
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_fRegenScale 0.1
+   m_fRegenerationScale 0.25
+  }
+  SCR_PersistentInjuryManagerComponent "{62AD2860C60CA2EE}" {
+   Enabled 0
+  }
+  SCR_PersonalWalletManagerComponent "{62AD2860CA0A5B34}" {
+  }
+  SCR_RespawnBriefingComponent "{5B2A94A3CF791D6F}" {
+   m_sJournalConfigPath "{C453A068CD93BBD7}Configs/Journal/JournalSeize.conf"
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_fDeployMenuOpenDelay 15
+  }
+  SCR_RespawnTimerComponent "{5B2A94A0E605AAFF}" {
+   m_fRespawnTime 20
+  }
+  SCR_ScoringSystemComponent "{62AD2860C23DCC79}" {
+   m_iKillScoreMultiplier 0
+   m_iTeamKillScoreMultiplier 0
+   m_aActions {
+    EndGameAction "{62AD2860CEF76483}" {
+     m_eScoringMode SLM_Faction
+     m_iScoreLimit 50000
+    }
+   }
+  }
+  SCR_TimedSpawnPointComponent "{5D0A73EB7076C758}" {
+   Enabled 0
+  }
+  SCR_WaveRespawnTimerComponent "{62AD2860C0FB2076}" {
+   m_fRespawnTime 30
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "Seize & Secure"
+  }
+  SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
+   m_sXPRewardsConfig "{3C4C51628A1640A2}Configs/Campaign/SeizeCampaignXPRewardsHalf.conf"
+  }
+ }
+ coords 1280.827 39.01 2737.486
+ PlayerControllerPrefab "{BB8EC6521FAD0623}Prefabs/Characters/Core/SeizeAndSecure_PlayerController_Tickets_Map.et"
+ m_iControlPointsThreshold 1
+ m_fVictoryTimer 30
+ BATTLE_PREP_TIME_S 420
+ m_bEnableScaledRespawnTimer 0
+ m_bScaleRespawnTimer 0
+ m_iRespawnPenaltyRenegade 60
+ m_iRespawnPenaltyPrivate 20
+ m_iRespawnPenaltyCorporal 20
+ m_iRespawnPenaltySergeant 20
+ m_iRespawnPenaltyLieutenant 15
+ m_iRespawnPenaltyCaptain 15
+ m_iRespawnPenaltyMajor 10
+ m_iRespawnPenaltyColonel 5
+}

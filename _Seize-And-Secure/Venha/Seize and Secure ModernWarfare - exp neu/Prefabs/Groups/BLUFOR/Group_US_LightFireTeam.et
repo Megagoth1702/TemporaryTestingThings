@@ -1,0 +1,13 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_Image "{3F576A01C4DC0865}images/UI/Groups/BLUFOR/Light Fire Team.edds"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{8D02B57BA79EFE40}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_Seize.et" "{69D3C672745B300A}Prefabs/Characters/Campaign/Final/Campaign_US_Player_Seize.et" "{69D3C672745B300A}Prefabs/Characters/Campaign/Final/Campaign_US_Player_Seize.et" "{69D3C672745B300A}Prefabs/Characters/Campaign/Final/Campaign_US_Player_Seize.et"
+ }
+}

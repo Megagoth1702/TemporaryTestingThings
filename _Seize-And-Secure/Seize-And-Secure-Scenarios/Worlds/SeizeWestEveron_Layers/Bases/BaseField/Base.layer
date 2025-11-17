@@ -1,0 +1,36 @@
+GenericEntity BaseField : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_sBaseName "Nillers Comment Farm"
+   m_sBaseNameUpper "NILLERS COMMENT FARM"
+   m_fRadioAntennaServiceRange 1500
+   m_iScorePerTick 5
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 1500
+    }
+   }
+  }
+ }
+ coords 3837.155 63.776 6975.448
+ angleX -0.016
+ angleY 44.276
+ angleZ -1.266
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   components {
+    RplComponent "{5C66967327A1ECD4}" {
+     Enabled 0
+    }
+    Hierarchy "{5C6696730F8278E4}" {
+     Enabled 0
+    }
+   }
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

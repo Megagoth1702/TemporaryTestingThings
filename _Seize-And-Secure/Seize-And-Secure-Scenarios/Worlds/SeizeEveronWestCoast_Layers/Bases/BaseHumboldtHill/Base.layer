@@ -1,0 +1,35 @@
+GenericEntity BaseHumboldtHill : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "Humboldt Hill"
+   m_sBaseNameUpper "HUMBOLDT HILL"
+   m_fRadioAntennaServiceRange 1700
+   m_iScorePerTick 5
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 1700
+    }
+   }
+  }
+ }
+ coords 2428.45 64.649 7151.55
+ angleX 0.499
+ angleY 106.187
+ angleZ -1.719
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   components {
+    RplComponent "{5C66967327A1ECD4}" {
+     Enabled 0
+    }
+    Hierarchy "{5C6696730F8278E4}" {
+     Enabled 0
+    }
+   }
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

@@ -1,0 +1,32 @@
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ Querrien {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_Querrien"
+   }
+  }
+  coords 4368.557 22.687 2917.258
+  angles 0 0.876 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -3.355 0.157 29.782
+    angles 0 174.943 0
+   }
+  }
+ }
+ WestCape {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_WestCape"
+   }
+  }
+  coords 2683.913 220.715 6991.749
+  angles 2.681 87.269 -0.128
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 1.26 -0.324 13.416
+    angles -0.216 85.786 -1.776
+   }
+  }
+ }
+}

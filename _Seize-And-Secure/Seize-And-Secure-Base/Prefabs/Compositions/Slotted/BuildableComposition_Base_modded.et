@@ -1,0 +1,47 @@
+GenericEntity : "{3BA9D94C4EE9B33B}Prefabs/Compositions/Slotted/CompositionBase.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  RigidBody "{62141341BEF65874}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{62141341BEF65879}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{62141341BEF65845}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_GENERIC"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{62141341BEF6584B}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_GENERIC"
+    m_eFlags 5
+   }
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   ActionContexts {
+    UserActionContext "{5D66ED108A2039E0}" {
+     ContextName "Disassembly"
+     Position PointInfo "{5D66ED10814F45E4}" {
+      Offset 0 0.5 0
+     }
+     Radius 5
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{5D66ED1086234C38}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5D66ED10FA2A86F5}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly-UC"
+     }
+     Duration 20
+    }
+   }
+  }
+ }
+ coords 652.17 0.184 581.4
+}

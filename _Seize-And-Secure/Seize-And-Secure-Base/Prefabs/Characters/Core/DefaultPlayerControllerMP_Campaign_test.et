@@ -1,0 +1,47 @@
+SCR_PlayerController : "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_CampaignFactionCommanderPlayerComponent "{656AFCA95525AA0E}" {
+   m_GraphLinesData SCR_CommanderGraphLinesData "{668F018CF611DF06}" {
+   }
+  }
+  SCR_CampaignFastTravelComponent "{5DAA74121E45C2EB}" {
+   Enabled 0
+   m_iDistanceToTarget 50
+  }
+  SCR_CampaignFeedbackComponent "{668F018CF611DF6F}" {
+  }
+  SCR_CampaignNetworkComponent "{668F018CF611DF6B}" {
+  }
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_CampaignInfoDisplay "{668F018CF611DF74}" {
+     m_LayoutPath "{47864BB47AB0B1F4}UI/layouts/HUD/CampaignMP/CampaignMainHUD.layout"
+     m_eLayer MEDIUM
+     m_bShowWhenCreated 0
+     m_bAdaptiveOpacity 1
+    }
+    SCR_CampaignMapInfoDisplay "{668F018CF611DF73}" {
+     m_LayoutPath "{D74D24696C4F32F0}UI/layouts/HUD/CampaignMP/CampaignMenuScoreUI.layout"
+     m_eLayer ALWAYS_TOP
+     m_bShowWhenCreated 0
+     m_eShow 15
+    }
+    SCR_InfoDisplayExtended "{668F018CF611DF70}" {
+     m_LayoutPath "{8EF935F196AADE33}UI/layouts/Common/PopupUI.layout"
+     m_eLayer ALWAYS_TOP
+     m_eShow 71
+    }
+   }
+  }
+  SCR_SpawnerRequestComponent "{668F018CF611DF7F}" {
+  }
+  SCR_VONController "{5614B578A11030EF}" {
+   m_VONAutoTune SCR_VONAutoTune "{668F018CF611DF7D}" {
+    m_VONAutoTuneConfig SCR_VONAutoTuneConfig "{6642B29F55FB145E}" : "{34DC26F42272BC25}Configs/Campaign/VONAutoTune/CampaignVONAutoTuneConfig.conf" {
+    }
+   }
+  }
+ }
+ coords 414.49 -0.015 359.73
+}

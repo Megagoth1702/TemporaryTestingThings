@@ -1,0 +1,12 @@
+GenericEntity : "{C6ADF6AAACD66A5D}Prefabs/Weapons/Core/Armament_MachineGun_Dual_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  ActionsManagerComponent "{629D584571B44007}" {
+   additionalActions {
+    WCS_RearmWeaponAtRepairStationAction "{629D5845DBA97865}" {
+     m_iSupplyCostPerRound 0.3
+    }
+   }
+  }
+ }
+}

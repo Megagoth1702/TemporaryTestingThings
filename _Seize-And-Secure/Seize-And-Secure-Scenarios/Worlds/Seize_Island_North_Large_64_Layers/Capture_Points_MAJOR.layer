@@ -1,0 +1,126 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MAJOR_Monti {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 400
+    m_bIsControlPoint 1
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "MONTIGNAC"
+    m_fRadioAntennaServiceRange 0
+    m_fTickRate 10000
+    m_iScorePerTick 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 400
+    m_fMaximumSeizingTime 220
+    m_fMinimumSeizingTime 100
+    m_iMaximumSeizingCharacters 8
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "Layer1" "Layer2" "Layer3"
+    }
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 4793.748 163.492 7100.403
+  angleY -29.317
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ MAJOR_StPhillipe {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 400
+    m_bIsControlPoint 1
+    m_sBaseName "Saint-Phillipe"
+    m_sBaseNameUpper "SAINT-PHILLIPE"
+    m_fRadioAntennaServiceRange 0
+    m_fTickRate 10000
+    m_iScorePerTick 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 400
+    m_fMaximumSeizingTime 220
+    m_fMinimumSeizingTime 100
+    m_iMaximumSeizingCharacters 8
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "Layer4" "Layer5" "Layer6"
+    }
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1800
+     }
+    }
+   }
+   SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+    m_bFollowTerrain 1
+   }
+  }
+  coords 4440.443 10.881 10764.453
+  angleY -26.309
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{3AB6B883AF54D965}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamBackup.et"
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

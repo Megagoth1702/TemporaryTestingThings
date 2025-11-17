@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9F4976C06FD1C839}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Regular/Campaign_US_Player_LAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

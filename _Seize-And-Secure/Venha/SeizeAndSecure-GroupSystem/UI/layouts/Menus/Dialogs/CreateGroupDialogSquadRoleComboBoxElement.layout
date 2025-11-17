@@ -1,0 +1,43 @@
+ButtonWidgetClass : "{F84B269BBA680B3E}UI/layouts/WidgetLibrary/ComboBox/Elements/WLib_ComboBoxElement.layout" {
+ {
+  SizeLayoutWidgetClass "{5548F97BFB85CE38}" {
+   Prefab "{5548F97BFB85CE38}"
+   {
+    OverlayWidgetClass "{5548F97BFB85CE26}" {
+     Prefab "{5548F97BFB85CE26}"
+     {
+      HorizontalLayoutWidgetClass "{6646F5EF4A26533D}" {
+       Prefab "{6646F5EF4A26533D}"
+       {
+        SizeLayoutWidgetClass "{6646F5EF2B160EE9}" {
+         Prefab "{6646F5EF2B160EE9}"
+         "Is Enabled" 0
+         "Is Visible" 0
+         {
+          ImageWidgetClass "{6646F5EF444E87E3}" {
+           Prefab "{6646F5EF444E87E3}"
+           "Is Enabled" 0
+           "Is Visible" 0
+          }
+         }
+        }
+        SizeLayoutWidgetClass "{6646F5EFEAA79A6F}" {
+         Prefab "{6646F5EFEAA79A6F}"
+         "Is Enabled" 0
+         "Is Visible" 0
+         {
+          ImageWidgetClass "{6646F5EFEAA79A5D}" {
+           Prefab "{6646F5EFEAA79A5D}"
+           "Is Enabled" 0
+           "Is Visible" 0
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

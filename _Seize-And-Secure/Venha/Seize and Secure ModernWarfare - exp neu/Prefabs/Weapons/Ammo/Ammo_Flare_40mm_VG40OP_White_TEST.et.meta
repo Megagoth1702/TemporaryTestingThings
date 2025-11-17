@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A67EFDDA68C37E1E}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White_TEST.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,62 @@
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_bExcludeFromDynamicDespawn 1
+  }
+ }
+ coords 3338.917 0 2911.027
+ {
+  GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   components {
+    SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+     m_bExcludeFromDynamicDespawn 1
+    }
+   }
+   coords 0 0 0
+   {
+    $grp GenericEntity : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+     SlotMarker1 {
+      components {
+       SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+        m_bExcludeFromDynamicDespawn 1
+        m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{6290D1E7CD54C8E0}" {
+         m_eMapMarkerIcon DIRECTION_OF_ATTACK
+         m_eMapMarkerColor BLUFOR
+         m_iMapMarkerRotation 140
+        }
+       }
+      }
+      coords -154.283 -2 161.333
+     }
+     SlotMarker2 {
+      components {
+       SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+        m_bExcludeFromDynamicDespawn 1
+        m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{6290D1E7CEA8E9C3}" {
+         m_sMapMarkerText "Invading Forces"
+         m_eMapMarkerIcon ARROW_LARGE
+         m_eMapMarkerColor BLUFOR
+         m_iMapMarkerRotation 140
+        }
+       }
+      }
+      coords -214.727 14.351 -193.852
+     }
+     SlotMarker3 {
+      components {
+       SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+        m_bExcludeFromDynamicDespawn 1
+        m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{6290D1E7F189F47D}" {
+         m_eMapMarkerIcon ARROW_LARGE
+         m_eMapMarkerColor BLUFOR
+         m_iMapMarkerRotation 140
+        }
+       }
+      }
+      coords 144.605 0 -72.491
+     }
+    }
+   }
+  }
+ }
+}

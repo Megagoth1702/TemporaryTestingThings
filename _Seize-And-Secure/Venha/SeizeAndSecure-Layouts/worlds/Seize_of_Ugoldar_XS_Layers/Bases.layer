@@ -1,0 +1,227 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Basin_Bay {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 650
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_BasinBay"
+    m_fRadioAntennaServiceRange 650
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6917.837 11.751 3867.786
+  angles 0 118 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 38.173 -1.444 22.82
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -46.459 -0.117 -12.778
+    angles 0 139.756 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Ugoldar_Center {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 550
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Ugoldar"
+    m_fRadioAntennaServiceRange 550
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6411.281 23.744 3808.443
+  angles 0 140.135 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 40.086 -0.765 40.871
+    angles 0 -113.296 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -28.933 0.046 -21.923
+    angles 0 -59.187 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ TurtleRock {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 650
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_TurtleRock"
+    m_fRadioAntennaServiceRange 650
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 5959.857 9.313 3116.406
+  angles 0 -197.7 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 48.22 5.603 -59.17
+    angles 0 90.754 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -34.834 -0.001 -2.465
+    angles 0 -177.445 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    coords 0 0 0
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Coal_Harbor {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Harbour_Coal"
+    m_fRadioAntennaServiceRange 700
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 7410.299 3.723 4248.963
+  angles 0 130 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 43.675 -0.545 9.522
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -28.094 1.837 -15.327
+    angles 0 -135.33 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Ugoldar_Harbor {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 620
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Harbour_Ugoldar"
+    m_fRadioAntennaServiceRange 620
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6525.755 3.366 3320.781
+  angles 0 124.439 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 48.616 0.906 -29.063
+    angles 0 90.754 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -19.677 0.225 15.779
+    angles 0 -177.445 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    coords 0 0 0
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

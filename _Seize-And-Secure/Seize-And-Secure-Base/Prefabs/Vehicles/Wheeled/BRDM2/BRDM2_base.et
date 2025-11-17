@@ -1,0 +1,20 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+   m_bAllowImpactFlinch 0
+   m_fSuppressionDampening 1
+   m_fExplosionDampening 0.8
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65394558B206F572}" {
+     SlotTemplate InventoryStorageSlot RearmingKit {
+      Prefab "{CE46DE74E8896BEA}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

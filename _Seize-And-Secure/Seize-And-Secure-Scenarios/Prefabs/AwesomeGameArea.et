@@ -1,0 +1,62 @@
+GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ ID "59E8CDC4819B4FE1"
+ coords 50.158 1 102.094
+ {
+  Vehicle UAZ452amb : "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" {
+   ID "61C760D44A4EBE1C"
+   coords 59.456 0 3.841
+   scale 3
+  }
+  GenericEntity LayerTaskDestroy3 : "{5EDF39860639027D}Prefabs/ScenarioFramework/Components/LayerTaskDestroy.et" {
+   ID "61C760D44A4EBE0B"
+   components {
+    SCR_ScenarioFrameworkLayerTaskDestroy "{5A6513F41BA457C8}" {
+     m_sFactionKey "USSR"
+    }
+   }
+   coords -9.267 0 -11.313
+   {
+    GenericEntity SlotDestroy2 : "{7586595959BA2D99}Prefabs/ScenarioFramework/Components/SlotDestroy.et" {
+     ID "61C760D44A4EBE16"
+     components {
+      SCR_ScenarioFrameworkSlotDestroy "{5A22E1D6276BD209}" {
+       m_sObjectToSpawn "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et"
+       m_sID "UAZ452amb"
+       m_bUseExistingWorldAsset 1
+      }
+     }
+     coords -0.585 0 -4.987
+    }
+   }
+  }
+  GenericEntity LayerTaskDefend3 : "{775C493CE872C3A5}Prefabs/ScenarioFramework/Components/LayerTaskDefend.et" {
+   ID "61C760D44A4EBE13"
+   components {
+    SCR_ScenarioFrameworkLayerTaskDefend "{5C52E161174024CB}" {
+     m_sFactionKey "US"
+     m_sTaskPrefab "{888DC29A0B4F3F20}Prefabs/ScenarioFramework/Tasks/TaskDefend.et"
+     m_fDefendTime 30
+    }
+   }
+   coords -14.668 0 -21.69
+   {
+    GenericEntity SlotDefend2 : "{E123BAC59A9B3D5F}Prefabs/ScenarioFramework/Components/SlotDefend.et" {
+     ID "61C760D44A4EBE1E"
+     components {
+      SCR_ScenarioFrameworkSlotDefend "{5C52E161597D867A}" {
+       m_sFactionKey "US"
+       m_sObjectToSpawn "{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et"
+       m_sID "UAZ452amb"
+       m_bUseExistingWorldAsset 1
+       m_aActionsOnFinished {
+        SCR_ScenarioFrameworkActionEndMission "{61C760D4B4ECB0C8}" {
+        }
+       }
+      }
+     }
+     coords 1.675 0 3.158
+    }
+   }
+  }
+ }
+}

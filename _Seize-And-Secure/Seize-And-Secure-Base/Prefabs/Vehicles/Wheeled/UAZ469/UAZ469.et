@@ -1,0 +1,16 @@
+Vehicle : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  SCR_ResourceComponent "{5D83561B226A69C6}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{5DAD42B36FF7E6E7}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC77C7BA6B26}" {
+       m_fResourceValueCurrent 10
+      }
+     }
+    }
+   }
+  }
+ }
+}

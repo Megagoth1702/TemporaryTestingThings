@@ -1,0 +1,103 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Gorshkovo {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Gorshkovo"
+    m_fRadioAntennaServiceRange 2500
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 8485.569 19.906 6529.584
+  angles 0 104.894 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ military {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Military"
+    m_fRadioAntennaServiceRange 2500
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 7659.546 23.281 5071.532
+  angles -1.091 104.489 0.643
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Ugoldar {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Ugoldar"
+    m_fRadioAntennaServiceRange 2200
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6654.091 25.603 3892.17
+  angles 1.389 -42.179 -2.464
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

@@ -1,0 +1,176 @@
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ cycle {
+  coords 5139.775 59.748 6063.863
+  CycleWaypoints {
+   "defend1_2" "defend2_2"
+  }
+  {
+   SCR_AIGroup : "{581106FA58919E89}Prefabs/Groups/INDFOR/Group_FIA_MedicalSection.et" {
+    coords -47.973 -3.964 -2.542
+    m_aStaticWaypoints {
+     "cycle"
+    }
+   }
+   $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    defend2_2 {
+     coords -57.829 -3.176 -14.823
+     m_bFastInit 1
+    }
+    defend1_2 {
+     coords -21.093 -2.228 8.873
+     m_bFastInit 1
+    }
+   }
+   SCR_AIGroup : "{C1E39427E43B1E79}Prefabs/Groups/INDFOR/Group_FIA_AmmoTeam.et" {
+    coords -72.82 -3.433 -5.122
+   }
+   SCR_AIGroup : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+    coords -20.187 -2.17 7.808
+    m_aStaticWaypoints {
+     "cycle"
+    }
+   }
+  }
+ }
+ cycle2 {
+  coords 4718.404 78.221 4867.507
+  CycleWaypoints {
+   "defend2_1_2" "defend2_2_2"
+  }
+  {
+   SCR_AIGroup : "{1BB20A4B3A53D0F5}Prefabs/Groups/INDFOR/Group_FIA_LightFireTeam.et" {
+    coords -11.721 -0.931 -1.396
+    m_aStaticWaypoints {
+     "cycle2"
+    }
+   }
+   SCR_AIGroup : "{581106FA58919E89}Prefabs/Groups/INDFOR/Group_FIA_MedicalSection.et" {
+    coords 2.333 1.094 -38.398
+    m_aStaticWaypoints {
+     "cycle2"
+    }
+   }
+   SCR_AIGroup : "{6E725D44CA973C24}Prefabs/Groups/INDFOR/Group_FIA_SentryTeam.et" {
+    coords -95.028 0.22 -81.728
+   }
+   $grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+    defend2_2_2 {
+     coords -17.678 -1.515 2.988
+     m_bFastInit 1
+    }
+    defend2_1_2 {
+     coords 2.448 1.03 -37.661
+     m_bFastInit 1
+    }
+   }
+  }
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ defend2 {
+  coords 5501.533 95.58 6059.494
+  CompletionRadius 80
+  {
+   SCR_AIGroup : "{2CC26054775FBA2C}Prefabs/Groups/INDFOR/Group_FIA_Team_AT.et" {
+    coords 68.146 0.53 -10.877
+    m_aStaticWaypoints {
+     "defend2"
+    }
+   }
+   SCR_AIGroup : "{2E9C920C3ACA2C6F}Prefabs/Groups/INDFOR/Group_FIA_ReconTeam.et" {
+    coords 126.069 15.264 72.987
+   }
+   SCR_AIGroup : "{581106FA58919E89}Prefabs/Groups/INDFOR/Group_FIA_MedicalSection.et" {
+    coords 46.258 0.127 -14.063
+    m_aStaticWaypoints {
+     "defend2"
+    }
+   }
+   SCR_AIGroup : "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et" {
+    coords 17.104 0.044 -38.138
+    m_aStaticWaypoints {
+     "defend2"
+    }
+   }
+   SCR_AIGroup : "{A0E9B5D6EA2072C4}Prefabs/Groups/INDFOR/Group_FIA_SapperTeam.et" {
+    coords -14.032 0.346 25.28
+    m_aStaticWaypoints {
+     "defend2"
+    }
+   }
+  }
+ }
+ defend3 {
+  coords 6196.782 165.494 6462.353
+  CompletionRadius 70
+  {
+   $grp SCR_AIGroup : "{A0E9B5D6EA2072C4}Prefabs/Groups/INDFOR/Group_FIA_SapperTeam.et" {
+    {
+     coords 0.88 0.592 -31.768
+     m_aStaticWaypoints {
+      "defend3"
+     }
+    }
+    {
+     coords -43.024 1.277 9.209
+     m_aStaticWaypoints {
+      "defend3"
+     }
+    }
+   }
+   SCR_AIGroup : "{C1E39427E43B1E79}Prefabs/Groups/INDFOR/Group_FIA_AmmoTeam.et" {
+    coords 62.758 -1.261 -7.328
+    m_aStaticWaypoints {
+     "defend3"
+    }
+   }
+  }
+ }
+}
+SCR_AIGroup "misc." : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+ coords 6734.495 23.867 4600.442
+ {
+  SCR_AIGroup : "{1BB20A4B3A53D0F5}Prefabs/Groups/INDFOR/Group_FIA_LightFireTeam.et" {
+   coords -1248.583 82.887 149.32
+  }
+  SCR_AIGroup : "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ.et" {
+   coords -1557.288 147.758 2373.858
+  }
+ }
+}
+SCR_DefendWaypoint defend : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+ coords 7068.134 118.568 6022.584
+ {
+  $grp SCR_AIGroup : "{1BB20A4B3A53D0F5}Prefabs/Groups/INDFOR/Group_FIA_LightFireTeam.et" {
+   {
+    coords -7.014 0.173 3.101
+    m_aStaticWaypoints {
+     "defend"
+    }
+   }
+   {
+    coords 5.719 -2.073 -67.3
+    m_aStaticWaypoints {
+     "defend"
+    }
+   }
+  }
+  $grp SCR_AIGroup : "{581106FA58919E89}Prefabs/Groups/INDFOR/Group_FIA_MedicalSection.et" {
+   {
+    coords 17.784 0.496 6.289
+    m_aStaticWaypoints {
+     "defend"
+    }
+   }
+   {
+    coords 18.687 9.169 -0.158
+    m_aStaticWaypoints {
+     "defend"
+    }
+   }
+  }
+  SCR_AIGroup : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+   coords -76.445 -3.873 -81.753
+  }
+ }
+}

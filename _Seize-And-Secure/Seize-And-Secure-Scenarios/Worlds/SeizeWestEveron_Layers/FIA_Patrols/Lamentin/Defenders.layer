@@ -1,0 +1,6 @@
+SCR_AIGroup SentryUAZ : "{6E725D44CA973C24}Prefabs/Groups/INDFOR/Group_FIA_SentryTeam.et" {
+ coords 1159.248 33.759 6312.195
+}
+SCR_AIGroup RifleTeamBTR : "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et" {
+ coords 1419.463 50.475 5838.8
+}

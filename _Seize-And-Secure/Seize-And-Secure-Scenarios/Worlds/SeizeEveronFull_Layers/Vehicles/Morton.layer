@@ -1,0 +1,18 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  coords 5173.998 14.579 3976.345
+  angleY 177.355
+ }
+ {
+  coords 5165.213 14.437 4053.509
+  angleY -17.569
+ }
+ {
+  coords 4927.849 2.187 3894.733
+  angleY -92.145
+ }
+ {
+  coords 4995.444 15.779 3975.278
+  angleY -169.471
+ }
+}

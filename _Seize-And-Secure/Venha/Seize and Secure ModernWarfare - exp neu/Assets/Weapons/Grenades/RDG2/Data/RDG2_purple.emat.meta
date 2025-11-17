@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{894D27E76BCE134F}Assets/Weapons/Grenades/RDG2/Data/RDG2_purple.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

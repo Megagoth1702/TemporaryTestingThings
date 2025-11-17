@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C8D9BD9AF120730A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Ammo_Seize_RHS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

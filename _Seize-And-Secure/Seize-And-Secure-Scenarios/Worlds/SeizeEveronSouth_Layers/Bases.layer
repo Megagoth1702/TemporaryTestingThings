@@ -1,0 +1,588 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MOB1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 1000
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1000
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 10656.686 1.358 1551.79
+  angleX -0.328
+  angleY 158.532
+  angleZ -0.833
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 60
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MOB2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 620
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 620
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 7452.432 165.062 4307.051
+  angleY 105.651
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 50
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ CampRoadhouse {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Roadhouse"
+    m_sBaseNameUpper "ROADHOUSE"
+    m_fRadioAntennaServiceRange 1000
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 8427.442 156.78 3659.418
+  angleX -6.936
+  angleY 112.184
+  angleZ -1.861
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampVernon {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Vernon"
+    m_sBaseNameUpper "VERNON"
+    m_fRadioAntennaServiceRange 1000
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 9280.904 52.863 1999.42
+  angleX 3.573
+  angleY 20.295
+  angleZ 3.222
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampDurras {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Durras"
+    m_sBaseNameUpper "DURRAS"
+    m_fRadioAntennaServiceRange 1000
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 8826.508 95.157 2774.523
+  angleX 0.534
+  angleY -110.049
+  angleZ -1.148
+  {
+   GenericEntity {
+    coords -2 0.75 -3
+   }
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0 14
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    coords 0 0 0
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampQuarry {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Quarry"
+    m_sBaseNameUpper "QUARRY"
+    m_fRadioAntennaServiceRange 700
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+  }
+  coords 8873.156 204.562 3949.818
+  angleX -3.773
+  angleY 163.407
+  angleZ 2.986
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampTowerRegina {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Radio Regina"
+    m_sBaseNameUpper "RADIO REGINA"
+    m_fRadioAntennaServiceRange 1100
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1100
+     }
+    }
+   }
+  }
+  coords 7673.416 340.651 3055.254
+  angleX -2.704
+  angleY -1.353
+  angleZ -0.831
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampCastle {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Montfort Castle"
+    m_sBaseNameUpper "MONTFORT CASTLE"
+    m_fRadioAntennaServiceRange 1500
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+  }
+  coords 9269.309 196.784 1142.914
+  angleX -3.721
+  angleY 98.597
+  angleZ 6.636
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampLighthouse {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lighthouse"
+    m_sBaseNameUpper "LIGHTHOUSE"
+    m_fRadioAntennaServiceRange 1930
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1930
+     }
+    }
+   }
+  }
+  coords 7397.545 1.691 1238.568
+  angleX 3.181
+  angleY -133.113
+  angleZ -0.528
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampCamurac {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Goat Bay"
+    m_sBaseNameUpper "GOAT BAY"
+    m_fRadioAntennaServiceRange 1300
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+  }
+  coords 6637.547 6.255 3112.973
+  angleX 1.256
+  angleY 176.12
+  angleZ 5.282
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampCliffFarm {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Ferme Des Falaises"
+    m_sBaseNameUpper "FERME DES FALAISES"
+    m_fRadioAntennaServiceRange 1350
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1350
+     }
+    }
+   }
+  }
+  coords 9323.993 16.353 317.15
+  angleX 3.716
+  angleY -48.233
+  angleZ -1.475
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampRoadblockLevie {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Roadblock Levie"
+    m_sBaseNameUpper "ROADBLOCK LEVIE"
+    m_fRadioAntennaServiceRange 950
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 950
+     }
+    }
+   }
+  }
+  coords 7983.401 209.641 4276.843
+  angleX -4.035
+  angleY -11.239
+  angleZ 2.62
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampMountainKing {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Radio Pierre"
+    m_sBaseNameUpper "RADIO PIERRE"
+    m_fRadioAntennaServiceRange 850
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 850
+     }
+    }
+   }
+  }
+  coords 9957.207 316.237 2261.998
+  angleX -3.364
+  angleY -3.311
+  angleZ 3.77
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampCamping {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Camping"
+    m_sBaseNameUpper "CAMPING"
+    m_fRadioAntennaServiceRange 1480
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1480
+     }
+    }
+   }
+  }
+  coords 10198.421 6.724 3367.004
+  angleX 2.997
+  angleY -123.111
+  angleZ -1.953
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampStPierre {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "StPierre"
+    m_sBaseNameUpper "STPIERRE"
+    m_fRadioAntennaServiceRange 680
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 680
+     }
+    }
+   }
+  }
+  coords 9808.494 8.218 1591.462
+  angleX -0.921
+  angleY -178.296
+  angleZ 0.868
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampHikersLodge {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Hikers Lodge"
+    m_sBaseNameUpper "HIKERS LODGE"
+    m_fRadioAntennaServiceRange 800
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+  }
+  coords 8241.316 223.125 2162.869
+  angleY -60.414
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

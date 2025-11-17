@@ -1,0 +1,1468 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MilitaryBaseAirfield {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 300
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_Airfield_A"
+     "CAH_Airfield_B"
+     "CAH_Airfield_C"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+    m_aAssignedBaseNames {
+     "MainBaseIslandPins"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Airbase"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Airbase-UC"
+    m_sMapLocationName "LocationAirport"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 4893.065 26.486 11956.886
+  angles 0 175.982 0
+ }
+ MilitaryBaseLevie {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 175
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_MilLevie_P"
+     "CAH_MilLevie_Q"
+     "CAH_MilLevie_R"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 175
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
+    m_sMapLocationName "LocationLevie_MilitaryBase"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 7449.13 164.562 4306.381
+  angles 0 104.519 0
+ }
+ MilitaryBaseVilleneuf {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_CalvaryHill"
+    m_sBaseNameUpper "#AR-MapLocation_CalvaryHill"
+    m_sMapLocationName "LocationMilitaryBase_AA"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 3512.013 181.915 5816.282
+  angles -4.292 -123.664 -1.89
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 13.096 -0.092 13.384
+   }
+  }
+ }
+ MilitaryHospital {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 250
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_MilHosp_D"
+     "CAH_MilHosp_E"
+     "CAH_MilHosp_F"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 250
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_MilitaryHospital"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
+    m_sMapLocationName "LocationTyrone_MilitaryHospital"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 3938.822 15.811 8455.688
+  angles 0 -85.707 0
+ }
+ TownBaseChotain {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Chotain"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Chotain-UC"
+    m_sMapLocationName "LocationChotain"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 6991.033 121.236 6075.385
+  angles 0 -132.859 -2.328
+ }
+ TownBaseDuras {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Durras"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
+    m_sMapLocationName "C_LocationDurras"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 8895.638 96.284 2709.183
+  angles 0 67.698 -1.722
+ }
+ TownBaseEntre_Deux {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+    m_sMapLocationName "LocationEntreDeux"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 6014.631 216.689 7178.424
+  angles 0 -135.967 -2.553
+ }
+ TownBaseFigari {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Figari"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+    m_sMapLocationName "LocationFigari"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5125.889 52.666 5495.677
+  angles 0 178.943 0
+ }
+ TownBaseLaruns {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Laruns"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Laruns-UC"
+    m_sMapLocationName "LocationLaruns"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 7403.191 114.351 5281.078
+  angles 0 48.506 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.326 15
+   }
+  }
+ }
+ TownBaseLe_Moule {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_LeMoule"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
+    m_sMapLocationName "LocationLeMoule"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 2439.405 104.159 5438.09
+  angles 0 78.452 3.946
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.066 -0.963 15
+   }
+  }
+ }
+ TownBaseLevie {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Levie"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie-UC"
+    m_sMapLocationName "LocationLevie"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 7459.733 131.284 4816.252
+  angles 0 96.266 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.594 15
+   }
+  }
+ }
+ TownBaseMeaux {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Meaux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Meaux-UC"
+    m_sMapLocationName "LocationMeaux"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 4511.355 20.993 9770.459
+  angles 0 0 -1.169
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.007 -0.372 15
+   }
+  }
+ }
+ TownBaseMontignac {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Montignac"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+    m_sMapLocationName "LocationMontignac"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5124.376 175.5 6980.63
+  angles -1.591 -91.148 -0.256
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.002 1.307 15.014
+   }
+  }
+ }
+ TownBaseProvins {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Provins"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
+    m_sMapLocationName "C_LocationProvins"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5573.916 89.079 5895.073
+  angles 0 9.853 0
+ }
+ TownBaseRegina {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Regina"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
+    m_sMapLocationName "C_LocationRegina"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 7293.546 139.462 2175.333
+  angles 0 0.084 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 -1.059 15
+   }
+  }
+ }
+ TownBaseTyrone {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Tyrone"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5007.142 49.293 8921.314
+  angles 0 0.098 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 -1.64 15
+   }
+  }
+ }
+ TownBaseVernon {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Vernon"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
+    m_sMapLocationName "LocationVernon"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 9128.483 77.32 2292.273
+  angles 0 173.643 -1.421
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.053 -2.135 15
+   }
+  }
+ }
+ TownBaseVileneuf {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Villeneuf"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
+    m_sMapLocationName "LocationVilleneuf"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 2909.824 76.063 6493.664
+  angles 0 -122.855 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.308 14.999
+   }
+  }
+ }
+ TownBaseGravette {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Gravette"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
+    m_sMapLocationName "LocationGravette"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 4011.664 32.266 7883.362
+  angles 0 -56.275 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 -0.403 15
+   }
+  }
+ }
+ SmallBaseMine {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Quarry"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Quarry-UC"
+    m_sMapLocationName "LocationMine"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 8793.418 196.594 3897.421
+  angles 0 -89.149 0
+ }
+ SmallBaseBlackLake {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_BlackLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_BlackLake-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 9452.499 209.48 2946.152
+  angles -2 30.644 -0.842
+ }
+ SmallBasePennantsPass {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PennantsPass-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 8237.662 223.129 2164.276
+  angles 0 -58.216 0
+ }
+ SmallBaseSimonsWood {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_SimonsWood"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 6579.463 81.999 5135.611
+  angles 0 -70.199 -3.464
+ }
+ SmallBaseRichemont {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Richemont"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Richemont-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 4539.221 64.1 4993.633
+  angles 0 -89.382 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.433 15
+   }
+  }
+ }
+ SmallBaseShepherds {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_ShepherdsPond"
+    m_sBaseNameUpper "#AR-MapLocation_OldWood"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 3294.714 120.147 4471.09
+  angles 0 142.86 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 0.727 15
+   }
+  }
+ }
+ SmallBaseLake {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_PinewoodLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 4439.679 58.718 6237.203
+  angles 0 175.979 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 2.01 0.222 12.112
+    angles 0 35.382 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -6.675 0.222 -0.117
+    angles 0 35.382 0
+   }
+  }
+ }
+ SmallBaseTillersFind {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 3789.583 59.781 6997.688
+  angles 0 -49.512 0
+ }
+ TownBaseKermovan {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Kermovan"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Kermovan-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 6436.89 10.086 9667.346
+  angles 0 140.857 -1.378
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.018 -0.762 15
+   }
+  }
+ }
+ SmallBaseMaidensBay {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_MaidensBay"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MaidensBay-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5228.621 34.428 10701.94
+  angles 0 142.609 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -9.605 0 17.476
+   }
+  }
+ }
+ SmallBaseHornbeamValley {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
+    m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5376.891 25.469 8334.043
+  angles 0 -54.336 0
+ }
+ SmallBaseAndresBeacon {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_AndresBeacon"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_AndresBeacon-UC"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 6852.69 83.067 8200.086
+  angles 2.869 -172.862 0
+ }
+ SmallBaseGoatbay {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Camurac"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_GoatBay"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 6635.185 5.902 3119.359
+  angles 0 169.959 0
+ }
+ MajorBaseChotain {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_Chotain_G"
+     "CAH_Chotain_H"
+     "CAH_Chotain_I"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsOnIsland 1
+    m_bIsReceivingFromIsland 1
+    m_aAssignedBaseNames {
+     "MainBaseIslandErquy"
+     "MainBaseIslandArgent"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
+    m_sMapLocationName "LocationChotain_MilitaryBase"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 7473.945 7.866 6694.601
+  angles 0 -18.505 0
+ }
+ MajorBaseLamentin {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_Lamentin_J"
+     "CAH_Lamentin_K"
+     "CAH_Lamentin_L"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+    m_sMapLocationName "LocationLamentin_Harbour"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 1089.461 2.781 6029.318
+  angles 0 -93.618 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 8.844 -0.062 18.807
+   }
+  }
+ }
+ MajorBaseMorton {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 250
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_Morton_M"
+     "CAH_Morton_N"
+     "CAH_Morton_O"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 250
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
+    m_sMapLocationName "LocationMorton"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 5119.781 14.519 3999.704
+  angles 0 164.243 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -13.152 0.001 21.832
+   }
+  }
+ }
+ MainBaseNorth {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_StPhillipe"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 4405.805 1.643 11035.316
+  angles 0 30.231 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -21.936 -0.008 37.67
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MainBaseSouth {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_StPierre"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
+    m_sMapLocationName "LocationStPierre_Harbour"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 10172.648 2.628 1539.541
+  angles 0 -76.653 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MajorBaseStPierre {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+    m_bRequiresCaptureAndHoldAreas 1
+    m_iAreaThreshold 50
+    m_aCaptureAndHoldAreaNames {
+     "CAH_StPierre_S"
+     "CAH_StPierre_T"
+     "CAH_StPierre_U"
+    }
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 1
+    m_sBaseName "St. Pierre"
+    m_sBaseNameUpper "ST. PIERRE"
+    m_sMapLocationName "LocationStPierre"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 9719.011 11.446 1522.456
+  angles -1.396 -121.336 -2.292
+ }
+ SmallBaseBonfireHill {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Bonfire Hill"
+    m_sBaseNameUpper "BONFIRE HILL"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 5237.343 130.396 4602.668
+  angles -0.21 -166.435 0.87
+ }
+ MainBaseIslandSaules {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3300
+     }
+    }
+    m_bIsSource 1
+    m_bIsOnIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 3300
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 2993.677 7.274 2060.844
+  angles 0 23.813 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 1500
+   }
+  }
+ }
+ MainBaseIslandErquy {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5700
+     }
+    }
+    m_bIsSource 1
+    m_bIsOnIsland 1
+    m_aAssignedBaseNames {
+     "MajorBaseChotain"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 5700
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 10952.135 26.054 11867.457
+  angles 0 -139.081 0
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 1500
+   }
+  }
+ }
+ MainBaseIslandPins {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3950
+     }
+    }
+    m_bIsSource 1
+    m_bIsOnIsland 1
+    m_aAssignedBaseNames {
+     "MilitaryBaseAirfield"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 3950
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 1156.078 43.441 11548.94
+  angles -0.063 -114.757 2
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 1500
+   }
+  }
+ }
+ MainBaseIslandArgent {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 4050
+     }
+    }
+    m_bIsSource 1
+    m_bIsOnIsland 1
+    m_aAssignedBaseNames {
+     "MajorBaseChotain"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 4050
+    m_bIsOnIsland 1
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 10905.985 21.616 8756.194
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+    SphereRadius 1500
+   }
+  }
+ }
+ SmallBasePerelle {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsReceivingFromIsland 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Perelle Beach"
+    m_sBaseNameUpper "PERELLE BEACH"
+    m_fRadioAntennaServiceRange 1470
+   }
+  }
+  coords 9140.327 2.129 5345.677
+  angles 0 34.497 0
+ }
+ MainBaseCorsairs {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_RequiredGroupTypes {
+     ASSAULT
+     SF_ASSAULT
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 1470
+    m_bExcludeFromRandomization 1
+   }
+  }
+  coords 11629.813 15.164 1477.701
+  angles -3.292 -142.103 -5.937
+  {
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Relay4 {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Tower_Regina"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_Regina-UC"
+   }
+  }
+  coords 7689.868 342.063 3055.818
+  angles 0 165.717 0
+ }
+ Relay15 {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Tower_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_EntreDeux-UC"
+   }
+  }
+  coords 5858.849 237.39 7259.799
+  angles 0 107.764 0
+ }
+}

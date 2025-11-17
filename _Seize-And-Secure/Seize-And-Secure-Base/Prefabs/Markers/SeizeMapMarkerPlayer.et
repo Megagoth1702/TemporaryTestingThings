@@ -1,0 +1,9 @@
+Seize_RadioOperatorMapMarkerPlayer {
+ ID "62AF312E16540B91"
+ components {
+  RplComponent "{62AF312E16540BAE}" {
+   SpatialRelevancy 0
+  }
+ }
+ Flags 0
+}

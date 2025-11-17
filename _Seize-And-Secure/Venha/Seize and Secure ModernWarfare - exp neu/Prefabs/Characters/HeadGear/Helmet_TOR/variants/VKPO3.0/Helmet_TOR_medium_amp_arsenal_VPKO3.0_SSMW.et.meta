@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{05A7CE91394942D3}Prefabs/Characters/HeadGear/Helmet_TOR/variants/VKPO3.0/Helmet_TOR_medium_amp_arsenal_VPKO3.0_SSMW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

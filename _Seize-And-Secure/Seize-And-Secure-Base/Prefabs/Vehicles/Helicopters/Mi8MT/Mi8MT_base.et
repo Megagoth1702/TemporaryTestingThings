@@ -1,0 +1,23 @@
+Vehicle : "{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_ResourceComponent "{60DAD313D31A3A96}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E42966B6957990A}" {
+     m_fResourceRange 50
+    }
+    SCR_ResourceConsumer "{5E42966B69C41A91}" {
+     m_fResourceRange 50
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5E42966B6826B221}" {
+     m_fStorageRange 50
+    }
+    SCR_ResourceGenerator "{5E42966B68E9CC42}" {
+     m_fStorageRange 50
+    }
+   }
+  }
+ }
+}

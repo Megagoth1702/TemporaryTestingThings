@@ -1,0 +1,18 @@
+$grp GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+ {
+  coords 6225.671 2.256 3128.845
+  angles 1.963 -5.868 1.597
+  {
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+   }
+  }
+ }
+ {
+  coords 7246.5 13.477 4345.872
+  angles -3.665 129.883 1.596
+  {
+   GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+   }
+  }
+ }
+}

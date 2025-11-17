@@ -1,0 +1,107 @@
+StaticModelEntity : "{5EC6836A5694F691}Prefabs/Props/Military/Furniture/FurnitureMilitary_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{6E47500CEEB8FC30}Assets/Props/Military/Furniture/USSR/CotMilitary_USSR_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 10
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 800
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5E48F207325EDFFF}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+     m_vOffsetPosition 0 0.3 0
+     m_fMass 3
+     m_fRandomVelocityLinear 0.1
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{5E48F20773C1BE93}" : "{112E786E10A7E244}Configs/Destruction/MultiphaseDestruction/Phases/Phase_Prop_Metal_Pole.conf" {
+     m_PhaseModel "{1B0FC867F9D2F1FB}Assets/Props/Military/Furniture/USSR/Dst/CotMilitary_USSR_01_dst_00.xob"
+    }
+   }
+  }
+  ActionsManagerComponent "{629B517D6704406C}" {
+   ActionContexts {
+    UserActionContext "{629B517D766593DC}" {
+     ContextName "default"
+     Position PointInfo "{629B517D7A699664}" {
+      Offset 0 0.5 0
+     }
+    }
+   }
+   additionalActions {
+    Iron_HealYourselfUserAction "{629B517D6A9BA610}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{629B517DEDAA6B09}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+     }
+     Duration 5
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{629B517F2958978D}" {
+      m_aDamageIntensityEntries {
+       SCR_DamageIntensityEntry "{629B517F32AF02BD}" {
+        m_eDamageIntensityType NO_DAMAGE
+        m_bIsEnabled 0
+        m_iOrder 0
+        m_UiInfo SCR_UIInfo "{629B517F1ED5FF76}" {
+         Name "#AR-SupportStation_Heal_ActionInvalid_FullHealth"
+        }
+        m_fMaxValue 10
+        m_fMinValue 1
+       }
+       SCR_DamageIntensityEntry "{629B517CFAA8DA21}" {
+        m_eDamageIntensityType LOW
+        m_bIsEnabled 0
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{5E20C7519B483425}" {
+         Name "#AR-DamageInfo_Damage_Low"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{629B517CCD338FE7}" {
+        m_eDamageIntensityType MEDIUM
+        m_bIsEnabled 0
+        m_iOrder 0
+        m_UiInfo SCR_UIName "{5E20C7519B483438}" {
+         Name "#AR-DamageInfo_Damage_Medium"
+        }
+        m_fMaxValue 0.75
+        m_fMinValue 0.5
+       }
+       SCR_DamageIntensityEntry "{629C44032B462415}" {
+        m_eDamageIntensityType HIGH
+        m_bIsEnabled 0
+        m_UiInfo SCR_UIName "{629C44033D1564C7}" {
+         Name "#AR-DamageInfo_Damage_High"
+        }
+        m_fMaxValue 0.85
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{629C44032E995436}" {
+        m_eDamageIntensityType CRITICAL
+        m_bIsEnabled 0
+        m_UiInfo SCR_UIName "{629C44030004110B}" {
+         Name "#AR-DamageInfo_Damage_Critical"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.85
+       }
+      }
+     }
+    }
+   }
+  }
+  Hierarchy "{629C0092859FB00F}" {
+  }
+ }
+ coords -5.73 0.168 -1.173
+ angleY 0.31
+}

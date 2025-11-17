@@ -1,0 +1,26 @@
+GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{620EE6CD9A8F9E94}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{65EB32AC1B330CB4}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+     SCR_ArsenalItemStandalone "{65EB32ACF1FB61B3}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+     SCR_ArsenalItemStandalone "{66D2DA9C4E442585}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+   }
+  }
+ }
+}

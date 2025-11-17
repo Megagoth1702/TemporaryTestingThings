@@ -1,0 +1,20 @@
+FrameWidgetClass {
+ {
+  TextWidgetClass "{000000004C4AC70B}" {
+   Prefab "{000000004C4AC70B}"
+   Text "-  Hold 'J' to show available objectives."\
+   "-  Hold 'P' to show players list."\
+   "-  You can see radio signal range in the map (hover over icons)."\
+   "-  Capture bases throughout the map to extend HQ radio signal."\
+   "-  A base can be captured via radio station inside its HQ tent."\
+   "-  Seize Capture Points throughout the town to accumulate points for your faction."\
+   "-  Use vehicle depots to request vehicles."\
+   "-  Volunteering for objectives will get you promoted faster."\
+   "-  Drive supply trucks to small bases (park near a supply depot, unload supplies"\
+   "    from the back of the truck; reload in your HQ's or Coastal base's supply depot)."\
+   "-  Game ends when one faction captures all bases, or scores the most points first."\
+   ""\
+   ""
+  }
+ }
+}

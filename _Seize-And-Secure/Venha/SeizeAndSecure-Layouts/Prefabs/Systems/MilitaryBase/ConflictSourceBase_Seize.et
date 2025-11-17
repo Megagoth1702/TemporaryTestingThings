@@ -1,0 +1,17 @@
+GenericEntity : "{890EB31DF817D444}Prefabs/Systems/MilitaryBase/ConflictSourceBase.et" {
+ ID "621EB97024DABAFE"
+ components {
+  SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+   m_fSupplyMultiplier 0.01
+   m_iMaxCaptureTimeFromSupplies 1
+  }
+  SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+   m_sBaseName "#AR-MapLocation_Airport"
+   m_iRegularSuppliesIncomeBase 1500
+   m_iSuppliesArrivalInterval 500
+   m_fReservedSupplyAmount 0.1
+  }
+ }
+ coords 2704.282 24.239 5576.901
+ angles -0.887 -89.733 -1.794
+}

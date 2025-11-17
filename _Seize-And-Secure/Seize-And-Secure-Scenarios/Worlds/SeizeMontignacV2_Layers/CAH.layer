@@ -1,0 +1,175 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Area1 {
+  coords 4250.135 61.689 6227.54
+  {
+   GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 1686.399 147.552 802.67
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotA1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{AC24ED88753C0E40}CHZones/Montignac/CAHAreaA1.et"
+        }
+       }
+       coords -79.904 26.719 230.355
+       angleX -0.861
+       angleY 15.871
+       angleZ -0.245
+      }
+      SlotA3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{26E5C6EFBCB280FE}CHZones/Montignac/CAHArea3.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -173.271 8.179 32.876
+       angleY 16.253
+      }
+      SlotA2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{C070D968C9F8816E}CHZones/Montignac/CAHAreaA2.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -317.374 -76.958 -424.7
+      }
+     }
+    }
+   }
+  }
+ }
+ Area2 {
+  coords 4294.065 63.233 6288.664
+  {
+   GenericEntity Layer2 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+      m_iRandomPercent 50
+     }
+    }
+    coords 493.387 99.552 849.498
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotB2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{596E60F1D41FB0FE}CHZones/Montignac/CAHAreaB2.et"
+        }
+       }
+       coords -257.377 -7.479 -277.676
+      }
+      SlotB1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{353A541168DB3FD0}CHZones/Montignac/CAHAreaB1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -26.985 6.44 -152.877
+      }
+     }
+    }
+   }
+  }
+ }
+ Area3 {
+  coords 4359.766 61.108 6294.186
+  {
+   GenericEntity Layer3 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+     }
+    }
+    coords 98.368 -2.473 -85.806
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotC3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{CBF844802C58C8E5}CHZones/Montignac/CAHAreaC3.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 20.306 -2.193 -39.604
+      }
+      SlotC2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{2E64087920BD5F8E}CHZones/Montignac/CAHAreaC2.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 208.614 0.419 30.701
+      }
+      SlotC1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{42303C999C79D0A0}CHZones/Montignac/CAHAreaC1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -195.575 4.362 -405.164
+       angleY -29.923
+      }
+     }
+    }
+   }
+  }
+ }
+ Area4 {
+  coords 4294.065 63.233 7056.89
+  {
+   GenericEntity Layer5 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+      m_iRandomPercent 50
+     }
+    }
+    coords 493.387 99.552 849.498
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      SlotD2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{29A3F228463BE54D}CHZones/Montignac/CAHAreaD2.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 378.289 11.152 -851.596
+       angleY 38.194
+      }
+      SlotD1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bExcludeFromDynamicDespawn 1
+         m_sObjectToSpawn "{45F7C6C8FAFF6A63}CHZones/Montignac/CAHAreaD1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 196.804 11.902 -862.25
+       angleY -50.509
+      }
+     }
+    }
+   }
+  }
+ }
+}

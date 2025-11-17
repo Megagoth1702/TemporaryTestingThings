@@ -1,0 +1,394 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ coords 6696.202 151.127 6497.182
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{613172A55BE781B5}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{46938BA2C282F873}Prefabs/Characters/Campaign/Final/Campaign_USSR_Player_Seize.et"
+   m_sLoadoutImage "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutType DEFAULT
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011741AC69}" {
+   m_sLoadoutName "USSR Squad Leader"
+   m_sLoadoutResource "{5035580436D7D8A0}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL_Seize.et"
+   m_sLoadoutImage "{7CB1ED2B23DD26E6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_SL.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A8346BDD068}" {
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{62A50A838C7EC6DB}" {
+   m_sLoadoutName "USSR Radio Operator"
+   m_sLoadoutResource "{E6CACC4902D2474B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO_Seize.et"
+   m_sLoadoutImage "{54EC0461C52839E5}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Scout_RTO.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A839C6BD3CD}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{62A50A836B1D60BF}" {
+   m_sLoadoutName "USSR Ammo Bearer"
+   m_sLoadoutResource "{8170E7324DD31179}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Ammo_Seize.et"
+   m_sLoadoutImage "{768647F861FC76D4}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AMG.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A83760D9BA7}" {
+     MinimumSquadSize 1
+     MaximumLoadouts 2
+    }
+    LoadoutStep "{62A50A8377DA405F}" {
+     MinimumSquadSize 4
+     MaximumLoadouts 3
+    }
+   }
+   m_LoadoutType AMMO_BEARER
+  }
+  SCR_FactionPlayerLoadout "{60CAF801155B5025}" {
+   m_sLoadoutName "USSR Grenadier"
+   m_sLoadoutResource "{EB741A7FF3F747F7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL_Seize.et"
+   m_sLoadoutImage "{030E2E704B1974C2}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_GL.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A835A1EC581}" {
+     MinimumSquadSize 3
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011A97828B}" {
+   m_sLoadoutName "USSR Medic"
+   m_sLoadoutResource "{429E9CDCD92FA3F9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic_Seize.et"
+   m_sLoadoutImage "{9225D8E3CFAD7926}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Medic.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A832A9B6D7B}" {
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011BAF05AB}" {
+   m_sLoadoutName "USSR AT"
+   m_sLoadoutResource "{3D5C9FC2FD1BF4B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_Seize.et"
+   m_sLoadoutImage "{64E4072188808E92}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AT.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A8339D78652}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+    LoadoutStep "{65EAFC4BD23B4A44}" {
+     MinimumSquadSize 4
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType ANTI_TANK
+  }
+  SCR_FactionPlayerLoadout "{60CAF80118E68568}" {
+   m_sLoadoutName "USSR Autorifleman"
+   m_sLoadoutResource "{BCBCDD899122F039}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR_Seize.et"
+   m_sLoadoutImage "{D93455A6F79B928C}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AR.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A8308A10732}" {
+     MinimumSquadSize 3
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType AUTORIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011808762B}" {
+   m_sLoadoutName "USSR Machine Gunner"
+   m_sLoadoutResource "{297CACC42D614458}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_Seize.et"
+   m_sLoadoutImage "{4C599E27DA612715}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_MG.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A83117FE91A}" {
+     MinimumSquadSize 3
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType MACHINEGUNNER
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011972863B}" {
+   m_sLoadoutName "USSR Sharpshooter"
+   m_sLoadoutResource "{A2FA973D6491C4F1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_Seize.et"
+   m_sLoadoutImage "{CA21F66986FE4498}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Sharpshooter.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A82E0572766}" {
+     MinimumSquadSize 4
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{618B0D8B4911A20C}" {
+   m_sLoadoutName "USSR Combat Engineer"
+   m_sLoadoutResource "{16DABF2017DB8674}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sapper_Seize.et"
+   m_sLoadoutImage "{BD1C0EB9EEE10B25}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sapper.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{62A50A82F38D63E4}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{64F7289BAF7998D8}" {
+   m_sLoadoutName "USSR Recon"
+   m_sLoadoutResource "{CEADFF4221A1F469}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Recon_Seize.et"
+   m_sLoadoutImage "{07AFA73ABD09518D}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{64F7289B886F060E}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011E8BEECF}" {
+   m_sLoadoutName "USSR Pilot"
+   m_sLoadoutResource "{05DC78BC3694AEA9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot_Seize.et"
+   m_sLoadoutImage "{EDE66B00EFF911B0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_HeliPilot.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutType PILOT
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011FFDC6A1}" {
+   m_sLoadoutName "USSR Heli Crewman"
+   m_sLoadoutResource "{A749DCC1139B638B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew_Seize.et"
+   m_sLoadoutImage "{06307450CC54D80E}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_HeliCrew.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{64694246A4B74933}" {
+   m_sLoadoutName "USSR Veh Crewman"
+   m_sLoadoutResource "{01AD51610683E078}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_VehCrew_Seize.et"
+   m_sLoadoutImage "{2BD44B75425A52FD}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Crew.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{64E80C16A1FC0764}" {
+   m_sLoadoutName "USSR Mortarman"
+   m_sLoadoutResource "{B705FAE8226947BD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Mortarman.et"
+   m_sLoadoutImage "{2A37F8C215AE2ABB}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_MortarAB.edds"
+   m_sAffiliatedFaction "USSR"
+   m_LoadoutSteps {
+    LoadoutStep "{64E80C16A90A18FC}" {
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType MORTARMAN
+  }
+  SCR_FactionPlayerLoadout "{613172A557E578D9}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{69D3C672745B300A}Prefabs/Characters/Campaign/Final/Campaign_US_Player_Seize.et"
+   m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutType DEFAULT
+  }
+  SCR_FactionPlayerLoadout "{60CAF8011F0BBD49}" {
+   m_sLoadoutName "US Squad Leader"
+   m_sLoadoutResource "{8D02B57BA79EFE40}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_Seize.et"
+   m_sLoadoutImage "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43204763AA911}" {
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType SQUAD_LEADER
+  }
+  SCR_FactionPlayerLoadout "{62A4320454E15F18}" {
+   m_sLoadoutName "US Radio Operator"
+   m_sLoadoutResource "{E6BC2CBA7EF249AE}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO_Seize.et"
+   m_sLoadoutImage "{563D7FAC1F8445D0}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/Character_US_Scout_RTO.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A432042BB7FFBE}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType RADIO_OPERATOR
+  }
+  SCR_FactionPlayerLoadout "{62A4320583AEFBBF}" {
+   m_sLoadoutName "US Ammo Bearer"
+   m_sLoadoutResource "{A26D08A8413F5C9A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Ammo_Seize.et"
+   m_sLoadoutImage "{2FC02D4957E7A86E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_AMG.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43205641815EF}" {
+     MinimumSquadSize 1
+     MaximumLoadouts 2
+    }
+    LoadoutStep "{62A432056FBDEEF6}" {
+     MinimumSquadSize 4
+     MaximumLoadouts 3
+    }
+   }
+   m_LoadoutType AMMO_BEARER
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E34B321C}" {
+   m_sLoadoutName "US Grenadier"
+   m_sLoadoutResource "{3643F70062BE6117}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_Seize.et"
+   m_sLoadoutImage "{99D02888988DED59}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_GL.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43205A279073A}" {
+     MinimumSquadSize 3
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType GRENADIER
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E092A601}" {
+   m_sLoadoutName "US Medic"
+   m_sLoadoutResource "{541AD513EE9F1092}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_Seize.et"
+   m_sLoadoutImage "{8D3E9B959DCE2B60}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Medic.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A4320419B6F5D6}" {
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType MEDIC
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E1834097}" {
+   m_sLoadoutName "US AT"
+   m_sLoadoutResource "{7D3C4E767DF93B6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_Seize.et"
+   m_sLoadoutImage "{278C426C1D3B4C27}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_LAT.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43205EF546031}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+    LoadoutStep "{65EAFC4BDD29FDEC}" {
+     MinimumSquadSize 4
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType ANTI_TANK
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E6D2C38F}" {
+   m_sLoadoutName "US Autorifleman"
+   m_sLoadoutResource "{618B30F6006BD6D9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_Seize.et"
+   m_sLoadoutImage "{43EA535E240F0B17}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_AR.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43205B76BD284}" {
+     MinimumSquadSize 3
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType AUTORIFLEMAN
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E7E51E7A}" {
+   m_sLoadoutName "US Machine Gunner"
+   m_sLoadoutResource "{F44B41BBBC2862B8}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_Seize.et"
+   m_sLoadoutImage "{D68798DF09F5BE8E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_MG.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43204090C8B07}" {
+     MinimumSquadSize 3
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType MACHINEGUNNER
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E7321C32}" {
+   m_sLoadoutName "US Marksman"
+   m_sLoadoutResource "{5096408557613A81}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_Seize.et"
+   m_sLoadoutImage "{13AC78F098028758}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Sniper.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43204407C1515}" {
+     MinimumSquadSize 4
+     MaximumLoadouts 2
+    }
+   }
+   m_LoadoutType SNIPER
+  }
+  SCR_FactionPlayerLoadout "{618B0D8BDD96E93C}" {
+   m_sLoadoutName "US Combat Engineer"
+   m_sLoadoutResource "{8475E7A90CB9ADBC}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sapper_Seize.et"
+   m_sLoadoutImage "{8C618068AFC4AC33}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/Character_US_Sapper.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{62A43204391B4570}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType COMBAT_ENGINEER
+  }
+  SCR_FactionPlayerLoadout "{64F7289B94D31C20}" {
+   m_sLoadoutName "US Recon"
+   m_sLoadoutResource "{721ED4F9B7B45A9A}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Recon_Seize.et"
+   m_sLoadoutImage "{F99BAD6979D4472A}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{64F7289B69F2DB52}" {
+     MinimumSquadSize 2
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType RECON
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E4760FF3}" {
+   m_sLoadoutName "US Pilot"
+   m_sLoadoutResource "{05AA984F4AB4A04C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_Seize.et"
+   m_sLoadoutImage "{F293529C376FB00C}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_HeliPilot.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutType PILOT
+  }
+  SCR_FactionPlayerLoadout "{60CAF802E590803F}" {
+   m_sLoadoutName "US Heli Crewman"
+   m_sLoadoutResource "{98FFA92013BE9865}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew_Seize.et"
+   m_sLoadoutImage "{47B7F48AAECFC8B8}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_HeliCrew.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{646942468112D8BC}" {
+   m_sLoadoutName "US Veh Crewman"
+   m_sLoadoutResource "{5D2D820EEB55A36D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_VehCrew_Seize.et"
+   m_sLoadoutImage "{0110ADC89666A310}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Crew.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutType CREWMAN
+  }
+  SCR_FactionPlayerLoadout "{64E824616CBA9998}" {
+   m_sLoadoutName "US Mortarman"
+   m_sLoadoutResource "{538F5177D7DD7442}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Mortarman.et"
+   m_sLoadoutImage "{6BB0781877353A0D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_MortarAB.edds"
+   m_sAffiliatedFaction "US"
+   m_LoadoutSteps {
+    LoadoutStep "{64E8246171639611}" {
+     MaximumLoadouts 1
+    }
+   }
+   m_LoadoutType MORTARMAN
+  }
+  SCR_PlayerArsenalLoadout "{613100CF2456B650}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Base.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_PlayerArsenalLoadout "{613100C0A688596D}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et"
+   m_sAffiliatedFaction "USSR"
+  }
+ }
+}

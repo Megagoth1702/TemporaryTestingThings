@@ -1,0 +1,344 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ NorthMOB {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 10
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1150
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 6151.569 165.62 6446.315
+  angleX 0.424
+  angleY 115.096
+  angleZ 3.197
+  {
+   GenericEntity {
+    coords 4.287 0.008 3.796
+    angleY -10.898
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+    m_fZoneRadius 200
+   }
+   GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+    coords 8.16 0.418 -50.353
+    angleX 1.039
+    angleY 9.188
+    angleZ -3.224
+   }
+  }
+ }
+ SouthMOB {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 10
+    m_iScorePerTick 0
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 8269.566 174.615 3758.384
+  angleX -2.783
+  angleY -32.388
+  angleZ -0.506
+  {
+   GenericEntity {
+    coords -2.001 0.75 -3.001
+    angleX -1.94
+    angleY 53.419
+    angleZ 1.649
+   }
+   SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{35C70C8528D145B1}Prefabs/MOBSpawnProtection/MOBSpawnProtectionArea.et" {
+    coords 0 0 0
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+    m_fZoneRadius 200
+   }
+   GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+    coords 32.518 -14.579 -91.016
+    angleX 8.193
+    angleY -17.331
+    angleZ -0.348
+   }
+  }
+ }
+ Levie {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Levie"
+    m_sBaseNameUpper "LEVIE"
+    m_fRadioAntennaServiceRange 10
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+  }
+  coords 7511.847 145.365 4630.45
+  angleX -0.886
+  angleY 49.454
+  angleZ -0.129
+  {
+   GenericEntity {
+    coords -4.223 0.709 1.694
+    angleX 0.167
+    angleY -179.403
+    angleZ 0.696
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+   Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+    coords -175.168 -9.401 13.628
+    angleX 0.658
+    angleY 34.45
+    angleZ 0.608
+   }
+   Vehicle S105_darkblue1 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+    coords 18.69 2.845 7.638
+    angleX -0.008
+    angleY 82.236
+    angleZ 0.895
+   }
+   Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+    coords -139.894 -9.384 -35.662
+    angleX -0.388
+    angleY 107.422
+    angleZ 0.807
+   }
+   Vehicle UAZ469_covered_CIV_VAK1 : "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et" {
+    coords -85.074 -6.828 61.667
+    angleX 0.54
+    angleY 44.604
+    angleZ 0.714
+   }
+   Vehicle UAZ469_covered_CIV_forest1 : "{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_forest.et" {
+    coords -6.469 -2.388 94.601
+    angleX -0.604
+    angleY -140.728
+    angleZ -0.661
+   }
+   Vehicle S1203_transport_base1 : "{D7663936ABF75FB0}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_base.et" {
+    coords -88.843 -6.48 12.591
+    angleX -0.882
+    angleY 161.839
+    angleZ 0.154
+   }
+   Vehicle UAZ469_FIA1 : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+    coords -35.044 -3.004 9.157
+    angleX 0.856
+    angleY 8.861
+    angleZ 0.264
+   }
+   Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+    coords -158.724 -9.771 -59.933
+    angleX 0.251
+    angleY -82.03
+    angleZ -0.86
+   }
+  }
+ }
+ Laruns {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Laruns"
+    m_sBaseNameUpper "LARUNS"
+    m_fRadioAntennaServiceRange 10
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1050
+     }
+    }
+   }
+  }
+  coords 7576.143 80.559 5552.693
+  angleX 1.17
+  angleY -41.559
+  angleZ 1.929
+  {
+   GenericEntity {
+    coords -0.352 0.75 -1.91
+    angleY 92.708
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+   Vehicle Ural4320_transport_covered_CIV_base1 : "{4BFB3CA9E83385D2}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_base.et" {
+    coords -68.084 0.8 -42.522
+    angleX 1.764
+    angleY 159.825
+    angleZ 1.407
+   }
+   Vehicle UAZ469_covered_CIV_Randomized2 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+    coords 12.358 0.774 -31.4
+    angleX 2.251
+    angleY 117.33
+    angleZ -0.154
+   }
+   Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
+    coords -13.05 0.053 -81.902
+    angleX 2.12
+    angleY 101.234
+    angleZ -0.772
+   }
+   Vehicle S105_red1 : "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et" {
+    coords -81.61 0.283 10.329
+    angleX -1.235
+    angleY -1.92
+    angleZ -1.888
+   }
+   Vehicle S105_yellow1 : "{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" {
+    coords -86.316 0.207 9.909
+    angleX -1.153
+    angleY 0.511
+    angleZ -1.939
+   }
+   Vehicle S1203_transport_brown2 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+    coords 18.887 0.111 6.891
+    angleX 2.224
+    angleY 111.571
+    angleZ -0.379
+   }
+   Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+    coords 20.587 -0.839 56.312
+    angleX -0.507
+    angleY 18.253
+    angleZ -2.198
+   }
+  }
+ }
+ Chotain {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Chotain"
+    m_sBaseNameUpper "CHOTAIN"
+    m_fRadioAntennaServiceRange 10
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 900
+     }
+    }
+   }
+  }
+  coords 6988.692 118.728 6035.396
+  angleX 2.188
+  angleY 144.773
+  angleZ -0.549
+  {
+   GenericEntity {
+    coords 1.306 0.75 -1.812
+    angleY 36.94
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+   Vehicle S1203_transport_beige4 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+    coords -20.635 -1.225 9.937
+    angleX 2.116
+    angleY 173.777
+    angleZ -0.783
+   }
+   Vehicle S105_beige2 : "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et" {
+    coords -65.117 1.947 6.646
+    angleX 1.434
+    angleY 143.522
+    angleZ -1.742
+   }
+   Vehicle S105_darkblue3 : "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et" {
+    coords -104.196 1.409 17.665
+    angleX 1.806
+    angleY 157.261
+    angleZ -1.352
+   }
+   Vehicle S105_base2 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+    coords -25.742 -1.559 18.374
+    angleX -0.516
+    angleY -62.701
+    angleZ 2.196
+   }
+   Vehicle Ural4320_transport_covered_CIV_blue1 : "{F66EAD0D2016B6BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_blue.et" {
+    coords 50.429 -7.428 78.2
+    angleX -2.234
+    angleY 6.195
+    angleZ 0.309
+   }
+   Vehicle S1203_transport_blue1 : "{F77C41245A580FD1}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_blue.et" {
+    coords -142.019 2.008 -16.663
+    angleX 2.124
+    angleY 174.401
+    angleZ -0.759
+   }
+   Vehicle UAZ469_FIA2 : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+    coords -54.707 -0.727 42.244
+    angleX 1.27
+    angleY 138.327
+    angleZ -1.865
+   }
+  }
+ }
+}

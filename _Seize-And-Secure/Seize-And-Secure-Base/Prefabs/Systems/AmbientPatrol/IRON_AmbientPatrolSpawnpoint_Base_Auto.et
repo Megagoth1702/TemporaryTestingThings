@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "644957CCC9D042A6"
+ components {
+  SCR_Iron_AmbientPatrolSpawnPointComponent_Auto "{644957CCC9D042AE}" {
+   m_sDefaultWaypointPrefab "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et"
+  }
+  SCR_Iron_FactionAffiliationComponent_Auto "{644957CCC9D04282}" {
+  }
+  Hierarchy "{644957CCC9D0428C}" {
+  }
+ }
+ coords 2.026 3.687 3.103
+}

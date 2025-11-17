@@ -1,0 +1,260 @@
+GameProject {
+ ID "SeizeAndSecureBase"
+ GUID "612543B7F95C22A5"
+ TITLE "Seize & Secure: Base"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   ChimeraGlobalConfig ChimeraGlobalConfig "{6F12664687156A7B}" {
+   }
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{631F06F068D7CF6F}" {
+      StringTableSource "{AEE83A6DA1E0F23A}Configs/Journal/JournalSeize.st"
+      Languages {
+       LanguageDefinition "{631F06F06ECCE952}" {
+        Code "conf"
+        StringTableRuntime "{C453A068CD93BBD7}Configs/Journal/JournalSeize.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF68F}" {
+        Code "cs_cz"
+        StringTableRuntime "{77CAF25AAEFBCF00}Configs/Journal/JournalSeize.cs_cz.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF69A}" {
+        Code "de_de"
+        StringTableRuntime "{A2B4E869BD58DE20}Configs/Journal/JournalSeize.de_de.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF6EF}" {
+        Code "en_us"
+        StringTableRuntime "{FC446222D7ABDB21}Configs/Journal/JournalSeize.en_us.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF6FE}" {
+        Code "es_es"
+        StringTableRuntime "{39082FAB39A9B03E}Configs/Journal/JournalSeize.es_es.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF6CE}" {
+        Code "fr_fr"
+        StringTableRuntime "{82A0DA9CDF2A533C}Configs/Journal/JournalSeize.fr_fr.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF6D5}" {
+        Code "it_it"
+        StringTableRuntime "{02BC55A87208D0C5}Configs/Journal/JournalSeize.it_it.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF627}" {
+        Code "ja_jp"
+        StringTableRuntime "{12A7E83A4C79E06E}Configs/Journal/JournalSeize.ja_jp.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF629}" {
+        Code "ko_kr"
+        StringTableRuntime "{B219C096DF54E351}Configs/Journal/JournalSeize.ko_kr.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF638}" {
+        Code "pl_pl"
+        StringTableRuntime "{EE68666C61BB7F2D}Configs/Journal/JournalSeize.pl_pl.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF609}" {
+        Code "pt_br"
+        StringTableRuntime "{3B1FFCA05A45B597}Configs/Journal/JournalSeize.pt_br.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF61B}" {
+        Code "ru_ru"
+        StringTableRuntime "{6E5EE808C73CD0E1}Configs/Journal/JournalSeize.ru_ru.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF7FA}" {
+        Code "uk_ua"
+        StringTableRuntime "{E406BDFEAB126EB4}Configs/Journal/JournalSeize.uk_ua.conf"
+       }
+       LanguageDefinition "{631F06F06ECCF7CB}" {
+        Code "zh_cn"
+        StringTableRuntime "{3EB6D3C392B2BEA9}Configs/Journal/JournalSeize.zh_cn.conf"
+       }
+      }
+     }
+     StringTableDefinition "{64853AB0FD1ACA33}" {
+      StringTableSource "{4E286F30F16EE0B1}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.st"
+      Languages {
+       LanguageDefinition "{64853AB0C04577FD}" {
+        Code "cs_cz"
+        StringTableRuntime "{76D96C6EB32F212D}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.cs_cz.conf"
+       }
+       LanguageDefinition "{64853AB0C0457735}" {
+        Code "de_de"
+        StringTableRuntime "{A3A7765DA08C300D}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.de_de.conf"
+       }
+       LanguageDefinition "{64853AB0C0457705}" {
+        Code "en_us"
+        StringTableRuntime "{FD57FC16CA7F350C}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.en_us.conf"
+       }
+       LanguageDefinition "{64853AB0C0457717}" {
+        Code "es_es"
+        StringTableRuntime "{381BB19F247D5E13}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.es_es.conf"
+       }
+       LanguageDefinition "{64853AB0C0457777}" {
+        Code "fr_fr"
+        StringTableRuntime "{83B344A8C2FEBD11}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.fr_fr.conf"
+       }
+       LanguageDefinition "{64853AB0C0457744}" {
+        Code "it_it"
+        StringTableRuntime "{03AFCB9C6FDC3EE8}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.it_it.conf"
+       }
+       LanguageDefinition "{64853AB0C0457756}" {
+        Code "ja_jp"
+        StringTableRuntime "{13B4760E51AD0E43}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.ja_jp.conf"
+       }
+       LanguageDefinition "{64853AB0C045775A}" {
+        Code "ko_kr"
+        StringTableRuntime "{B30A5EA2C2800D7C}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.ko_kr.conf"
+       }
+       LanguageDefinition "{64853AB0C04574AB}" {
+        Code "pl_pl"
+        StringTableRuntime "{EF7BF8587C6F9100}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.pl_pl.conf"
+       }
+       LanguageDefinition "{64853AB0C04574BB}" {
+        Code "pt_br"
+        StringTableRuntime "{3A0C629447915BBA}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.pt_br.conf"
+       }
+       LanguageDefinition "{64853AB0C0457488}" {
+        Code "ru_ru"
+        StringTableRuntime "{6F4D763CDAE83ECC}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.ru_ru.conf"
+       }
+       LanguageDefinition "{64853AB0C045747D}" {
+        Code "uk_ua"
+        StringTableRuntime "{E51523CAB6C68099}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.uk_ua.conf"
+       }
+       LanguageDefinition "{64853AB0C045744C}" {
+        Code "zh_cn"
+        StringTableRuntime "{3FA54DF78F665084}Configs/Journal/Ragdoll/Iron_Ragdoll_UnconPoses.zh_cn.conf"
+       }
+      }
+     }
+     StringTableDefinition "{64853AA1EA65F673}" {
+      StringTableSource "{2BF35ED8A4DBF8F0}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.st"
+      Languages {
+       LanguageDefinition "{64853AA1E9DA79CC}" {
+        Code "cs_cz"
+        StringTableRuntime "{DE64EFF7E6E5DD58}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.cs_cz.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA790D}" {
+        Code "de_de"
+        StringTableRuntime "{0B1AF5C4F546CC78}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.de_de.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA7966}" {
+        Code "en_us"
+        StringTableRuntime "{55EA7F8F9FB5C979}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.en_us.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA7972}" {
+        Code "es_es"
+        StringTableRuntime "{90A6320671B7A266}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.es_es.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA794D}" {
+        Code "fr_fr"
+        StringTableRuntime "{2B0EC73197344164}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.fr_fr.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA795B}" {
+        Code "it_it"
+        StringTableRuntime "{AB1248053A16C29D}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.it_it.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA46A9}" {
+        Code "ja_jp"
+        StringTableRuntime "{BB09F5970467F236}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.ja_jp.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA4685}" {
+        Code "ko_kr"
+        StringTableRuntime "{1BB7DD3B974AF109}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.ko_kr.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA469E}" {
+        Code "pl_pl"
+        StringTableRuntime "{47C67BC129A56D75}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.pl_pl.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA46EB}" {
+        Code "pt_br"
+        StringTableRuntime "{92B1E10D125BA7CF}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.pt_br.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA46C7}" {
+        Code "ru_ru"
+        StringTableRuntime "{C7F0F5A58F22C2B9}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.ru_ru.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA47AB}" {
+        Code "uk_ua"
+        StringTableRuntime "{4DA8A053E30C7CEC}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.uk_ua.conf"
+       }
+       LanguageDefinition "{64853AA1E9DA4787}" {
+        Code "zh_cn"
+        StringTableRuntime "{9718CE6EDAACACF1}Configs/Journal/InspectCasualtyBleedingAreas/InspectCasualtyBleedingAreas.zh_cn.conf"
+       }
+      }
+     }
+     StringTableDefinition "{649829EFCDF4AEB3}" {
+      StringTableSource "{BAFE8FC4CA9D8190}Configs/Journal/EarPlugs/EarPlugStrings.st"
+      Languages {
+       LanguageDefinition "{649829EFD0C4B828}" {
+        Code "cs_cz"
+        StringTableRuntime "{A2E6865E6D6C5919}Configs/Journal/EarPlugs/EarPlugStrings.cs_cz.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B862}" {
+        Code "de_de"
+        StringTableRuntime "{77989C6D7ECF4839}Configs/Journal/EarPlugs/EarPlugStrings.de_de.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B870}" {
+        Code "en_us"
+        StringTableRuntime "{29681626143C4D38}Configs/Journal/EarPlugs/EarPlugStrings.en_us.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B843}" {
+        Code "es_es"
+        StringTableRuntime "{EC245BAFFA3E2627}Configs/Journal/EarPlugs/EarPlugStrings.es_es.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B853}" {
+        Code "fr_fr"
+        StringTableRuntime "{578CAE981CBDC525}Configs/Journal/EarPlugs/EarPlugStrings.fr_fr.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B9A3}" {
+        Code "it_it"
+        StringTableRuntime "{D79021ACB19F46DC}Configs/Journal/EarPlugs/EarPlugStrings.it_it.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B9BE}" {
+        Code "ja_jp"
+        StringTableRuntime "{C78B9C3E8FEE7677}Configs/Journal/EarPlugs/EarPlugStrings.ja_jp.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B98B}" {
+        Code "ko_kr"
+        StringTableRuntime "{6735B4921CC37548}Configs/Journal/EarPlugs/EarPlugStrings.ko_kr.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B99B}" {
+        Code "pl_pl"
+        StringTableRuntime "{3B441268A22CE934}Configs/Journal/EarPlugs/EarPlugStrings.pl_pl.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B9EF}" {
+        Code "pt_br"
+        StringTableRuntime "{EE3388A499D2238E}Configs/Journal/EarPlugs/EarPlugStrings.pt_br.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B9FC}" {
+        Code "ru_ru"
+        StringTableRuntime "{BB729C0C04AB46F8}Configs/Journal/EarPlugs/EarPlugStrings.ru_ru.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B9D7}" {
+        Code "uk_ua"
+        StringTableRuntime "{312AC9FA6885F8AD}Configs/Journal/EarPlugs/EarPlugStrings.uk_ua.conf"
+       }
+       LanguageDefinition "{649829EFD0C4B956}" {
+        Code "zh_cn"
+        StringTableRuntime "{EB9AA7C7512528B0}Configs/Journal/EarPlugs/EarPlugStrings.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

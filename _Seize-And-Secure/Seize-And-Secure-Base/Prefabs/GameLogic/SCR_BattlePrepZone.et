@@ -1,0 +1,61 @@
+SCR_BattlePrepZoneEntity {
+ ID "6142D12CE06CDC0E"
+ components {
+  SCR_EditableDescriptorComponent "{6142D12C4620E67B}" {
+   m_EntityType SYSTEM
+   m_UIInfo SCR_EditableEntityUIInfo "{6142D12C7BAECF23}" {
+    Name "#AR-EditableEntity_RestrictionZoneMedium_Name"
+    Description "#AR-EditableEntity_RestrictionZone_Description"
+    Icon "{1FBE76E25DDFB65C}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_ZoneRestriction.edds"
+    IconSetName "System_Default"
+    m_Image "{5CA45BB302ADC67F}UI/Textures/EditorPreviews/Auto/Systems/RestrictionZone/E_EditorRestrictionZoneMedium.edds"
+    m_aAuthoredLabels {
+     7
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5DAA86868824F806}" {
+      m_BudgetType SYSTEMS
+      m_Value 15
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_vIconPos 0 0 0
+   m_bStatic 1
+   m_Flags 32835
+  }
+  SCR_EditableEntityVisibilityChildComponent "{6142D12C5DEC6FB7}" {
+   m_State 96
+  }
+  SCR_ZoneRestrictionAreaMeshComponent "{6142D12C4FC3D961}" {
+   m_vResolution 48
+   m_bFollowTerrain 1
+   m_bStretchMaterial 1
+   m_Material "{788C42E96DB8587C}Assets/Editor/VirtualArea/VirtualArea_01_Danger.emat"
+   GetWarningRadius 0
+  }
+  RplComponent "{6142D12FB194A2F4}" {
+   Streamable Disabled
+  }
+  Hierarchy "{6142D12FB20B27D3}" {
+  }
+ }
+ m_fWarnRadius 100
+ m_fZoneRadius 150
+ m_fZoneTeleportedRadius 300
+ m_iWarningType BATTLEPREP
+ BATTLE_PREP_TIME_S 300
+ {
+  GenericEntity : "{13F86F8254074B39}Prefabs/Editor/Common/Editor_CustomMeshArea.et" {
+   ID "6142D12CE06CDC00"
+   components {
+    SCR_CustomAreaMeshComponent "{59D673B22B1EBC57}" {
+     m_Material "{034185AE1A11B656}Assets/Editor/VirtualArea/VirtualArea_01_Warning.emat"
+    }
+    SCR_EditableEntityVisibilityChildComponent "{59D673B2E93EA216}" {
+     m_State 96
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,64 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  coords 3753.554 80.994 6631.413
+  angleY -175.712
+ }
+ {
+  coords 4511.685 154.159 6805.397
+  angleY -82.517
+ }
+ {
+  coords 4515.708 153.75 6899.11
+  angleY 177.868
+ }
+ {
+  coords 4695.443 162.665 6924.602
+  angleY 141.716
+ }
+ {
+  coords 4711.738 162.067 6988.967
+  angleY 57.155
+ }
+ {
+  coords 4769.01 161.77 7142.073
+  angleY 60.949
+ }
+ {
+  coords 5072.804 177.673 7023.681
+  angleY 107.792
+ }
+ {
+  coords 5123.138 175.977 7025.494
+  angleY -149.124
+ }
+ {
+  coords 5409.62 184.435 7148.855
+  angleY -91.587
+ }
+ {
+  coords 5706.717 219.435 7086.282
+  angleY 103.761
+ }
+ {
+  coords 5773.505 212.333 7011.887
+  angleY 91.955
+ }
+ {
+  coords 6231.114 180.077 7484.885
+  angleY -142.424
+ }
+ {
+  coords 6383.074 174.935 7412.364
+ }
+ {
+  coords 5227.941 75.879 6329.102
+  angleY -38.649
+ }
+ {
+  coords 5243.007 79.205 6384.286
+ }
+ {
+  coords 5349.324 80.593 6286.481
+  angleY -119.449
+ }
+}

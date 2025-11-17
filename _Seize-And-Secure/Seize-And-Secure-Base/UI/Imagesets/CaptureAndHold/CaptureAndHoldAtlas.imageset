@@ -1,0 +1,119 @@
+ImageSetClass {
+ RefSize 512 512
+ Textures {
+  ImageSetTextureClass {
+   screenSize FHD
+   size 104 104
+   path "{11457FC43F6A10EE}UI/Imagesets/CaptureAndHold/CaptureAndHoldAtlas-100_atlas.edds"
+  }
+  ImageSetTextureClass {
+   screenSize FHD
+   size 512 512
+   path "{ADBD650CD1A47317}UI/Textures/HUD/CaptureAndHoldAtlas.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass CAH_AREA_MAJOR {
+   Name "CAH_AREA_MAJOR"
+   Pos 0 0
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_BLUFOR_LARGE {
+   Name "CAH_BLUFOR_LARGE"
+   Pos 96 0
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_BLUFOR_BACKDROP {
+   Name "CAH_BLUFOR_BACKDROP"
+   Pos 192 0
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_CAPTURING {
+   Name "CAH_CAPTURING"
+   Pos 288 0
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_CAPTURING_LARGE {
+   Name "CAH_CAPTURING_LARGE"
+   Pos 384 0
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_NEUTRAL_LARGE {
+   Name "CAH_NEUTRAL_LARGE"
+   Pos 0 96
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_NEUTRAL_BACKDROP {
+   Name "CAH_NEUTRAL_BACKDROP"
+   Pos 0 192
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_DIRECTION {
+   Name "CAH_DIRECTION"
+   Pos 96 96
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_OPFOR_LARGE {
+   Name "CAH_OPFOR_LARGE"
+   Pos 192 96
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_OPFOR_BACKDROP {
+   Name "CAH_OPFOR_BACKDROP"
+   Pos 288 96
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_SPAWN {
+   Name "CAH_SPAWN"
+   Pos 384 96
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_SPAWN_LARGE {
+   Name "CAH_SPAWN_LARGE"
+   Pos 384 192
+   Size 96 96
+   Flags 0
+  }
+  ImageSetDefClass CAH_SCORE_BACKGROUND {
+   Name "CAH_SCORE_BACKGROUND"
+   Pos 1 290
+   Size 246 28
+   Flags 0
+  }
+  ImageSetDefClass CAH_SCORE_FILL {
+   Name "CAH_SCORE_FILL"
+   Pos 1 320
+   Size 246 28
+   Flags 0
+  }
+  ImageSetDefClass CAH_SCORE_GRADIENT {
+   Name "CAH_SCORE_GRADIENT"
+   Pos 1 350
+   Size 246 28
+   Flags 0
+  }
+  ImageSetDefClass CAH_SCORE_GRADIENT_INVERSE {
+   Name "CAH_SCORE_GRADIENT_INVERSE"
+   Pos 1 380
+   Size 246 28
+   Flags 0
+  }
+  ImageSetDefClass CAH_OUTOFRANGE_BACKDROP {
+   Name "CAH_OUTOFRANGE_BACKDROP"
+   Pos 96 192
+   Size 96 96
+   Flags 0
+  }
+ }
+}

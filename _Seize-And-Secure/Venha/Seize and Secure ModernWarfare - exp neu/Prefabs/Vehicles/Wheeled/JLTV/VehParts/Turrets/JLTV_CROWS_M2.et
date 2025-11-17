@@ -1,0 +1,14 @@
+Turret : "{0400DC14661BA986}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_CROWS.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5B24B3A9B2859837}" {
+   components {
+    SCR_2DSightsComponent "{5B24B3A9B2859831}" {
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{5B265D141E9BA3FB}" {
+      m_fZoomMax 5
+     }
+    }
+   }
+  }
+ }
+}

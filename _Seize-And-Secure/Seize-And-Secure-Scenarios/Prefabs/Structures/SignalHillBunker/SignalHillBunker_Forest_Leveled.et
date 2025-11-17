@@ -1,0 +1,52 @@
+SCR_PowerPole : "{63115D2E9FD9792D}Prefabs/Structures/Infrastructure/Power/LightningRod_02/LightningRod_02.et" {
+ ID "3A3226DBA8E84D7B"
+ {
+  GenericEntity {
+   ID "60A6AA4208429551"
+   coords -12.014 -8.087 -6.323
+   angleX -0.093
+   angleY -108.687
+   angleZ 0.136
+  }
+  GenericEntity {
+   ID "60A6AA420845AF83"
+   coords 2.587 -6.386 8.506
+   angleY -43.737
+  }
+  GenericEntity {
+   ID "60A6AA4208472FB5"
+   coords 3.982 -6.477 9.701
+  }
+  GenericEntity {
+   ID "60A6AA420847A27F"
+   coords 3.121 -6.329 9.026
+   angleY 136.719
+  }
+  GenericEntity {
+   ID "60A6AA4208B36B47"
+   coords -10.376 -8.089 1.587
+  }
+  GenericEntity {
+   ID "60A6AA4208B5C382"
+   coords -11.325 -8.052 0.093
+  }
+  GenericEntity {
+   ID "60A6AA4208BA66C8"
+   coords -9.16 -8.195 0.918
+   {
+    GenericEntity {
+     ID "60A6AA4208BA66CF"
+     coords 0.002 0.821 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "60A6AA4208BA66C9"
+   coords -9.919 -8.135 4.106
+  }
+  GenericEntity {
+   ID "60A6AA4208BD8940"
+   coords -10.172 -8.09 0.731
+  }
+ }
+}

@@ -1,0 +1,36 @@
+GenericEntity BaseLamentin : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_sBaseName "Mareks Landlord Service For Tenants Who Won't Pay Rent"
+   m_sBaseNameUpper "MAREKS LANDLORD SERVICE FOR TENANTS WHO WON'T PAY RENT"
+   m_fRadioAntennaServiceRange 1700
+   m_iScorePerTick 5
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 1700
+    }
+   }
+  }
+ }
+ coords 1388.236 44.915 5872.381
+ angleX 2.003
+ angleY -136.357
+ angleZ 4.374
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   components {
+    RplComponent "{5C66967327A1ECD4}" {
+     Enabled 0
+    }
+    Hierarchy "{5C6696730F8278E4}" {
+     Enabled 0
+    }
+   }
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

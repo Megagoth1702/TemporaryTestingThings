@@ -1,0 +1,8 @@
+GenericEntity {
+ ID "628411E345955463"
+ components {
+  Iron_SuppressionExplosionComponent "{62841C0898910208}" {
+  }
+ }
+ coords 3.055 4.479 3.153
+}

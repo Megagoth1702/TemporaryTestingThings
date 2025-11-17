@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DA386C7F7A47E634}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_EMR_PKM_SSMW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

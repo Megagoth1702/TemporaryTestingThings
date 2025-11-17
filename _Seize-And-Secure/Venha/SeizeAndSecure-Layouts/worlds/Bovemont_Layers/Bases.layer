@@ -1,0 +1,139 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ CampBareRidge {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1650
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Bare Ridge"
+    m_fRadioAntennaServiceRange 1650
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 7192.362 391.845 7243.938
+  angles 0 -73.396 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 116.178 -2.227 36.017
+    angles 0 59.712 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 6.941 0.499 14.146
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampBovemont {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1525
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Bovemont"
+    m_fRadioAntennaServiceRange 1525
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 6097.723 418.191 6221.319
+  angles 0 179.564 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 21.858 0.622 -0.386
+    angles 0 -26.354 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 4.26 -0.254 -48.043
+    angles 0 100.85 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ CampSoumont {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_Cain_Soumont"
+    m_fRadioAntennaServiceRange 1500
+    m_fTickRate 3000
+    m_iScorePerTick 5
+   }
+  }
+  coords 5063.524 410.296 5309.368
+  angles 0 -2.231 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.002 1.431 30.971
+    angles 0 141.238 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -32.885 -3.778 -27.255
+    angles 0 -102.474 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    components {
+     RplComponent "{5C66967327A1ECD4}" {
+      Enabled 0
+     }
+     Hierarchy "{5C6696730F8278E4}" {
+      Enabled 0
+     }
+    }
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+}

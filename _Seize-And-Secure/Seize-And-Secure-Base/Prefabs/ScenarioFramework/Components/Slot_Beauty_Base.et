@@ -1,0 +1,8 @@
+GenericEntity : "{022B834E34F787A4}Prefabs/ScenarioFramework/Components/Slot_NoGarbageNoDespawn.et" {
+ ID "5A22E1D64BC88E05"
+ components {
+  SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+   m_sObjectToSpawn "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et"
+  }
+ }
+}

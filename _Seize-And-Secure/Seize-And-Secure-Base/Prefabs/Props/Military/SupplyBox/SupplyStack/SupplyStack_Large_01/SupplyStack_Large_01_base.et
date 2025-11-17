@@ -1,0 +1,13 @@
+GenericEntity : "{1406B18033A3FFB1}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 250
+     m_fResourceValueMax 250
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,55 @@
+FrameWidgetClass {
+ Name "LoadingScreen"
+ Slot FrameWidgetSlot "{5DFE96F7C74E1BD4}" {
+  Anchor 0 0 1 1
+  PositionX 0
+  OffsetLeft 0
+  PositionY 0
+  OffsetTop 0
+  SizeX -1820
+  OffsetRight 0
+  SizeY -1050
+  OffsetBottom 0
+ }
+ components {
+  SCR_WidgetExportRuleRoot "{5DF8F644D5C660A4}" {
+   Enabled 0
+   DestinationPath "{2EAA44290EB1EA8C}scripts/GameLib/LoadingScreens"
+  }
+ }
+ {
+  FrameWidgetClass "{61900DB22D5E61DD}" {
+   Name "FullHDFrame"
+   Slot FrameWidgetSlot "{5E04A017BD489B79}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -209.883
+    OffsetLeft -209.883
+    PositionY 8.713
+    OffsetTop 8.713
+    SizeX 1464.09
+    OffsetRight -1254.21
+    SizeY 1059.76
+    OffsetBottom -1068.47
+    Alignment 0.5 0.5
+   }
+   {
+    ImageWidgetClass "{61900DB22D5E8735}" {
+     Name "m_wLoadingImage"
+     Slot FrameWidgetSlot "{61900DB2DFADEFB6}" {
+      Anchor 0 0 0 0
+      PositionX 618.849
+      OffsetLeft 618.849
+      PositionY 287.72
+      OffsetTop 287.72
+      SizeX 393.406
+      OffsetRight -1012.25
+      SizeY 491.256
+      OffsetBottom -778.976
+     }
+     Texture "{4B0A3C86C7FBAFE2}Images/Discord_QR_Code.edds"
+     Size 300 373
+    }
+   }
+  }
+ }
+}

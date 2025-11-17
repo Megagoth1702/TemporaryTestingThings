@@ -1,0 +1,25 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE024FADC8C}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{619CEB1F4A7CB58F}" {
+     SlotTemplate InventoryStorageSlot Rearm {
+      Prefab "{CE46DE74E8896BEA}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

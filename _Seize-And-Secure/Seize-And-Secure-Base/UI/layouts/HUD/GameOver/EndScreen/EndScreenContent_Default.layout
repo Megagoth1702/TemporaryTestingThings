@@ -1,0 +1,54 @@
+SizeLayoutWidgetClass {
+ {
+  VerticalLayoutWidgetClass "{5892DABA6FF653EF}" {
+   Prefab "{5892DABA6FF653EF}"
+   {
+    ScaleWidgetClass "{60DCDEFAE53D54C2}" {
+     Prefab "{60DCDEFAE53D54C2}"
+     {
+      HorizontalLayoutWidgetClass "{625A6EC4A9D85E83}" {
+       Prefab "{625A6EC4A9D85E83}"
+       {
+        SizeLayoutWidgetClass "{625AB4812711DF46}" {
+         Prefab "{625AB4812711DF46}"
+         {
+          OverlayWidgetClass "{625A6EC56200DA49}" {
+           Prefab "{625A6EC56200DA49}"
+           {
+            VerticalLayoutWidgetClass "{625A6EC4807C16F5}" {
+             Prefab "{625A6EC4807C16F5}"
+             {
+              RichTextWidgetClass "{64FF77B1B8EB038F}" {
+               Name "GameOver_TicketsRemaining"
+               Slot LayoutSlot "{64FF77BABFBD6EC5}" {
+                Padding 0 8 0 0
+               }
+               "Z Order" 5
+               Clipping Ancestor
+               Color 0.8963 0.4341 0.014 1
+               Rotation 0
+               Text ""
+               "Font Size" 18
+               "Min Font Size" 14
+               Wrap 1
+               FontProperties FontProperties "{64FF77B161E089D4}" {
+                Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+                Bold 1
+                ShadowOffset 0 0
+               }
+               "Line Spacing" 20
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+Vehicle : "{543A50BF3A42AD47}Prefabs/Vehicles/Core/Wheeled_APC_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  IRON_SUP_ExplosionComponent "{64A8036EDD0AB8EC}" {
+   m_fForceMultiplier 1.5
+   m_fExplosionRangeMin 15
+   m_fExplosionRangeMax 30
+  }
+  IRON_SUP_VehicleComponent "{64A8036A22CE4F20}" {
+   m_bAllowImpactFlinch 0
+   m_fSuppressionDampening 1
+   m_fExplosionDampening 0.9
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65394558602E04A2}" {
+     SlotTemplate InventoryStorageSlot RearmingKit {
+      Prefab "{5028D9E699AE3A73}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_US.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

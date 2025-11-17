@@ -1,0 +1,23 @@
+Vehicle : "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_ResourceComponent "{647A8BBB14D93D4B}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E42966EB4B6C40C}" {
+     m_fResourceRange 50
+    }
+    SCR_ResourceConsumer "{5E42966EB7ABFDFF}" {
+     m_fResourceRange 50
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5E42966EB87D0B2E}" {
+     m_fStorageRange 50
+    }
+    SCR_ResourceGenerator "{5E42966EB8A02BC1}" {
+     m_fStorageRange 50
+    }
+   }
+  }
+ }
+}

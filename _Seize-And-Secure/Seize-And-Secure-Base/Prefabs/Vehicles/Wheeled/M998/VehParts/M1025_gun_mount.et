@@ -1,0 +1,13 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  Iron_SuppressionVehicleComponent "{628B2BA92751B537}" {
+   m_aVehicleSuppressionConfigs {
+    Iron_SuppressionVehicleData "{628B2BA9240B2C8E}" {
+     m_fDampenProjectile 0.3
+     m_fDampenExplosion 0.5
+    }
+   }
+  }
+ }
+}

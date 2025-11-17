@@ -1,0 +1,11 @@
+SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ ID "560477320F726547"
+ coords 5060.68 14.661 3989.422
+ angleY -4.787
+ SphereRadius 30
+ BoxMaxs 26 8 50
+ DrawShape 0
+ m_sAreaSymbol "N"
+ m_bEnableScoring 0
+ m_sAssignedName "CAH_Morton_N"
+}

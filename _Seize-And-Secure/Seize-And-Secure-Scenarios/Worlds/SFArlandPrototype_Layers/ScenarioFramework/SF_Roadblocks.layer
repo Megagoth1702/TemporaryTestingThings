@@ -1,0 +1,730 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ A_Roadblocks_West {
+  coords 1100.322 39 2375.546
+  {
+   GenericEntity L_West_Main1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 50
+     }
+    }
+    coords 27.487 -1.207 -182.372
+    angleX 2.691
+    angleY 0.116
+    angleZ -3.567
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      Layer22 {
+       coords -178.756 -6.125 -218.044
+       angleX 1.254
+       angleY 141.249
+       angleZ 0.141
+       {
+        GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 4.843 0.001 0.12
+        }
+        GenericEntity Slot36 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 2.997 0 0.011
+         angleY -73.317
+        }
+       }
+      }
+      Layer23 {
+       coords -246.876 -5.489 -9.185
+       angleX 2.921
+       angleY 38.3
+       angleZ 3.46
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA13 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 5.129 -0.275 1.903
+         angleX -0.072
+         angleY 4.912
+         angleZ -2.51
+        }
+        GenericEntity Slot40 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 5.6 -0.261 2.781
+         angleX -1.552
+         angleY -0.533
+         angleZ -2.335
+        }
+       }
+      }
+      Layer24 {
+       coords 353.216 -40.278 334.897
+       angleX 4.462
+       angleY -124.211
+       angleZ 0.223
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA17 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -0.914 0 -2.092
+         angleY 0.06
+        }
+        GenericEntity Slot41 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -1.557 -0.006 -3.759
+         angleX -0.59
+         angleY 177.835
+         angleZ 0.673
+        }
+       }
+      }
+      Layer25 {
+       coords 615.138 -48.247 -210.111
+       angleX 5.224
+       angleY 164.668
+       angleZ 2.27
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA18 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -2.769 -0.031 -2.829
+         angleY 0.064
+        }
+        GenericEntity Slot42 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -1.552 -0.013 -3.765
+         angleX 0.847
+         angleY 121.185
+         angleZ 0.247
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Roadblocks_South {
+  coords 2221.365 73.865 1110.246
+  {
+   GenericEntity L_South_Main1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 50
+     }
+    }
+    coords -212.267 -43.58 -170.133
+    angleX 6.234
+    angleY -0.106
+    angleZ -4.452
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      Layer15 {
+       coords -428.508 8.172 29.318
+       angleX -5.369
+       angleY 0.105
+       angleZ 5.317
+       {
+        GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -4.627 0.031 0.121
+        }
+        GenericEntity Slot21 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -5.022 0.031 -0.05
+         angleY -58.564
+        }
+       }
+      }
+      Layer17 {
+       coords 175.514 -16.252 -128.497
+       angleX 0.115
+       angleY 105.676
+       angleZ 8.932
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA11 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 5.071 1.147 2.084
+         angleX -2.221
+         angleY 5.006
+         angleZ -16.617
+        }
+        GenericEntity Slot22 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 5.289 1.154 2.959
+         angleX -2.707
+         angleY 3.371
+         angleZ -16.547
+        }
+       }
+      }
+      Layer18 {
+       coords 755.136 -88.14 45.379
+       angleX 6.317
+       angleY -136.666
+       angleZ 1.089
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA12 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -0.912 0.001 -0.667
+         angleY 0.06
+        }
+        GenericEntity Slot23 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -1.557 -0.006 -3.759
+         angleX -0.59
+         angleY 177.835
+         angleZ 0.673
+        }
+       }
+      }
+      Layer19 {
+       coords 1427.015 -185.388 442.384
+       angleX -1.213
+       angleY 163.299
+       angleZ -7.065
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA14 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -0.924 0.023 -2.826
+         angleX 0.257
+         angleY 0.064
+         angleZ 0.852
+        }
+        GenericEntity Slot37 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -1.556 0.028 -3.763
+         angleX -0.29
+         angleY 177.831
+         angleZ -0.841
+        }
+       }
+      }
+      Layer20 {
+       coords 784.395 -103.846 248.022
+       angleX -3.773
+       angleY 140.357
+       angleZ -7.286
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA15 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -0.917 -0.001 -2.788
+         angleY 0.064
+        }
+        GenericEntity Slot38 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -1.556 0.008 -3.761
+         angleX 0.596
+         angleY 177.841
+         angleZ 0.659
+        }
+       }
+      }
+      Layer21 {
+       coords 34.763 6.363 281.046
+       angleX 8.85
+       angleY 116.864
+       angleZ -7.394
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA16 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -0.917 -0.001 -2.788
+         angleY 0.064
+        }
+        GenericEntity Slot39 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -2.168 -0.031 -3.826
+         angleY 174.477
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Roadblocks_North {
+  coords 2460.936 17.717 3095.608
+  angleX -0.014
+  angleY -0.443
+  angleZ -1.79
+  {
+   GenericEntity L_North_Main1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 50
+     }
+    }
+    coords -442.953 51.22 252.749
+    angleX -1.816
+    angleY 0.519
+    angleZ 11.535
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      Layer10 {
+       coords -330.446 -87.819 7.227
+       angleX -0.787
+       angleY 0.444
+       angleZ -12.436
+       {
+        GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -4.648 -3.658 0.141
+        }
+        GenericEntity Slot25 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -4.049 -3.654 -2.082
+         angleX 0.641
+         angleY 135.627
+         angleZ -0.62
+        }
+       }
+      }
+      Layer11 {
+       coords 29.776 -31.28 122.589
+       angleX -0.482
+       angleY 105.613
+       angleZ 1.724
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA5 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 0.739 -3.06 -10.358
+         angleX 11.916
+         angleY 0.731
+         angleZ 3.538
+        }
+        GenericEntity Slot31 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 0.794 -3.043 -10.258
+         angleX -12.163
+         angleY 175.987
+         angleZ -2.548
+        }
+       }
+      }
+      Layer12 {
+       coords 513.168 63.556 -396.57
+       angleX 4.758
+       angleY 46.248
+       angleZ -14.287
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA7 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 0.873 -0.043 -10.863
+         angleX 0.363
+         angleY 0.06
+         angleZ 9.42
+        }
+        GenericEntity Slot32 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 0.88 -0.043 -10.772
+         angleX 0.748
+         angleY -173.241
+         angleZ -9.397
+        }
+       }
+      }
+      Layer13 {
+       coords 840.022 123.359 -170.541
+       angleX 7.238
+       angleY 96.926
+       angleZ 6.298
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -1.13 -2.642 -10.351
+         angleX 4.874
+         angleY -0.256
+         angleZ -3.006
+        }
+        GenericEntity Slot33 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -1.523 -2.707 -10.87
+         angleX -4.776
+         angleY 177.928
+         angleZ 3.158
+        }
+       }
+      }
+      Layer14 {
+       coords 131.745 14.577 -470.434
+       angleX -1.408
+       angleY -38.143
+       angleZ 1.105
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -0.247 -9.034 -0.009
+         angleX 2.94
+         angleY 34.155
+         angleZ -9.966
+        }
+        GenericEntity Slot34 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 0.426 -8.985 1.209
+         angleX -4.885
+         angleY -9.907
+         angleZ -9.177
+        }
+       }
+      }
+      Layer16 {
+       coords 551.715 96.296 -563.533
+       angleX 43.329
+       angleY 9.818
+       angleZ 1.879
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA10 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -2.741 -2.601 -0.348
+         angleX -45.533
+         angleY 13.55
+         angleZ -18.128
+        }
+        GenericEntity Slot35 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -2.223 -2.288 -0.529
+         angleX -44.386
+         angleY 21.042
+         angleZ -23.732
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Roadblocks_East {
+  coords 3175.326 54.761 1806.845
+  angleX -0.014
+  angleY -0.443
+  angleZ -1.79
+  {
+   GenericEntity L_East_Main1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 50
+     }
+    }
+    coords -503.441 41.058 68.18
+    angleY 0.444
+    angleZ 1.79
+    {
+     $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+      Layer3 {
+       coords -210.146 -0.78 -110.987
+       angleX 0.894
+       angleY 0.028
+       angleZ 1.79
+       {
+        GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -6.495 -1.906 5.869
+         angleX -0.895
+         angleZ -1.79
+        }
+        GenericEntity Slot24 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -2.17 -2.386 -0.36
+         angleX 6.34
+         angleY 61.142
+         angleZ -1.447
+        }
+       }
+      }
+      Layer5 {
+       coords -5.056 -1.335 -110.977
+       angleX 1.79
+       angleY 0.028
+       angleZ 0.001
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA1 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 0.884 0.031 -10.868
+        }
+        GenericEntity Slot26 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 0.891 0.032 -10.777
+         angleY 175.697
+        }
+       }
+      }
+      Layer6 {
+       coords 286.425 -25.916 417.075
+       angleX -1.264
+       angleY 47.779
+       angleZ -0.061
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA3 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 0.884 0.031 -10.868
+        }
+        GenericEntity Slot27 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 0.891 0.032 -10.777
+         angleY 175.697
+        }
+       }
+      }
+      Layer7 {
+       coords 315.268 -34.082 181.815
+       angleX -8.053
+       angleY 96.258
+       angleZ 0.012
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA4 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords 0.884 0.031 -10.868
+        }
+        GenericEntity Slot28 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords 0.891 0.032 -10.777
+         angleY 175.697
+        }
+       }
+      }
+      Layer8 {
+       coords 4.321 -0.439 10.051
+       angleX -1.408
+       angleY -38.143
+       angleZ 1.105
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA2 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -6.535 0.216 5.816
+         angleX 4.157
+         angleY 0.214
+         angleZ 2.425
+        }
+        GenericEntity Slot29 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -3.148 0.044 -1.042
+         angleX -1.128
+         angleY 56.262
+         angleZ 0.572
+        }
+       }
+      }
+      Layer9 {
+       coords -190.019 -0.126 -310.026
+       angleX -0.114
+       angleY 7.319
+       angleZ 0.888
+       {
+        GenericEntity AmbientPatrolSpawnpoint_FIA6 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+         components {
+          SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+           m_sDefaultWaypointPrefab "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et"
+           m_bPickRandomGroupType 1
+          }
+         }
+         coords -5.421 0 -1.742
+         angleY 0.196
+        }
+        GenericEntity Slot30 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+         components {
+          SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+           m_sObjectToSpawn "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et"
+          }
+         }
+         coords -3.148 0.044 -1.042
+         angleX -1.128
+         angleY 56.262
+         angleZ 0.572
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+SCR_Iron_CaptureAndHoldSpawnProtectionArea : "{2FEAF8CA2E7EC24C}Prefabs/MP/Modes/CaptureAndHold/SpawnAreas/CaptureAndHoldSpawnArea_Base.et" {
+ ID "560ADB8D3A3D563C"
+ coords 0 0 0
+ TriggerShapeType Sphere
+ SphereRadius 150
+ m_sLocalPlayerAlertTitle "Restricted Area!"
+ m_sLocalPlayerAlertText "This area is restricted! Leave immediately or die!"
+ m_fPenaltyTime 15
+}

@@ -1,0 +1,21 @@
+RadialBlurEffect {
+ Enabled 1
+ PowerX 0
+ PowerY 0
+ SizeX 0.5
+ SizeY 0.5
+ MaxPixelsNum 8
+ LengthPower 1.5
+ Refs {
+  "Enabled"
+  "IRON_SUP_ScreenEffects.s_bEnableRadialBlur"
+  "PowerX"
+  "IRON_SUP_ScreenEffects.s_fBlurriness"
+  "PowerY"
+  "IRON_SUP_ScreenEffects.s_fBlurriness"
+  "SizeX"
+  "IRON_SUP_ScreenEffects.s_fBlurrinessSize"
+  "SizeY"
+  "IRON_SUP_ScreenEffects.s_fBlurrinessSize"
+ }
+}

@@ -1,0 +1,85 @@
+$grp GenericEntity : "{EB835D24922D2A23}Prefabs/Systems/AmbientVehicles/IRON_AmbientVehicleSpawnpoint_Base_Auto.et" {
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+   }
+  }
+  coords 5215.282 16.92 4012.508
+  angleX -3.217
+  angleY -127.537
+  angleZ 0.216
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 5206.127 16.292 4006.163
+  angleX -3.222
+  angleY -121.38
+  angleZ -0.13
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels + {
+     21
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 5198.4 15.881 4001.64
+  angleX -2
+  angleY -117.944
+  angleZ 0.048
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     50 24
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 5189.356 15.491 3996.708
+  angleX -2.001
+  angleY -115.88
+  angleZ -0.024
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     54 37 210
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 5179.207 15.063 3991.589
+  angleX -2.001
+  angleY -116.547
+  angleZ -0.001
+ }
+ {
+  components {
+   SCR_Iron_Auto_AmbientVehicleSpawnPointComponent "{64491D2DBD202355}" {
+    m_bStopDespawnOnInteraction 1
+    m_aIncludedEditableEntityLabels {
+     54 37 210
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 5167.965 14.764 3986.912
+  angleX -2
+  angleY -115.116
+  angleZ -0.051
+ }
+}

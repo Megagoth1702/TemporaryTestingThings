@@ -1,0 +1,36 @@
+GenericEntity BaseWolfHill : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_sBaseName "Wolf Hill"
+   m_sBaseNameUpper "WOLF HILL"
+   m_fRadioAntennaServiceRange 1600
+   m_iScorePerTick 5
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 1600
+    }
+   }
+  }
+ }
+ coords 3848.87 162.419 4303.148
+ angleX -3.861
+ angleY 138.411
+ angleZ 1.035
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   components {
+    RplComponent "{5C66967327A1ECD4}" {
+     Enabled 0
+    }
+    Hierarchy "{5C6696730F8278E4}" {
+     Enabled 0
+    }
+   }
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

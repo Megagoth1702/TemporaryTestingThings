@@ -1,0 +1,26 @@
+Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_ResourceComponent "{5D82E3B95C5050B1}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{5DAD42B09AE505C7}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC74444F5586}" {
+       m_fResourceValueCurrent 10
+      }
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{59168B38F20DFF74}" {
+   MultiSlots {
+    MultiSlotConfiguration "{619CEB1F1F39653A}" {
+     SlotTemplate InventoryStorageSlot Rearm {
+      Prefab "{CE46DE74E8896BEA}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

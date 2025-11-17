@@ -1,0 +1,50 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 5401.971 401.592 5320.97
+ }
+ {
+  coords 6953.493 418 7008.439
+ }
+}
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ GoluboyGlaz {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Goluboy Glaz Depot"
+   }
+  }
+  coords 5442.235 441.472 6001.818
+  angles -0.542 52.755 -0.713
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -12.972 0.094 2.447
+    angles 0 -4.327 0
+   }
+  }
+ }
+ Nadezhda {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Nadezhda Depot"
+   }
+  }
+  coords 7117.945 314.229 6024.616
+  angles 1.085 -75.995 -0.652
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 19.642 0.173 -19.122
+    angles -0.176 -25.384 -0.877
+   }
+  }
+ }
+}
+$grp GenericEntity : "{617E4B88F858344B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_03.et" {
+ {
+  coords 6950.494 418 7007.487
+  angles 0 -174.975 0
+ }
+ {
+  coords 5399.008 402.765 5322.021
+  angles 0 -137.252 0
+ }
+}

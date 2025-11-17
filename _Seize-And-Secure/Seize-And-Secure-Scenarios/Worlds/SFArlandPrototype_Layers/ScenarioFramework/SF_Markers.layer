@@ -1,0 +1,486 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ A_Markers_Kill_USSR {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_sFactionKey "USSR"
+   }
+  }
+  coords 1745.347 13.933 953.807
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_House10_USSR {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "USSR"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker9 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D50EEF54358204}" {
+           m_sMapMarkerText "Suspected Location"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 0 -4.229 -58.726
+        angleX 8.003
+        angleY -0.126
+        angleZ -0.904
+       }
+       SlotMarker11 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D50EEF54358204}" {
+           m_sMapMarkerText "Suspected Location"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 362.047 46.373 68.585
+        angleX 16.511
+        angleY -0.533
+        angleZ -2.725
+       }
+       SlotMarker12 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D50EEF54358204}" {
+           m_sMapMarkerText "Suspected Location"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords -257.982 12.177 163.685
+        angleX 12.291
+        angleY -0.531
+        angleZ -5.346
+       }
+      }
+     }
+    }
+    L_House11_USSR {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "USSR"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker10 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D5799277BC8B85}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 182.77 -9.277 599.622
+        angleY 50.139
+       }
+       SlotMarker13 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D579927F5F6FA0}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 273.117 -3.513 897.629
+        angleX 0.012
+        angleY 0.372
+        angleZ -1.79
+       }
+       SlotMarker14 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D579924168F096}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 365.996 41.367 338.622
+        angleX -14.847
+        angleY 2.9
+        angleZ -17.507
+       }
+      }
+     }
+    }
+    L_Coast1 {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "USSR"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       Coast1 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D2F9EFC938A87A}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 1422.86 -9.962 226.723
+        angleX 3.523
+        angleY 9.937
+        angleZ 0.616
+       }
+       SlotMarker3 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D2F9EFC938A87A}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 1782.995 -11.635 573.289
+        angleX -0.062
+        angleY 1.329
+        angleZ 2.683
+       }
+       SlotMarker1 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D2F9EFC938A87A}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 1573.323 33.484 442.425
+        angleX 1.995
+        angleY 3.588
+        angleZ 31.709
+       }
+      }
+     }
+    }
+    L_Harbor1 {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "USSR"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 0 0 0
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker2 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D2F9EFC938A87A}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords -621.289 -12.731 2420.758
+        angleY -40.893
+       }
+       SlotMarker4 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D2F9EFC938A87A}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords -353.285 19.435 2213.79
+        angleX -3.645
+        angleY -13.39
+        angleZ -3.72
+       }
+       SlotMarker5 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D2F9EFC938A87A}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords -620.145 20.8 2184.974
+        angleX -1.845
+        angleY -30.003
+        angleZ 9.25
+       }
+      }
+     }
+    }
+    L_Treehouse1_USSR {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "USSR"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 237.003 28.269 1743.737
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker72 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61E72AF73CCB6E3B}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords -237.005 -1.889 15.773
+       }
+       SlotMarker73 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61E72AF70647E770}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords 60.866 1.672 -4.774
+       }
+       SlotMarker71 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "USSR"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61E72AF734079B4F}" {
+           m_sMapMarkerText "Suspected Area"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor BLUFOR
+          }
+         }
+        }
+        coords -71.421 15.271 -206.078
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ A_Markers_Kill_US {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_sFactionKey "US"
+   }
+  }
+  coords 1742.071 16.232 965.614
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    L_Ruins1 {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "US"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 85.498 41.415 1447.392
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker6 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C93C5D201B4}" {
+           m_sMapMarkerText "Suspected Location"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords -201.257 -16.25 -57.273
+       }
+       SlotMarker7 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C93D736CF05}" {
+           m_sMapMarkerText "Suspected Location"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords 223.04 -13.424 249.575
+        angleX -4.463
+        angleY 0.14
+        angleZ -1.795
+       }
+       SlotMarker8 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C93DDFE939D}" {
+           m_sMapMarkerText "Suspected Location"
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords -94.776 -17.387 279.155
+        angleX -0.895
+        angleY 0.014
+        angleZ -0.895
+       }
+      }
+     }
+    }
+    L_CoastNorth1 {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "US"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 366.742 -13.643 2562.772
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker15 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C9C982687FB}" {
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords -3.048 -0.114 7.647
+       }
+       SlotMarker16 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C9C982687FB}" {
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords 262.347 1.391 -299.511
+       }
+       SlotMarker17 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C9C982687FB}" {
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords -185.254 54.505 -229.415
+       }
+      }
+     }
+    }
+    L_East1 {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_sFactionKey "US"
+       m_eActivationType ON_TRIGGER_ACTIVATION
+      }
+     }
+     coords 1409.908 16.613 1059.379
+     angleX -1.788
+     angleY -0.056
+     angleZ 1.791
+     {
+      $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+       SlotMarker19 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C9C982687FB}" {
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords -54.097 2.143 -0.945
+        angleX -6.187
+        angleY -0.289
+        angleZ 2.682
+       }
+       SlotMarker20 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C9C982687FB}" {
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords 278.011 -22.787 -108.238
+        angleX -8.869
+        angleY 35.071
+        angleZ 3.436
+       }
+       SlotMarker21 {
+        components {
+         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+          m_sFactionKey "US"
+          m_MapMarkerType SCR_ScenarioFrameworkMarkerCustom "{61D70C9C982687FB}" {
+           m_eMapMarkerIcon MARK_QUESTION
+           m_eMapMarkerColor OPFOR
+          }
+         }
+        }
+        coords -65.171 2.658 657.595
+        angleX -4.448
+        angleY -1.435
+        angleZ 0.111
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

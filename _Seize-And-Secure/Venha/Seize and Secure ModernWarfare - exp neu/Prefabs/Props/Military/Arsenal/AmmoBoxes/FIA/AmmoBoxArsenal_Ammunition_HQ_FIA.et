@@ -1,0 +1,31 @@
+GenericEntity : "{10F9EE0FB9EC0E4E}Prefabs/Props/Military/Arsenal/AmmoBoxes/FIA/AmmoBoxArsenal_Ammunition_FIA.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{620EE6CDDDF39B7E}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{65EB32AEDFED2B74}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et"
+     }
+     SCR_ArsenalItemStandalone "{65EB32AEA55338C7}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+     }
+     SCR_ArsenalItemStandalone "{65EB32ADD50D6FF9}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+     SCR_ArsenalItemStandalone "{65EB32ADD244CF20}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{B5693611B92F0BAA}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+}

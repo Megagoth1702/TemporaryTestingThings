@@ -1,0 +1,117 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2886.682 75.768 6633.893
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2945.398 78.155 6551.867
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2809.954 82.656 6427.917
+  angleX 1.733
+  angleY 146.576
+  angleZ 1.001
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2871.089 84.34 6419.781
+  angleX -0.046
+  angleY -92.921
+  angleZ -0.894
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2836.701 86.991 6323.509
+  angleX -2.556
+  angleY -17.77
+  angleZ 0.819
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2883.979 86.614 6364.702
+  angleX 0.925
+  angleY 178.062
+  angleZ 0.864
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2945.619 78.156 6550.632
+  angleY -92.922
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2891.243 76.707 6626.02
+  angleX -0.894
+  angleY -92.923
+  angleZ 0.046
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2502.27 59.771 7240.58
+  angleX 1.32
+  angleY -2.269
+  angleZ 10.575
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2248.617 18.569 7524.796
+  angleX -1.567
+  angleY 28.933
+  angleZ -0.866
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 30
+   }
+  }
+  coords 2294.282 17.792 7530.763
+  angleX 1.072
+  angleY -92.856
+  angleZ 3.527
+ }
+}

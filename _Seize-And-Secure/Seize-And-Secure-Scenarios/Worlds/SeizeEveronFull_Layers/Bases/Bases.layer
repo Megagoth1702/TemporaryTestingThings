@@ -1,0 +1,295 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BasePhilippe {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_fRadioAntennaServiceRange 2260
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2260
+     }
+    }
+   }
+  }
+  coords 4545.896 16.156 10601.981
+  angleY -8.442
+ }
+ BaseElectricalNorth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 1650
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1650
+     }
+    }
+   }
+  }
+  coords 5909.631 4.356 9712.766
+  angleX -0.363
+  angleY -113.929
+  angleZ -0.818
+ }
+ BaseMilHosp {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 2260
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2260
+     }
+    }
+   }
+  }
+  coords 3918.799 15.313 8447.322
+  angleY -89.329
+ }
+ BaseMonti {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+  }
+  coords 4971.718 174.688 7055.259
+  angleY 131.046
+ }
+ BasePierre {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_fRadioAntennaServiceRange 2700
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2700
+     }
+    }
+   }
+  }
+  coords 9716.935 11.352 1524.111
+  angleY -121.479
+ }
+ BaseMorton {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 2400
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2400
+     }
+    }
+   }
+  }
+  coords 5124.154 14.629 3992.345
+  angleY 163.81
+ }
+ BaseMilEast {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_fRadioAntennaServiceRange 2410
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2410
+     }
+    }
+   }
+  }
+  coords 7470.656 7.797 6700.313
+  angleX -0.462
+  angleY -23.605
+  angleZ 1.179
+ }
+ BaseLamentin {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_fRadioAntennaServiceRange 2215
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2215
+     }
+    }
+   }
+  }
+  coords 1291.27 37.59 6023.904
+  angleY 133.471
+ }
+ BaseMilSouth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_fRadioAntennaServiceRange 2370
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2370
+     }
+    }
+   }
+  }
+  coords 7453.583 164.562 4308.771
+  angleY 103.544
+ }
+ BaseRegina {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 2550
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2550
+     }
+    }
+   }
+  }
+  coords 7303.638 139.722 2172.442
+  angleX -3.036
+  angleY -31.955
+  angleZ 1.892
+ }
+ BaseBeach {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 2456
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2456
+     }
+    }
+   }
+  }
+  coords 6376.517 7.105 8843.833
+  angleX -4.461
+  angleY 63.085
+  angleZ -10.627
+ }
+ BaseMountain {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 2300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2300
+     }
+    }
+   }
+  }
+  coords 9514.204 262.457 3452.722
+  angleX -2.381
+  angleY -99.949
+  angleZ -3.212
+ }
+ BaseCavalryHill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_fRadioAntennaServiceRange 2215
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2215
+     }
+    }
+   }
+  }
+  coords 3470.061 179.824 5804.517
+  angleX -2.076
+  angleY 137.321
+  angleZ 4.339
+ }
+ MOB1 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 11626.442 15.565 1480.215
+  angleX -3.535
+  angleY -144.472
+  angleZ -5.796
+  {
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MOB2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+    m_fRadioAntennaServiceRange 1500
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1350
+     }
+    }
+    m_bIsSource 1
+   }
+  }
+  coords 5170.97 26.779 11735.706
+  angleX -3.491
+  angleY -102.58
+  angleZ 0.778
+  {
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}

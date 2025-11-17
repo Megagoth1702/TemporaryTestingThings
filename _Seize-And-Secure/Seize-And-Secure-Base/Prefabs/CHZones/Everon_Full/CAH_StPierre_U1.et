@@ -1,0 +1,12 @@
+SCR_CaptureAndHoldArea : "{F4649500E51DF810}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Major.et" {
+ ID "560477320F726547"
+ coords 9781.58 10.292 1606.137
+ angleY -39.895
+ TriggerShapeType Sphere
+ SphereRadius 30
+ BoxMaxs 30 15 36
+ DrawShape 0
+ m_sAreaSymbol "U"
+ m_bEnableScoring 0
+ m_sAssignedName "CAH_StPierre_U"
+}

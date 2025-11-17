@@ -1,0 +1,26 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "5D371AC87254ED3A"
+   components {
+    ScriptedRadioComponent "{5CB8818C71F12C73}" {
+     Transceivers {
+      RelayTransceiver "{5CB8819A2D055A05}" {
+       "Transmitting Range" 1000
+      }
+      RelayTransceiver "{60A33B9AA3515874}" {
+       "Transmitting Range" 1000
+      }
+      RelayTransceiver "{60A33B9AA9CCE1AD}" {
+       "Transmitting Range" 1000
+      }
+      RelayTransceiver "{60A33B9ABAC01E3A}" {
+       "Transmitting Range" 1000
+      }
+     }
+    }
+   }
+  }
+ }
+}

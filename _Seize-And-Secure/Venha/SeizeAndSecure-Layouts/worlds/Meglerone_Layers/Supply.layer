@@ -1,0 +1,32 @@
+$grp GenericEntity : "{2DDAE2443B8588AC}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Seize.et" {
+ Meglerone_Military {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Meglerone Military"
+   }
+  }
+  coords 10545.768 22.406 9707.103
+  angles 0 -72.271 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords -15.163 0 -1.928
+    angles 0 -91.638 0
+   }
+  }
+ }
+ NorthernBeach {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-MapLocation_Cain_NorthernBeach"
+   }
+  }
+  coords 9621.532 11.563 8668.731
+  angles 0 131.837 0
+  {
+   GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+    coords 27.85 -0.001 -13.666
+    angles 0 89.333 0
+   }
+  }
+ }
+}

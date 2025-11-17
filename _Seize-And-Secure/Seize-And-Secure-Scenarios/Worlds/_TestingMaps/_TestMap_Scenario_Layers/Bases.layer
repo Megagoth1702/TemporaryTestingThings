@@ -1,0 +1,148 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ GrandpasBase {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 620
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Grandpas Farm"
+    m_sBaseNameUpper "GRANDPAS FARM"
+   }
+  }
+  coords 250.232 2.411 252.421
+  angleX 3.836
+  angleY -137.064
+  angleZ 1.126
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ SchoolBase {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 600
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Mareks Learning Center For Players Who Can't Aim Good"
+    m_sBaseNameUpper "MAREKS LEARNING CENTER FOR PLAYERS WHO CAN'T AIM GOOD"
+   }
+  }
+  coords 3.772 3.066 251.805
+  angleY 129.276
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ MOB2 {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 620
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+  }
+  coords 232.129 1 32.149
+  angleX 0.772
+  angleY -177.391
+  angleZ 2.721
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 50
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MOB1 {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Operating Base"
+    m_sBaseNameUpper "MAIN OPERATING BASE"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+  }
+  coords 27.344 1 22.039
+  angleX -1.457
+  angleY 125.494
+  angleZ -1.039
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fSpawnRadius 60
+   }
+   SCR_BattlePrepZoneEntity : "{D71F66A96E03FE7C}Prefabs/GameLogic/SCR_BattlePrepZone.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ MilitaryBase {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Military Base"
+    m_sBaseNameUpper "MILITARY BASE"
+   }
+  }
+  coords 129.479 2.475 250.517
+  angleX -0.878
+  angleY -168.622
+  angleZ -0.176
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_fRespawnTime 30
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Test_Base {
+  coords 109.423 1 158.856
+ }
+}

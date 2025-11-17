@@ -1,0 +1,4 @@
+MatPBRMulti : "{9FEF312D214C1D11}Assets/Vehicles/Wheeled/JLTV/data/Main_Body.emat" {
+ GlobalMCRMap "{6565574C60FC6903}images/Testfelder.edds"
+ Color_1 0 0 0 1
+}

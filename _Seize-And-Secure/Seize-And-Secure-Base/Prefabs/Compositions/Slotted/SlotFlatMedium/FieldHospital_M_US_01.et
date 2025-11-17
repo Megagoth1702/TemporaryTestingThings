@@ -1,0 +1,123 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ coords 32.624 0 0
+ {
+  GenericEntity {
+   ID "5D088D1F968989A8"
+   components {
+    ActionsManagerComponent "{5D66ED1096104FD8}" {
+     ActionContexts {
+      UserActionContext "{62BF619F8F66604D}" {
+       ContextName "default"
+       Position PointInfo "{62BF619F90A72DB1}" {
+        Offset 0 0.5 0
+       }
+       Radius 1
+      }
+     }
+     additionalActions {
+      Iron_HealYourselfUserAction "{62BF619F45542DC2}" {
+       ParentContextList {
+        "default"
+       }
+       UIInfo UIInfo "{62BF619F23D25028}" {
+        Name "Heal Injuries"
+       }
+       Duration 5
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E38F8672CC7853F"
+   {
+    GenericEntity {
+     ID "5E3303B3034FAE0F"
+     components {
+      SCR_ResourceComponent "{5E3298BE225F0743}" {
+       m_aGenerators {
+        SCR_ResourceGenerator "{5E3298A9DB3BDCA7}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E58A7FA2A6DFDA3"
+   {
+    GenericEntity {
+     ID "5E58A7FAF67EAED6"
+     components {
+      SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+       m_aGenerators {
+        SCR_ResourceGenerator "{5DE4B6C45FC967FC}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp StaticModelEntity : "{9CC837B5A945231D}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Folded_MedicalHeal_US.et" {
+   {
+    ID "62BF65B287CE5F59"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Enabled 1
+      Object ""
+     }
+    }
+    coords -2.316 0.638 -0.793
+    angleY 0
+   }
+   {
+    ID "62BF692B653C7411"
+    coords 7.954 0.628 -5.681
+    angleY 0
+   }
+   {
+    ID "62BF692B653C7432"
+    coords 6.331 0.629 -5.655
+    angleY 0
+   }
+   {
+    ID "62BF692B653C746C"
+    coords 9.625 0.629 -5.626
+    angleY 0
+   }
+   {
+    ID "62BF692B653C7473"
+    coords 4.642 0.629 -5.614
+    angleY 0
+   }
+   {
+    ID "62BF692B911F949E"
+    coords 0.891 0.642 -5.063
+    angleY 0
+   }
+   {
+    ID "62BF692B911F94BD"
+    coords 0.94 0.642 -3.486
+    angleY 0
+   }
+   {
+    ID "62BF692B911F94C5"
+    coords 2.507 0.637 0.919
+    angleY 0
+   }
+   {
+    ID "62BF692B911F94EC"
+    coords 0.943 0.641 -7.06
+    angleY 0
+   }
+   {
+    ID "62BF692B911F94F0"
+    coords -2.469 0.641 -6.184
+    angleY 0
+   }
+  }
+ }
+}

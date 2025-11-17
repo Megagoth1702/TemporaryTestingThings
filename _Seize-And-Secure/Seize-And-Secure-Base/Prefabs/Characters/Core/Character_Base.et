@@ -1,0 +1,173 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
+   AimingSpeed 90
+  }
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+   InfoDisplays {
+    SCR_Iron_EarplugsInfoDisplay "{649F755C5349DD4F}" {
+     VisibleAtParent 1
+     m_LayoutPath "{BFC29AC5E4CF3BBE}UI/layouts/HUD/EarplugsHUD.layout"
+    }
+   }
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHeadHitZone Head {
+    }
+    SCR_CharacterHitZone Chest {
+     m_fBleedingRateScale 0.4
+    }
+    SCR_CharacterHitZone Hips {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.3
+      }
+     }
+    }
+    SCR_CharacterHitZone RArm {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone LArm {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone RForearm {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone LForearm {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone RHand {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone LHand {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone RThigh {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone LThigh {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone RCalf {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone LCalf {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone RFoot {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone LFoot {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 0.25
+      }
+     }
+    }
+    SCR_CharacterHitZone Neck {
+     ParentHZs {
+      ParentHitZone "{60F48ADCA47D7F72}" {
+       DamageMultiplier 1
+      }
+      ParentHitZone "{60F48ADCA47D7F6C}" {
+       DamageMultiplier 5
+      }
+     }
+     m_fBleedingRateScale 1.6
+    }
+   }
+   m_fRegenScale 0.25
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaDrainRun -0.004
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    SCR_Iron_Ragdoll_RepositionUserAction "{6478418BC7D658B4}" {
+     UIInfo UIInfo "{6478418BC93B10B2}" {
+      Name "#UserAction_Ragdoll_UnconRecoveryPosition"
+     }
+     ActionTitle "Change uncon position Recovery"
+     VisibilityRange 2
+     Duration 1
+     "Sort Priority" 101
+     m_UnconsciousPosePosition RECOVERY
+    }
+    SCR_Iron_Ragdoll_RepositionUserAction "{6478418BA8A3B045}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{6478418BA8A3B18D}" {
+      Name "#UserAction_Ragdoll_UnconBackPosition"
+     }
+     ActionTitle "Change uncon position Back"
+     VisibilityRange 2
+     Duration 1
+     "Sort Priority" 102
+     m_UnconsciousPosePosition BACK
+    }
+   }
+  }
+  CharacterAnimationComponent "{520EA1D2F659C994}" {
+   components {
+    SCR_CharacterCommandHandlerComponent "{520EA1D2F659C99A}" {
+     MoveSettings ScriptCharacterCommandMoveSettings "{520EA1D2F659C99B}" {
+      MovementFilterMaxChange 10
+      LeaningSpeed 1
+      m_fSpeed_Erect_Slow_Backward 1
+      m_fSpeed_Erect_Normal_Forward 4
+      m_fSpeed_Erect_Normal_Backward 2
+      m_fSpeed_Erect_Fast_Forward 6
+      m_fSpeed_Crouch_Slow_Backward 1
+     }
+    }
+   }
+  }
+ }
+}

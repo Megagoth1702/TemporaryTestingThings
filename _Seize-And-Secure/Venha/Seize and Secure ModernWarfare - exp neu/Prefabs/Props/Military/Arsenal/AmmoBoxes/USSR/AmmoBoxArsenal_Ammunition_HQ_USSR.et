@@ -1,0 +1,26 @@
+GenericEntity : "{5E6CBF60621C39CD}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_Ammunition_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{620EE6CDC01FC433}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{65EB32A8E4CDB8DD}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{681E772288F937F0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22ap_camo.et"
+     }
+     SCR_ArsenalItemStandalone "{65EB32A8E5E1881D}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{DD810D0313E8C01A}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball_camo.et"
+     }
+     SCR_ArsenalItemStandalone "{66D3036E6F571069}" {
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 0
+      m_ItemResourceName "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+}

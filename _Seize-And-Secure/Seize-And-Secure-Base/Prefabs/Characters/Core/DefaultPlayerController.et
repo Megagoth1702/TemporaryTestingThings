@@ -1,0 +1,25 @@
+SCR_PlayerController {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_ScreenEffectsManager "{5AF2CE6B10209B7D}" {
+     InfoDisplays {
+      SCR_DamageBlurEffect "{5AF2CE68813946A7}" {
+       m_LayoutPath "{BFBCF7C2CF2E36EE}UI/layouts/HUD/ScreenEffects/ScreenEffects.layout"
+      }
+      SCR_StaminaBlurEffect "{5AF2CE689BF6D98F}" {
+       m_LayoutPath "{BFBCF7C2CF2E36EE}UI/layouts/HUD/ScreenEffects/ScreenEffects.layout"
+      }
+      IRON_SUP_ScreenEffects "{64A958E75C2ADC01}" {
+       m_LayoutPath "{BFBCF7C2CF2E36EE}UI/layouts/HUD/ScreenEffects/ScreenEffects.layout"
+       m_cSuppressionCurve {
+        0 0 1 1
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

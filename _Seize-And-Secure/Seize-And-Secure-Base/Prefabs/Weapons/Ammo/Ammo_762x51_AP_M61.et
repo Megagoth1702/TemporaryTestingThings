@@ -1,0 +1,10 @@
+Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/Ammo_762x51_Ball_M80.et" {
+ ID "5272CBA78277432A"
+ components {
+  IRON_SUP_ProjectileComponent "{64A958E6C36A4DA2}" {
+   m_fCaliberMultiplier 1.2
+   m_fMinimumFlybyRange 2
+   m_fMaximumFlybyRange 9
+  }
+ }
+}

@@ -1,0 +1,25 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 7935.47 12.374 1458.627
+ }
+ {
+  coords 7328.7 138.951 2497.575
+ }
+ {
+  coords 9451.729 209.163 2975.992
+ }
+}
+$grp GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ {
+  coords 7944.664 11.857 1446.971
+  angleY 21.708
+ }
+ {
+  coords 9451.66 209.105 2978.228
+  angleY 21.708
+ }
+ {
+  coords 7335.924 139.112 2499.835
+  angleY -119.992
+ }
+}

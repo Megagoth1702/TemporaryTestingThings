@@ -1,0 +1,12 @@
+Projectile {
+ ID "DA5C6308000CDEF2"
+ components {
+  IRON_SUP_ProjectileComponent "{64A958E6C36A4DA2}" {
+   m_fMinimumImpactRange 1
+   m_fMaximumImpactRange 3
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   WindInfluenceMultiplier 1
+  }
+ }
+}

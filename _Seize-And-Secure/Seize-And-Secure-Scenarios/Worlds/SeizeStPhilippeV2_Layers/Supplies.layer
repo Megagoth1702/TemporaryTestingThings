@@ -1,0 +1,62 @@
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 4442.302 22.685 12094.043
+  angleX 5.108
+  angleY 119.342
+  angleZ 1.844
+ }
+ {
+  coords 5024.564 26.723 9958.882
+  angleX -1.673
+  angleY 0.094
+  angleZ -3.229
+ }
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 4434.983 23.077 12078.813
+  angleX 4.499
+  angleY 118.771
+  angleZ -2.621
+ }
+ {
+  coords 5057.142 27.746 10861.504
+  angleY 179.745
+ }
+ {
+  coords 4995.527 25.711 9935.253
+ }
+}
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 4446.835 23.487 12086.232
+ }
+ {
+  coords 5066.124 27.623 10846.088
+ }
+ {
+  coords 4996.626 25.379 9946.868
+ }
+}
+GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ coords 4501.069 14.609 10401.023
+ angleY 21.708
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 4446.292 24.254 12071.533
+  angleX -1.317
+  angleY 24.714
+  angleZ -3.557
+ }
+ {
+  coords 5078.407 27.203 10833.479
+  angleY -22.843
+ }
+ {
+  coords 4985.475 25.179 9956.192
+  angleX 0.895
+  angleY 89.344
+  angleZ -0.01
+ }
+}

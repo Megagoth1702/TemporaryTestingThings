@@ -1,0 +1,136 @@
+$grp SCR_AIGroup : "{1BB20A4B3A53D0F5}Prefabs/Groups/INDFOR/Group_FIA_LightFireTeam.et" {
+ Team1 {
+  coords 9940.179 70.368 3746.135
+  m_aUnitPrefabSlots {
+   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+  }
+  m_aStaticVehicles {
+   "UAZ469_PKM_FIA2"
+  }
+ }
+ Team2 {
+  coords 10783.961 80.412 2740.765
+  m_aUnitPrefabSlots {
+   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+  }
+  m_aStaticVehicles {
+   "UAZ469_PKM_FIA3"
+  }
+ }
+ Team3 {
+  coords 9692.478 226.956 3121.915
+  angleX -10.572
+  angleY 0.842
+  angleZ -4.578
+  m_aUnitPrefabSlots {
+   "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+  }
+  m_aStaticVehicles {
+   "UAZ469_PKM_FIA1"
+  }
+ }
+}
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ WayPat1 {
+  coords 9723.188 21.473 1697.168
+ }
+ WayPat2 {
+  coords 9142.602 72.733 2243.17
+ }
+ T3WayPat1 {
+  coords 10020.745 131.374 3508.229
+ }
+ T3WayPat2 {
+  coords 10338.317 140.001 2996.869
+ }
+ T1WayPat1 {
+  coords 10089.572 104.293 3564.017
+ }
+ T1WayPat2 {
+  coords 9905.315 81.582 3943.445
+ }
+ T2WayPat1 {
+  coords 11011.814 65.465 2740.544
+ }
+ T2WayPat2 {
+  coords 10646.682 70.203 2825.974
+ }
+}
+$grp Vehicle : "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et" {
+ UAZ469_PKM_FIA2 {
+  coords 10203.135 10.48 3282.75
+  angleX -0.858
+  angleY -163.442
+  angleZ -0.255
+ }
+ UAZ469_PKM_FIA3 {
+  coords 10190.981 7.334 3347.551
+  angleX -3.893
+  angleY 76.589
+  angleZ -0.909
+ }
+}
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ WayCycle {
+  coords 9102.545 74.98 2259.465
+  AIBehaviorTree "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et"
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CycleWaypoints {
+   "WayPat1" "WayPat2"
+  }
+ }
+ T3WayCycle {
+  coords 10021.494 131.299 3508.105
+  AIBehaviorTree "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+ }
+ T1WayCycle {
+  coords 9905.236 81.303 3942.64
+  AIBehaviorTree "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et"
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CycleWaypoints {
+   "T1WayPat1" "T1WayPat2"
+  }
+ }
+ T2WayCycle {
+  coords 11012.297 66.109 2739.204
+  AIBehaviorTree "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CycleWaypoints {
+   "T2WayPat1" ""
+  }
+ }
+}
+SCR_AIGroup : "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et" {
+ components {
+  AIPathfindingComponent "{518A98842FFC190E}" {
+   NavmeshProject "BTRlike"
+   "Use Road Network" 1
+   "Search half extend XZ" 75
+  }
+  SCR_AIConfigComponent "{512CC1759AE69D6D}" {
+   m_Skill 0.71
+  }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   "Min Prediction Distance" 10
+   "Max Prediction Distance" 15
+  }
+ }
+ coords 10203.358 13.514 3312.879
+ m_aStaticWaypoints {
+  "WayPat1" "WayPat2" "WayCycle"
+ }
+ m_aStaticVehicles {
+  "BTR70_FIA1"
+ }
+}
+SCR_BoardingTimedWaypoint GetInBtr : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
+ coords 10202.687 13.57 3313.237
+ CompletionRadius 10
+}
+Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ coords 10202.87 11.69 3313.226
+ angleX -5.18
+ angleY 53.286
+ angleZ 0.521
+}

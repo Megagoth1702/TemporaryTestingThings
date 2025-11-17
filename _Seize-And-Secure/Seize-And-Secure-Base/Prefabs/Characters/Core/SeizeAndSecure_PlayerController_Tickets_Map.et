@@ -1,0 +1,195 @@
+SCR_PlayerController : "{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et" {
+ ID "61270DDDEACB24ED"
+ components {
+  SCR_CampaignFactionCommanderPlayerComponent "{668F018C61523E9A}" {
+   m_GraphLinesData SCR_CommanderGraphLinesData "{668F018C6443FD00}" {
+   }
+  }
+  SCR_CampaignFastTravelComponent "{60C94E090ADD717D}" {
+   Enabled 0
+  }
+  SCR_CampaignFeedbackComponent "{60C94E090C239DEE}" {
+  }
+  SCR_CampaignNetworkComponent "{60C94E091E3DD502}" {
+  }
+  SCR_FactionCommanderPlayerComponent "{656AFCA95525AA0E}" {
+   Enabled 0
+  }
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_ScreenEffectsManager "{5AF2CE6B10209B7D}" {
+     m_bAdaptiveOpacity 1
+    }
+    SCR_RestrictionZoneWarningHUDComponent "{56CAD2AB886446BF}" {
+     m_aWarningUIInfos {
+      SCR_RestrictionZoneWarningInfo "{61867A3E4C9004D5}" {
+       m_UIInfo SCR_UIInfo "{61867A3E454EB127}" {
+        Name "DO NOT LEAVE AREA UNTIL BATTLE PREP IS OVER!"
+        Description "Battle Prep Ongoing!"
+       }
+      }
+     }
+    }
+    SCR_CaptureAndHoldTeamScoreDisplay "{5946E329A8D8281E}" {
+     m_LayoutPath "{A458D11FCA957D4E}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldScoringLayout_FactionOnly.layout"
+     m_eLayer ALWAYS_TOP
+     m_iOverrideZOrder 999
+     m_eShow 15
+    }
+    SCR_CaptureAndHoldObjectiveDisplay "{5946E329A9344C0D}" {
+     m_LayoutPath "{56B174A06C7ECFAC}UI/layouts/HUD/CaptureAndHold/CaptureAndHoldObjectiveLayout.layout"
+     m_eLayer ALWAYS_TOP
+     m_iOverrideZOrder 999
+     m_eShow 15
+    }
+    SCR_CampaignInfoDisplay "{60C94E08A5EDE72F}" {
+     m_LayoutPath "{47864BB47AB0B1F4}UI/layouts/HUD/CampaignMP/CampaignMainHUD.layout"
+     m_bShowWhenCreated 0
+    }
+    SCR_CampaignMapInfoDisplay "{60C94E08ACBE8761}" {
+     m_LayoutPath "{D74D24696C4F32F0}UI/layouts/HUD/CampaignMP/CampaignMenuScoreUI.layout"
+     m_eLayer ALWAYS_TOP
+     m_eShow 15
+    }
+    SEIZE_BattlePrepZoneInfoDisplay "{6144EEAD2CA279D8}" {
+     m_LayoutPath "{98A38B08028ADD8F}UI/layouts/HUD/CampaignMP/BattlePrepTimerHUD.layout"
+    }
+    SEIZE_DeathInfoDisplay "{618C0EEC1F19DAB0}" {
+     m_LayoutPath "{2BF2BBE60C7B52D4}UI/layouts/HUD/RestrictionZoneWarning/OnDeathInfo.layout"
+     m_eLayer OVERLAY
+    }
+   }
+  }
+  SCR_SpawnerRequestComponent "{60C94E07C1C3EB28}" {
+  }
+  SCR_VONController "{5614B578A11030EF}" {
+   m_VONAutoTune SCR_VONAutoTune "{668F018C367DC928}" {
+    m_VONAutoTuneConfig SCR_VONAutoTuneConfig "{668F018C373888DC}" {
+     m_aAutoTuneList {
+      SCR_VONAutoTuneIdentityConfig "{6638BA9FB46B440F}" {
+       m_sFactionKey "US"
+       m_aRoles {
+        SCR_VONAutoTuneRoleConfig "{6638BA9FAF23E584}" {
+         m_eRole COMMANDER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{6638864379BFE0E3}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20F138}" {
+          }
+         }
+        }
+        SCR_VONAutoTuneRoleConfig "{6638BA9FA20D4169}" {
+         m_eRole SQUAD_LEADER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66388643773BDE0A}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20BF67}" {
+          }
+         }
+        }
+        SCR_VONAutoTuneRoleConfig "{6638BA9FA3236181}" {
+         m_eRole SQUAD_MEMBER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66388643648B9F95}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20BF62}" {
+          }
+         }
+        }
+       }
+      }
+      SCR_VONAutoTuneIdentityConfig "{6638BA9FA6B95106}" {
+       m_eRadioType ANPRC77
+       m_sFactionKey "US"
+       m_aRoles {
+        SCR_VONAutoTuneRoleConfig "{6638BA9F5DFC5862}" {
+         m_eRole SQUAD_MEMBER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66372621381B74FF}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20BF67}" {
+           m_iChannel 1
+           m_eAutoTuneFrequency PLATOON
+          }
+         }
+        }
+        SCR_VONAutoTuneRoleConfig "{6638BCEAD36E9299}" {
+         m_eRole SQUAD_LEADER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66372621557BBD67}" {
+           m_iChannel 1
+           m_eAutoTuneFrequency COMMANDER
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20F138}" {
+           m_eAutoTuneFrequency OBJECTIVE_PLATOON
+          }
+         }
+        }
+       }
+      }
+      SCR_VONAutoTuneIdentityConfig "{6638BA9F535CA279}" {
+       m_eRadioType R148
+       m_sFactionKey "USSR"
+       m_aRoles {
+        SCR_VONAutoTuneRoleConfig "{6638BA9F4327E480}" {
+         m_eRole COMMANDER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{6638864379BFE0E3}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20F138}" {
+          }
+         }
+        }
+        SCR_VONAutoTuneRoleConfig "{6638BA9F458AE0DA}" {
+         m_eRole SQUAD_LEADER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66388643773BDE0A}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20BF67}" {
+          }
+         }
+        }
+        SCR_VONAutoTuneRoleConfig "{6638BA9F457A5BC9}" {
+         m_eRole SQUAD_MEMBER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66388643648B9F95}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20BF62}" {
+          }
+         }
+        }
+       }
+      }
+      SCR_VONAutoTuneIdentityConfig "{6638BA9F54BD7ED0}" {
+       m_eRadioType R107M
+       m_sFactionKey "USSR"
+       m_aRoles {
+        SCR_VONAutoTuneRoleConfig "{6638BA9F7D64FFE2}" {
+         m_eRole SQUAD_MEMBER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66372621381B74FF}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20BF67}" {
+           m_iChannel 1
+           m_eAutoTuneFrequency PLATOON
+          }
+         }
+        }
+        SCR_VONAutoTuneRoleConfig "{6638BCEAD20E40B9}" {
+         m_eRole SQUAD_LEADER
+         m_aChannels {
+          SCR_VONAutoTuneChannelConfig "{66372621557BBD67}" {
+          }
+          SCR_VONAutoTuneChannelConfig "{6634DCF93B20F138}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 141.183 1.001 131.013
+}
