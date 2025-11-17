@@ -79,7 +79,7 @@ Add a `CONTRIBUTING.md` for detailed guidelines.
 | Issue | Solution |
 |-------|----------|
 | Large files are tiny (~1KB text)? | Git LFS missing: Reinstall + `git lfs install`, then in repo: `git lfs pull` or reclone with LFS enabled. |
-| Push fails ("over quota")? | Free accounts: 10 GiB storage + 10 GiB monthly bandwidth. Check [GitHub Billing > Git LFS](https://github.com/settings/billing). |
+| Push fails ("over quota")? | Free accounts: 10 GiB storage + 10 GiB monthly bandwidth. Check [GitHub Billing > Git LFS](https://github.com/settings/billing). To clean old large files from history, use [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)—see this [beginner's guide](https://grok.com/share/c2hhcmQtMi1jb3B5_a13ed4b8-e1b4-46e8-8280-9f903f84c63c) for steps. |
 | No 'LFS' checkbox? | Install Git LFS first (version 2.10+ TortoiseGit). |
 | Slow clone? | Large repo—normal with LFS. |
 
